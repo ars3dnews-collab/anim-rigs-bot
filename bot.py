@@ -50,16 +50,17 @@ def log(msg):
 
 def load_state():
     if not os.path.exists(STATE_FILE):
-        return {"posted": [], "sources": []}
+        return {"posted": [], "sources": [], "counter": 0}
     try:
         with open(STATE_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
         data.setdefault("posted", [])
         data.setdefault("sources", [])
+        data.setdefault("counter", 0)
         return data
     except Exception as e:
         log("posted.json не читается ({}), начинаю с чистого списка".format(e))
-        return {"posted": [], "sources": []}
+        return {"posted": [], "sources": [], "counter": 0}
 
 
 def save_state(state):
@@ -209,12 +210,12 @@ def fetch_blender_studio(limit):
 HE = "https://www.highend3d.com"
 
 
-def fetch_highend3d(limit, pages, paid):
+def fetch_highend3d(limit, pages, paid, sort="newest", tag=None):
     base = (HE + "/character-rigs/c/marketplace") if paid \
         else (HE + "/maya/character-rigs/c/downloads")
     links, seen = [], set()
     for page_no in range(1, pages + 1):
-        listing = get("{}?page={}&sort=newest".format(base, page_no))
+        listing = get("{}?page={}&sort={}".format(base, page_no, sort))
         if not listing:
             break
         for href in re.findall(r'href="(/[^"#?]*(?:downloads|marketplace)[^"#?]*)"', listing):
@@ -268,7 +269,8 @@ def fetch_highend3d(limit, pages, paid):
             "description": meta(page, "og:description") or text[:1500],
             "ready": False,
             "tags": "#maya " + ("#paid" if paid else "#free"),
-            "source": "highend3d-paid" if paid else "highend3d-free",
+            "source": tag or ("highend3d-paid" if paid else "highend3d-free"),
+            "fresh": sort == "newest",
         })
         if len(out) >= limit:
             break
@@ -276,24 +278,130 @@ def fetch_highend3d(limit, pages, paid):
     return out
 
 
+def looks_like_rig(text):
+    low = (text or "").lower()
+    if any(sw in low for sw in config.RIG_STOPWORDS):
+        return False
+    return any(kw in low for kw in config.RIG_KEYWORDS)
+
+
+def fetch_news_feeds():
+    """Новинки со всего интернета — через ленты профильных изданий.
+
+    У самих сайтов с ригами ни API, ни RSS нет, зато издания пишут
+    про каждый заметный релиз в тот же день.
+    """
+    import feedparser
+
+    now = dt.datetime.now(dt.timezone.utc)
+    max_age = config.NEWS_MAX_AGE_DAYS * 86400
+    out = []
+
+    for name, url in config.NEWS_FEEDS:
+        raw = get(url)
+        if not raw:
+            continue
+        try:
+            feed = feedparser.parse(raw)
+        except Exception as e:
+            log("  ! лента {} не разобралась: {}".format(name, e))
+            continue
+
+        taken = 0
+        for e in (feed.entries or [])[:config.NEWS_LIMIT]:
+            title = strip_html(e.get("title", ""))
+            summary = strip_html(e.get("summary", "") or e.get("description", ""))
+            link = e.get("link") or ""
+            if not title or not link:
+                continue
+            if not looks_like_rig(title + " " + summary):
+                continue
+
+            ts = None
+            for field in ("published_parsed", "updated_parsed"):
+                tm = e.get(field)
+                if tm:
+                    try:
+                        ts = dt.datetime(*tm[:6], tzinfo=dt.timezone.utc)
+                    except Exception:
+                        pass
+                    break
+            if ts and (now - ts).total_seconds() > max_age:
+                continue
+
+            thumb = ""
+            for key in ("media_content", "media_thumbnail"):
+                for m in e.get(key, []) or []:
+                    if m.get("url"):
+                        thumb = m["url"]
+                        break
+                if thumb:
+                    break
+            if not thumb:
+                body = summary + "".join(
+                    c.get("value", "") for c in e.get("content", []) or [])
+                m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', body)
+                if m:
+                    thumb = m.group(1)
+
+            out.append({
+                "url": link,
+                "name": title,
+                "author": "",
+                "software": "",
+                "free": None,          # по ленте не понять — скажем честно
+                "price": "",
+                "license": "",
+                "size_mb": None,
+                "thumb": thumb,
+                "rating": "",
+                "description": summary[:1500],
+                "ready": False,
+                "tags": "#новинка",
+                "source": "news:" + name,
+                "fresh": True,
+            })
+            taken += 1
+        log("  {}: {} подходящих".format(name, taken))
+    return out
+
+
 def collect():
-    rigs = load_seed()
+    rigs = []
+
+    for r in load_seed():
+        r["fresh"] = False
+        rigs.append(r)
     log("  курируемый список: {}".format(len(rigs)))
+
+    rigs += fetch_news_feeds()
 
     if config.BLENDER_STUDIO.get("enabled"):
         got = fetch_blender_studio(config.BLENDER_STUDIO.get("limit", 6))
+        for r in got:
+            r["fresh"] = False
         log("  blender-studio: {}".format(len(got)))
         rigs += got
 
     if config.HIGHEND3D_FREE.get("enabled"):
-        got = fetch_highend3d(config.HIGHEND3D_FREE.get("limit", 8),
-                              config.HIGHEND3D_FREE.get("pages", 2), paid=False)
+        c = config.HIGHEND3D_FREE
+        got = fetch_highend3d(c.get("limit", 8), c.get("pages", 2), paid=False,
+                              sort=c.get("sort", "newest"))
         log("  highend3d-free: {}".format(len(got)))
         rigs += got
 
+    if getattr(config, "HIGHEND3D_POPULAR", {}).get("enabled"):
+        c = config.HIGHEND3D_POPULAR
+        got = fetch_highend3d(c.get("limit", 8), c.get("pages", 2), paid=False,
+                              sort=c.get("sort", "downloads"),
+                              tag="highend3d-popular")
+        log("  highend3d-popular: {}".format(len(got)))
+        rigs += got
+
     if config.HIGHEND3D_PAID.get("enabled"):
-        got = fetch_highend3d(config.HIGHEND3D_PAID.get("limit", 4),
-                              config.HIGHEND3D_PAID.get("pages", 1), paid=True)
+        c = config.HIGHEND3D_PAID
+        got = fetch_highend3d(c.get("limit", 4), c.get("pages", 1), paid=True,
+                              sort=c.get("sort", "newest"))
         log("  highend3d-paid: {}".format(len(got)))
         rigs += got
 
@@ -470,8 +578,12 @@ def build_caption(rig, body):
         meta_parts.append("🧩 {}".format(html.escape(rig["software"])))
     if rig["author"]:
         meta_parts.append("👤 {}".format(html.escape(rig["author"])))
-    meta_parts.append("💚 Бесплатно" if rig["free"]
-                      else "💰 {}".format(html.escape(rig["price"] or "платный")))
+    if rig["free"] is None:
+        meta_parts.append("🔎 Условия — на странице автора")
+    elif rig["free"]:
+        meta_parts.append("💚 Бесплатно")
+    else:
+        meta_parts.append("💰 {}".format(html.escape(rig["price"] or "платный")))
     if rig["rating"]:
         meta_parts.append("⭐ {}".format(html.escape(rig["rating"])))
     if rig["license"]:
@@ -480,7 +592,9 @@ def build_caption(rig, body):
         meta_parts.append("💾 {:.1f} МБ".format(float(rig["size_mb"])))
     lines += meta_parts
 
-    label = "Скачать" if rig["free"] else "Купить"
+    label = "Купить" if rig["free"] is False else "Открыть"
+    if rig["free"] is True:
+        label = "Скачать"
     lines += ["", '🔗 <a href="{}">{} у автора</a>'.format(
         html.escape(rig["url"], quote=True), label)]
 
@@ -550,12 +664,21 @@ def publish(rig):
 
 # ---------------------------------------------------------------- главное
 
-def pick(fresh, recent_sources):
-    """Следующий риг: сначала тот, чей источник давно не мелькал."""
-    for rig in fresh:
-        if rig["source"] not in recent_sources:
-            return rig
-    return fresh[0]
+def pick(pool, recent_sources, want_archive):
+    """Следующий риг.
+
+    Сначала выбираем дорожку — новинки или архив, — потом внутри неё
+    берём тот источник, который давно не мелькал в ленте.
+    """
+    primary = [r for r in pool if bool(r.get("fresh")) != want_archive]
+    for group in (primary, pool):
+        if not group:
+            continue
+        for rig in group:
+            if rig["source"] not in recent_sources:
+                return rig
+        return group[0]
+    return pool[0]
 
 
 def main():
@@ -592,12 +715,18 @@ def main():
         return
 
     posted = 0
+    counter = int(state.get("counter", 0))
+    every = getattr(config, "ARCHIVE_EVERY", 2)
     while posted < config.MAX_POSTS_PER_RUN and fresh:
-        rig = pick(fresh, state["sources"])
+        want_archive = bool(every) and (counter % every == every - 1)
+        rig = pick(fresh, state["sources"], want_archive)
         fresh.remove(rig)
         try:
             how = publish(rig)
-            log("  ✔ опубликовано {}: {}".format(how, rig["name"][:60]))
+            log("  ✔ опубликовано {} [{}]: {}".format(
+                how, "новинка" if rig.get("fresh") else "архив", rig["name"][:55]))
+            counter += 1
+            state["counter"] = counter
             state["posted"].append(rig["id"])
             state["sources"].append(rig["source"])
             save_state(state)
