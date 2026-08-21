@@ -2,9 +2,12 @@ name: Animation Rigs Bot
 
 on:
   schedule:
-    # каждые 10 минут. GitHub не гарантирует точность: при нагрузке
-    # запуск может сдвинуться на несколько минут, иногда пропуститься.
-    - cron: "*/10 * * * *"
+    # РАЗ В ЧАС. Не пытаемся просить у GitHub запуск каждые 10 минут:
+    # короткие расписания он массово пропускает. Часовое отдаёт стабильно,
+    # а десятиминутный шаг бот отсчитывает сам внутри запуска
+    # (POST_EVERY_MINUTES и LOOP_MINUTES в config.py).
+    # Минута 7, а не 0: на круглых минутах у GitHub самая большая очередь.
+    - cron: "7 * * * *"
   workflow_dispatch:
     inputs:
       catch_up:
@@ -22,6 +25,8 @@ concurrency:
 jobs:
   post:
     runs-on: ubuntu-latest
+    # Запуск живёт около часа, поэтому потолок с запасом.
+    timeout-minutes: 70
     steps:
       - uses: actions/checkout@v4
 
@@ -32,18 +37,25 @@ jobs:
       - name: Install deps
         run: pip install -r requirements.txt
 
-      - name: Publish rig
+      - name: Configure git
+        run: |
+          git config user.name "rigs-bot"
+          git config user.email "bot@users.noreply.github.com"
+
+      - name: Publish rigs
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CATCH_UP: ${{ inputs.catch_up }}
+          # бот сам коммитит память после каждого поста, чтобы она
+          # не потерялась, если запуск оборвётся посреди часа
+          GIT_AUTOSAVE: "1"
         run: python bot.py
 
       - name: Save bot memory
+        if: always()
         run: |
-          git config user.name "rigs-bot"
-          git config user.email "bot@users.noreply.github.com"
           git add posted.json
           git diff --staged --quiet || git commit -m "update posted rigs"
           git pull --rebase --autostash || true
