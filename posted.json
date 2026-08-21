@@ -59,7 +59,8 @@
   "b30b58f18950eaec",
   "70d7e90cadeac289",
   "33a5b3f9e2198df7",
-  "e19ec60c25c95602"
+  "e19ec60c25c95602",
+  "c61954bd1003b89d"
  ],
  "sources": [
   "airtable",
@@ -69,8 +70,8 @@
   "airtable"
  ],
  "counter": 23,
- "archive_page": 32,
- "buffet_index": 650,
- "airtable_index": 264,
+ "archive_page": 34,
+ "buffet_index": 700,
+ "airtable_index": 288,
  "last_post_ts": 1787348430.5149443
 }
