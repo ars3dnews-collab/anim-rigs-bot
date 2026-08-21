@@ -50,18 +50,19 @@
   "dbb3d234bb99c207",
   "774f7412d1a369d1",
   "8f7ceed920140931",
-  "9ca0682347037b01"
+  "9ca0682347037b01",
+  "74921125c34b9846"
  ],
  "sources": [
-  "animation-buffet",
+  "airtable",
   "airtable",
   "airtable",
   "airtable",
   "airtable"
  ],
- "counter": 22,
- "archive_page": 28,
- "buffet_index": 550,
- "airtable_index": 216,
+ "counter": 23,
+ "archive_page": 30,
+ "buffet_index": 600,
+ "airtable_index": 240,
  "last_post_ts": 1787346826.6615696
 }
