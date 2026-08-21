@@ -1,0 +1,50 @@
+name: Animation Rigs Bot
+
+on:
+  schedule:
+    # каждые 10 минут. GitHub не гарантирует точность: при нагрузке
+    # запуск может сдвинуться на несколько минут, иногда пропуститься.
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+    inputs:
+      catch_up:
+        description: "Режим догона: пометить всё найденное виденным, ничего не публиковать"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rigs-bot
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Publish rig
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CATCH_UP: ${{ inputs.catch_up }}
+        run: python bot.py
+
+      - name: Save bot memory
+        run: |
+          git config user.name "rigs-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add posted.json
+          git diff --staged --quiet || git commit -m "update posted rigs"
+          git pull --rebase --autostash || true
+          git push || true
