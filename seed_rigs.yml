@@ -1,0 +1,214 @@
+# Курируемый список ригов — основа канала.
+# Всё проверено по первоисточникам: ссылки, цены, лицензии.
+#
+# free:     true/false
+# license:  как написано у автора. Файл прикладывается к посту ТОЛЬКО если
+#           лицензия распознана как CC-0 / CC-BY / MIT и размер < 48 МБ.
+# file_url: прямая ссылка на файл. Оставляй пустой, если раздача запрещена.
+# ru:       описание для канала (бот не будет переводить, если оно уже здесь)
+
+rigs:
+  # =========================================================================
+  # BLENDER — Blender Studio, CC-BY, раздача разрешена при указании автора
+  # =========================================================================
+  - name: Rain v3
+    url: https://studio.blender.org/characters/rain/v3/
+    author: Blender Studio
+    software: Blender
+    free: true
+    license: CC-BY 4.0
+    size_mb: 64.4
+    tags: "#blender #free #ccby"
+    ru: >-
+      Фактический стандарт среди бесплатных блендеровских ригов.
+      Стилизованная девушка с полным набором контролов для лица и тела,
+      продуманный пикер, слои анимации. На ней учится половина индустрии.
+      Атрибуция обязательна: Rain Rig (CC) Blender Foundation | studio.blender.org
+
+  - name: Snow v4
+    url: https://studio.blender.org/characters/snow/v4/
+    author: Blender Studio
+    software: Blender
+    free: true
+    license: CC-BY 4.0
+    size_mb: 106.4
+    tags: "#blender #free #ccby"
+    ru: >-
+      Простой мультяшный персонаж-снеговик. Отличная точка входа: контролов
+      немного, но хватает на полноценные упражнения по таймингу и весу.
+      Атрибуция: Snow Rig (CC) Blender Foundation | studio.blender.org
+
+  - name: Vincent v1
+    url: https://studio.blender.org/characters/vincent/v1/
+    author: Blender Studio
+    software: Blender
+    free: true
+    license: CC-BY 4.0
+    size_mb: 18.4
+    tags: "#blender #free #ccby"
+    ru: >-
+      Классический риг на базе BlenRig — требует установки одноимённого аддона.
+      Самый лёгкий из блендеровских: всего 18 МБ, влезает в Telegram целиком.
+
+  - name: Einar v1
+    url: https://studio.blender.org/characters/einar/v1/
+    author: Blender Studio
+    software: Blender
+    free: true
+    license: CC-BY 4.0
+    size_mb: 553.0
+    tags: "#blender #free #ccby"
+    ru: >-
+      Персонаж из короткометражки Charge. Продакшен-уровень: волосы на
+      геометрических нодах, слоёные шейдеры, реалистичная деформация.
+      Требует Blender 3.5+. Весит больше полугигабайта — только ссылкой.
+
+  - name: Каст Sprite Fright
+    url: https://studio.blender.org/characters/
+    author: Blender Studio
+    software: Blender
+    free: true
+    license: CC-BY 4.0
+    tags: "#blender #free #ccby"
+    ru: >-
+      Фил, Джей, Виктория, Рекс и Элли из короткометражки Sprite Fright.
+      Пять разных типажей в одном стиле — удобно ставить сцены с диалогом
+      и групповой актёрской игрой.
+
+  # =========================================================================
+  # MAYA — бесплатные. Раздача файлов запрещена лицензиями, только ссылки.
+  # =========================================================================
+  - name: AnimSchool Malcolm 2.0 (Free Edition)
+    url: https://store.animschool.edu/product/malcolm-2-0-2/
+    author: AnimSchool
+    software: Maya
+    free: true
+    price: "$0"
+    license: "AnimSchool Agreement — раздача запрещена"
+    tags: "#maya #free"
+    ru: >-
+      Самый узнаваемый бесплатный риг для Maya. Гибкое лицо, надёжные
+      деформации, работает с Maya 2017 и новее. Бесплатная версия — для
+      личных проектов и демо-рила, коммерческая продаётся отдельно.
+      Скачивать только с сайта AnimSchool: лицензия прямо запрещает перезалив.
+
+  - name: Mery
+    url: https://www.meryproject.com/
+    author: José Manuel García Álvarez, Antonio Méndez
+    software: Maya
+    free: true
+    price: "$0"
+    license: "Некоммерческая, атрибуция обязательна"
+    tags: "#maya #free"
+    ru: >-
+      Женский риг с выразительным лицом и большим набором контролов —
+      один из самых любимых у аниматоров для актёрских упражнений.
+      Только некоммерческое использование, в титрах указывать meryproject.com
+
+  - name: Stewart и Squirrels
+    url: https://www.animationmentor.com/free-maya-rig/
+    author: Animation Mentor
+    software: Maya
+    free: true
+    price: "$0"
+    license: "Некоммерческая, раздача запрещена"
+    tags: "#maya #free"
+    ru: >-
+      Учебные риги школы Animation Mentor. Stewart — универсальный
+      человек для body mechanics, Squirrels — четвероногие для работы
+      с животной механикой. Скачивать только у Animation Mentor.
+
+  - name: Ray
+    url: https://www.cgtarian.com/maya-character-rigs/download-free-3d-character-ray.html
+    author: CGTarian
+    software: Maya
+    free: true
+    price: "$0"
+    license: "Личное и учебное использование"
+    tags: "#maya #free"
+    ru: >-
+      Ещё одна школьная классика: мультяшный персонаж с хорошим лицевым
+      ригом. Скачивание через форму на сайте. В видео обязательно
+      указывать: Ray character rig by CGTarian Online School.
+
+  - name: dinoRig
+    url: https://www.highend3d.com/maya/downloads/character-rigs/c/dinorig-for-maya
+    author: Harry Gladwin-Geoghegan
+    software: Maya
+    free: true
+    price: "$0"
+    license: MIT
+    size_mb: 5.1
+    rating: "23 000+ скачиваний · 4.7★"
+    tags: "#maya #free"
+    ru: >-
+      Динозавр весом всего 5 МБ вместе с текстурами. Один из самых
+      скачиваемых ригов на Highend3d — хорош для упражнений на
+      четвероногую походку и вес крупного тела.
+
+  - name: Parasite
+    url: https://truongcgartist.gumroad.com/l/parasite
+    author: Truong CG Artist
+    software: Maya
+    free: true
+    price: "$0"
+    license: "Некоммерческая"
+    tags: "#maya #free"
+    ru: >-
+      Существо на AdvancedSkeleton, в комплекте сцена со светом для
+      Redshift и исходник ZBrush. Maya 2014+. У автора на Gumroad есть
+      и другие бесплатные риги: Clay Kong, Pteranodon, Water Dragon.
+
+  - name: Agora Beta
+    url: https://agora.community/content/beta-blender
+    author: Agora Community
+    software: Blender, Maya, Unreal
+    free: true
+    price: "$0"
+    license: "См. страницу проекта"
+    tags: "#blender #maya #free"
+    ru: >-
+      Редкий случай: один и тот же персонаж собран под Blender 4.0+,
+      Maya и Unreal. Удобно, если работаешь в нескольких пакетах
+      и не хочешь переучивать руки под разные пикеры.
+
+  # =========================================================================
+  # ПЛАТНЫЕ
+  # =========================================================================
+  - name: AnimSchool Malcolm 2.0 (Commercial Edition)
+    url: https://store.animschool.edu/product/malcolm-2-0-commercial-edition-2/
+    author: AnimSchool
+    software: Maya
+    free: false
+    price: "$200"
+    license: "Коммерческая лицензия"
+    tags: "#maya #paid"
+    ru: >-
+      Тот же Malcolm, но с правом использования в коммерческих проектах.
+      Разовая покупка, без подписки.
+
+  - name: "Rapid Rig: Modular 2.1.4"
+    url: https://www.highend3d.com/character-rigs/c/marketplace
+    author: Dustin Nelson
+    software: Maya
+    free: false
+    price: "$99"
+    license: "Коммерческая лицензия"
+    tags: "#maya #paid #tools"
+    ru: >-
+      Не персонаж, а конструктор: процедурный авториг для Maya.
+      Собирает риг под произвольную анатомию — двуногие, четвероногие,
+      что угодно. Самая продаваемая позиция в разделе ригов на Highend3d.
+      Версия Advanced 2.3.3 стоит $49.
+
+  - name: GorgeousGeorge Horse Rig
+    url: https://www.highend3d.com/character-rigs/c/marketplace
+    author: Highend3d Marketplace
+    software: Maya
+    free: false
+    price: "$50"
+    license: "Коммерческая лицензия"
+    tags: "#maya #paid"
+    ru: >-
+      Лошадь с проработанной механикой аллюров. Четвероногие риги
+      приличного качества — редкость, а этот проверен временем.
