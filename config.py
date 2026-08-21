@@ -7,6 +7,14 @@ MAX_POSTS_PER_RUN = 1
 # Пауза между постами внутри одного запуска, секунд
 DELAY_BETWEEN_POSTS = 5
 
+# Таймаут одного HTTP-запроса, секунд. Highend3d временами тупит,
+# и без этого один медленный сайт вешает весь запуск.
+HTTP_TIMEOUT = 12
+
+# Сколько секунд всего отводится на обход источников. Как только время
+# вышло, бот перестаёт ходить по сайтам и публикует из того, что успел.
+COLLECT_BUDGET_SEC = 100
+
 # Длина текста от ИИ
 SUMMARY_SENTENCES = 4
 SUMMARY_MAX_CHARS = 450
@@ -45,7 +53,6 @@ NEWS_FEEDS = [
     ("BlenderNation", "https://www.blendernation.com/feed/"),
     ("CG Channel", "https://www.cgchannel.com/feed/"),
     ("80 Level", "https://80.lv/feed/"),
-    ("Blender Studio", "https://studio.blender.org/blog/feed/"),
 ]
 
 # Сколько записей смотреть в каждой ленте

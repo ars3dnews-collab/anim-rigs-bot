@@ -85,9 +85,24 @@ def strip_html(text):
     return re.sub(r"\s+", " ", html.unescape(text)).strip()
 
 
+_DEADLINE = [None]
+
+
+def start_clock():
+    _DEADLINE[0] = time.time() + config.COLLECT_BUDGET_SEC
+
+
+def out_of_time():
+    """Пора закругляться со сбором и публиковать то, что уже есть."""
+    return _DEADLINE[0] is not None and time.time() > _DEADLINE[0]
+
+
 def get(url, **kw):
+    if out_of_time():
+        return None
     try:
-        r = requests.get(url, headers={"User-Agent": UA}, timeout=40, **kw)
+        r = requests.get(url, headers={"User-Agent": UA},
+                         timeout=config.HTTP_TIMEOUT, **kw)
         if r.status_code != 200:
             log("  ! {} -> HTTP {}".format(url[:70], r.status_code))
             return None
@@ -175,6 +190,9 @@ def fetch_blender_studio(limit):
 
     out = []
     for path in paths[:limit * 2]:
+        if out_of_time():
+            log("  ! бюджет времени исчерпан, беру что успел")
+            break
         url = BS + path
         page = get(url)
         if not page:
@@ -227,8 +245,12 @@ def fetch_highend3d(limit, pages, paid, sort="newest", tag=None):
                 links.append(url)
         time.sleep(0.5)
 
+    # не перебираем всю страницу подряд: берём с запасом и останавливаемся
     out = []
-    for url in links:
+    for url in links[:limit * 3]:
+        if out_of_time():
+            log("  ! бюджет времени исчерпан, беру что успел")
+            break
         page = get(url)
         if not page:
             continue
@@ -367,6 +389,7 @@ def fetch_news_feeds():
 
 
 def collect():
+    start_clock()
     rigs = []
 
     for r in load_seed():
