@@ -801,21 +801,184 @@ def tg(method, data=None, files=None):
     return payload["result"]
 
 
-def download_image(url):
+class NoImage(Exception):
+    """Картинки для рига не нашлось — публиковать такой пост не будем."""
+
+
+# мусорные картинки, которые часто лежат на страницах
+_JUNK_IMG = re.compile(
+    r"(logo|icon|favicon|avatar|sprite|banner|placeholder|blank|spacer|"
+    r"pixel|button|badge|arrow|star|rating|social|facebook|twitter|"
+    r"youtube|patreon|paypal|cart|search)", re.I)
+
+_IMG_EXT = re.compile(r"\.(jpe?g|png|webp)(\?|$)", re.I)
+
+
+def _image_size(data):
+    """Размеры картинки без сторонних библиотек. (0,0) — если не понял."""
+    try:
+        if data[:8] == b"\x89PNG\r\n\x1a\n":
+            w = int.from_bytes(data[16:20], "big")
+            h = int.from_bytes(data[20:24], "big")
+            return w, h
+        if data[:2] == b"\xff\xd8":  # JPEG
+            i = 2
+            while i < len(data) - 9:
+                if data[i] != 0xFF:
+                    i += 1
+                    continue
+                marker = data[i + 1]
+                if marker in (0xC0, 0xC1, 0xC2, 0xC3, 0xC5, 0xC6, 0xC7,
+                              0xC9, 0xCA, 0xCB, 0xCD, 0xCE, 0xCF):
+                    h = int.from_bytes(data[i + 5:i + 7], "big")
+                    w = int.from_bytes(data[i + 7:i + 9], "big")
+                    return w, h
+                seg = int.from_bytes(data[i + 2:i + 4], "big")
+                if seg <= 0:
+                    break
+                i += 2 + seg
+        if data[:4] == b"RIFF" and data[8:12] == b"WEBP":
+            return 512, 512  # размеры webp не парсим, считаем годным
+    except Exception:
+        pass
+    return 0, 0
+
+
+def download_image(url, min_side=None):
+    """Скачать и проверить картинку. None — если не годится."""
     if not url or not url.startswith("http"):
         return None
+    min_side = min_side or getattr(config, "MIN_IMAGE_SIDE", 300)
     try:
-        r = requests.get(url, headers={"User-Agent": UA}, timeout=30)
+        r = requests.get(url, headers={"User-Agent": UA},
+                         timeout=config.HTTP_TIMEOUT)
         r.raise_for_status()
         data = r.content
-        if len(data) < 2000 or len(data) > 9_000_000:
-            return None
-        name = os.path.basename(url.split("?")[0]) or "preview.jpg"
-        if "." not in name:
-            name += ".jpg"
-        return (name, data)
     except Exception:
         return None
+
+    if len(data) < 8000 or len(data) > 9_000_000:
+        return None
+    if not (data[:2] == b"\xff\xd8" or data[:8] == b"\x89PNG\r\n\x1a\n"
+            or data[:4] == b"RIFF"):
+        return None
+
+    w, h = _image_size(data)
+    if w and h and (w < min_side or h < min_side):
+        return None
+
+    name = os.path.basename(url.split("?")[0]) or "preview.jpg"
+    if "." not in name:
+        name += ".jpg"
+    return (name, data)
+
+
+def images_from_page(url):
+    """Все кандидаты в картинки со страницы рига, лучшие — первыми."""
+    page = get(url)
+    if not page:
+        return []
+
+    out, seen = [], set()
+
+    def add(candidate):
+        if not candidate:
+            return
+        candidate = html.unescape(candidate.strip())
+        if candidate.startswith("//"):
+            candidate = "https:" + candidate
+        elif candidate.startswith("/"):
+            m = re.match(r"(https?://[^/]+)", url)
+            if not m:
+                return
+            candidate = m.group(1) + candidate
+        if not candidate.startswith("http"):
+            return
+        if candidate in seen:
+            return
+        if _JUNK_IMG.search(candidate):
+            return
+        seen.add(candidate)
+        out.append(candidate)
+
+    add(meta(page, "og:image"))
+    add(meta(page, "twitter:image"))
+    for m in re.finditer(r'<img[^>]+src=["\']([^"\']+)["\']', page, re.I):
+        src = m.group(1)
+        if _IMG_EXT.search(src):
+            add(src)
+    return out[:12]
+
+
+DDG = "https://duckduckgo.com"
+
+
+def search_image(query):
+    """Поиск картинки в интернете. Без ключей, через DuckDuckGo."""
+    try:
+        r = requests.post(DDG + "/", data={"q": query},
+                          headers={"User-Agent": UA},
+                          timeout=config.HTTP_TIMEOUT)
+        m = re.search(r"vqd=[\"']?([\d-]+)[\"']?", r.text)
+        if not m:
+            log("    поиск картинки: не получил токен")
+            return []
+        vqd = m.group(1)
+        r = requests.get(
+            DDG + "/i.js",
+            params={"l": "us-en", "o": "json", "q": query, "vqd": vqd,
+                    "f": ",,,", "p": "1"},
+            headers={"User-Agent": UA, "Referer": DDG + "/"},
+            timeout=config.HTTP_TIMEOUT)
+        if not r.ok:
+            return []
+        data = r.json()
+    except Exception as e:
+        log("    поиск картинки не удался: {}".format(str(e)[:100]))
+        return []
+
+    out = []
+    for item in (data.get("results") or [])[:15]:
+        src = item.get("image") or ""
+        if src and not _JUNK_IMG.search(src):
+            out.append(src)
+    return out
+
+
+def find_image(rig):
+    """Картинка для поста. Пробуем всё по очереди, пока не найдём годную."""
+    tried = 0
+
+    # 1. превью, которое уже нашлось при сборе
+    got = download_image(rig.get("thumb"))
+    if got:
+        return got
+
+    # 2. любые подходящие картинки со страницы рига
+    for src in images_from_page(rig["url"]):
+        if out_of_time():
+            break
+        tried += 1
+        got = download_image(src)
+        if got:
+            log("    картинка со страницы рига")
+            return got
+        if tried > 8:
+            break
+
+    # 3. поиск в интернете по названию
+    if getattr(config, "IMAGE_WEB_SEARCH", True):
+        soft = (rig.get("software") or "").split(",")[0].strip()
+        query = " ".join(x for x in [rig.get("name"), soft, "character rig"] if x)
+        for src in search_image(query)[:8]:
+            if out_of_time():
+                break
+            got = download_image(src)
+            if got:
+                log("    картинка найдена поиском: {}".format(query[:50]))
+                return got
+
+    return None
 
 
 def publish(rig):
@@ -826,21 +989,18 @@ def publish(rig):
         if body:
             log("  ИИ не сработал — беру описание с сайта как есть")
 
+    # Картинка обязательна: пост без изображения персонажа не публикуем.
+    photo = find_image(rig)
+    if not photo:
+        raise NoImage(rig["name"])
+
     caption = build_caption(rig, body)
-    photo = download_image(rig.get("thumb"))
+    if len(caption) > 1024:
+        caption = caption[:1020].rsplit("\n", 1)[0]
 
-    if photo and len(caption) <= 1024:
-        try:
-            tg("sendPhoto", data={"chat_id": CHANNEL_ID, "caption": caption,
-                                  "parse_mode": "HTML"}, files={"photo": photo})
-            return "с картинкой"
-        except Exception as e:
-            log("  ! с картинкой не вышло ({}), шлю текстом".format(e))
-
-    tg("sendMessage", data={"chat_id": CHANNEL_ID, "text": caption,
-                            "parse_mode": "HTML",
-                            "disable_web_page_preview": "false"})
-    return "текстом"
+    tg("sendPhoto", data={"chat_id": CHANNEL_ID, "caption": caption,
+                          "parse_mode": "HTML"}, files={"photo": photo})
+    return "с картинкой"
 
 
 # ---------------------------------------------------------------- главное
@@ -941,10 +1101,25 @@ def publish_one(state, pool):
     share = max(1, getattr(config, "MAYA_SHARE", 4))
     want_maya = (counter % share) != (share - 1)
 
-    rig = pick(pool, state["sources"], want_archive, want_maya)
-    if rig is None:
-        return False
-    pool.remove(rig)
+    # Если у рига не находится картинка, он не публикуется — берём
+    # следующего кандидата, а не оставляем канал без поста.
+    for _ in range(getattr(config, "IMAGE_RETRY_CANDIDATES", 5)):
+        rig = pick(pool, state["sources"], want_archive, want_maya)
+        if rig is None:
+            return False
+        pool.remove(rig)
+        try:
+            return _do_publish(state, rig, counter)
+        except NoImage as e:
+            log("  ⤼ пропуск «{}»: не нашёл картинку".format(str(e)[:45]))
+            state["posted"].append(rig["id"])
+            save_state(state)
+            if out_of_time():
+                return False
+    return False
+
+
+def _do_publish(state, rig, counter):
     try:
         how = publish(rig)
         log("  ✔ опубликовано {} [{}]: {}".format(
@@ -954,6 +1129,8 @@ def publish_one(state, pool):
         state["sources"].append(rig["source"])
         save_state(state)
         return True
+    except NoImage:
+        raise           # обрабатывается выше: берём следующего кандидата
     except Exception as e:
         log("  ✖ не опубликовал «{}»: {}".format(rig["name"][:40], e))
         state["posted"].append(rig["id"])
