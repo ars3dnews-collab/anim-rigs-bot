@@ -28,6 +28,7 @@ import requests
 import yaml
 
 import config
+import airtable_source
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 STATE_FILE = os.path.join(HERE, "posted.json")
@@ -122,6 +123,8 @@ _DEADLINE = [None]
 _archive_page = [1]
 # с какой записи архива Animation Buffet начинать в этот раз
 _buffet_index = [1]
+# с какой записи архива Airtable начинать в этот раз
+_airtable_index = [0]
 
 
 def start_clock():
@@ -704,6 +707,17 @@ def collect():
         rigs.append(r)
     log("  курируемый список: {}".format(len(rigs)))
 
+    # Airtable — главный источник: 1350 курируемых ригов, 1232 под Maya.
+    air = getattr(config, "AIRTABLE", {}) or {}
+    if air.get("enabled"):
+        got = airtable_source.fetch(
+            air, get, log, UA, config.HTTP_TIMEOUT,
+            int(air.get("limit", 24)),
+            start_index=_airtable_index[0],
+            fresh_days=int(air.get("fresh_days", 45)))
+        log("  airtable (с записи {}): {}".format(_airtable_index[0], len(got)))
+        rigs += got
+
     rigs += fetch_news_feeds()
 
     if config.BLENDER_STUDIO.get("enabled"):
@@ -1248,6 +1262,12 @@ def main():
     total = int(getattr(config, "BUFFET_TOTAL", 660))
     _buffet_index[0] = (int(state.get("buffet_index", 0)) % max(1, total)) + 1
     state["buffet_index"] = int(state.get("buffet_index", 0)) + 50
+
+    # и по архиву Airtable: окно едет вперёд на limit записей за запуск
+    air = getattr(config, "AIRTABLE", {}) or {}
+    air_step = int(air.get("limit", 24))
+    _airtable_index[0] = int(state.get("airtable_index", 0))
+    state["airtable_index"] = _airtable_index[0] + air_step
 
     log("Собираю риги...")
     rigs = collect()
