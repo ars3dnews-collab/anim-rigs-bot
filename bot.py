@@ -1142,16 +1142,33 @@ def publish_loop(state, pool):
     """Публикуем с шагом POST_EVERY_MINUTES, пока не выйдет LOOP_MINUTES.
 
     Шаг держим сами: на расписание GitHub полагаться нельзя, оно
-    пропускает короткие интервалы. Запуск живёт почти час и всё это
-    время выдаёт посты ровно по таймеру.
+    пропускает короткие интервалы. Отсчёт идёт от времени последнего
+    поста и хранится в posted.json, поэтому ритм не сбивается на
+    границе запусков и восстанавливается после пропусков.
     """
-    step = getattr(config, "POST_EVERY_MINUTES", 10) * 60
-    window = getattr(config, "LOOP_MINUTES", 55) * 60
+    step = getattr(config, "POST_EVERY_MINUTES", 20) * 60
+    window = getattr(config, "LOOP_MINUTES", 28) * 60
     limit = config.MAX_POSTS_PER_RUN
     started = time.time()
     posted = 0
 
+    # Ритм считается от времени ПОСЛЕДНЕГО поста, а не от старта запуска.
+    # Поэтому шаг между постами сохраняется, даже когда запуск оборвался
+    # или GitHub пропустил срабатывание: новый запуск сразу видит, что
+    # пора публиковать, и не ждёт лишнего.
+    last = float(state.get("last_post_ts", 0) or 0)
+
     while True:
+        wait = step - (time.time() - last)
+        if wait > 0:
+            if (time.time() - started) + wait > window:
+                log("Окно запуска кончается, следующий пост — в новом запуске "
+                    "(через {} мин {} с).".format(int(wait) // 60, int(wait) % 60))
+                break
+            log("Следующий пост через {} мин {} с".format(
+                int(wait) // 60, int(wait) % 60))
+            time.sleep(wait)
+
         if not pool:
             log("Пул пуст, добираю источники...")
             known = set(state["posted"])
@@ -1162,19 +1179,19 @@ def publish_loop(state, pool):
 
         if pool and publish_one(state, pool):
             posted += 1
+            last = time.time()
+            state["last_post_ts"] = last
+            save_state(state)
+        else:
+            # публиковать нечего — не долбим источники каждую секунду
+            log("Нечего публиковать, жду.")
+            last = time.time() - step + 120
 
         if posted >= limit:
             log("Достигнут потолок постов за запуск ({}).".format(limit))
             break
-
-        elapsed = time.time() - started
-        if elapsed + step > window:
-            log("Окно запуска заканчивается, следующий пост — в новом запуске.")
+        if time.time() - started > window:
             break
-
-        nxt = int((step - (time.time() - started) % step))
-        log("Следующий пост через {} мин {} с".format(nxt // 60, nxt % 60))
-        time.sleep(max(30, nxt))
 
     return posted
 
