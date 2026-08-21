@@ -300,11 +300,25 @@ def fetch_highend3d(limit, pages, paid, sort="newest", tag=None):
     return out
 
 
+def _any_word(words, text):
+    """Совпадение по границам слова: 'rig' не должен ловиться в 'right'."""
+    pattern = r"(?<![\w-])(?:" + "|".join(words) + r")(?![\w-])"
+    return re.search(pattern, text, re.I | re.U) is not None
+
+
 def looks_like_rig(text):
+    """Пускаем только то, что похоже на выложенный риг персонажа.
+
+    Мало найти слово 'rig' — нужно ещё, чтобы речь шла о персонаже
+    или о готовом ассете. Иначе в канал лезут статьи про профессию.
+    """
     low = (text or "").lower()
     if any(sw in low for sw in config.RIG_STOPWORDS):
         return False
-    return any(kw in low for kw in config.RIG_KEYWORDS)
+    if not _any_word(config.RIG_WORDS, low):
+        return False
+    return (_any_word(config.SUBJECT_WORDS, low)
+            or _any_word(config.RELEASE_WORDS, low))
 
 
 def fetch_news_feeds():

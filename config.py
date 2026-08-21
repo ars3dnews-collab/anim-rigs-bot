@@ -49,10 +49,14 @@ HIGHEND3D_PAID = {"enabled": True, "limit": 4, "pages": 1, "sort": "newest"}
 # которые пишут про каждый заметный релиз. Из ленты берутся только записи,
 # в заголовке или описании которых есть слова из RIG_KEYWORDS.
 # ---------------------------------------------------------------------------
+# Тематические ленты точнее общих: там уже отобрано редакцией по теме.
+# Если какая-то отдаёт 404 — просто убери строку, бот переживёт.
 NEWS_FEEDS = [
-    ("BlenderNation", "https://www.blendernation.com/feed/"),
-    ("CG Channel", "https://www.cgchannel.com/feed/"),
-    ("80 Level", "https://80.lv/feed/"),
+    ("BlenderNation · rigging", "https://www.blendernation.com/tag/rigging/feed/"),
+    ("BlenderNation · rig", "https://www.blendernation.com/tag/rig/feed/"),
+    ("BlenderNation · character", "https://www.blendernation.com/tag/character/feed/"),
+    ("CG Channel · rigging", "https://www.cgchannel.com/tag/rigging/feed/"),
+    ("80 Level · rigging", "https://80.lv/tag/rigging/feed/"),
 ]
 
 # Сколько записей смотреть в каждой ленте
@@ -61,15 +65,33 @@ NEWS_LIMIT = 30
 # Не старше скольких дней считать новинкой
 NEWS_MAX_AGE_DAYS = 45
 
-RIG_KEYWORDS = (
-    "rig", "rigged", "rigging", "character setup", "auto-rig", "autorig",
-    "риг", "риггинг",
+# Слово про риг. Проверяется ПО ГРАНИЦАМ СЛОВА, иначе "right" и "bright"
+# считаются ригами — на этом канал один раз уже обжёгся.
+RIG_WORDS = (
+    r"rig", r"rigs", r"rigged", r"rigging", r"auto-?rig(?:ger|ging)?",
+    r"риг", r"риги", r"ригги?нг",
 )
 
-# Отсекаем то, что ригом не является
+# Одного слова "rig" мало: нужен ещё признак, что речь о персонаже
+# или о выложенном ассете, а не о статье про профессию риггера.
+SUBJECT_WORDS = (
+    r"character", r"creature", r"biped", r"quadruped", r"humanoid",
+    r"cartoon", r"body", r"face", r"facial", r"anatomy",
+    r"персонаж\w*", r"существ\w*",
+)
+
+RELEASE_WORDS = (
+    r"free", r"released?", r"release", r"available", r"download\w*",
+    r"launch\w*", r"asset", r"pack", r"library", r"updated?", r"version",
+    r"бесплатн\w*", r"релиз", r"скачат\w*",
+)
+
+# Явно не риг персонажа
 RIG_STOPWORDS = (
-    "job", "vacancy", "hiring", "course review", "webinar replay",
-    "рынок труда", "вакансия",
+    "job", "vacancy", "hiring", "career", "salary", "interview",
+    "course", "webinar", "tutorial", "podcast", "breakdown",
+    "how to become", "showreel", "contest", "awards",
+    "вакансия", "карьер", "зарплат", "интервью", "курс", "вебинар",
 )
 
 # Не публиковать риги, у которых не нашлось ни описания, ни картинки
