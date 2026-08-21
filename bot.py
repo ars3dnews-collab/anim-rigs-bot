@@ -68,6 +68,38 @@ def save_state(state):
     state["sources"] = state["sources"][-5:]
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=1)
+    push_state()
+
+
+def push_state():
+    """Сразу коммитим память в репозиторий.
+
+    Запуск живёт почти час, и если ждать конца задания, то при отмене или
+    сбое бот забудет, что уже публиковал, и погонит дубли по второму кругу.
+    """
+    if os.environ.get("GIT_AUTOSAVE", "").lower() not in ("1", "true", "yes"):
+        return
+    import subprocess
+
+    cmds = [
+        ["git", "add", "posted.json"],
+        ["git", "diff", "--staged", "--quiet"],
+    ]
+    try:
+        subprocess.run(cmds[0], cwd=HERE, check=False, capture_output=True)
+        changed = subprocess.run(cmds[1], cwd=HERE, capture_output=True).returncode != 0
+        if not changed:
+            return
+        subprocess.run(["git", "commit", "-m", "update posted rigs"],
+                       cwd=HERE, check=False, capture_output=True)
+        subprocess.run(["git", "pull", "--rebase", "--autostash"],
+                       cwd=HERE, check=False, capture_output=True)
+        r = subprocess.run(["git", "push"], cwd=HERE, capture_output=True)
+        if r.returncode != 0:
+            log("  ! память не запушилась: {}".format(
+                r.stderr.decode('utf-8', 'replace')[:150]))
+    except Exception as e:
+        log("  ! память не сохранилась в репозиторий: {}".format(e))
 
 
 def rig_id(url):
@@ -86,6 +118,8 @@ def strip_html(text):
 
 
 _DEADLINE = [None]
+# с какой страницы архива Highend3d заходить в этот раз
+_archive_page = [1]
 
 
 def start_clock():
@@ -228,11 +262,11 @@ def fetch_blender_studio(limit):
 HE = "https://www.highend3d.com"
 
 
-def fetch_highend3d(limit, pages, paid, sort="newest", tag=None):
+def fetch_highend3d(limit, pages, paid, sort="newest", tag=None, start_page=1):
     base = (HE + "/character-rigs/c/marketplace") if paid \
         else (HE + "/maya/character-rigs/c/downloads")
     links, seen = [], set()
-    for page_no in range(1, pages + 1):
+    for page_no in range(start_page, start_page + pages):
         listing = get("{}?page={}&sort={}".format(base, page_no, sort))
         if not listing:
             break
@@ -402,6 +436,89 @@ def fetch_news_feeds():
     return out
 
 
+ANIMA = "https://anima.to"
+
+
+def fetch_anima_to(limit, pages, known):
+    """anima.to — агрегатор ригов от самых разных авторов.
+
+    Файлы у себя не хранит, только карточки со ссылками наружу,
+    зато собирает и Maya, и Blender от десятков разных студий и
+    одиночек. Лучший источник разнообразия из всех найденных.
+    """
+    links, seen = [], set()
+    for page_no in range(1, pages + 1):
+        url = "{}/rigs/?sort=recent&page={}".format(ANIMA, page_no)
+        listing = get(url)
+        if not listing:
+            break
+        for href in re.findall(r'href="(/rigs/\d+)"', listing):
+            full = ANIMA + href
+            if full not in seen:
+                seen.add(full)
+                links.append(full)
+        time.sleep(0.4)
+
+    if not links:
+        log("  ! anima.to не отдал ни одной карточки")
+        return []
+
+    out = []
+    for url in links:
+        if url in known:
+            continue
+        if out_of_time():
+            log("  ! бюджет времени исчерпан, беру что успел")
+            break
+        page = get(url)
+        if not page:
+            continue
+        text = strip_html(page)
+        name = re.sub(r"\s*\|.*$", "", meta(page, "og:title") or "").strip()
+        if not name:
+            continue
+
+        low = text.lower()
+        soft = []
+        if "maya" in low:
+            soft.append("Maya")
+        if "blender" in low:
+            soft.append("Blender")
+        if "unreal" in low:
+            soft.append("Unreal")
+
+        price = ""
+        pm = re.search(r"\$\s?([\d,]+(?:\.\d{2})?)", text)
+        if pm:
+            price = "$" + pm.group(1)
+        free = ("free" in low or "бесплатн" in low) and not price
+
+        tags = "#" + " #".join(s.lower() for s in soft) if soft else "#rig"
+        tags += " #free" if free else " #paid"
+
+        out.append({
+            "url": url,
+            "name": name,
+            "author": "",
+            "software": ", ".join(soft),
+            "free": True if free else (False if price else None),
+            "price": price,
+            "license": "",
+            "size_mb": None,
+            "thumb": meta(page, "og:image"),
+            "rating": "",
+            "description": meta(page, "og:description") or text[:1200],
+            "ready": False,
+            "tags": tags,
+            "source": "anima.to",
+            "fresh": True,
+        })
+        if len(out) >= limit:
+            break
+        time.sleep(0.4)
+    return out
+
+
 def collect():
     start_clock()
     rigs = []
@@ -429,10 +546,20 @@ def collect():
 
     if getattr(config, "HIGHEND3D_POPULAR", {}).get("enabled"):
         c = config.HIGHEND3D_POPULAR
+        # Архив глубокий: 456 бесплатных Maya-ригов на 19 страницах.
+        # Каждый запуск заходит с новой страницы, поэтому за сутки
+        # бот обходит всю библиотеку, а не топчется на первой странице.
+        start = _archive_page[0]
         got = fetch_highend3d(c.get("limit", 8), c.get("pages", 2), paid=False,
                               sort=c.get("sort", "downloads"),
-                              tag="highend3d-popular")
-        log("  highend3d-popular: {}".format(len(got)))
+                              tag="highend3d-popular", start_page=start)
+        log("  highend3d-popular (стр. {}+): {}".format(start, len(got)))
+        rigs += got
+
+    if getattr(config, "ANIMA_TO", {}).get("enabled"):
+        c = config.ANIMA_TO
+        got = fetch_anima_to(c.get("limit", 8), c.get("pages", 2), known=set())
+        log("  anima.to: {}".format(len(got)))
         rigs += got
 
     if config.HIGHEND3D_PAID.get("enabled"):
@@ -701,21 +828,45 @@ def publish(rig):
 
 # ---------------------------------------------------------------- главное
 
-def pick(pool, recent_sources, want_archive):
-    """Следующий риг.
+def is_maya(rig):
+    text = " ".join([
+        rig.get("software") or "", rig.get("name") or "",
+        (rig.get("description") or "")[:300],
+    ]).lower()
+    return "maya" in text
 
-    Сначала выбираем дорожку — новинки или архив, — потом внутри неё
-    берём тот источник, который давно не мелькал в ленте.
+
+def is_blender(rig):
+    text = " ".join([
+        rig.get("software") or "", rig.get("name") or "",
+        (rig.get("description") or "")[:300],
+    ]).lower()
+    return "blender" in text and "maya" not in text
+
+
+def pick(pool, recent_sources, want_archive, want_maya=True):
+    """Следующий риг — по трём предпочтениям сразу.
+
+    Порядок важности: софт (Maya чаще, чем Blender), затем дорожка
+    (новинка или архив), затем источник, который давно не мелькал.
+    Ни одно из предпочтений не жёсткое: если подходящего нет,
+    берём лучшее из того, что есть, а не встаём колом.
     """
-    primary = [r for r in pool if bool(r.get("fresh")) != want_archive]
-    for group in (primary, pool):
-        if not group:
-            continue
-        for rig in group:
-            if rig["source"] not in recent_sources:
-                return rig
-        return group[0]
-    return pool[0]
+    if not pool:
+        return None
+
+    def score(item):
+        idx, rig = item
+        soft_ok = is_maya(rig) if want_maya else is_blender(rig)
+        lane_ok = bool(rig.get("fresh")) != want_archive
+        fresh_source = rig.get("source") not in recent_sources
+        # меньше — лучше
+        return (0 if soft_ok else 1,
+                0 if lane_ok else 1,
+                0 if fresh_source else 1,
+                idx)
+
+    return min(enumerate(pool), key=score)[1]
 
 
 def main():
@@ -731,6 +882,12 @@ def main():
     state = load_state()
     known = set(state["posted"])
     log("В памяти {} опубликованных ригов".format(len(known)))
+
+    # шагаем по страницам архива, чтобы не топтаться на первой
+    depth = int(getattr(config, "ARCHIVE_MAX_PAGE", 19))
+    step = int(config.HIGHEND3D_POPULAR.get("pages", 2))
+    _archive_page[0] = (int(state.get("archive_page", 0)) % max(1, depth)) + 1
+    state["archive_page"] = int(state.get("archive_page", 0)) + step
 
     log("Собираю риги...")
     rigs = collect()
@@ -751,31 +908,81 @@ def main():
             len(fresh)))
         return
 
-    posted = 0
-    counter = int(state.get("counter", 0))
-    every = getattr(config, "ARCHIVE_EVERY", 2)
-    while posted < config.MAX_POSTS_PER_RUN and fresh:
-        want_archive = bool(every) and (counter % every == every - 1)
-        rig = pick(fresh, state["sources"], want_archive)
-        fresh.remove(rig)
-        try:
-            how = publish(rig)
-            log("  ✔ опубликовано {} [{}]: {}".format(
-                how, "новинка" if rig.get("fresh") else "архив", rig["name"][:55]))
-            counter += 1
-            state["counter"] = counter
-            state["posted"].append(rig["id"])
-            state["sources"].append(rig["source"])
-            save_state(state)
-            posted += 1
-            if posted < config.MAX_POSTS_PER_RUN:
-                time.sleep(config.DELAY_BETWEEN_POSTS)
-        except Exception as e:
-            log("  ✖ не опубликовал «{}»: {}".format(rig["name"][:40], e))
-            state["posted"].append(rig["id"])
-            save_state(state)
+    posted = publish_loop(state, fresh)
+    log("Готово. Опубликовано за этот запуск: {}".format(posted))
 
-    log("Готово. Опубликовано: {}".format(posted))
+
+def publish_one(state, pool):
+    """Опубликовать один риг из пула. True — получилось."""
+    if not pool:
+        return False
+    every = getattr(config, "ARCHIVE_EVERY", 2)
+    counter = int(state.get("counter", 0))
+    want_archive = bool(every) and (counter % every == every - 1)
+
+    # Maya чаще Blender: из каждых MAYA_SHARE постов один отдаём Blender.
+    share = max(1, getattr(config, "MAYA_SHARE", 4))
+    want_maya = (counter % share) != (share - 1)
+
+    rig = pick(pool, state["sources"], want_archive, want_maya)
+    if rig is None:
+        return False
+    pool.remove(rig)
+    try:
+        how = publish(rig)
+        log("  ✔ опубликовано {} [{}]: {}".format(
+            how, "новинка" if rig.get("fresh") else "архив", rig["name"][:55]))
+        state["counter"] = counter + 1
+        state["posted"].append(rig["id"])
+        state["sources"].append(rig["source"])
+        save_state(state)
+        return True
+    except Exception as e:
+        log("  ✖ не опубликовал «{}»: {}".format(rig["name"][:40], e))
+        state["posted"].append(rig["id"])
+        save_state(state)
+        return False
+
+
+def publish_loop(state, pool):
+    """Публикуем с шагом POST_EVERY_MINUTES, пока не выйдет LOOP_MINUTES.
+
+    Шаг держим сами: на расписание GitHub полагаться нельзя, оно
+    пропускает короткие интервалы. Запуск живёт почти час и всё это
+    время выдаёт посты ровно по таймеру.
+    """
+    step = getattr(config, "POST_EVERY_MINUTES", 10) * 60
+    window = getattr(config, "LOOP_MINUTES", 55) * 60
+    limit = config.MAX_POSTS_PER_RUN
+    started = time.time()
+    posted = 0
+
+    while True:
+        if not pool:
+            log("Пул пуст, добираю источники...")
+            known = set(state["posted"])
+            pool = [r for r in collect() if r["id"] not in known]
+            if config.REQUIRE_DESCRIPTION:
+                pool = [r for r in pool if (r["description"] or "").strip()]
+            log("  добавилось: {}".format(len(pool)))
+
+        if pool and publish_one(state, pool):
+            posted += 1
+
+        if posted >= limit:
+            log("Достигнут потолок постов за запуск ({}).".format(limit))
+            break
+
+        elapsed = time.time() - started
+        if elapsed + step > window:
+            log("Окно запуска заканчивается, следующий пост — в новом запуске.")
+            break
+
+        nxt = int((step - (time.time() - started) % step))
+        log("Следующий пост через {} мин {} с".format(nxt // 60, nxt % 60))
+        time.sleep(max(30, nxt))
+
+    return posted
 
 
 if __name__ == "__main__":
