@@ -1330,17 +1330,32 @@ def publish_loop(state, pool):
     границе запусков и восстанавливается после пропусков.
     """
     step = getattr(config, "POST_EVERY_MINUTES", 20) * 60
-    window = getattr(config, "LOOP_MINUTES", 28) * 60
+    window = getattr(config, "LOOP_MINUTES", 0) * 60
     limit = config.MAX_POSTS_PER_RUN
     started = time.time()
     posted = 0
-
-    # Ритм считается от времени ПОСЛЕДНЕГО поста, а не от старта запуска.
-    # Поэтому шаг между постами сохраняется, даже когда запуск оборвался
-    # или GitHub пропустил срабатывание: новый запуск сразу видит, что
-    # пора публиковать, и не ждёт лишнего.
     last = float(state.get("last_post_ts", 0) or 0)
 
+    # Короткий режим: опубликовать и сразу выйти.
+    # Так работает бот новостей GTA 6, и у него ритм не рвётся.
+    # Длинные задания GitHub душит: пока одно висит, срабатывания
+    # расписания в это время просто отбрасываются.
+    if window <= 0:
+        gap = getattr(config, "MIN_GAP_MINUTES", 15) * 60
+        since = time.time() - last
+        if last and since < gap:
+            log("С прошлого поста прошло {} мин из {} — рано, выхожу."
+                .format(int(since // 60), gap // 60))
+            return 0
+        for _ in range(limit):
+            if not pool or not publish_one(state, pool):
+                break
+            posted += 1
+            state["last_post_ts"] = time.time()
+            save_state(state)
+        return posted
+
+    # Длинный режим (LOOP_MINUTES > 0): держим шаг внутри одного запуска.
     while True:
         wait = step - (time.time() - last)
         if wait > 0:
