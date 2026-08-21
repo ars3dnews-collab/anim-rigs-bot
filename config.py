@@ -86,6 +86,26 @@ HIGHEND3D_FREE = {"enabled": True, "limit": 8, "pages": 2, "sort": "newest"}
 HIGHEND3D_POPULAR = {"enabled": True, "limit": 8, "pages": 2, "sort": "downloads"}
 HIGHEND3D_PAID = {"enabled": True, "limit": 4, "pages": 1, "sort": "newest"}
 
+# ---------------------------------------------------------------------------
+# Магазины на WooCommerce. У них открыт Store API, который отдаёт название,
+# ссылку, цену и картинку одним запросом — ни разбора HTML, ни похода на
+# каждую страницу. Самые надёжные источники Maya-ригов из всех найденных.
+# ---------------------------------------------------------------------------
+WOO_STORES = [
+    # AnimProps — 385 трёхмерных ригов, бесплатные и платные
+    {"name": "animprops", "url": "https://animprops.com",
+     "enabled": True, "limit": 14, "pages": 3},
+
+    # GetRigs — преемник Animation Methods, почти всё бесплатно
+    {"name": "getrigs", "url": "https://getrigs.com",
+     "enabled": True, "limit": 14, "pages": 2},
+]
+
+# Animation Buffet — каталог Maya-ригов, который ведут с 2008 года.
+# 660 записей в JSON-ленте Blogger, в заголовке указано free или paid.
+ANIMATION_BUFFET = {"enabled": True, "limit": 12}
+BUFFET_TOTAL = 660
+
 # anima.to — агрегатор ригов от десятков разных авторов, и Maya, и Blender.
 # Файлов не хранит, только карточки со ссылками на первоисточник.
 # Главный источник разнообразия: не один канал, а вся сцена сразу.

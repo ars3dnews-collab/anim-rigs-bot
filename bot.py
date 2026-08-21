@@ -120,6 +120,8 @@ def strip_html(text):
 _DEADLINE = [None]
 # с какой страницы архива Highend3d заходить в этот раз
 _archive_page = [1]
+# с какой записи архива Animation Buffet начинать в этот раз
+_buffet_index = [1]
 
 
 def start_clock():
@@ -536,6 +538,163 @@ def fetch_anima_to(limit, pages, known):
     return out
 
 
+def _softwares(text):
+    low = (text or "").lower()
+    out = []
+    for name, key in (("Maya", "maya"), ("Blender", "blender"),
+                      ("3ds Max", "3ds max"), ("Unreal", "unreal"),
+                      ("Cinema 4D", "cinema 4d")):
+        if key in low:
+            out.append(name)
+    return ", ".join(out)
+
+
+def fetch_woo_store(label, base, limit, pages=2, category=None):
+    """Магазин на WooCommerce — берём товары через открытый Store API.
+
+    Он отдаёт название, ссылку, цену и картинку одним запросом,
+    так что ни разбора HTML, ни похода на каждую страницу не нужно.
+    """
+    out = []
+    for page in range(1, pages + 1):
+        if out_of_time():
+            break
+        url = "{}/wp-json/wc/store/v1/products?per_page=100&page={}".format(
+            base.rstrip("/"), page)
+        if category:
+            url += "&category=" + str(category)
+        try:
+            r = requests.get(url, headers={"User-Agent": UA},
+                             timeout=config.HTTP_TIMEOUT)
+            if not r.ok:
+                log("  ! {}: HTTP {}".format(label, r.status_code))
+                break
+            items = r.json()
+        except Exception as e:
+            log("  ! {}: {}".format(label, str(e)[:100]))
+            break
+        if not items:
+            break
+
+        for it in items:
+            name = strip_html(it.get("name") or "")
+            link = it.get("permalink") or ""
+            if not name or not link:
+                continue
+            desc = strip_html(it.get("short_description")
+                              or it.get("description") or "")
+            prices = it.get("prices") or {}
+            raw = str(prices.get("price") or "")
+            minor = int(prices.get("currency_minor_unit") or 2)
+            symbol = prices.get("currency_prefix") or prices.get("currency_symbol") or "$"
+            free = raw in ("", "0", "0" * len(raw))
+            price = ""
+            if not free and raw.isdigit():
+                price = "{}{:.2f}".format(symbol, int(raw) / (10 ** minor))
+
+            images = it.get("images") or []
+            thumb = (images[0].get("src") if images else "") or ""
+            soft = _softwares(name + " " + desc) or "Maya"
+
+            out.append({
+                "url": link,
+                "name": name,
+                "author": label.split("·")[0].strip(),
+                "software": soft,
+                "free": free,
+                "price": price,
+                "license": "",
+                "size_mb": None,
+                "thumb": thumb,
+                "rating": "",
+                "description": desc[:1500],
+                "ready": False,
+                "tags": ("#maya" if "Maya" in soft else "#rig")
+                        + (" #free" if free else " #paid"),
+                "source": label,
+                "fresh": page == 1,
+            })
+            if len(out) >= limit:
+                return out
+        time.sleep(0.3)
+    return out
+
+
+BUFFET = "https://animationbuffet.blogspot.com"
+
+
+def fetch_animation_buffet(limit, start_index=1):
+    """Animation Buffet — каталог Maya-ригов, который ведут с 2008 года.
+
+    Отдаёт JSON-ленту Blogger: 660 записей, в заголовке каждой прямо
+    написано, бесплатный риг или платный.
+    """
+    url = ("{}/feeds/posts/default?alt=json&max-results=50&start-index={}"
+           .format(BUFFET, start_index))
+    try:
+        r = requests.get(url, headers={"User-Agent": UA},
+                         timeout=config.HTTP_TIMEOUT)
+        if not r.ok:
+            log("  ! animation-buffet: HTTP {}".format(r.status_code))
+            return []
+        feed = r.json().get("feed", {})
+    except Exception as e:
+        log("  ! animation-buffet: {}".format(str(e)[:100]))
+        return []
+
+    out = []
+    for entry in feed.get("entry", []) or []:
+        title = strip_html((entry.get("title") or {}).get("$t", ""))
+        if not title or "review" in title.lower():
+            continue          # это повтор-обзор того же рига
+        link = ""
+        for l in entry.get("link", []) or []:
+            if l.get("rel") == "alternate":
+                link = l.get("href", "")
+                break
+        if not link:
+            continue
+
+        raw = (entry.get("content") or {}).get("$t", "")
+        desc = strip_html(raw)
+        low = title.lower()
+        free = "(free" in low or "free " in low
+        paid = "(paid" in low
+        soft = _softwares(title + " " + desc[:400]) or "Maya"
+
+        thumb = ((entry.get("media$thumbnail") or {}).get("url") or "")
+        if thumb:
+            thumb = re.sub(r"/s\d+(-c)?/", "/s1600/", thumb)
+        if not thumb:
+            m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', raw)
+            if m:
+                thumb = m.group(1)
+
+        name = re.sub(r"\s*\((free|paid)[^)]*\)\s*", " ", title, flags=re.I)
+        name = re.sub(r"\s*-\s*(free|paid)\s+maya.*$", "", name, flags=re.I).strip()
+
+        out.append({
+            "url": link,
+            "name": name or title,
+            "author": "",
+            "software": soft,
+            "free": True if free else (False if paid else None),
+            "price": "",
+            "license": "",
+            "size_mb": None,
+            "thumb": thumb,
+            "rating": "",
+            "description": desc[:1500],
+            "ready": False,
+            "tags": "#maya " + ("#free" if free else "#paid" if paid else "#rig"),
+            "source": "animation-buffet",
+            "fresh": start_index <= 50,
+        })
+        if len(out) >= limit:
+            break
+    return out
+
+
 def collect():
     start_clock()
     rigs = []
@@ -571,6 +730,25 @@ def collect():
                               sort=c.get("sort", "downloads"),
                               tag="highend3d-popular", start_page=start)
         log("  highend3d-popular (стр. {}+): {}".format(start, len(got)))
+        rigs += got
+
+    # --- магазины на WooCommerce: отдают всё готовым JSON ---
+    for block in getattr(config, "WOO_STORES", []) or []:
+        if not block.get("enabled", True):
+            continue
+        got = fetch_woo_store(block["name"], block["url"],
+                              int(block.get("limit", 12)),
+                              pages=int(block.get("pages", 2)),
+                              category=block.get("category"))
+        log("  {}: {}".format(block["name"], len(got)))
+        rigs += got
+
+    buffet = getattr(config, "ANIMATION_BUFFET", {})
+    if buffet.get("enabled"):
+        # шагаем по архиву: каждый запуск смотрит новый кусок из 660 записей
+        start = _buffet_index[0]
+        got = fetch_animation_buffet(int(buffet.get("limit", 12)), start)
+        log("  animation-buffet (с записи {}): {}".format(start, len(got)))
         rigs += got
 
     if getattr(config, "ANIMA_TO", {}).get("enabled"):
@@ -1065,6 +1243,11 @@ def main():
     step = int(config.HIGHEND3D_POPULAR.get("pages", 2))
     _archive_page[0] = (int(state.get("archive_page", 0)) % max(1, depth)) + 1
     state["archive_page"] = int(state.get("archive_page", 0)) + step
+
+    # то же самое для архива Animation Buffet: 660 записей, шагаем по 50
+    total = int(getattr(config, "BUFFET_TOTAL", 660))
+    _buffet_index[0] = (int(state.get("buffet_index", 0)) % max(1, total)) + 1
+    state["buffet_index"] = int(state.get("buffet_index", 0)) + 50
 
     log("Собираю риги...")
     rigs = collect()
