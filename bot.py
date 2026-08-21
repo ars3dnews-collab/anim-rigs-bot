@@ -270,14 +270,31 @@ def fetch_highend3d(limit, pages, paid, sort="newest", tag=None, start_page=1):
         listing = get("{}?page={}&sort={}".format(base, page_no, sort))
         if not listing:
             break
-        for href in re.findall(r'href="(/[^"#?]*(?:downloads|marketplace)[^"#?]*)"', listing):
-            if href.count("/") < 4:
+        # Ссылки на сайте бывают и абсолютными, и относительными —
+        # ловим оба вида, иначе можно молча собрать пустой список.
+        for href in re.findall(r'href="([^"#?]+)"', listing):
+            path = href
+            if path.startswith("http"):
+                m = re.match(r"https?://[^/]*highend3d\.com(/.*)", path)
+                if not m:
+                    continue
+                path = m.group(1)
+            elif not path.startswith("/"):
                 continue
-            url = HE + href
+            if "/character-rigs/" not in path:
+                continue
+            if "/downloads/" not in path and "/marketplace" not in path:
+                continue
+            # сами страницы-листинги нам не нужны, только карточки ригов
+            if path.rstrip("/").endswith(("/c", "/downloads", "/marketplace")):
+                continue
+            url = HE + path
             if url not in seen and url != base:
                 seen.add(url)
                 links.append(url)
         time.sleep(0.5)
+
+    log("    highend3d: собрано ссылок {}".format(len(links)))
 
     # не перебираем всю страницу подряд: берём с запасом и останавливаемся
     out = []
