@@ -36,18 +36,19 @@
   "aef55228a83a5030",
   "17982622d9ea8a6c",
   "b44abedb404ffbe2",
-  "482cd98627cb6be2"
+  "482cd98627cb6be2",
+  "7a372a2a62f9138b"
  ],
  "sources": [
   "blender-studio",
   "blender-studio",
-  "blender-studio",
   "airtable",
-  "airtable"
+  "airtable",
+  "animation-buffet"
  ],
- "counter": 17,
- "archive_page": 16,
- "buffet_index": 250,
- "airtable_index": 72,
+ "counter": 18,
+ "archive_page": 18,
+ "buffet_index": 300,
+ "airtable_index": 96,
  "last_post_ts": 1787334622.8474255
 }
