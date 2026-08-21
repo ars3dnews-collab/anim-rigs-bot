@@ -131,6 +131,17 @@ def start_clock():
     _DEADLINE[0] = time.time() + config.COLLECT_BUDGET_SEC
 
 
+def reset_clock(seconds):
+    """Новый лимит времени — например, отдельный на этап публикации.
+
+    Бюджет сбора и бюджет публикации нельзя мешать: если публикация
+    работает по остаткам от сбора, один тормозящий сайт съедает время,
+    и потом ни у одного рига «не находится картинка», хотя дело
+    вовсе не в картинках. На этом канал уже простаивал часами.
+    """
+    _DEADLINE[0] = time.time() + seconds
+
+
 def out_of_time():
     """Пора закругляться со сбором и публиковать то, что уже есть."""
     return _DEADLINE[0] is not None and time.time() > _DEADLINE[0]
@@ -1271,6 +1282,8 @@ def main():
 
     log("Собираю риги...")
     rigs = collect()
+    # сбор закончен — у публикации свой запас времени, чужой она не наследует
+    reset_clock(int(getattr(config, "PUBLISH_BUDGET_SEC", 200)))
     fresh = [r for r in rigs if r["id"] not in known]
     if config.REQUIRE_DESCRIPTION:
         fresh = [r for r in fresh if (r["description"] or "").strip()]

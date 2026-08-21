@@ -35,7 +35,12 @@ HTTP_TIMEOUT = 12
 
 # Сколько секунд всего отводится на обход источников. Как только время
 # вышло, бот перестаёт ходить по сайтам и публикует из того, что успел.
-COLLECT_BUDGET_SEC = 100
+COLLECT_BUDGET_SEC = 70
+
+# Отдельный запас времени на публикацию: поиск картинки, ИИ, отправка.
+# Считается заново после сбора, иначе медленный сайт-источник
+# оставляет публикацию без времени и посты просто не выходят.
+PUBLISH_BUDGET_SEC = 240
 
 # Длина текста от ИИ
 SUMMARY_SENTENCES = 4
@@ -62,7 +67,7 @@ IMAGE_WEB_SEARCH = True
 
 # Сколько ригов подряд перебрать, если у них не находится картинка,
 # прежде чем сдаться и оставить этот слот пустым
-IMAGE_RETRY_CANDIDATES = 5
+IMAGE_RETRY_CANDIDATES = 8
 
 # ---------------------------------------------------------------------------
 # Автопоиск. Курируемый список seed_rigs.yml работает всегда.
@@ -85,11 +90,13 @@ ARCHIVE_MAX_PAGE = 19
 # Blender Studio — Rain, Snow, Vincent, Einar, каст Sprite Fright. CC-BY.
 BLENDER_STUDIO = {"enabled": True, "limit": 6}
 
-# Highend3d — крупнейшая библиотека Maya-ригов.
-# newest — новинки, popular — проверенное временем (сортировка по скачиваниям).
-HIGHEND3D_FREE = {"enabled": True, "limit": 8, "pages": 2, "sort": "newest"}
-HIGHEND3D_POPULAR = {"enabled": True, "limit": 8, "pages": 2, "sort": "downloads"}
-HIGHEND3D_PAID = {"enabled": True, "limit": 4, "pages": 1, "sort": "newest"}
+# Highend3d — ВЫКЛЮЧЕН. Сайт стабильно уходит в таймаут на каждой второй
+# странице и съедает весь запас времени, отдавая при этом ноль ригов.
+# Его роль (большая библиотека Maya) теперь целиком закрыта Airtable.
+# Если сайт починится — достаточно вернуть enabled: True.
+HIGHEND3D_FREE = {"enabled": False, "limit": 8, "pages": 2, "sort": "newest"}
+HIGHEND3D_POPULAR = {"enabled": False, "limit": 8, "pages": 2, "sort": "downloads"}
+HIGHEND3D_PAID = {"enabled": False, "limit": 4, "pages": 1, "sort": "newest"}
 
 # ---------------------------------------------------------------------------
 # THE ANIMATOR AIRTABLE — самая большая курируемая коллекция ригов в сети.
@@ -122,11 +129,11 @@ AIRTABLE = {
 WOO_STORES = [
     # AnimProps — 385 трёхмерных ригов, бесплатные и платные
     {"name": "animprops", "url": "https://animprops.com",
-     "enabled": True, "limit": 14, "pages": 3},
+     "enabled": False, "limit": 14, "pages": 3},
 
     # GetRigs — преемник Animation Methods, почти всё бесплатно
     {"name": "getrigs", "url": "https://getrigs.com",
-     "enabled": True, "limit": 14, "pages": 2},
+     "enabled": False, "limit": 14, "pages": 2},
 ]
 
 # Animation Buffet — каталог Maya-ригов, который ведут с 2008 года.
