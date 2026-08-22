@@ -92,16 +92,17 @@
   "588bf2590ffec0bb",
   "5dbc6b3c58e066be",
   "ef235e2ce74ee932",
-  "0b48944af777a5d1"
+  "0b48944af777a5d1",
+  "3f54f48b94d9d1ff"
  ],
  "sources": [
   "animation-buffet",
-  "animation-buffet",
+  "airtable",
   "airtable",
   "airtable",
   "airtable"
  ],
- "counter": 36,
+ "counter": 37,
  "archive_page": 60,
  "buffet_index": 1350,
  "airtable_index": 600,
