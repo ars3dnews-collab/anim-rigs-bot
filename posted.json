@@ -120,7 +120,8 @@
   "9eea930ee0b8b81a",
   "5dc2893287e00e8b",
   "4d5178eab0597756",
-  "d9c25bfb938c663b"
+  "d9c25bfb938c663b",
+  "2477e74145cfcacb"
  ],
  "sources": [
   "airtable",
@@ -130,8 +131,8 @@
   "airtable"
  ],
  "counter": 42,
- "archive_page": 72,
- "buffet_index": 1650,
- "airtable_index": 744,
+ "archive_page": 74,
+ "buffet_index": 1700,
+ "airtable_index": 768,
  "last_post_ts": 1787397104.9917388
 }
