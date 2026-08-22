@@ -178,7 +178,8 @@
   "e65c27d5c507d758",
   "ad24b3d75a84e4c2",
   "fecbfdf32284d3ce",
-  "361ad0a7aeca2b79"
+  "361ad0a7aeca2b79",
+  "4d62fcc9abfdcf33"
  ],
  "sources": [
   "airtable",
@@ -188,9 +189,9 @@
   "animation-buffet"
  ],
  "counter": 69,
- "archive_page": 130,
- "buffet_index": 3100,
- "airtable_index": 1440,
+ "archive_page": 132,
+ "buffet_index": 3150,
+ "airtable_index": 1464,
  "last_post_ts": 1787438401.6604707,
  "image_hashes": [
   "1e11fc56eb36a51f",
