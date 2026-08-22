@@ -143,7 +143,8 @@
   "61b6bbca305ea95a",
   "2a9c5c81603d265f",
   "77b1ff39011f6e3a",
-  "d6cbdb2d4233f955"
+  "d6cbdb2d4233f955",
+  "5bf411a76b076809"
  ],
  "sources": [
   "airtable",
@@ -153,9 +154,9 @@
   "airtable"
  ],
  "counter": 56,
- "archive_page": 100,
- "buffet_index": 2350,
- "airtable_index": 1080,
+ "archive_page": 102,
+ "buffet_index": 2400,
+ "airtable_index": 1104,
  "last_post_ts": 1787418722.621143,
  "image_hashes": [
   "1e11fc56eb36a51f",
