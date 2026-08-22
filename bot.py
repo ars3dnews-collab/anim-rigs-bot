@@ -51,17 +51,18 @@ def log(msg):
 
 def load_state():
     if not os.path.exists(STATE_FILE):
-        return {"posted": [], "sources": [], "counter": 0}
+        return {"posted": [], "sources": [], "counter": 0, "image_hashes": []}
     try:
         with open(STATE_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
         data.setdefault("posted", [])
         data.setdefault("sources", [])
         data.setdefault("counter", 0)
+        data.setdefault("image_hashes", [])
         return data
     except Exception as e:
         log("posted.json не читается ({}), начинаю с чистого списка".format(e))
-        return {"posted": [], "sources": [], "counter": 0}
+        return {"posted": [], "sources": [], "counter": 0, "image_hashes": []}
 
 
 def save_state(state):
@@ -1012,7 +1013,10 @@ class NoImage(Exception):
 _JUNK_IMG = re.compile(
     r"(logo|icon|favicon|avatar|sprite|banner|placeholder|blank|spacer|"
     r"pixel|button|badge|arrow|star|rating|social|facebook|twitter|"
-    r"youtube|patreon|paypal|cart|search)", re.I)
+    r"youtube|patreon|paypal|cart|search|"
+    # оформление сайта, а не персонаж: шапки, обложки, заглушки
+    r"header|footer|masthead|hero-|cover-|-cover|default|profile|"
+    r"watermark|share-image|og-image|og_image)", re.I)
 
 _IMG_EXT = re.compile(r"\.(jpe?g|png|webp)(\?|$)", re.I)
 
@@ -1076,7 +1080,15 @@ def download_image(url, min_side=None):
     return (name, data)
 
 
-def images_from_page(url):
+def _name_words(name):
+    """Значимые слова из названия рига — по ним узнаём «свою» картинку."""
+    words = re.findall(r"[a-z0-9]{3,}", (name or "").lower())
+    skip = {"rig", "rigs", "maya", "blender", "the", "and", "for", "free",
+            "paid", "character", "pro", "new", "vol", "part"}
+    return [w for w in words if w not in skip]
+
+
+def images_from_page(url, name=""):
     """Все кандидаты в картинки со страницы рига, лучшие — первыми."""
     page = get(url)
     if not page:
@@ -1110,6 +1122,15 @@ def images_from_page(url):
         src = m.group(1)
         if _IMG_EXT.search(src):
             add(src)
+
+    # Картинка, в адресе которой встречается имя персонажа, почти наверняка
+    # относится к этому ригу, а не к оформлению сайта. Такие — вперёд.
+    words = _name_words(name)
+    if words:
+        def own(candidate):
+            low = candidate.lower()
+            return 0 if any(w in low for w in words) else 1
+        out.sort(key=own)
     return out[:12]
 
 
@@ -1148,43 +1169,77 @@ def search_image(query):
     return out
 
 
-def find_image(rig):
-    """Картинка для поста. Пробуем всё по очереди, пока не найдём годную."""
+def _img_hash(data):
+    return hashlib.sha1(data).hexdigest()[:16]
+
+
+def _short(url):
+    """Короткая запись адреса для лога: хост и последний кусок пути."""
+    try:
+        parts = url.split("?")[0].split("/")
+        return parts[2] + "/…/" + (parts[-1] or parts[-2])[:40]
+    except Exception:
+        return url[:60]
+
+
+def find_image(rig, used_hashes=()):
+    """Картинка персонажа для поста. Обязательная и обязательно своя.
+
+    Проверка на повтор здесь не украшение, а суть: у сайтов есть общие
+    шапки и обложки, и без неё два разных персонажа выходят в канал с
+    одной и той же картинкой. Любая картинка, которая уже была в канале,
+    считается чужой и отбрасывается — берём следующего кандидата.
+    """
     tried = 0
 
-    # 1. превью, которое уже нашлось при сборе
-    got = download_image(rig.get("thumb"))
-    if got:
+    def take(got, where):
+        """Принять кандидата, если такой картинки в канале ещё не было."""
+        if not got:
+            return None
+        name, data = got
+        digest = _img_hash(data)
+        if digest in used_hashes:
+            log("    ↺ эта картинка уже была в канале — беру другую")
+            return None
+        rig["_img_hash"] = digest
+        log("    картинка {}: {}".format(where, _short(rig.get("_img_src", ""))))
         return got
 
-    # 2. любые подходящие картинки со страницы рига
-    for src in images_from_page(rig["url"]):
+    # 1. превью, которое уже нашлось при сборе
+    if rig.get("thumb"):
+        rig["_img_src"] = rig["thumb"]
+        got = take(download_image(rig.get("thumb")), "из превью источника")
+        if got:
+            return got
+
+    # 2. любые подходящие картинки со страницы рига — там, куда ведёт ссылка
+    for src in images_from_page(rig["url"], rig.get("name", "")):
         if out_of_time():
             break
         tried += 1
-        got = download_image(src)
+        rig["_img_src"] = src
+        got = take(download_image(src), "со страницы рига")
         if got:
-            log("    картинка со страницы рига")
             return got
-        if tried > 8:
+        if tried > 10:
             break
 
-    # 3. поиск в интернете по названию
+    # 3. поиск в интернете по имени персонажа
     if getattr(config, "IMAGE_WEB_SEARCH", True):
         soft = (rig.get("software") or "").split(",")[0].strip()
         query = " ".join(x for x in [rig.get("name"), soft, "character rig"] if x)
-        for src in search_image(query)[:8]:
+        for src in search_image(query)[:10]:
             if out_of_time():
                 break
-            got = download_image(src)
+            rig["_img_src"] = src
+            got = take(download_image(src), "найдена поиском")
             if got:
-                log("    картинка найдена поиском: {}".format(query[:50]))
                 return got
 
     return None
 
 
-def publish(rig):
+def publish(rig, used_hashes=()):
     body = rig["description"] if rig.get("ready") else (ai_describe(rig) or "")
     if not body and not rig.get("ready"):
         body = smart_trim(rig["description"], config.SUMMARY_SENTENCES,
@@ -1192,8 +1247,9 @@ def publish(rig):
         if body:
             log("  ИИ не сработал — беру описание с сайта как есть")
 
-    # Картинка обязательна: пост без изображения персонажа не публикуем.
-    photo = find_image(rig)
+    # Картинка обязательна, и обязательно новая: пост без изображения
+    # персонажа не публикуем, повтор чужой картинки — тоже.
+    photo = find_image(rig, used_hashes)
     if not photo:
         raise NoImage(rig["name"])
 
@@ -1337,12 +1393,19 @@ def publish_one(state, pool):
 
 def _do_publish(state, rig, counter):
     try:
-        how = publish(rig)
+        used = set(state.get("image_hashes") or ())
+        how = publish(rig, used)
         log("  ✔ опубликовано {} [{}]: {}".format(
             how, "новинка" if rig.get("fresh") else "архив", rig["name"][:55]))
         state["counter"] = counter + 1
         state["posted"].append(rig["id"])
         state["sources"].append(rig["source"])
+        # запоминаем картинку, чтобы она больше никогда не повторилась
+        digest = rig.get("_img_hash")
+        if digest:
+            hashes = state.setdefault("image_hashes", [])
+            hashes.append(digest)
+            del hashes[:-500]
         save_state(state)
         return True
     except NoImage:
