@@ -140,18 +140,19 @@
   "48d059520e71e5af",
   "f681517a89969115",
   "fe910db27ebfa497",
-  "61b6bbca305ea95a"
+  "61b6bbca305ea95a",
+  "2a9c5c81603d265f"
  ],
  "sources": [
   "airtable",
-  "airtable",
   "animation-buffet",
+  "airtable",
   "airtable",
   "airtable"
  ],
- "counter": 53,
- "archive_page": 94,
- "buffet_index": 2200,
- "airtable_index": 1008,
+ "counter": 54,
+ "archive_page": 96,
+ "buffet_index": 2250,
+ "airtable_index": 1032,
  "last_post_ts": 1787414109.1141188
 }
