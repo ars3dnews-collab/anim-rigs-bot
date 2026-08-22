@@ -168,16 +168,17 @@
   "ccc7f4f3d625b0a1",
   "a53250763b878dd8",
   "0dc2e1ffac4f0f2e",
-  "bdc908f2d0a9590f"
+  "bdc908f2d0a9590f",
+  "2a19aef73916a3a2"
  ],
  "sources": [
-  "animation-buffet",
+  "airtable",
   "airtable",
   "airtable",
   "airtable",
   "airtable"
  ],
- "counter": 67,
+ "counter": 68,
  "archive_page": 126,
  "buffet_index": 3000,
  "airtable_index": 1392,
@@ -195,6 +196,7 @@
   "5d0c8b5100b9680a",
   "e1a8ccf14f027fd4",
   "29a781b0cb82c103",
-  "2f263a84e5b2c0cf"
+  "2f263a84e5b2c0cf",
+  "49ad7932e6fddf77"
  ]
 }
