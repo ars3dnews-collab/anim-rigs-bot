@@ -83,7 +83,8 @@
   "fdb28de1505d78f2",
   "52550bc6374f9891",
   "99b66aed02ae5e62",
-  "208c76abef0e6c33"
+  "208c76abef0e6c33",
+  "390f8d32b1f2e892"
  ],
  "sources": [
   "animation-buffet",
@@ -93,8 +94,8 @@
   "animation-buffet"
  ],
  "counter": 33,
- "archive_page": 52,
- "buffet_index": 1150,
- "airtable_index": 504,
+ "archive_page": 54,
+ "buffet_index": 1200,
+ "airtable_index": 528,
  "last_post_ts": 1787377458.2329996
 }
