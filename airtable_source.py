@@ -280,7 +280,7 @@ def fetch(cfg, get, log, ua, timeout, limit, start_index=0, fresh_days=45):
     if archive:
         start = start_index % len(archive)
         window = archive[start:start + limit]
-        if len(window) < limit:
+        if len(window) < limit <= len(archive):
             window += archive[:limit - len(window)]
         out += window
     return out

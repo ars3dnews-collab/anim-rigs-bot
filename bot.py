@@ -725,10 +725,13 @@ def collect():
     # Airtable — главный источник: 1350 курируемых ригов, 1232 под Maya.
     air = getattr(config, "AIRTABLE", {}) or {}
     if air.get("enabled"):
+        # При перепубликации нужен конкретный риг, а он может лежать в
+        # любом месте базы — поэтому берём её целиком, а не окно архива.
+        wide = _redo[0]
         got = airtable_source.fetch(
             air, get, log, UA, config.HTTP_TIMEOUT,
-            int(air.get("limit", 24)),
-            start_index=_airtable_index[0],
+            20000 if wide else int(air.get("limit", 24)),
+            start_index=0 if wide else _airtable_index[0],
             fresh_days=int(air.get("fresh_days", 45)))
         log("  airtable (с записи {}): {}".format(_airtable_index[0], len(got)))
         rigs += got
@@ -1525,14 +1528,18 @@ def main():
     _airtable_index[0] = int(state.get("airtable_index", 0))
     state["airtable_index"] = _airtable_index[0] + air_step
 
-    log("Собираю риги...")
-    rigs = collect()
-    # сбор закончен — у публикации свой запас времени, чужой она не наследует
-    reset_clock(int(getattr(config, "PUBLISH_BUDGET_SEC", 200)))
     # Ручная перепубликация: имена ригов через запятую в REDO.
     # Нужна, когда пост вышел с негодной картинкой и его надо переделать.
     redo = [w.strip().lower() for w in os.environ.get("REDO", "").split(",")
             if w.strip()]
+    if redo:
+        _redo[0] = True
+        log("REDO: ищу по всей базе — {}".format(", ".join(redo)))
+
+    log("Собираю риги...")
+    rigs = collect()
+    # сбор закончен — у публикации свой запас времени, чужой она не наследует
+    reset_clock(int(getattr(config, "PUBLISH_BUDGET_SEC", 200)))
     if redo:
         picked = [r for r in rigs
                   if any(w in (r.get("name") or "").lower() for w in redo)]
@@ -1542,7 +1549,6 @@ def main():
         for r in picked:
             while r["id"] in state["posted"]:
                 state["posted"].remove(r["id"])
-        _redo[0] = True
         log("REDO: переопубликую {}".format(
             ", ".join(r["name"] for r in picked)))
         posted = publish_loop(state, picked)
