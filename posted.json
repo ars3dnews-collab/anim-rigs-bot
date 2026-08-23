@@ -224,19 +224,20 @@
   "678cd6f183bf6141",
   "a21f60f85b7a0e13",
   "d386462d162474a6",
-  "b6d4d00c60f84079"
+  "b6d4d00c60f84079",
+  "cbe112a9c0621469"
  ],
  "sources": [
-  "airtable",
   "animation-buffet",
   "airtable",
   "airtable",
-  "airtable"
+  "airtable",
+  "animation-buffet"
  ],
- "counter": 84,
- "archive_page": 166,
- "buffet_index": 4000,
- "airtable_index": 1872,
+ "counter": 85,
+ "archive_page": 168,
+ "buffet_index": 4050,
+ "airtable_index": 1896,
  "last_post_ts": 1787478386.3759992,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -268,6 +269,7 @@
   "0481b7f6f5108a40",
   "44ff76bdab33fc86",
   "69aa43becb815141",
-  "e60ff02ce9eb7331"
+  "e60ff02ce9eb7331",
+  "826a68bf742a15bb"
  ]
 }
