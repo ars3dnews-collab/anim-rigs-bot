@@ -20,6 +20,7 @@ import sys
 import json
 import time
 import html
+import base64
 import hashlib
 import datetime as dt
 from urllib.parse import urljoin
@@ -126,6 +127,8 @@ _archive_page = [1]
 _buffet_index = [1]
 # с какой записи архива Airtable начинать в этот раз
 _airtable_index = [0]
+# ручная перепубликация: не ждать паузу и не выбирать по дорожкам
+_redo = [False]
 
 
 def start_clock():
@@ -945,6 +948,111 @@ def model_queue():
     return sorted(usable, key=rank)[:6]
 
 
+# ---------------------------------------------------------------------------
+# Проверка картинки глазами ИИ.
+#
+# Отличить рендер персонажа от фотографии живого человека по URL и размеру
+# невозможно: на страницах авторов лежат селфи, фото со студий и с
+# конференций, и по всем формальным признакам они выглядят как нормальные
+# картинки. Поэтому последнее слово за моделью: она смотрит на само
+# изображение и говорит, персонаж это или нет. Не прошло — картинка не идёт
+# в канал, даже если больше взять неоткуда.
+# ---------------------------------------------------------------------------
+
+VISION_PROMPT = (
+    "You screen images for a channel about 3D character rigs for Maya and "
+    "Blender. Look at the image and answer with ONE word.\n"
+    "Answer RIG if it shows a 3D character, creature or humanoid model: a "
+    "render, a turntable, a rig sheet with controls, or a Maya/Blender "
+    "viewport with such a model in it.\n"
+    "Answer NO for anything else, in particular: photographs of real people, "
+    "selfies, portraits, office or event photos, screenshots of websites or "
+    "user interfaces without a 3D character, logos, banners, cover art, "
+    "text-only images, charts, and photos of physical objects or costumes.\n"
+    "If you are unsure, answer NO.\n"
+    "The rig is called: {name}"
+)
+
+# вердикты по хэшу картинки, чтобы не спрашивать про одно и то же дважды
+_VERDICTS = {}
+# сколько проверок ИИ уже сделано за этот запуск
+_CHECKS = [0]
+
+
+def vision_models():
+    """Модели, которые умеют смотреть картинки. Gemma не умеет."""
+    found = available_models()
+    names = [(v, n) for v, n in found if n.startswith("gemini")
+             and not any(b in n for b in ("tts", "embedding", "live", "audio"))]
+    if not names:
+        return [("v1beta", config.GEMINI_MODEL)]
+
+    def rank(item):
+        _, name = item
+        if "flash-lite" in name:
+            return (0, len(name))
+        if "flash" in name:
+            return (1, len(name))
+        if "pro" in name:
+            return (2, len(name))
+        return (3, len(name))
+
+    return sorted(names, key=rank)[:3]
+
+
+def _mime(data):
+    if data[:8] == b"\x89PNG\r\n\x1a\n":
+        return "image/png"
+    if data[:4] == b"RIFF":
+        return "image/webp"
+    return "image/jpeg"
+
+
+def looks_like_rig_image(data, name, digest=""):
+    """True — на картинке персонаж. False — нет. None — спросить не вышло."""
+    if not GEMINI_KEY:
+        return None
+    if digest and digest in _VERDICTS:
+        return _VERDICTS[digest]
+    limit = int(getattr(config, "IMAGE_AI_CHECKS", 12))
+    if _CHECKS[0] >= limit:
+        return None
+    if len(data) > 4_000_000:
+        return None
+
+    _CHECKS[0] += 1
+    body = {
+        "contents": [{"parts": [
+            {"text": VISION_PROMPT.format(name=name or "unknown")},
+            {"inline_data": {"mime_type": _mime(data),
+                             "data": base64.b64encode(data).decode("ascii")}},
+        ]}],
+        "generationConfig": {"temperature": 0, "maxOutputTokens": 8},
+    }
+
+    for ver, model in vision_models():
+        try:
+            r = requests.post(GEMINI_URL.format(ver=ver, model=model),
+                              params={"key": GEMINI_KEY}, json=body, timeout=60)
+        except Exception as e:
+            log("    ! проверка картинки ({}): {}".format(model, _safe(e)[:80]))
+            continue
+        if not r.ok:
+            continue
+        try:
+            parts = r.json()["candidates"][0]["content"]["parts"]
+            answer = "".join(p.get("text", "") for p in parts).strip().upper()
+        except Exception:
+            continue
+        if not answer:
+            continue
+        verdict = answer.startswith("RIG")
+        if digest:
+            _VERDICTS[digest] = verdict
+        return verdict
+    return None
+
+
 def ai_describe(rig):
     """Текст поста от ИИ. None — если ИИ недоступен."""
     if not GEMINI_KEY:
@@ -1077,7 +1185,10 @@ _JUNK_IMG = re.compile(
     r"youtube|patreon|paypal|cart|search|"
     # оформление сайта, а не персонаж: шапки, обложки, заглушки
     r"header|footer|masthead|hero-|cover-|-cover|default|profile|"
-    r"watermark|share-image|og-image|og_image)", re.I)
+    r"watermark|share-image|og-image|og_image|"
+    # фотографии людей со страниц «о себе», блогов и мероприятий
+    r"about-?us|about-?me|our-?team|team-?photo|staff|headshot|selfie|"
+    r"portrait-of|photo-of-me|conference|meetup|event-)", re.I)
 
 _IMG_EXT = re.compile(r"\.(jpe?g|png|webp)(\?|$)", re.I)
 
@@ -1262,6 +1373,16 @@ def find_image(rig, used_hashes=()):
         if digest in used_hashes:
             log("    ↺ эта картинка уже была в канале — беру другую")
             return None
+
+        # Последнее слово за ИИ: он смотрит на саму картинку и решает,
+        # персонаж на ней или живой человек с чужой фотографии.
+        verdict = looks_like_rig_image(data, rig.get("name", ""), digest)
+        if verdict is False:
+            log("    ✖ на картинке не персонаж — беру другую")
+            return None
+        if verdict is None:
+            log("    ? проверить картинку не вышло, беру как есть")
+
         rig["_img_hash"] = digest
         log("    картинка {}: {}".format(where, _short(rig.get("_img_src", ""))))
         return got
@@ -1356,6 +1477,8 @@ def pick(pool, recent_sources, want_archive, want_maya=True):
     """
     if not pool:
         return None
+    if _redo[0]:
+        return pool[0]
 
     def score(item):
         idx, rig = item
@@ -1406,6 +1529,27 @@ def main():
     rigs = collect()
     # сбор закончен — у публикации свой запас времени, чужой она не наследует
     reset_clock(int(getattr(config, "PUBLISH_BUDGET_SEC", 200)))
+    # Ручная перепубликация: имена ригов через запятую в REDO.
+    # Нужна, когда пост вышел с негодной картинкой и его надо переделать.
+    redo = [w.strip().lower() for w in os.environ.get("REDO", "").split(",")
+            if w.strip()]
+    if redo:
+        picked = [r for r in rigs
+                  if any(w in (r.get("name") or "").lower() for w in redo)]
+        if not picked:
+            log("REDO: ни один риг не подошёл под {}".format(", ".join(redo)))
+            return
+        for r in picked:
+            while r["id"] in state["posted"]:
+                state["posted"].remove(r["id"])
+        _redo[0] = True
+        log("REDO: переопубликую {}".format(
+            ", ".join(r["name"] for r in picked)))
+        posted = publish_loop(state, picked)
+        save_state(state)
+        log("Готово. Переопубликовано: {}".format(posted))
+        return
+
     fresh = [r for r in rigs if r["id"] not in known]
     if config.REQUIRE_DESCRIPTION:
         fresh = [r for r in fresh if (r["description"] or "").strip()]
@@ -1502,10 +1646,13 @@ def publish_loop(state, pool):
     # Так работает бот новостей GTA 6, и у него ритм не рвётся.
     # Длинные задания GitHub душит: пока одно висит, срабатывания
     # расписания в это время просто отбрасываются.
+    if _redo[0]:
+        limit = max(limit, len(pool))
+
     if window <= 0:
         gap = getattr(config, "MIN_GAP_MINUTES", 15) * 60
         since = time.time() - last
-        if last and since < gap:
+        if last and not _redo[0] and since < gap:
             log("С прошлого поста прошло {} мин из {} — рано, выхожу."
                 .format(int(since // 60), gap // 60))
             return 0
