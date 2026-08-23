@@ -13,6 +13,10 @@ on:
         description: "Режим догона: пометить всё найденное виденным, ничего не публиковать"
         type: boolean
         default: false
+      redo:
+        description: "Переопубликовать риги по именам через запятую (например: Brooke, Spider-Gwen)"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -43,6 +47,7 @@ jobs:
           CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CATCH_UP: ${{ inputs.catch_up }}
+          REDO: ${{ inputs.redo }}
           # бот сам коммитит память после каждого поста, чтобы она
           # не потерялась, если запуск оборвётся посреди часа
           GIT_AUTOSAVE: "1"
