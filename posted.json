@@ -242,16 +242,17 @@
   "345c73fed0d25788",
   "41c83f7472bfed4d",
   "2c93f22f721d2185",
-  "06b641759d2e2604"
+  "06b641759d2e2604",
+  "dbd298a87e4ad0cd"
  ],
  "sources": [
   "airtable",
   "airtable",
   "airtable",
   "airtable",
-  "airtable"
+  "animation-buffet"
  ],
- "counter": 90,
+ "counter": 91,
  "archive_page": 180,
  "buffet_index": 4350,
  "airtable_index": 2040,
@@ -292,6 +293,7 @@
   "34d47678057d8e34",
   "85a297192b90f5cd",
   "e981da653d971b41",
-  "2b2921e855c334f8"
+  "2b2921e855c334f8",
+  "2b7a9610249abee7"
  ]
 }
