@@ -235,7 +235,8 @@
   "614c50ba304c1e92",
   "fee2c45e30492f26",
   "fcbf20435a361690",
-  "c2340d1105394f69"
+  "c2340d1105394f69",
+  "8e04928e06e7aa4e"
  ],
  "sources": [
   "animation-buffet",
@@ -245,9 +246,9 @@
   "airtable"
  ],
  "counter": 89,
- "archive_page": 176,
- "buffet_index": 4250,
- "airtable_index": 1992,
+ "archive_page": 178,
+ "buffet_index": 4300,
+ "airtable_index": 2016,
  "last_post_ts": 1787486025.4360247,
  "image_hashes": [
   "1e11fc56eb36a51f",
