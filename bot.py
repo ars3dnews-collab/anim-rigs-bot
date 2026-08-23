@@ -1270,6 +1270,12 @@ def images_from_page(url, name=""):
         return []
 
     out, seen = [], set()
+    words = _name_words(name)
+
+    def mine(candidate):
+        """В адресе есть имя персонажа — картинка точно про этот риг."""
+        low = candidate.lower()
+        return any(w in low for w in words)
 
     def add(candidate):
         if not candidate:
@@ -1286,7 +1292,12 @@ def images_from_page(url, name=""):
             return
         if candidate in seen:
             return
-        if _JUNK_IMG.search(candidate):
+        # Отсев по названию файла применяем только к чужим картинкам.
+        # Иначе теряется главное: на lookrig.com превью персонажа лежат
+        # как brooke_banner_art.png, и слово "banner" выбрасывало из
+        # выдачи ровно те четыре картинки, ради которых мы пришли,
+        # оставляя одни фотографии авторов.
+        if not mine(candidate) and _JUNK_IMG.search(candidate):
             return
         seen.add(candidate)
         out.append(candidate)
@@ -1300,12 +1311,8 @@ def images_from_page(url, name=""):
 
     # Картинка, в адресе которой встречается имя персонажа, почти наверняка
     # относится к этому ригу, а не к оформлению сайта. Такие — вперёд.
-    words = _name_words(name)
     if words:
-        def own(candidate):
-            low = candidate.lower()
-            return 0 if any(w in low for w in words) else 1
-        out.sort(key=own)
+        out.sort(key=lambda c: 0 if mine(c) else 1)
     return out[:12]
 
 
