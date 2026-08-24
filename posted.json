@@ -377,19 +377,20 @@
   "165bdd650fc56a2e",
   "e448f770dd7c33f2",
   "7b0584d9bc8957a9",
-  "79db165cace8d060"
+  "79db165cace8d060",
+  "203f8c425b7df8d0"
  ],
  "sources": [
-  "airtable",
   "animation-buffet",
   "airtable",
   "animation-buffet",
+  "airtable",
   "airtable"
  ],
- "counter": 142,
- "archive_page": 294,
- "buffet_index": 7200,
- "airtable_index": 3408,
+ "counter": 143,
+ "archive_page": 296,
+ "buffet_index": 7250,
+ "airtable_index": 3432,
  "last_post_ts": 1787609718.6590111,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -479,7 +480,8 @@
   "cce9c7ca9031d4a3",
   "0005feb4e8a222b4",
   "b85089ac61fbce7b",
-  "23c323c2b2cea1e6"
+  "23c323c2b2cea1e6",
+  "3bd894966a8f3762"
  ],
  "channel_names": [
   "3d penguin",
@@ -520,6 +522,7 @@
   "dolphin",
   "douglas the corgi",
   "dragon",
+  "eevee",
   "einar v1",
   "eof girl",
   "fantasy croc",
@@ -613,6 +616,7 @@
   "риги для аниматоров в одном месте"
  ],
  "channel_links": [
+  "agora.community/content/eevee",
   "agora.community/content/kobold",
   "alorema.gumroad.com/l/yktpt",
   "animationbuffet.blogspot.com/2008/01/lowman-100.html",
