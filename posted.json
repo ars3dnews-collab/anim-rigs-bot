@@ -378,19 +378,20 @@
   "e448f770dd7c33f2",
   "7b0584d9bc8957a9",
   "79db165cace8d060",
-  "203f8c425b7df8d0"
+  "203f8c425b7df8d0",
+  "c50ffa61b3ebc16b"
  ],
  "sources": [
-  "animation-buffet",
   "airtable",
   "animation-buffet",
+  "airtable",
   "airtable",
   "airtable"
  ],
- "counter": 143,
- "archive_page": 296,
- "buffet_index": 7250,
- "airtable_index": 3432,
+ "counter": 144,
+ "archive_page": 298,
+ "buffet_index": 7300,
+ "airtable_index": 3456,
  "last_post_ts": 1787611558.2758079,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -481,7 +482,8 @@
   "0005feb4e8a222b4",
   "b85089ac61fbce7b",
   "23c323c2b2cea1e6",
-  "3bd894966a8f3762"
+  "3bd894966a8f3762",
+  "4a9fb82d92c72a6f"
  ],
  "channel_names": [
   "3d penguin",
@@ -524,6 +526,7 @@
   "dragon",
   "eevee",
   "einar v1",
+  "ellie",
   "eof girl",
   "fantasy croc",
   "fantasy crocodile",
@@ -741,6 +744,7 @@
   "studio.blender.org/characters/critter-evolved/v1",
   "studio.blender.org/characters/critter/v1",
   "studio.blender.org/characters/einar/v1",
+  "studio.blender.org/characters/ellie/v1",
   "studio.blender.org/characters/one/v1",
   "studio.blender.org/characters/space-creatures/v1",
   "studio.blender.org/characters/storm/v1",
