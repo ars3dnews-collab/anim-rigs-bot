@@ -713,6 +713,129 @@ def fetch_animation_buffet(limit, start_index=1):
     return out
 
 
+# ---------------------------------------------------------------------------
+# Что уже лежит в канале.
+#
+# Память бота (posted.json) знает только про свои публикации и только по
+# адресу страницы. Но один и тот же риг приходит из разных источников под
+# разными адресами — из Airtable по ссылке на Gumroad, из Animation Buffet
+# по ссылке на блог, — и для памяти это два разных рига. Поэтому сверяемся
+# не с памятью, а с самим каналом: у публичного канала есть веб-версия
+# t.me/s/<имя>, где видно каждое название и каждую ссылку.
+# ---------------------------------------------------------------------------
+
+# нормализованные названия и адреса всего, что уже вышло в канале
+_channel = {"names": set(), "links": set()}
+
+
+def channel_username():
+    """Публичное имя канала. Для числового id веб-версии нет."""
+    cid = (CHANNEL_ID or "").strip()
+    if cid.startswith("@"):
+        return cid[1:]
+    m = re.match(r"https?://t\.me/([A-Za-z0-9_]+)", cid)
+    if m:
+        return m.group(1)
+    return "" if cid.lstrip("-").isdigit() else cid
+
+
+def norm_name(text):
+    """«Spider-Gwen: Blender» и «spider gwen» — одно и то же название."""
+    text = (text or "").lower()
+    text = re.sub(r"\((free|paid)[^)]*\)", " ", text)
+    text = re.sub(r"[-–—:|]\s*(maya|blender|free|paid|rig)\b", " ", text)
+    text = re.sub(r"\b(rig|rigs|maya|blender|free|paid)\b", " ", text)
+    text = re.sub(r"[^a-z0-9а-яё]+", " ", text)
+    return " ".join(text.split())
+
+
+def norm_link(url):
+    """Адрес без схемы, www, хвостового слэша и параметров."""
+    url = (url or "").strip().lower()
+    url = re.sub(r"^https?://", "", url)
+    url = re.sub(r"^www\.", "", url)
+    url = url.split("?")[0].split("#")[0]
+    return url.rstrip("/")
+
+
+def _parse_channel_page(page):
+    """Названия, ссылки и номера постов с одной страницы веб-версии."""
+    names, links, ids = [], [], []
+    for m in re.finditer(r'data-post="[A-Za-z0-9_]+/(\d+)"', page):
+        ids.append(int(m.group(1)))
+    for chunk in page.split('data-post="')[1:]:
+        m = re.search(r'class="tgme_widget_message_text[^"]*"[^>]*>([\s\S]*?)</div>',
+                      chunk)
+        if not m:
+            continue
+        inner = m.group(1)
+        title = re.search(r"<b>([^<]*)</b>", inner)
+        if title:
+            names.append(html.unescape(title.group(1)))
+        for href in re.findall(r'href="(https?://[^"]+)"', inner):
+            if "t.me/" in href:
+                continue
+            links.append(html.unescape(href))
+            break
+    return names, links, ids
+
+
+def load_channel(state):
+    """Собрать всё, что уже вышло в канале, и запомнить в posted.json.
+
+    Первый раз проходим по всей истории, дальше смотрим только свежую
+    страницу — новые посты всегда в конце.
+    """
+    user = channel_username()
+    if not user:
+        log("  канал задан числовым id — сверку с историей пропускаю")
+        return
+
+    _channel["names"] = set(state.get("channel_names") or [])
+    _channel["links"] = set(state.get("channel_links") or [])
+    first_time = not (_channel["names"] or _channel["links"])
+    pages = int(getattr(config, "CHANNEL_SCAN_PAGES", 40)) if first_time else 1
+
+    url = "https://t.me/s/{}".format(user)
+    before = None
+    added = 0
+    for _ in range(pages):
+        page = get(url + ("?before={}".format(before) if before else ""))
+        if not page:
+            break
+        names, links, ids = _parse_channel_page(page)
+        if not ids:
+            break
+        for n in names:
+            key = norm_name(n)
+            if key and key not in _channel["names"]:
+                _channel["names"].add(key)
+                added += 1
+        for l in links:
+            key = norm_link(l)
+            if key:
+                _channel["links"].add(key)
+        if not first_time:
+            break
+        before = min(ids)
+        if before <= 1:
+            break
+
+    state["channel_names"] = sorted(_channel["names"])
+    state["channel_links"] = sorted(_channel["links"])
+    log("  в канале уже {} названий и {} ссылок{}".format(
+        len(_channel["names"]), len(_channel["links"]),
+        " (+{} новых)".format(added) if added else ""))
+
+
+def already_in_channel(rig):
+    """True — такой риг в канале уже был."""
+    if norm_link(rig.get("url")) in _channel["links"]:
+        return True
+    key = norm_name(rig.get("name"))
+    return bool(key) and key in _channel["names"]
+
+
 def collect():
     start_clock()
     rigs = []
@@ -1543,6 +1666,9 @@ def main():
         _redo[0] = True
         log("REDO: ищу по всей базе — {}".format(", ".join(redo)))
 
+    log("Смотрю, что уже вышло в канале...")
+    load_channel(state)
+
     log("Собираю риги...")
     rigs = collect()
     # сбор закончен — у публикации свой запас времени, чужой она не наследует
@@ -1564,6 +1690,15 @@ def main():
         return
 
     fresh = [r for r in rigs if r["id"] not in known]
+
+    # Главная проверка на повтор — по самому каналу, а не по памяти бота:
+    # один и тот же риг приходит из разных источников под разными
+    # адресами, и по id памяти они выглядят как два разных рига.
+    before = len(fresh)
+    fresh = [r for r in fresh if not already_in_channel(r)]
+    if before != len(fresh):
+        log("Уже были в канале, пропускаю: {}".format(before - len(fresh)))
+
     if config.REQUIRE_DESCRIPTION:
         fresh = [r for r in fresh if (r["description"] or "").strip()]
     log("Найдено: {}, из них новых: {}".format(len(rigs), len(fresh)))
@@ -1623,6 +1758,17 @@ def _do_publish(state, rig, counter):
         state["counter"] = counter + 1
         state["posted"].append(rig["id"])
         state["sources"].append(rig["source"])
+        # сразу заносим риг в список «уже в канале»: веб-версия обновится
+        # не мгновенно, а следующий запуск может начаться раньше
+        key = norm_name(rig.get("name"))
+        if key:
+            _channel["names"].add(key)
+            state["channel_names"] = sorted(_channel["names"])
+        link = norm_link(rig.get("url"))
+        if link:
+            _channel["links"].add(link)
+            state["channel_links"] = sorted(_channel["links"])
+
         # запоминаем картинку, чтобы она больше никогда не повторилась
         digest = rig.get("_img_hash")
         if digest:
