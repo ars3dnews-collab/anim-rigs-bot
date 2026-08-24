@@ -352,16 +352,17 @@
   "fe1261d479520cf1",
   "9fded66690a39c35",
   "c80e77d9e6ab1c18",
-  "55557d9e0432a27c"
+  "55557d9e0432a27c",
+  "4ca47eb1b6f81d64"
  ],
  "sources": [
   "animation-buffet",
-  "animation-buffet",
+  "airtable",
   "airtable",
   "airtable",
   "airtable"
  ],
- "counter": 128,
+ "counter": 129,
  "archive_page": 268,
  "buffet_index": 6550,
  "airtable_index": 3096,
@@ -440,7 +441,8 @@
   "0b8d53a72bc76023",
   "967b705a0c761b9b",
   "3e4b2cae32dda82d",
-  "d5e047a91332d7c1"
+  "d5e047a91332d7c1",
+  "54e270a4327ff70d"
  ],
  "channel_names": [
   "3d penguin",
@@ -518,6 +520,7 @@
   "optimy classic",
   "pig mechanic",
   "prop bundle",
+  "psylocke",
   "rain v3",
   "ray",
   "reaper dynamics",
@@ -614,6 +617,7 @@
   "gumroad.com/l/douglas",
   "gumroad.com/l/eqxez",
   "gumroad.com/l/floursackmaya",
+  "gumroad.com/l/ijank",
   "gumroad.com/l/ikrqp",
   "gumroad.com/l/iussh",
   "gumroad.com/l/jrejw",
