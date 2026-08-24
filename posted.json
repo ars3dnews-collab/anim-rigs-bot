@@ -381,16 +381,17 @@
   "203f8c425b7df8d0",
   "c50ffa61b3ebc16b",
   "c09ee33e8f72774a",
-  "81867137aca03d54"
+  "81867137aca03d54",
+  "2136b76cc5d38372"
  ],
  "sources": [
+  "airtable",
+  "airtable",
+  "airtable",
   "animation-buffet",
-  "airtable",
-  "airtable",
-  "airtable",
-  "animation-buffet"
+  "airtable"
  ],
- "counter": 145,
+ "counter": 146,
  "archive_page": 302,
  "buffet_index": 7400,
  "airtable_index": 3504,
@@ -486,7 +487,8 @@
   "23c323c2b2cea1e6",
   "3bd894966a8f3762",
   "4a9fb82d92c72a6f",
-  "6cbdfdf5946f1242"
+  "6cbdfdf5946f1242",
+  "79a10f6df0a23dc2"
  ],
  "channel_names": [
   "3d penguin",
@@ -616,6 +618,7 @@
   "viewport vfx pack",
   "vincent v1",
   "vittorio",
+  "vixen",
   "w 870 shotgun re4 remake",
   "wilhelm the giraffe",
   "yakumo 0 9 0",
@@ -625,6 +628,7 @@
  "channel_links": [
   "agora.community/content/eevee",
   "agora.community/content/kobold",
+  "alargewoodenbadger.gumroad.com/l/snjjn",
   "alorema.gumroad.com/l/yktpt",
   "animationbuffet.blogspot.com/2008/01/lowman-100.html",
   "animationbuffet.blogspot.com/2008/03/bwa.html",
