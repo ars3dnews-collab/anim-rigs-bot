@@ -384,19 +384,20 @@
   "81867137aca03d54",
   "2136b76cc5d38372",
   "cadf5741f478b186",
-  "70b42e4e76144874"
+  "70b42e4e76144874",
+  "ccc86719cc2eb9c9"
  ],
  "sources": [
   "airtable",
-  "airtable",
   "animation-buffet",
+  "airtable",
   "airtable",
   "airtable"
  ],
- "counter": 147,
- "archive_page": 304,
- "buffet_index": 7450,
- "airtable_index": 3528,
+ "counter": 148,
+ "archive_page": 306,
+ "buffet_index": 7500,
+ "airtable_index": 3552,
  "last_post_ts": 1787618352.1860929,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -491,7 +492,8 @@
   "4a9fb82d92c72a6f",
   "6cbdfdf5946f1242",
   "79a10f6df0a23dc2",
-  "e729690e02b83846"
+  "e729690e02b83846",
+  "4cd6fa8d30941a39"
  ],
  "channel_names": [
   "3d penguin",
@@ -543,6 +545,7 @@
   "fat marine",
   "ferdinand",
   "fire dragon",
+  "floppi",
   "flour sack",
   "fps hands",
   "ghost armour",
@@ -752,6 +755,7 @@
   "prorigs.com/characters/the-basics",
   "ramonarango.gumroad.com/l/apollorig",
   "rig-it.net/product/robot-rbt10",
+  "rigsnthings.gumroad.com/l/jlmaq",
   "rigsnthings.gumroad.com/l/ognjb",
   "store.animschool.edu/product/malcolm-2-0-2",
   "studio.blender.org",
