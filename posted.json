@@ -402,19 +402,20 @@
   "e61c670594423d79",
   "ed9ede02d90b5ebd",
   "5a0d7fbe6334ba2e",
-  "b0269c8ecaa28162"
+  "b0269c8ecaa28162",
+  "c370b1baef06e852"
  ],
  "sources": [
   "airtable",
   "airtable",
   "airtable",
-  "airtable",
-  "animation-buffet"
+  "animation-buffet",
+  "airtable"
  ],
- "counter": 157,
- "archive_page": 326,
- "buffet_index": 8000,
- "airtable_index": 3792,
+ "counter": 158,
+ "archive_page": 328,
+ "buffet_index": 8050,
+ "airtable_index": 3816,
  "last_post_ts": 1787652222.295097,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -519,7 +520,8 @@
   "8f3e84e2449dce29",
   "be4960599d21df8d",
   "09775d7a9acfe097",
-  "11afaa43822246e8"
+  "11afaa43822246e8",
+  "1f4314669e984ec7"
  ],
  "channel_names": [
   "3d penguin",
@@ -541,6 +543,7 @@
   "body mechanics ellie",
   "brawler",
   "brooke",
+  "built by colossus",
   "bunny eater",
   "bwa",
   "camile",
@@ -710,6 +713,7 @@
   "animationbuffet.blogspot.com/2021/04/harlow-paid-maya-rig.html",
   "animationmentor.com/free-maya-rig",
   "bongqi.gumroad.com/l/littelboxjeep",
+  "builtbycolossus.com/store",
   "cadnav.com/3d-models/model-44985.html",
   "cgtarian.com/maya-character-rigs/download-free-3d-character-ray.html",
   "cloud.blender.org/p/animation-fundamentals/5d69ab4dea6789db11ee65d1",
