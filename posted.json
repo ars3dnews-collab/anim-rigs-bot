@@ -392,19 +392,20 @@
   "6d48fb3c5c2b3e6c",
   "14a53fc4097278ca",
   "0588eef12d407d44",
-  "489efb580ed68e5f"
+  "489efb580ed68e5f",
+  "c33219eea783f016"
  ],
  "sources": [
-  "airtable",
   "animation-buffet",
+  "airtable",
   "airtable",
   "airtable",
   "airtable"
  ],
- "counter": 154,
- "archive_page": 318,
- "buffet_index": 7800,
- "airtable_index": 3696,
+ "counter": 155,
+ "archive_page": 320,
+ "buffet_index": 7850,
+ "airtable_index": 3720,
  "last_post_ts": 1787641783.0394485,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -506,7 +507,8 @@
   "387f3e8ad466268e",
   "820c0eb42b58e784",
   "320f4e06478da51f",
-  "8f3e84e2449dce29"
+  "8f3e84e2449dce29",
+  "be4960599d21df8d"
  ],
  "channel_names": [
   "3d penguin",
@@ -596,6 +598,7 @@
   "moom",
   "mortimer",
   "ms fortune",
+  "mukuru",
   "one studio",
   "optimy classic",
   "pig mechanic",
@@ -777,6 +780,7 @@
   "peerke.gumroad.com/l/vpsrx",
   "prorigs.com/characters/the-basics",
   "ramonarango.gumroad.com/l/apollorig",
+  "ramonarango.gumroad.com/l/mukururig",
   "rig-it.net/product/robot-rbt10",
   "rigsnthings.gumroad.com/l/jlmaq",
   "rigsnthings.gumroad.com/l/ognjb",
