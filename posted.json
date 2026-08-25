@@ -403,19 +403,20 @@
   "ed9ede02d90b5ebd",
   "5a0d7fbe6334ba2e",
   "b0269c8ecaa28162",
-  "c370b1baef06e852"
+  "c370b1baef06e852",
+  "e52c0bdc913652a9"
  ],
  "sources": [
   "airtable",
   "airtable",
-  "airtable",
   "animation-buffet",
+  "airtable",
   "airtable"
  ],
- "counter": 158,
- "archive_page": 328,
- "buffet_index": 8050,
- "airtable_index": 3816,
+ "counter": 159,
+ "archive_page": 330,
+ "buffet_index": 8100,
+ "airtable_index": 3840,
  "last_post_ts": 1787655055.1347554,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -521,7 +522,8 @@
   "be4960599d21df8d",
   "09775d7a9acfe097",
   "11afaa43822246e8",
-  "1f4314669e984ec7"
+  "1f4314669e984ec7",
+  "93b11de9c448962f"
  ],
  "channel_names": [
   "3d penguin",
@@ -614,6 +616,7 @@
   "mortimer",
   "ms fortune",
   "mukuru",
+  "ninja",
   "one studio",
   "optimy classic",
   "pig mechanic",
@@ -713,6 +716,7 @@
   "animationbuffet.blogspot.com/2021/04/harlow-paid-maya-rig.html",
   "animationmentor.com/free-maya-rig",
   "bongqi.gumroad.com/l/littelboxjeep",
+  "builtbycolossus.com/ninja",
   "builtbycolossus.com/store",
   "cadnav.com/3d-models/model-44985.html",
   "cgtarian.com/maya-character-rigs/download-free-3d-character-ray.html",
