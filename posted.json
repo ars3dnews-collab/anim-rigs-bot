@@ -440,16 +440,17 @@
   "01345e96de4c5020",
   "8239343aac594a13",
   "daa7a8e1bc382fc9",
-  "00f6edec1517422f"
+  "00f6edec1517422f",
+  "904554b423f47434"
  ],
  "sources": [
   "airtable",
   "airtable",
-  "airtable",
   "animation-buffet",
-  "animation-buffet"
+  "animation-buffet",
+  "airtable"
  ],
- "counter": 171,
+ "counter": 172,
  "archive_page": 360,
  "buffet_index": 8850,
  "airtable_index": 4200,
@@ -571,7 +572,8 @@
   "d2d7594863e175d4",
   "b145b554bb143c3b",
   "31c1319577f56781",
-  "3a36ec89b22659df"
+  "3a36ec89b22659df",
+  "9b00767de3214c4d"
  ],
  "channel_names": [
   "3d penguin",
@@ -717,6 +719,7 @@
   "tmnt raphael",
   "tobias",
   "tonga the fox",
+  "tribal warrior",
   "triceratops",
   "trixxie",
   "ultimate bony",
@@ -849,6 +852,7 @@
   "highend3d.com/maya/downloads/character-rigs/c/mortimer-rig-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/roboter-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/tmnt-classic-remake-rig-for-maya",
+  "highend3d.com/maya/downloads/character-rigs/c/tribal-warrior-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/wilhelm-the-giraffe-for-maya",
   "khaledhussein.gumroad.com/l/cbmnp",
   "lookrig.com/product/201908060705170",
