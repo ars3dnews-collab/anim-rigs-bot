@@ -388,19 +388,20 @@
   "ccc86719cc2eb9c9",
   "d2217bcf850070ca",
   "6cd146c07d9dcbb2",
-  "494cf5277440b4ae"
+  "494cf5277440b4ae",
+  "6d48fb3c5c2b3e6c"
  ],
  "sources": [
   "airtable",
   "airtable",
   "airtable",
-  "airtable",
-  "animation-buffet"
+  "animation-buffet",
+  "airtable"
  ],
- "counter": 151,
- "archive_page": 312,
- "buffet_index": 7650,
- "airtable_index": 3624,
+ "counter": 152,
+ "archive_page": 314,
+ "buffet_index": 7700,
+ "airtable_index": 3648,
  "last_post_ts": 1787633723.1178696,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -499,7 +500,8 @@
   "4cd6fa8d30941a39",
   "5de19b577530c701",
   "d00b9edd2bb8ba92",
-  "387f3e8ad466268e"
+  "387f3e8ad466268e",
+  "820c0eb42b58e784"
  ],
  "channel_names": [
   "3d penguin",
@@ -638,12 +640,14 @@
   "wilhelm the giraffe",
   "winter wonder ahri",
   "yakumo 0 9 0",
+  "yukio salaryman",
   "zombie",
   "риги для аниматоров в одном месте"
  ],
  "channel_links": [
   "agora.community/content/eevee",
   "agora.community/content/kobold",
+  "agora.community/content/yukio-salaryman-blender",
   "alargewoodenbadger.gumroad.com/l/snjjn",
   "alorema.gumroad.com/l/yktpt",
   "animationbuffet.blogspot.com/2008/01/lowman-100.html",
