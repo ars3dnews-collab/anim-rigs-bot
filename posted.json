@@ -473,19 +473,20 @@
   "25f79df0d22d7996",
   "1c4d171093104467",
   "6e43722a4e6a1f08",
-  "4f7b4562f21fcdb1"
+  "4f7b4562f21fcdb1",
+  "27e51137b9614bef"
  ],
  "sources": [
   "airtable",
   "airtable",
   "airtable",
-  "airtable",
-  "animation-buffet"
+  "animation-buffet",
+  "airtable"
  ],
- "counter": 187,
- "archive_page": 390,
- "buffet_index": 9600,
- "airtable_index": 4560,
+ "counter": 188,
+ "archive_page": 392,
+ "buffet_index": 9650,
+ "airtable_index": 4584,
  "last_post_ts": 1787735269.2434106,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -620,7 +621,8 @@
   "91b86f526907477c",
   "8aa09f3dfa14bdfc",
   "aaa583b6f09f7af2",
-  "450e5e4d7d468802"
+  "450e5e4d7d468802",
+  "7cf20516e78da32a"
  ],
  "channel_names": [
   "3d penguin",
@@ -775,6 +777,7 @@
   "tanner saurus rex",
   "teddy",
   "the child s cradle",
+  "thor",
   "timing dummy",
   "tina",
   "tmnt classic remake",
@@ -801,6 +804,7 @@
  "channel_links": [
   "agora.community/content/eevee",
   "agora.community/content/kobold",
+  "agora.community/content/thor",
   "agora.community/content/yukio-salaryman-blender",
   "alargewoodenbadger.gumroad.com/l/snjjn",
   "alorema.gumroad.com/l/yktpt",
