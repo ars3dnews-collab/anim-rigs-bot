@@ -478,16 +478,17 @@
   "65586c6f6445602a",
   "553e2baab94ff30e",
   "ce2d970ae0e26a35",
-  "bccdb3d017e195ac"
+  "bccdb3d017e195ac",
+  "01de034a447c04f2"
  ],
  "sources": [
-  "animation-buffet",
+  "airtable",
   "airtable",
   "airtable",
   "airtable",
   "airtable"
  ],
- "counter": 191,
+ "counter": 192,
  "archive_page": 400,
  "buffet_index": 9850,
  "airtable_index": 4680,
@@ -629,7 +630,8 @@
   "7cf20516e78da32a",
   "c694eadf83c03aab",
   "2bccbc9c541e446f",
-  "01c5d96108f0d576"
+  "01c5d96108f0d576",
+  "905968bc40b802e9"
  ],
  "channel_names": [
   "3d penguin",
@@ -657,6 +659,7 @@
   "brooke",
   "buckid",
   "built by colossus",
+  "bulbasaur",
   "bunny eater",
   "bwa",
   "camile",
@@ -812,6 +815,7 @@
   "риги для аниматоров в одном месте"
  ],
  "channel_links": [
+  "agora.community/content/bulbasaur",
   "agora.community/content/eevee",
   "agora.community/content/kobold",
   "agora.community/content/thor",
