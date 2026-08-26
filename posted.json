@@ -461,19 +461,20 @@
   "20229276ac47f28b",
   "f20b59bdc2e0f981",
   "f097ae8b83457903",
-  "d1f8a27b9ff05632"
+  "d1f8a27b9ff05632",
+  "814f2b3cb25fce3d"
  ],
  "sources": [
-  "animation-buffet",
+  "airtable",
   "airtable",
   "airtable",
   "airtable",
   "airtable"
  ],
- "counter": 179,
- "archive_page": 374,
- "buffet_index": 9200,
- "airtable_index": 4368,
+ "counter": 180,
+ "archive_page": 376,
+ "buffet_index": 9250,
+ "airtable_index": 4392,
  "last_post_ts": 1787710358.193884,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -600,7 +601,8 @@
   "99a689c9a5eddad7",
   "99aff580963d55e0",
   "397fe811493838ed",
-  "1e8892dee70d2faf"
+  "1e8892dee70d2faf",
+  "6bef4658e67d47e0"
  ],
  "channel_names": [
   "3d penguin",
@@ -625,6 +627,7 @@
   "brawler",
   "break bones",
   "brooke",
+  "buckid",
   "built by colossus",
   "bunny eater",
   "bwa",
@@ -882,6 +885,7 @@
   "gumroad.com/truongcgartist",
   "hatchery1.gumroad.com/l/zbqol",
   "hatrigs.gumroad.com/l/vittoriorig",
+  "highend3d.com/maya/downloads/character-rigs/c/buckid-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/chubby-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/dewi-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/dinorig-for-maya",
