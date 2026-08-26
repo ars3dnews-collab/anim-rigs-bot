@@ -463,19 +463,20 @@
   "f097ae8b83457903",
   "d1f8a27b9ff05632",
   "814f2b3cb25fce3d",
-  "c7283c929194b08a"
+  "c7283c929194b08a",
+  "b03fc2cdb8732f4b"
  ],
  "sources": [
   "airtable",
   "airtable",
   "airtable",
-  "airtable",
-  "animation-buffet"
+  "animation-buffet",
+  "airtable"
  ],
- "counter": 181,
- "archive_page": 378,
- "buffet_index": 9300,
- "airtable_index": 4416,
+ "counter": 182,
+ "archive_page": 380,
+ "buffet_index": 9350,
+ "airtable_index": 4440,
  "last_post_ts": 1787717256.9566526,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -604,7 +605,8 @@
   "397fe811493838ed",
   "1e8892dee70d2faf",
   "6bef4658e67d47e0",
-  "c1b4b132d5f14d70"
+  "c1b4b132d5f14d70",
+  "b8befe493f671fba"
  ],
  "channel_names": [
   "3d penguin",
@@ -668,6 +670,7 @@
   "fire dragon",
   "floppi",
   "flour sack",
+  "flying fox",
   "foal spirit",
   "fps hands",
   "ghost armour",
@@ -893,6 +896,7 @@
   "highend3d.com/maya/downloads/character-rigs/c/chubby-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/dewi-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/dinorig-for-maya",
+  "highend3d.com/maya/downloads/character-rigs/c/flyingfox-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/homer-simpson-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/mike-and-tina-character-rig-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/moom-version-3-for-maya",
