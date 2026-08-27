@@ -1786,6 +1786,19 @@ def _do_publish(state, rig, counter):
         return False
 
 
+def local_now():
+    """Текущее время в часовом поясе канала."""
+    off = float(getattr(config, "UTC_OFFSET_HOURS", 5))
+    return dt.datetime.utcfromtimestamp(time.time() + off * 3600)
+
+
+def quiet_now():
+    """Ночь: постов не будет, чтобы не будить подписчиков."""
+    start, end = getattr(config, "ACTIVE_HOURS", (8, 23))
+    hour = local_now().hour
+    return not (start <= hour < end)
+
+
 def publish_loop(state, pool):
     """Публикуем с шагом POST_EVERY_MINUTES, пока не выйдет LOOP_MINUTES.
 
@@ -1809,11 +1822,15 @@ def publish_loop(state, pool):
         limit = max(limit, len(pool))
 
     if window <= 0:
+        if not _redo[0] and quiet_now():
+            log("{}:{:02d} по местному — ночь, постов не будет."
+                .format(local_now().hour, local_now().minute))
+            return 0
         gap = getattr(config, "MIN_GAP_MINUTES", 15) * 60
         since = time.time() - last
         if last and not _redo[0] and since < gap:
             log("С прошлого поста прошло {} мин из {} — рано, выхожу."
-                .format(int(since // 60), gap // 60))
+                .format(int(since // 60), int(gap // 60)))
             return 0
         for _ in range(limit):
             if not pool or not publish_one(state, pool):
