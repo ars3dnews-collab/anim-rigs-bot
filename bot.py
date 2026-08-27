@@ -1810,6 +1810,8 @@ def publish_loop(state, pool):
     step = getattr(config, "POST_EVERY_MINUTES", 20) * 60
     window = getattr(config, "LOOP_MINUTES", 0) * 60
     limit = config.MAX_POSTS_PER_RUN
+    if getattr(config, "LOOP_MINUTES", 0) > 0:
+        limit = int(getattr(config, "MAX_POSTS_PER_LOOP", 6))
     started = time.time()
     posted = 0
     last = float(state.get("last_post_ts", 0) or 0)
@@ -1840,8 +1842,25 @@ def publish_loop(state, pool):
             save_state(state)
         return posted
 
-    # Длинный режим (LOOP_MINUTES > 0): держим шаг внутри одного запуска.
+    # Длинный режим (LOOP_MINUTES > 0): шаг держим внутри одного запуска.
+    #
+    # Так сделано потому, что на расписание GitHub полагаться нельзя: он
+    # запускает задание когда придётся, от часа до десяти часов. Пока
+    # задание живёт, паузу между постами отсчитывает сам бот обычным
+    # sleep — а это ровно два часа, без сюрпризов.
     while True:
+        if time.time() - started > window:
+            log("Окно запуска кончилось, дальше — в следующем.")
+            break
+
+        # Ночь: не спим до утра одним куском, а ждём короткими шагами,
+        # чтобы не проспать конец окна и вовремя отдать очередь.
+        if quiet_now():
+            log("{:02d}:{:02d} по местному — ночь, жду утра."
+                .format(local_now().hour, local_now().minute))
+            time.sleep(600)
+            continue
+
         wait = step - (time.time() - last)
         if wait > 0:
             if (time.time() - started) + wait > window:
@@ -1850,16 +1869,21 @@ def publish_loop(state, pool):
                 break
             log("Следующий пост через {} мин {} с".format(
                 int(wait) // 60, int(wait) % 60))
-            time.sleep(wait)
+            time.sleep(min(wait, 600))
+            continue
 
         if not pool:
             log("Пул пуст, добираю источники...")
+            load_channel(state)
             known = set(state["posted"])
             pool = [r for r in collect() if r["id"] not in known]
+            pool = [r for r in pool if not already_in_channel(r)]
             if config.REQUIRE_DESCRIPTION:
                 pool = [r for r in pool if (r["description"] or "").strip()]
+            reset_clock(int(getattr(config, "PUBLISH_BUDGET_SEC", 240)))
             log("  добавилось: {}".format(len(pool)))
 
+        reset_clock(int(getattr(config, "PUBLISH_BUDGET_SEC", 240)))
         if pool and publish_one(state, pool):
             posted += 1
             last = time.time()
