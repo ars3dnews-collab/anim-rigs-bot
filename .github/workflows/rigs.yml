@@ -4,10 +4,14 @@ on:
   schedule:
     # Это НЕ расписание постов. Постами управляет сам бот: раз в два часа
     # и только днём (POST_EVERY_MINUTES и ACTIVE_HOURS в config.py).
-    # Один запуск живёт около шести часов и всё это время отмеряет паузы
-    # сам. Расписание нужно только чтобы изредка начать новый запуск,
-    # если цепочка оборвалась — поэтому раз в час, а не чаще.
-    # Минута 7, а не 0: на круглых минутах у GitHub самая длинная очередь.
+    #
+    # ОДНО срабатывание расписания запускает цепочку из трёх отрезков по
+    # 5.5 часа — это 16.5 часа непрерывной работы. Так и надо, потому что
+    # на расписание GitHub полагаться нельзя: проверено на двух ботах
+    # сразу, он пропускает срабатывания и молчит от часа до десяти.
+    # Раньше цепочка держалась на одном запуске и обрывалась, как только
+    # GitHub не заводил следующий. Теперь одного срабатывания в сутки
+    # хватает, чтобы канал жил весь день.
     - cron: "7 * * * *"
   workflow_dispatch:
     inputs:
@@ -23,34 +27,35 @@ on:
 permissions:
   contents: write
 
-# Одновременно живёт только одно задание. Новое встаёт в очередь и
-# стартует сразу, как закончится текущее, — так цепочка длинных запусков
-# продолжается сама и без расписания.
+# Одновременно живёт одна цепочка. Следующая ждёт в очереди и стартует
+# сразу, как закончится текущая, — это ещё один способ не зависеть от
+# расписания: очередь сама передаёт эстафету.
 concurrency:
   group: rigs-bot
   cancel-in-progress: false
 
+# Отрезки идут строго друг за другом. if: always() — чтобы падение
+# одного отрезка не обрывало всю цепочку.
 jobs:
-  post:
+  leg1:
     runs-on: ubuntu-latest
-    # Запуск длинный: внутри него бот сам держит паузу между постами.
-    # Потолок задания в Actions — шесть часов, берём чуть меньше.
+    if: always()
     timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
-
+        with:
+          # именно main, а не коммит-триггер: предыдущий отрезок уже
+          # дописал в posted.json свои посты, и их надо увидеть
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - name: Install deps
         run: pip install -r requirements.txt
-
       - name: Configure git
         run: |
           git config user.name "rigs-bot"
           git config user.email "bot@users.noreply.github.com"
-
       - name: Publish rigs
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
@@ -58,11 +63,82 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CATCH_UP: ${{ inputs.catch_up }}
           REDO: ${{ inputs.redo }}
-          # бот сам коммитит память после каждого поста, чтобы она
-          # не потерялась, если запуск оборвётся посреди часа
           GIT_AUTOSAVE: "1"
         run: python bot.py
+      - name: Save bot memory
+        if: always()
+        run: |
+          git add posted.json
+          git diff --staged --quiet || git commit -m "update posted rigs"
+          git pull --rebase --autostash || true
+          git push || true
 
+  leg2:
+    runs-on: ubuntu-latest
+    needs: leg1
+    if: always()
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # именно main, а не коммит-триггер: предыдущий отрезок уже
+          # дописал в posted.json свои посты, и их надо увидеть
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Configure git
+        run: |
+          git config user.name "rigs-bot"
+          git config user.email "bot@users.noreply.github.com"
+      - name: Publish rigs
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CATCH_UP: ${{ inputs.catch_up }}
+          REDO: ${{ inputs.redo }}
+          GIT_AUTOSAVE: "1"
+        run: python bot.py
+      - name: Save bot memory
+        if: always()
+        run: |
+          git add posted.json
+          git diff --staged --quiet || git commit -m "update posted rigs"
+          git pull --rebase --autostash || true
+          git push || true
+
+  leg3:
+    runs-on: ubuntu-latest
+    needs: leg2
+    if: always()
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # именно main, а не коммит-триггер: предыдущий отрезок уже
+          # дописал в posted.json свои посты, и их надо увидеть
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Configure git
+        run: |
+          git config user.name "rigs-bot"
+          git config user.email "bot@users.noreply.github.com"
+      - name: Publish rigs
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CATCH_UP: ${{ inputs.catch_up }}
+          REDO: ${{ inputs.redo }}
+          GIT_AUTOSAVE: "1"
+        run: python bot.py
       - name: Save bot memory
         if: always()
         run: |
