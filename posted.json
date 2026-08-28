@@ -510,19 +510,20 @@
   "39229935f27fd69c",
   "12c4fe111ff77e6e",
   "bee6cadafa7eac08",
-  "eb7afcac1a4752ce"
+  "eb7afcac1a4752ce",
+  "265e9cff8820e48a"
  ],
  "sources": [
   "animation-buffet",
   "animation-buffet",
   "animation-buffet",
-  "animation-buffet",
+  "airtable",
   "airtable"
  ],
- "counter": 203,
- "archive_page": 420,
- "buffet_index": 10350,
- "airtable_index": 4920,
+ "counter": 204,
+ "archive_page": 422,
+ "buffet_index": 10400,
+ "airtable_index": 4944,
  "last_post_ts": 1787886320.2994642,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -673,7 +674,8 @@
   "54950eb3de2b96a1",
   "d4a33b3e99d16fec",
   "0d1b20407b518df6",
-  "ed8010b9a9d2687a"
+  "ed8010b9a9d2687a",
+  "c0a8ffaca5db8578"
  ],
  "channel_names": [
   "3d penguin",
@@ -832,6 +834,7 @@
   "spider verse spider man",
   "spiderbot",
   "star wars finn",
+  "steggy",
   "stewart",
   "stewart и squirrels",
   "stitch",
@@ -930,6 +933,7 @@
   "bbbn19.gumroad.com/l/jbvco",
   "bongqi.gumroad.com/l/littelboxjeep",
   "builtbycolossus.com/ninja",
+  "builtbycolossus.com/steggy",
   "builtbycolossus.com/store",
   "cadnav.com/3d-models/model-44985.html",
   "cgtarian.com/maya-character-rigs/download-free-3d-character-ray.html",
