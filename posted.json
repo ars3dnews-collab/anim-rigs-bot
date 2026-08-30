@@ -550,19 +550,20 @@
   "d7c4a7c659695abd",
   "ab5e5334b8cdcaff",
   "b71e03d94e02f7e1",
-  "227803e3abb2ee33"
+  "227803e3abb2ee33",
+  "6bd353ffdeec9627"
  ],
  "sources": [
   "animation-buffet",
   "animation-buffet",
-  "animation-buffet",
+  "airtable",
   "airtable",
   "airtable"
  ],
- "counter": 220,
- "archive_page": 438,
- "buffet_index": 10800,
- "airtable_index": 5136,
+ "counter": 221,
+ "archive_page": 440,
+ "buffet_index": 10850,
+ "airtable_index": 5160,
  "last_post_ts": 1788088289.3174012,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -730,7 +731,8 @@
   "ac400cbe5ded950c",
   "336e04b7959d814a",
   "fe0c558e84721341",
-  "7ea883a33f0d6200"
+  "7ea883a33f0d6200",
+  "ed971d9b435a437f"
  ],
  "channel_names": [
   "3d penguin",
@@ -847,6 +849,7 @@
   "lou",
   "lowman simple and with facial",
   "lunte",
+  "marty",
   "mech samurai",
   "megabot",
   "mery",
@@ -1080,6 +1083,7 @@
   "gumroad.com/l/yskme",
   "gumroad.com/l/ytrow",
   "gumroad.com/l/zvlpx",
+  "gumroad.com/luciemartinetto",
   "gumroad.com/manoanim",
   "gumroad.com/truongcgartist",
   "hatchery1.gumroad.com/l/zbqol",
