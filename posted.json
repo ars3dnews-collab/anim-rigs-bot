@@ -549,16 +549,17 @@
   "63231ddb57e45747",
   "d7c4a7c659695abd",
   "ab5e5334b8cdcaff",
-  "b71e03d94e02f7e1"
+  "b71e03d94e02f7e1",
+  "227803e3abb2ee33"
  ],
  "sources": [
   "animation-buffet",
   "animation-buffet",
   "animation-buffet",
-  "animation-buffet",
+  "airtable",
   "airtable"
  ],
- "counter": 219,
+ "counter": 220,
  "archive_page": 438,
  "buffet_index": 10800,
  "airtable_index": 5136,
@@ -728,7 +729,8 @@
   "91192412087a19bd",
   "ac400cbe5ded950c",
   "336e04b7959d814a",
-  "fe0c558e84721341"
+  "fe0c558e84721341",
+  "7ea883a33f0d6200"
  ],
  "channel_names": [
   "3d penguin",
@@ -750,6 +752,7 @@
   "battledroid",
   "blastoise",
   "bloody young samurai",
+  "blue beetle",
   "blurgha",
   "body mechanics ellie",
   "boolieman",
@@ -1074,6 +1077,7 @@
   "gumroad.com/l/waterdragon",
   "gumroad.com/l/wjgrx",
   "gumroad.com/l/xhrk",
+  "gumroad.com/l/yskme",
   "gumroad.com/l/ytrow",
   "gumroad.com/l/zvlpx",
   "gumroad.com/manoanim",
