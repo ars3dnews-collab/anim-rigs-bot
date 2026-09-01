@@ -574,19 +574,20 @@
   "7fe9b22296b096a4",
   "007899b63993034e",
   "3306f25a59adb1f5",
-  "abf5c5c34e6bb4ef"
+  "abf5c5c34e6bb4ef",
+  "0730bce8c701b9fc"
  ],
  "sources": [
-  "airtable",
   "animation-buffet",
+  "airtable",
   "airtable",
   "airtable",
   "airtable"
  ],
- "counter": 231,
- "archive_page": 450,
- "buffet_index": 11100,
- "airtable_index": 5280,
+ "counter": 232,
+ "archive_page": 452,
+ "buffet_index": 11150,
+ "airtable_index": 5304,
  "last_post_ts": 1788198938.6321433,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -765,7 +766,8 @@
   "77f29e75aab9f436",
   "8822da9378784169",
   "0187b6d8e62032d7",
-  "239d41be3850624f"
+  "239d41be3850624f",
+  "3ed17152ce24758b"
  ],
  "channel_names": [
   "3d penguin",
@@ -888,6 +890,7 @@
   "lunte",
   "marty",
   "mech samurai",
+  "meerkat",
   "megabot",
   "mery",
   "mgear man",
@@ -1207,6 +1210,7 @@
   "truongcgartist.gumroad.com/l/boxerrig",
   "truongcgartist.gumroad.com/l/cartoonpenquin",
   "truongcgartist.gumroad.com/l/gnomerig",
+  "truongcgartist.gumroad.com/l/meerkat",
   "truongcgartist.gumroad.com/l/mikefreeman",
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
