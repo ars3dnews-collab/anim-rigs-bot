@@ -28,7 +28,7 @@ permissions:
 # Если запуск почему-то залип, следующий его просто убивает и работает
 # сам. Очередь не копится, заблокировать канал невозможно в принципе.
 concurrency:
-  group: rigs-bot
+  group: rigs-bot-v2
   cancel-in-progress: true
 
 jobs:
