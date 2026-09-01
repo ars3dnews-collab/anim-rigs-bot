@@ -1853,6 +1853,7 @@ def publish_loop(state, pool):
         limit = int(getattr(config, "MAX_POSTS_PER_LOOP", 6))
     started = time.time()
     posted = 0
+    idle = 0          # сколько кругов подряд не удалось ничего опубликовать
     last = float(state.get("last_post_ts", 0) or 0)
 
     # Короткий режим: опубликовать и сразу выйти.
@@ -1920,12 +1921,24 @@ def publish_loop(state, pool):
         reset_clock(int(getattr(config, "PUBLISH_BUDGET_SEC", 240)))
         if pool and publish_one(state, pool):
             posted += 1
+            idle = 0
             last = time.time()
             state["last_post_ts"] = last
             save_state(state)
         else:
-            # публиковать нечего — не долбим источники каждую секунду
-            log("Нечего публиковать, жду.")
+            # Публиковать нечего. Пару раз пробуем ещё, но если и дальше
+            # пусто — выходим и отдаём очередь следующему отрезку.
+            # Держать раннер 5.5 часа впустую нельзя: он блокирует всю
+            # цепочку, и канал молчит, хотя формально задание «работает».
+            idle += 1
+            limit_idle = int(getattr(config, "IDLE_ROUNDS_BEFORE_EXIT", 3))
+            if idle >= limit_idle:
+                log("{} круга подряд без публикации — выхожу, пусть "
+                    "следующий отрезок начнёт с чистого листа."
+                    .format(idle))
+                break
+            log("Нечего публиковать, пробую ещё ({}/{}).".format(
+                idle, limit_idle))
             last = time.time() - step + 120
 
         if posted >= limit:
