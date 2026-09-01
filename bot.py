@@ -129,6 +129,8 @@ _buffet_index = [1]
 _airtable_index = [0]
 # ручная перепубликация: не ждать паузу и не выбирать по дорожкам
 _redo = [False]
+# ручной запуск «опубликовать сейчас»: не ждать паузу и не смотреть на ночь
+_force = [False]
 
 
 def start_clock():
@@ -1643,6 +1645,10 @@ def main():
 
     advance_windows(state)
 
+    if os.environ.get("FORCE", "").lower() in ("1", "true", "yes"):
+        _force[0] = True
+        log("Ручной запуск: публикую сейчас, паузу и ночь не смотрю.")
+
     # Ручная перепубликация: имена ригов через запятую в REDO.
     # Нужна, когда пост вышел с негодной картинкой и его надо переделать.
     redo = [w.strip().lower() for w in os.environ.get("REDO", "").split(",")
@@ -1864,13 +1870,13 @@ def publish_loop(state, pool):
         limit = max(limit, len(pool))
 
     if window <= 0:
-        if not _redo[0] and quiet_now():
+        if not (_redo[0] or _force[0]) and quiet_now():
             log("{}:{:02d} по местному — ночь, постов не будет."
                 .format(local_now().hour, local_now().minute))
             return 0
         gap = getattr(config, "MIN_GAP_MINUTES", 15) * 60
         since = time.time() - last
-        if last and not _redo[0] and since < gap:
+        if last and not (_redo[0] or _force[0]) and since < gap:
             log("С прошлого поста прошло {} мин из {} — рано, выхожу."
                 .format(int(since // 60), int(gap // 60)))
             return 0
