@@ -20,6 +20,10 @@ on:
         description: "Переопубликовать риги по именам через запятую (например: Brooke, Spider-Gwen)"
         type: string
         default: ""
+      force:
+        description: "Опубликовать сейчас: не ждать двухчасовую паузу и не смотреть на ночь"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -61,6 +65,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CATCH_UP: ${{ inputs.catch_up }}
           REDO: ${{ inputs.redo }}
+          FORCE: ${{ inputs.force }}
           GIT_AUTOSAVE: "1"
         run: python bot.py
 
