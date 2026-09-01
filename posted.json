@@ -575,16 +575,17 @@
   "007899b63993034e",
   "3306f25a59adb1f5",
   "abf5c5c34e6bb4ef",
-  "0730bce8c701b9fc"
+  "0730bce8c701b9fc",
+  "9d3737e9e5eb108d"
  ],
  "sources": [
-  "animation-buffet",
+  "airtable",
   "airtable",
   "airtable",
   "airtable",
   "airtable"
  ],
- "counter": 232,
+ "counter": 233,
  "archive_page": 452,
  "buffet_index": 11150,
  "airtable_index": 5304,
@@ -767,7 +768,8 @@
   "8822da9378784169",
   "0187b6d8e62032d7",
   "239d41be3850624f",
-  "3ed17152ce24758b"
+  "3ed17152ce24758b",
+  "3320c584be67526d"
  ],
  "channel_names": [
   "3d penguin",
@@ -955,6 +957,7 @@
   "stitch",
   "storm studio",
   "superhero",
+  "sylvanas windrunner",
   "talia",
   "tank",
   "tanner saurus",
@@ -1212,6 +1215,7 @@
   "truongcgartist.gumroad.com/l/gnomerig",
   "truongcgartist.gumroad.com/l/meerkat",
   "truongcgartist.gumroad.com/l/mikefreeman",
+  "truongcgartist.gumroad.com/l/sylvanas",
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ]
