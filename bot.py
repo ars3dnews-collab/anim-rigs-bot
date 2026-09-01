@@ -1641,22 +1641,7 @@ def main():
     known = set(state["posted"])
     log("В памяти {} опубликованных ригов".format(len(known)))
 
-    # шагаем по страницам архива, чтобы не топтаться на первой
-    depth = int(getattr(config, "ARCHIVE_MAX_PAGE", 19))
-    step = int(config.HIGHEND3D_POPULAR.get("pages", 2))
-    _archive_page[0] = (int(state.get("archive_page", 0)) % max(1, depth)) + 1
-    state["archive_page"] = int(state.get("archive_page", 0)) + step
-
-    # то же самое для архива Animation Buffet: 660 записей, шагаем по 50
-    total = int(getattr(config, "BUFFET_TOTAL", 660))
-    _buffet_index[0] = (int(state.get("buffet_index", 0)) % max(1, total)) + 1
-    state["buffet_index"] = int(state.get("buffet_index", 0)) + 50
-
-    # и по архиву Airtable: окно едет вперёд на limit записей за запуск
-    air = getattr(config, "AIRTABLE", {}) or {}
-    air_step = int(air.get("limit", 24))
-    _airtable_index[0] = int(state.get("airtable_index", 0))
-    state["airtable_index"] = _airtable_index[0] + air_step
+    advance_windows(state)
 
     # Ручная перепубликация: имена ригов через запятую в REDO.
     # Нужна, когда пост вышел с негодной картинкой и его надо переделать.
@@ -1704,8 +1689,13 @@ def main():
     log("Найдено: {}, из них новых: {}".format(len(rigs), len(fresh)))
 
     if not fresh:
-        log("Новых ригов нет. Готово.")
-        return
+        # Окно архива целиком уже опубликовано — не сдаёмся, а едем
+        # дальше по базе, пока не найдём неопубликованные риги.
+        log("В этом окне всё уже было — двигаю архив дальше.")
+        fresh = refill_pool(state)
+        if not fresh:
+            log("Новых ригов нет. Готово.")
+            return
 
     if os.environ.get("CATCH_UP", "").lower() in ("1", "true", "yes"):
         for r in fresh:
@@ -1799,6 +1789,55 @@ def quiet_now():
     return not (start <= hour < end)
 
 
+def advance_windows(state):
+    """Сдвинуть окна архивов на следующий кусок.
+
+    Вызывать ОБЯЗАТЕЛЬНО перед каждым сбором, а не один раз за запуск.
+    Иначе повторный сбор внутри длинного запуска приносит те же самые
+    записи, они все уже опубликованы, пул выходит пустым — и канал
+    молчит до конца запуска, хотя в базе лежат ещё сотни ригов.
+    """
+    depth = int(getattr(config, "ARCHIVE_MAX_PAGE", 19))
+    step = int(config.HIGHEND3D_POPULAR.get("pages", 2))
+    _archive_page[0] = (int(state.get("archive_page", 0)) % max(1, depth)) + 1
+    state["archive_page"] = int(state.get("archive_page", 0)) + step
+
+    total = int(getattr(config, "BUFFET_TOTAL", 660))
+    _buffet_index[0] = (int(state.get("buffet_index", 0)) % max(1, total)) + 1
+    state["buffet_index"] = int(state.get("buffet_index", 0)) + 50
+
+    air = getattr(config, "AIRTABLE", {}) or {}
+    air_step = int(air.get("limit", 24))
+    _airtable_index[0] = int(state.get("airtable_index", 0))
+    state["airtable_index"] = _airtable_index[0] + air_step
+
+
+def refill_pool(state, tries=None):
+    """Набрать пул свежих ригов, двигая окна архивов, пока не наберётся.
+
+    Если очередное окно целиком состоит из уже опубликованного, ждать
+    два часа до следующей попытки бессмысленно — просто едем дальше по
+    архиву. В базе Airtable больше тысячи ригов, свободные найдутся.
+    """
+    tries = tries or int(getattr(config, "REFILL_TRIES", 10))
+    for attempt in range(1, tries + 1):
+        advance_windows(state)
+        load_channel(state)
+        known = set(state["posted"])
+        pool = [r for r in collect() if r["id"] not in known]
+        pool = [r for r in pool if not already_in_channel(r)]
+        if config.REQUIRE_DESCRIPTION:
+            pool = [r for r in pool if (r["description"] or "").strip()]
+        save_state(state)
+        if pool:
+            if attempt > 1:
+                log("  пул набрался с {}-й попытки".format(attempt))
+            return pool
+        log("  окно целиком уже опубликовано, двигаю архив дальше "
+            "({}/{})".format(attempt, tries))
+    return []
+
+
 def publish_loop(state, pool):
     """Публикуем с шагом POST_EVERY_MINUTES, пока не выйдет LOOP_MINUTES.
 
@@ -1874,12 +1913,7 @@ def publish_loop(state, pool):
 
         if not pool:
             log("Пул пуст, добираю источники...")
-            load_channel(state)
-            known = set(state["posted"])
-            pool = [r for r in collect() if r["id"] not in known]
-            pool = [r for r in pool if not already_in_channel(r)]
-            if config.REQUIRE_DESCRIPTION:
-                pool = [r for r in pool if (r["description"] or "").strip()]
+            pool = refill_pool(state)
             reset_clock(int(getattr(config, "PUBLISH_BUDGET_SEC", 240)))
             log("  добавилось: {}".format(len(pool)))
 
