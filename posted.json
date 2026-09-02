@@ -604,16 +604,17 @@
   "20cd9832518e54b1",
   "59f508273fe5a515",
   "f64112d2e9a6b00e",
-  "c4e2bc06975df58f"
+  "c4e2bc06975df58f",
+  "78a5f024cacc73c5"
  ],
  "sources": [
   "animation-buffet",
-  "animation-buffet",
   "airtable",
   "animation-buffet",
+  "airtable",
   "airtable"
  ],
- "counter": 238,
+ "counter": 239,
  "archive_page": 464,
  "buffet_index": 11450,
  "airtable_index": 5448,
@@ -802,7 +803,8 @@
   "30d064634eb690dd",
   "3b736494f95087e3",
   "495b2406df36c521",
-  "3783e069e46593eb"
+  "3783e069e46593eb",
+  "ffc6f72b58eae180"
  ],
  "channel_names": [
   "3d penguin",
@@ -1023,6 +1025,7 @@
   "w 870 shotgun re4 remake",
   "wilhelm the giraffe",
   "winter wonder ahri",
+  "wolf",
   "wraith",
   "xander 2 0",
   "yakumo 0 9 0",
@@ -1200,6 +1203,7 @@
   "highend3d.com/maya/downloads/character-rigs/c/tribal-chief-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/tribal-warrior-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/wilhelm-the-giraffe-for-maya",
+  "highend3d.com/maya/downloads/character-rigs/c/wolf-rig-for-maya",
   "juandgallegoa.gumroad.com/l/simpleballrig",
   "khaledhussein.gumroad.com/l/cbmnp",
   "lookrig.com/product/201908060705170",
