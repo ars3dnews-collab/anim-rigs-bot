@@ -1904,7 +1904,7 @@ def publish_loop(state, pool):
         if quiet_now():
             log("{:02d}:{:02d} по местному — ночь, жду утра."
                 .format(local_now().hour, local_now().minute))
-            time.sleep(600)
+            time.sleep(30)
             continue
 
         wait = step - (time.time() - last)
@@ -1913,9 +1913,14 @@ def publish_loop(state, pool):
                 log("Окно запуска кончается, следующий пост — в новом запуске "
                     "(через {} мин {} с).".format(int(wait) // 60, int(wait) % 60))
                 break
-            log("Следующий пост через {} мин {} с".format(
-                int(wait) // 60, int(wait) % 60))
-            time.sleep(min(wait, 600))
+            # Спим ТОЛЬКО короткими кусками. Длинный sleep нельзя:
+            # из него процесс не выходит по сигналу отмены, и снятый
+            # запуск живёт ещё десятки минут, держа очередь. На этом
+            # канал один раз уже простоял полдня.
+            if int(wait) % 300 < 30:
+                log("Следующий пост через {} мин {} с".format(
+                    int(wait) // 60, int(wait) % 60))
+            time.sleep(min(wait, 30))
             continue
 
         if not pool:
