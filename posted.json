@@ -603,19 +603,20 @@
   "3104482fd4d3fbd6",
   "20cd9832518e54b1",
   "59f508273fe5a515",
-  "f64112d2e9a6b00e"
+  "f64112d2e9a6b00e",
+  "c4e2bc06975df58f"
  ],
  "sources": [
-  "airtable",
   "animation-buffet",
   "animation-buffet",
   "airtable",
-  "animation-buffet"
+  "animation-buffet",
+  "airtable"
  ],
- "counter": 237,
- "archive_page": 462,
- "buffet_index": 11400,
- "airtable_index": 5424,
+ "counter": 238,
+ "archive_page": 464,
+ "buffet_index": 11450,
+ "airtable_index": 5448,
  "last_post_ts": 1788338420.5345728,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -800,7 +801,8 @@
   "3f86494d78ee4b68",
   "30d064634eb690dd",
   "3b736494f95087e3",
-  "495b2406df36c521"
+  "495b2406df36c521",
+  "3783e069e46593eb"
  ],
  "channel_names": [
   "3d penguin",
@@ -1006,6 +1008,7 @@
   "tmnt raphael",
   "tobias",
   "tonga the fox",
+  "tribal chief",
   "tribal warrior",
   "triceratops",
   "trixxie",
@@ -1194,6 +1197,7 @@
   "highend3d.com/maya/downloads/character-rigs/c/nico-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/roboter-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/tmnt-classic-remake-rig-for-maya",
+  "highend3d.com/maya/downloads/character-rigs/c/tribal-chief-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/tribal-warrior-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/wilhelm-the-giraffe-for-maya",
   "juandgallegoa.gumroad.com/l/simpleballrig",
