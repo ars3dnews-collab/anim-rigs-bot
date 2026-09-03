@@ -637,16 +637,17 @@
   "f78332f59f46d8ab",
   "1031e4ba09d1a9d1",
   "fdefb9a23330bf9f",
-  "0ebacf13b082354d"
+  "0ebacf13b082354d",
+  "a7bc7aa1a8effb3b"
  ],
  "sources": [
   "animation-buffet",
   "animation-buffet",
   "animation-buffet",
-  "animation-buffet",
+  "airtable",
   "airtable"
  ],
- "counter": 248,
+ "counter": 249,
  "archive_page": 474,
  "buffet_index": 11700,
  "airtable_index": 5568,
@@ -845,7 +846,8 @@
   "0fe1c942ed9ce754",
   "2f43196950430d53",
   "9ac227c87aaf80e0",
-  "194b41b37adf642f"
+  "194b41b37adf642f",
+  "eaa1f89abfcd3317"
  ],
  "channel_names": [
   "3d penguin",
@@ -916,6 +918,7 @@
   "einar v1",
   "eleven",
   "ellie",
+  "emo",
   "eof girl",
   "fantasy croc",
   "fantasy crocodile",
@@ -1176,6 +1179,7 @@
   "cgtarian.com/maya-character-rigs/download-free-3d-character-ray.html",
   "cloud.blender.org/p/animation-fundamentals/5d69ab4dea6789db11ee65d1",
   "cloud.blender.org/p/characters",
+  "cloud.blender.org/p/characters/5d404a41c8cdeca7aadb351a",
   "cloud.blender.org/p/characters/5d404f0cc8cdeca7aadb352d",
   "cloud.blender.org/p/settlers/5ea98e073e1ac03a6f8cdcb1",
   "cloud.blender.org/p/settlers/5eaab274195e169b5f5eced9",
