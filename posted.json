@@ -656,16 +656,17 @@
   "c47430186ca50101",
   "858d11fef48956a1",
   "e54d9165bccf2e53",
-  "c8fae4285ef6e301"
+  "c8fae4285ef6e301",
+  "e224353a0727f76b"
  ],
  "sources": [
   "airtable",
   "airtable",
-  "airtable",
   "animation-buffet",
+  "airtable",
   "airtable"
  ],
- "counter": 254,
+ "counter": 255,
  "archive_page": 480,
  "buffet_index": 11850,
  "airtable_index": 5640,
@@ -870,7 +871,8 @@
   "cdc41522a08a6f43",
   "bff6523cf8ce0cd6",
   "75c903234e7e6a7f",
-  "cf7a58e9f48491a8"
+  "cf7a58e9f48491a8",
+  "9bd5552d0c8b31c9"
  ],
  "channel_names": [
   "3d penguin",
@@ -911,6 +913,7 @@
   "camile",
   "carnotaurus",
   "cartoony car",
+  "caveman",
   "christoph the stoff schoch",
   "chubby",
   "circuit hero",
@@ -1285,6 +1288,7 @@
   "hatchery1.gumroad.com/l/zbqol",
   "hatrigs.gumroad.com/l/vittoriorig",
   "highend3d.com/maya/downloads/character-rigs/c/buckid-for-maya",
+  "highend3d.com/maya/downloads/character-rigs/c/caveman-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/chubby-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/dewi-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/dinorig-for-maya",
