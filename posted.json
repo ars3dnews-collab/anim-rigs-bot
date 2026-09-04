@@ -660,19 +660,20 @@
   "e224353a0727f76b",
   "c8a3da53cd7084b7",
   "77bc265629db48cb",
-  "540aaf6e65c11e2a"
+  "540aaf6e65c11e2a",
+  "ae6f7a8cb3477ef2"
  ],
  "sources": [
-  "airtable",
   "animation-buffet",
   "airtable",
   "airtable",
-  "airtable"
+  "airtable",
+  "animation-buffet"
  ],
- "counter": 256,
- "archive_page": 482,
- "buffet_index": 11900,
- "airtable_index": 5664,
+ "counter": 257,
+ "archive_page": 484,
+ "buffet_index": 11950,
+ "airtable_index": 5688,
  "last_post_ts": 1788535504.137477,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -876,7 +877,8 @@
   "75c903234e7e6a7f",
   "cf7a58e9f48491a8",
   "9bd5552d0c8b31c9",
-  "81c7d83d25aee94a"
+  "81c7d83d25aee94a",
+  "ecb7c1b731aa7aa3"
  ],
  "channel_names": [
   "3d penguin",
@@ -1098,6 +1100,7 @@
   "tobias",
   "tonga",
   "tonga the fox",
+  "toyrig",
   "tribal chief",
   "tribal warrior",
   "triceratops",
@@ -1204,6 +1207,7 @@
   "animationbuffet.blogspot.com/2020/09/dude-free-maya-rig.html",
   "animationbuffet.blogspot.com/2021/04/harlow-paid-maya-rig.html",
   "animationbuffet.blogspot.com/2021/09/knight-spider-free-maya-rig.html",
+  "animationbuffet.blogspot.com/2021/09/toyrig-paid-maya-rig.html",
   "animationmentor.com/free-maya-rig",
   "animatorartistlife.com/freebies/ball-animation-rig",
   "animatormrinal.gumroad.com/l/wcnwcd",
