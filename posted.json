@@ -685,19 +685,20 @@
   "f01d53775561dd45",
   "35abeafb06132a9a",
   "b7021dfdd5da85a6",
-  "d9c8faefadf21a63"
+  "d9c8faefadf21a63",
+  "30a17af9f5cbb4d2"
  ],
  "sources": [
-  "animation-buffet",
+  "airtable",
   "airtable",
   "airtable",
   "airtable",
   "airtable"
  ],
- "counter": 263,
- "archive_page": 490,
- "buffet_index": 12100,
- "airtable_index": 5760,
+ "counter": 264,
+ "archive_page": 492,
+ "buffet_index": 12150,
+ "airtable_index": 5784,
  "last_post_ts": 1788613685.9057014,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -908,7 +909,8 @@
   "46af466e9f36d58b",
   "656e581cec94e548",
   "8d2be5063391ba2d",
-  "3079682c58aed8d7"
+  "3079682c58aed8d7",
+  "cd4e6b74e64386c6"
  ],
  "channel_names": [
   "3d penguin",
@@ -1010,6 +1012,7 @@
   "gunslinger crab mech",
   "happy spinny cube",
   "harlow",
+  "heavy",
   "homer simpson",
   "horse",
   "hotel transylvania zombie",
@@ -1343,6 +1346,7 @@
   "highend3d.com/maya/downloads/character-rigs/c/dewi-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/dinorig-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/flyingfox-for-maya",
+  "highend3d.com/maya/downloads/character-rigs/c/heavy-character-rig-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/homer-simpson-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/mike-and-tina-character-rig-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/moom-version-3-for-maya",
