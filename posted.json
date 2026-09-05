@@ -661,19 +661,20 @@
   "c8a3da53cd7084b7",
   "77bc265629db48cb",
   "540aaf6e65c11e2a",
-  "ae6f7a8cb3477ef2"
+  "ae6f7a8cb3477ef2",
+  "7af820454c8bbea6"
  ],
  "sources": [
+  "airtable",
+  "airtable",
+  "airtable",
   "animation-buffet",
-  "airtable",
-  "airtable",
-  "airtable",
-  "animation-buffet"
+  "airtable"
  ],
- "counter": 257,
- "archive_page": 484,
- "buffet_index": 11950,
- "airtable_index": 5688,
+ "counter": 258,
+ "archive_page": 486,
+ "buffet_index": 12000,
+ "airtable_index": 5712,
  "last_post_ts": 1788542805.1127365,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -878,7 +879,8 @@
   "cf7a58e9f48491a8",
   "9bd5552d0c8b31c9",
   "81c7d83d25aee94a",
-  "ecb7c1b731aa7aa3"
+  "ecb7c1b731aa7aa3",
+  "215cce45f1279293"
  ],
  "channel_names": [
   "3d penguin",
@@ -1052,6 +1054,7 @@
   "robot rbt10",
   "roboter",
   "ryan",
+  "safiro gumshoe",
   "sally acorn",
   "samus",
   "sanae",
@@ -1273,6 +1276,7 @@
   "gumroad.com/l/phdh",
   "gumroad.com/l/pnxwj",
   "gumroad.com/l/rufdb",
+  "gumroad.com/l/safirorig",
   "gumroad.com/l/sazd",
   "gumroad.com/l/shuxy",
   "gumroad.com/l/simplefloursackrig",
