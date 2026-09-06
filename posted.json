@@ -688,16 +688,17 @@
   "d9c8faefadf21a63",
   "30a17af9f5cbb4d2",
   "215ad2da3785c474",
-  "a89d7551a88e0df6"
+  "a89d7551a88e0df6",
+  "e946977f705caccc"
  ],
  "sources": [
   "airtable",
   "airtable",
   "airtable",
-  "airtable",
-  "animation-buffet"
+  "animation-buffet",
+  "airtable"
  ],
- "counter": 265,
+ "counter": 266,
  "archive_page": 496,
  "buffet_index": 12250,
  "airtable_index": 5832,
@@ -913,7 +914,8 @@
   "8d2be5063391ba2d",
   "3079682c58aed8d7",
   "cd4e6b74e64386c6",
-  "84413560af0e122c"
+  "84413560af0e122c",
+  "734fec8136c44ec6"
  ],
  "channel_names": [
   "3d penguin",
@@ -1005,6 +1007,7 @@
   "fps hands",
   "franck the caterpillar",
   "gabby",
+  "generalized animal boxy",
   "ghost armour",
   "ghoul creature",
   "gmc van",
@@ -1281,6 +1284,7 @@
   "friggingawesome.gumroad.com/l/ricardo",
   "gameanim.com/product/azri-rig",
   "gum.co/claykong",
+  "gum.co/generalizedanimal",
   "gum.co/hfiyi",
   "gum.co/ivanbot",
   "gumroad.com/l/afutp",
