@@ -1556,7 +1556,198 @@ def find_image(rig, used_hashes=()):
     return None
 
 
+# ---------------------------------------------------------------------------
+# Проверка цены по самой странице рига.
+#
+# Источники (особенно чужие базы вроде Airtable) нередко врут про цену:
+# риг когда-то был бесплатным, или у автора есть бесплатная урезанная
+# версия, а в базе стоит FREE. Поэтому перед публикацией бот сам открывает
+# страницу и смотрит, что там на самом деле: цену в разметке магазина,
+# суммы в тексте, кнопки «купить». Если понять не удаётся — честно пишет
+# «условия на странице автора», а не гадает.
+# ---------------------------------------------------------------------------
+
+# прямые ссылки на файлы и файлообменники — это всегда бесплатная раздача
+_FILE_HOSTS = ("drive.google.com", "docs.google.com", "dropbox.com",
+               "mega.nz", "mediafire.com", "box.com", "wetransfer.com",
+               "github.com", "gitlab.com", "1drv.ms", "onedrive.live.com")
+_FILE_EXT = re.compile(r"\.(zip|rar|7z|ma|mb|blend|fbx|tar\.gz)(\?|$)", re.I)
+
+# структурированная цена: Gumroad/OpenGraph и JSON-LD магазинов
+_META_PRICE = (
+    re.compile(r'<meta[^>]+property=["\'](?:product|og):price:amount["\'][^>]+'
+               r'content=["\']([\d.,]+)["\']', re.I),
+    re.compile(r'<meta[^>]+content=["\']([\d.,]+)["\'][^>]+'
+               r'property=["\'](?:product|og):price:amount["\']', re.I),
+)
+_META_CURRENCY = re.compile(
+    r'property=["\'](?:product|og):price:currency["\'][^>]+content=["\']([A-Z]{3})["\']'
+    r'|content=["\']([A-Z]{3})["\'][^>]+property=["\'](?:product|og):price:currency["\']',
+    re.I)
+_JSONLD_PRICE = re.compile(r'"(?:price|lowPrice)"\s*:\s*"?(\d+(?:[.,]\d+)?)"?')
+_JSONLD_CURRENCY = re.compile(r'"priceCurrency"\s*:\s*"([A-Z]{3})"')
+
+# сигналы в обычном тексте страницы
+_MONEY = re.compile(
+    r"(?<![\w.])(?:\$|€|£|US\$|USD\s?|EUR\s?)\s?(\d{1,5}(?:[.,]\d{1,2})?)"
+    r"(?:\s?(?:USD|EUR|GBP))?", re.I)
+_FREE_STRONG = re.compile(
+    r"\bfree\s+(?:download|rig|character\s+rig|to\s+(?:download|use))\b"
+    r"|\bdownload\s+(?:it\s+)?for\s+free\b|100\s?%\s?free"
+    r"|\$\s?0\s?\+|\bname\s+a\s+fair\s+price\b|\bpay\s+what\s+you\s+want\b"
+    r"|\bбесплатн", re.I)
+_PAID_STRONG = re.compile(
+    r"\badd\s+to\s+cart\b|\bbuy\s+now\b|\bpurchase\b|\bcheckout\b|\bkaufen\b",
+    re.I)
+_PAID_HOSTS = ("store.steampowered.com", "unrealengine.com/marketplace",
+               "fab.com")
+
+_CUR = {"USD": "$", "EUR": "€", "GBP": "£"}
+
+
+def _fmt_price(amount, cur):
+    try:
+        val = float(str(amount).replace(",", "."))
+    except ValueError:
+        return ""
+    txt = ("{:.0f}" if val == int(val) else "{:.2f}").format(val)
+    sym = _CUR.get((cur or "USD").upper(), "")
+    return (sym + txt) if sym else "{} {}".format(txt, cur)
+
+
+PRICE_PROMPT = (
+    "Ниже текст страницы, где раздают или продают риг персонажа для Maya/"
+    "Blender. Ответь ОДНИМ словом: FREE — если сам риг можно скачать "
+    "бесплатно (в том числе pay-what-you-want от $0); PAID — если за риг "
+    "надо платить; UNKNOWN — если по тексту не понять.\n\n{text}"
+)
+
+
+def _ask_price_ai(text):
+    if not GEMINI_KEY or not text:
+        return None
+    body = {"contents": [{"parts": [{"text": PRICE_PROMPT.format(text=text[:3500])}]}],
+            "generationConfig": {"temperature": 0, "maxOutputTokens": 5}}
+    for ver, model in model_queue()[:3]:
+        try:
+            r = requests.post(GEMINI_URL.format(ver=ver, model=model),
+                              params={"key": GEMINI_KEY}, json=body, timeout=40)
+            if not r.ok:
+                continue
+            ans = "".join(p.get("text", "") for p in
+                          r.json()["candidates"][0]["content"]["parts"]).upper()
+        except Exception:
+            continue
+        if "FREE" in ans:
+            return True
+        if "PAID" in ans:
+            return False
+        if "UNKNOWN" in ans:
+            return None
+    return None
+
+
+def check_price(rig):
+    """Уточнить free/price по странице рига. Меняет rig на месте."""
+    url = rig.get("url") or ""
+    low = url.lower()
+    before = rig.get("free")
+
+    def settle(free, price="", how=""):
+        if free != before or (price and price != rig.get("price")):
+            log("  цена по странице: {} ({})".format(
+                "бесплатно" if free else ("платный " + price if free is False
+                                          else "непонятно"), how))
+        rig["free"] = free
+        if free is False and price:
+            rig["price"] = price
+        if free is not False:
+            rig["price"] = ""
+        tags = [t for t in (rig.get("tags") or "").split()
+                if t.lower() not in ("#free", "#paid")]
+        if free is True:
+            tags.append("#free")
+        elif free is False:
+            tags.append("#paid")
+        rig["tags"] = " ".join(tags)
+
+    if any(h in low for h in _FILE_HOSTS) or _FILE_EXT.search(low):
+        return settle(True, how="прямая ссылка на файл")
+    if any(h in low for h in _PAID_HOSTS):
+        return settle(False, rig.get("price") or "", how="магазин")
+
+    page = None
+    try:
+        r = requests.get(url, headers={"User-Agent": UA}, timeout=20,
+                         allow_redirects=True)
+        if r.ok:
+            page = r.text
+            if any(h in r.url.lower() for h in _PAID_HOSTS):
+                return settle(False, rig.get("price") or "", how="магазин")
+    except Exception as e:
+        log("  ! страница рига не открылась: {}".format(str(e)[:80]))
+    if not page:
+        # Проверить не вышло. Своим источникам верим, чужим базам — нет.
+        if rig.get("source") in ("airtable", "buffet", "animation-buffet"):
+            return settle(None, how="страница недоступна")
+        return
+
+    # 1. цена в разметке магазина — самый надёжный признак
+    amount = None
+    for rx in _META_PRICE:
+        m = rx.search(page)
+        if m:
+            amount = m.group(1)
+            break
+    cur = ""
+    m = _META_CURRENCY.search(page)
+    if m:
+        cur = m.group(1) or m.group(2) or ""
+    if amount is None:
+        vals = []
+        for f in _JSONLD_PRICE.findall(page):
+            try:
+                vals.append(float(f.replace(",", ".")))
+            except ValueError:
+                pass
+        if vals:
+            amount = str(min(vals))
+            m = _JSONLD_CURRENCY.search(page)
+            cur = m.group(1) if m else cur
+    if amount is not None:
+        try:
+            val = float(str(amount).replace(",", "."))
+        except ValueError:
+            val = None
+        if val is not None:
+            if val <= 0:
+                return settle(True, how="в разметке цена 0")
+            return settle(False, _fmt_price(val, cur), how="цена в разметке")
+
+    # 2. текст страницы
+    text = strip_html(page)
+    money = [m for m in _MONEY.finditer(text)
+             if float(m.group(1).replace(",", ".")) > 0]
+    free_hit = _FREE_STRONG.search(text)
+    paid_hit = _PAID_STRONG.search(text)
+
+    if money and not free_hit:
+        return settle(False, money[0].group(0).strip(), how="сумма в тексте")
+    if free_hit and not money and not paid_hit:
+        return settle(True, how="в тексте: {}".format(free_hit.group(0)))
+
+    # 3. противоречивые или пустые сигналы — спрашиваем модель
+    verdict = _ask_price_ai(text)
+    if verdict is True:
+        return settle(True, how="по мнению ИИ")
+    if verdict is False:
+        price = money[0].group(0).strip() if money else ""
+        return settle(False, price, how="по мнению ИИ")
+    settle(None, how="не удалось определить")
+
+
 def publish(rig, used_hashes=()):
+    check_price(rig)
     if rig.get("ready"):
         body = rig["description"]
     else:
