@@ -711,16 +711,17 @@
   "052916a19fc3e8d7",
   "d8413d9674fb421d",
   "df0526a735fb84f0",
-  "cbbb9b9e80262708"
+  "cbbb9b9e80262708",
+  "6335c05d3cd2f913"
  ],
  "sources": [
-  "animation-buffet",
+  "airtable",
   "airtable",
   "airtable",
   "airtable",
   "airtable"
  ],
- "counter": 275,
+ "counter": 276,
  "archive_page": 506,
  "buffet_index": 12500,
  "airtable_index": 5952,
@@ -946,7 +947,8 @@
   "fcd17df29dcbc8e9",
   "e2798680c3c42ff9",
   "e13de60aa83af29a",
-  "e8478ba8aa390def"
+  "e8478ba8aa390def",
+  "5208bc86cb04441a"
  ],
  "channel_names": [
   "3d penguin",
@@ -963,6 +965,7 @@
   "apollo",
   "apple pen",
   "artemis",
+  "ash",
   "athletic woman",
   "azri",
   "ball",
@@ -1213,6 +1216,7 @@
   "риги для аниматоров в одном месте"
  ],
  "channel_links": [
+  "agora.community/content/ash-maya",
   "agora.community/content/bulbasaur",
   "agora.community/content/eevee",
   "agora.community/content/gmc-van",
