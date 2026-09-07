@@ -717,19 +717,20 @@
   "c5116e1090425332",
   "873b4adfe394eab8",
   "9626a37ada8dbd47",
-  "03067e76149fcc66"
+  "03067e76149fcc66",
+  "ea8c8125672f6446"
  ],
  "sources": [
-  "airtable",
   "animation-buffet",
+  "airtable",
   "airtable",
   "airtable",
   "airtable"
  ],
- "counter": 280,
- "archive_page": 508,
- "buffet_index": 12550,
- "airtable_index": 5976,
+ "counter": 281,
+ "archive_page": 510,
+ "buffet_index": 12600,
+ "airtable_index": 6000,
  "last_post_ts": 1788793379.0081215,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -957,7 +958,8 @@
   "320acca165d0a311",
   "a90b15770793ff92",
   "fda3655a690a4948",
-  "8f71d882f36e614c"
+  "8f71d882f36e614c",
+  "28550c6850c24987"
  ],
  "channel_names": [
   "3d penguin",
@@ -1140,6 +1142,7 @@
   "prop bundle",
   "psylocke",
   "rain v3",
+  "rancor",
   "ray",
   "rdbot",
   "reaper dynamics",
@@ -1449,6 +1452,7 @@
   "manuelaf.gumroad.com/l/scorpion",
   "manuelaf.gumroad.com/l/talia",
   "markpeartanimator.gumroad.com/l/gcwoq",
+  "markpeartanimator.gumroad.com/l/iwjhrf",
   "markpeartanimator.gumroad.com/l/lhkwd",
   "megabubu.gumroad.com/l/sanaerig",
   "meryproject.com",
