@@ -724,19 +724,20 @@
   "c0e92736b363952f",
   "58d043dc3e58eef9",
   "2c470428f528df75",
-  "ed1f640725be470b"
+  "ed1f640725be470b",
+  "c3bb60e5976e441b"
  ],
  "sources": [
-  "animation-buffet",
+  "airtable",
   "airtable",
   "airtable",
   "airtable",
   "airtable"
  ],
- "counter": 287,
- "archive_page": 516,
- "buffet_index": 12750,
- "airtable_index": 6072,
+ "counter": 288,
+ "archive_page": 518,
+ "buffet_index": 12800,
+ "airtable_index": 6096,
  "last_post_ts": 1788872489.6313355,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -971,7 +972,8 @@
   "c6b8588f3b14bb93",
   "d7adc2aa00e182ba",
   "0dc19b830a676de3",
-  "1d7ca0bcc227d27c"
+  "1d7ca0bcc227d27c",
+  "13591e3181885a23"
  ],
  "channel_names": [
   "3d penguin",
@@ -1184,6 +1186,7 @@
   "sinka",
   "skateboard",
   "skele",
+  "snow",
   "snow v4",
   "sonic sonic mania",
   "space creatures studio",
@@ -1509,6 +1512,7 @@
   "studio.blender.org/characters/einar/v1",
   "studio.blender.org/characters/ellie/v1",
   "studio.blender.org/characters/one/v1",
+  "studio.blender.org/characters/snow/v2",
   "studio.blender.org/characters/space-creatures/v1",
   "studio.blender.org/characters/storm/v1",
   "studio.blender.org/characters/vincent/v1",
