@@ -723,16 +723,17 @@
   "e1a04b03b662d4f3",
   "c0e92736b363952f",
   "58d043dc3e58eef9",
-  "2c470428f528df75"
+  "2c470428f528df75",
+  "ed1f640725be470b"
  ],
  "sources": [
-  "airtable",
   "animation-buffet",
+  "airtable",
   "airtable",
   "airtable",
   "airtable"
  ],
- "counter": 286,
+ "counter": 287,
  "archive_page": 516,
  "buffet_index": 12750,
  "airtable_index": 6072,
@@ -969,7 +970,8 @@
   "3e8f69eaca87ea9b",
   "c6b8588f3b14bb93",
   "d7adc2aa00e182ba",
-  "0dc19b830a676de3"
+  "0dc19b830a676de3",
+  "1d7ca0bcc227d27c"
  ],
  "channel_names": [
   "3d penguin",
@@ -1017,6 +1019,7 @@
   "cartoony car",
   "caveman",
   "chameleon realistic",
+  "chicken",
   "christoph the stoff schoch",
   "chubby",
   "chuie",
@@ -1515,6 +1518,7 @@
   "trevital.gumroad.com/l/vuoln",
   "truongcgartist.gumroad.com/l/boxerrig",
   "truongcgartist.gumroad.com/l/cartoonpenquin",
+  "truongcgartist.gumroad.com/l/chickenrig",
   "truongcgartist.gumroad.com/l/gnomerig",
   "truongcgartist.gumroad.com/l/godzilla",
   "truongcgartist.gumroad.com/l/lizardcreature",
