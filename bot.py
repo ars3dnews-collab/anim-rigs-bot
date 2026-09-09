@@ -1596,7 +1596,16 @@ _FREE_STRONG = re.compile(
     r"\bfree\s+(?:download|rig|character\s+rig|to\s+(?:download|use))\b"
     r"|\bdownload\s+(?:it\s+)?for\s+free\b|100\s?%\s?free"
     r"|\$\s?0\s?\+|\bname\s+a\s+fair\s+price\b|\bpay\s+what\s+you\s+want\b"
-    r"|\bбесплатн", re.I)
+    r"|\bбесплатн"
+    # ценник-ярлык «FREE» заглавными рядом с кнопкой скачивания
+    r"|(?<![A-Za-z])FREE(?![A-Za-z])", re.I)
+# Сумма рядом с такими словами — не цена рига, а подписка на сайт,
+# членство, тариф, курс. Такие суммы не считаем.
+_NOT_RIG_PRICE = re.compile(
+    r"/\s?(?:mo|month|yr|year)\b|\bper\s+(?:month|year)\b|\bmonthly\b|\byearly\b"
+    r"|\bsubscri|\bmembership\b|\bplan\b|\btier\b|\bpatreon\b"
+    r"|\bcourse\b|\bmentorship\b|\bdonat|\btip\b|\bcoffee\b|\bshipping\b",
+    re.I)
 _PAID_STRONG = re.compile(
     r"\badd\s+to\s+cart\b|\bbuy\s+now\b|\bpurchase\b|\bcheckout\b|\bkaufen\b",
     re.I)
@@ -1617,10 +1626,12 @@ def _fmt_price(amount, cur):
 
 
 PRICE_PROMPT = (
-    "Ниже текст страницы, где раздают или продают риг персонажа для Maya/"
-    "Blender. Ответь ОДНИМ словом: FREE — если сам риг можно скачать "
+    "Ниже выдержки со страницы, где раздают или продают риг персонажа для "
+    "Maya/Blender. Ответь ОДНИМ словом: FREE — если сам риг можно скачать "
     "бесплатно (в том числе pay-what-you-want от $0); PAID — если за риг "
-    "надо платить; UNKNOWN — если по тексту не понять.\n\n{text}"
+    "надо платить; UNKNOWN — если по тексту не понять.\n"
+    "Важно: цены подписок, тарифов, членства, курсов и менторства самого "
+    "сайта — это НЕ цена рига, их не учитывай.\n\n{text}"
 )
 
 
@@ -1727,8 +1738,14 @@ def check_price(rig):
 
     # 2. текст страницы
     text = strip_html(page)
-    money = [m for m in _MONEY.finditer(text)
-             if float(m.group(1).replace(",", ".")) > 0]
+    money = []
+    for m in _MONEY.finditer(text):
+        if float(m.group(1).replace(",", ".")) <= 0:
+            continue
+        around = text[max(0, m.start() - 60):m.end() + 60]
+        if _NOT_RIG_PRICE.search(around):
+            continue            # подписка на сайт, а не цена рига
+        money.append(m)
     free_hit = _FREE_STRONG.search(text)
     paid_hit = _PAID_STRONG.search(text)
 
@@ -1737,13 +1754,28 @@ def check_price(rig):
     if free_hit and not money and not paid_hit:
         return settle(True, how="в тексте: {}".format(free_hit.group(0)))
 
-    # 3. противоречивые или пустые сигналы — спрашиваем модель
-    verdict = _ask_price_ai(text)
+    # 3. противоречивые или пустые сигналы — спрашиваем модель.
+    # Даём ей не начало страницы (там обычно шапка и меню), а куски вокруг
+    # названия рига и вокруг всех упоминаний денег и «free».
+    windows, seen = [], set()
+    name = (rig.get("name") or "").strip()
+    spots = [m.start() for m in _MONEY.finditer(text)]
+    spots += [m.start() for m in _FREE_STRONG.finditer(text)]
+    spots += [m.start() for m in _PAID_STRONG.finditer(text)]
+    if name:
+        spots += [m.start() for m in re.finditer(re.escape(name[:40]), text, re.I)]
+    for pos in sorted(spots)[:12]:
+        key = pos // 300
+        if key in seen:
+            continue
+        seen.add(key)
+        windows.append(text[max(0, pos - 250):pos + 250])
+    excerpt = "\n...\n".join(windows) if windows else text[:3500]
+    verdict = _ask_price_ai(excerpt)
     if verdict is True:
         return settle(True, how="по мнению ИИ")
     if verdict is False:
-        price = money[0].group(0).strip() if money else ""
-        return settle(False, price, how="по мнению ИИ")
+        return settle(False, "", how="по мнению ИИ")
     settle(None, how="не удалось определить")
 
 
