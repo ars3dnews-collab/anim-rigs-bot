@@ -729,19 +729,20 @@
   "640f8fa2d1c6fa9a",
   "34aecb3eec181eda",
   "51cfd8e07a5bd03e",
-  "dcc975b97c57f30c"
+  "dcc975b97c57f30c",
+  "89429699351e61ac"
  ],
  "sources": [
   "airtable",
-  "airtable",
   "animation-buffet",
+  "airtable",
   "airtable",
   "airtable"
  ],
- "counter": 291,
- "archive_page": 520,
- "buffet_index": 12850,
- "airtable_index": 6120,
+ "counter": 292,
+ "archive_page": 522,
+ "buffet_index": 12900,
+ "airtable_index": 6144,
  "last_post_ts": 1788930114.3232164,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -980,7 +981,8 @@
   "13591e3181885a23",
   "ef78126b28f7f093",
   "000b94c1993ae471",
-  "fd0ac508b54071a9"
+  "fd0ac508b54071a9",
+  "34afb35dac5a9c6b"
  ],
  "channel_names": [
   "3d penguin",
@@ -1025,6 +1027,7 @@
   "bunny eater",
   "bwa",
   "camile",
+  "carl",
   "carnotaurus",
   "cartoony car",
   "caveman",
@@ -1365,6 +1368,7 @@
   "cadnav.com/3d-models/model-38750.html",
   "cadnav.com/3d-models/model-44985.html",
   "cgtarian.com/maya-character-rigs/download-free-3d-character-ray.html",
+  "characterrigs.com",
   "charrig.gumroad.com/l/bozzo",
   "charrig.gumroad.com/l/cjicff",
   "cloud.blender.org/p/animation-fundamentals/5d69ab4dea6789db11ee65d1",
@@ -1507,6 +1511,7 @@
   "peerke.gumroad.com/l/oolpg",
   "peerke.gumroad.com/l/vpsrx",
   "prorigs.com/characters/the-basics",
+  "prorigs.com/characters/the-family",
   "ramonarango.gumroad.com/l/apollorig",
   "ramonarango.gumroad.com/l/mukururig",
   "rig-it.net/product/robot-rbt10",
