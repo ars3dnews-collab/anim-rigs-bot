@@ -737,16 +737,17 @@
   "c313d0dac14f9122",
   "3335ac818abcdd29",
   "046651b96c920b41",
-  "5eeaf9c1c5579e0c"
+  "5eeaf9c1c5579e0c",
+  "f93e661faea357c8"
  ],
  "sources": [
   "airtable",
   "airtable",
-  "airtable",
   "animation-buffet",
+  "airtable",
   "airtable"
  ],
- "counter": 296,
+ "counter": 297,
  "archive_page": 526,
  "buffet_index": 13000,
  "airtable_index": 6192,
@@ -993,7 +994,8 @@
   "66963b113987e22c",
   "b88b770254f9192a",
   "89bfcf591e890f6f",
-  "c419a06335f45739"
+  "c419a06335f45739",
+  "576e532af569a20d"
  ],
  "channel_names": [
   "3d penguin",
@@ -1097,6 +1099,7 @@
   "fps hands",
   "franck the caterpillar",
   "gabby",
+  "gamma",
   "generalized animal boxy",
   "ghost armour",
   "ghoul creature",
@@ -1284,6 +1287,7 @@
   "agora.community/content/ash-maya",
   "agora.community/content/bulbasaur",
   "agora.community/content/eevee",
+  "agora.community/content/gamma-maya",
   "agora.community/content/gmc-van",
   "agora.community/content/kobold",
   "agora.community/content/superhero-maya",
