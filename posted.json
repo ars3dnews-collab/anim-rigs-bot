@@ -728,16 +728,17 @@
   "c3bb60e5976e441b",
   "640f8fa2d1c6fa9a",
   "34aecb3eec181eda",
-  "51cfd8e07a5bd03e"
+  "51cfd8e07a5bd03e",
+  "dcc975b97c57f30c"
  ],
  "sources": [
   "airtable",
   "airtable",
-  "airtable",
   "animation-buffet",
+  "airtable",
   "airtable"
  ],
- "counter": 290,
+ "counter": 291,
  "archive_page": 520,
  "buffet_index": 12850,
  "airtable_index": 6120,
@@ -978,7 +979,8 @@
   "1d7ca0bcc227d27c",
   "13591e3181885a23",
   "ef78126b28f7f093",
-  "000b94c1993ae471"
+  "000b94c1993ae471",
+  "fd0ac508b54071a9"
  ],
  "channel_names": [
   "3d penguin",
@@ -1176,6 +1178,7 @@
   "ricardo",
   "robot rbt10",
   "roboter",
+  "russell",
   "ryan",
   "safiro gumshoe",
   "sally acorn",
@@ -1363,6 +1366,7 @@
   "cadnav.com/3d-models/model-44985.html",
   "cgtarian.com/maya-character-rigs/download-free-3d-character-ray.html",
   "charrig.gumroad.com/l/bozzo",
+  "charrig.gumroad.com/l/cjicff",
   "cloud.blender.org/p/animation-fundamentals/5d69ab4dea6789db11ee65d1",
   "cloud.blender.org/p/characters",
   "cloud.blender.org/p/characters/5d404a41c8cdeca7aadb351a",
