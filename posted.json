@@ -727,16 +727,17 @@
   "ed1f640725be470b",
   "c3bb60e5976e441b",
   "640f8fa2d1c6fa9a",
-  "34aecb3eec181eda"
+  "34aecb3eec181eda",
+  "51cfd8e07a5bd03e"
  ],
  "sources": [
   "airtable",
   "airtable",
   "airtable",
-  "airtable",
-  "animation-buffet"
+  "animation-buffet",
+  "airtable"
  ],
- "counter": 289,
+ "counter": 290,
  "archive_page": 520,
  "buffet_index": 12850,
  "airtable_index": 6120,
@@ -976,7 +977,8 @@
   "0dc19b830a676de3",
   "1d7ca0bcc227d27c",
   "13591e3181885a23",
-  "ef78126b28f7f093"
+  "ef78126b28f7f093",
+  "000b94c1993ae471"
  ],
  "channel_names": [
   "3d penguin",
@@ -1007,6 +1009,7 @@
   "blue beetle",
   "blurgha",
   "body mechanics ellie",
+  "booboo",
   "boolieman",
   "bot 9",
   "boxy bird",
@@ -1359,6 +1362,7 @@
   "cadnav.com/3d-models/model-38750.html",
   "cadnav.com/3d-models/model-44985.html",
   "cgtarian.com/maya-character-rigs/download-free-3d-character-ray.html",
+  "charrig.gumroad.com/l/bozzo",
   "cloud.blender.org/p/animation-fundamentals/5d69ab4dea6789db11ee65d1",
   "cloud.blender.org/p/characters",
   "cloud.blender.org/p/characters/5d404a41c8cdeca7aadb351a",
