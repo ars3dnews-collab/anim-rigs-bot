@@ -1190,7 +1190,6 @@ def ai_describe(rig):
         ("автор", rig["author"]),
         ("софт", rig["software"]),
         ("бесплатный", rig["free"]),
-        ("цена", rig["price"]),
         ("лицензия", rig["license"]),
         ("отзывы", rig["rating"]),
         ("описание с сайта", (rig["description"] or "")[:4000]),
@@ -1265,7 +1264,9 @@ def build_caption(rig, body):
     elif rig["free"]:
         meta_parts.append("💚 Бесплатно")
     else:
-        meta_parts.append("💰 {}".format(html.escape(rig["price"] or "платный")))
+        # Конкретную сумму не пишем: цены на страницах гуляют (скидки,
+        # бандлы, региональные), и бот дважды промахнулся. Только факт.
+        meta_parts.append("💰 Платный")
     if rig["rating"]:
         meta_parts.append("⭐ {}".format(html.escape(rig["rating"])))
     if rig["license"]:
