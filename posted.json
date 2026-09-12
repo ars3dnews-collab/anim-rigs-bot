@@ -790,16 +790,17 @@
   "b1af62722af7da1e",
   "bf7601b9a5d89dd4",
   "63f8881cd1fc8d79",
-  "6ccad6c588fd1a16"
+  "6ccad6c588fd1a16",
+  "2f4f22ce2420a986"
  ],
  "sources": [
   "animation-buffet",
   "animation-buffet",
-  "animation-buffet",
   "airtable",
-  "airtable"
+  "airtable",
+  "animation-buffet"
  ],
- "counter": 320,
+ "counter": 321,
  "archive_page": 554,
  "buffet_index": 13700,
  "airtable_index": 6528,
@@ -1070,7 +1071,8 @@
   "4347177549567fac",
   "5ec67d021c14cfcd",
   "ae1f5c71350c5a7b",
-  "988f5cf1d56db0e9"
+  "988f5cf1d56db0e9",
+  "ee7493bbbe2dd581"
  ],
  "channel_names": [
   "3d penguin",
@@ -1167,6 +1169,7 @@
   "ellie",
   "emo",
   "eof girl",
+  "eyes",
   "fantasy croc",
   "fantasy crocodile",
   "fat man",
@@ -1410,6 +1413,7 @@
   "animationbuffet.blogspot.com/2008/04/yakumo-090.html",
   "animationbuffet.blogspot.com/2008/07/octopus.html",
   "animationbuffet.blogspot.com/2008/12/tonga-fox.html",
+  "animationbuffet.blogspot.com/2009/11/eyes-rig.html",
   "animationbuffet.blogspot.com/2010/05/optimy-classic.html",
   "animationbuffet.blogspot.com/2011/03/sinka.html",
   "animationbuffet.blogspot.com/2012/05/bit.html",
