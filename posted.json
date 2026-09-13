@@ -791,19 +791,20 @@
   "bf7601b9a5d89dd4",
   "63f8881cd1fc8d79",
   "6ccad6c588fd1a16",
-  "2f4f22ce2420a986"
+  "2f4f22ce2420a986",
+  "0d462af00152e660"
  ],
  "sources": [
   "animation-buffet",
+  "airtable",
+  "airtable",
   "animation-buffet",
-  "airtable",
-  "airtable",
-  "animation-buffet"
+  "airtable"
  ],
- "counter": 321,
- "archive_page": 554,
- "buffet_index": 13700,
- "airtable_index": 6528,
+ "counter": 322,
+ "archive_page": 556,
+ "buffet_index": 13750,
+ "airtable_index": 6552,
  "last_post_ts": 1789232651.8023186,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1072,7 +1073,8 @@
   "5ec67d021c14cfcd",
   "ae1f5c71350c5a7b",
   "988f5cf1d56db0e9",
-  "ee7493bbbe2dd581"
+  "ee7493bbbe2dd581",
+  "15692365a371802e"
  ],
  "channel_names": [
   "3d penguin",
@@ -1087,6 +1089,7 @@
   "allosaurus 2",
   "aloy",
   "amy",
+  "andre",
   "animation fundamentals",
   "animschool malcolm 2 0",
   "animus",
@@ -1522,6 +1525,7 @@
   "friggingawesome.gumroad.com/l/kaylaunlimited",
   "friggingawesome.gumroad.com/l/ricardo",
   "gameanim.com/product/azri-rig",
+  "gum.co/andre",
   "gum.co/claykong",
   "gum.co/generalizedanimal",
   "gum.co/hfiyi",
