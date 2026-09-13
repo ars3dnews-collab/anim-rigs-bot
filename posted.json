@@ -817,19 +817,20 @@
   "4b186a02285700c8",
   "e22188417b9eaa82",
   "cf4dc9ff890cdeba",
-  "dddbcc6ca5132006"
+  "dddbcc6ca5132006",
+  "6217c38b2ea08356"
  ],
  "sources": [
-  "airtable",
   "animation-buffet",
   "news:CG Channel · rigging",
   "airtable",
-  "airtable"
+  "airtable",
+  "animation-buffet"
  ],
- "counter": 328,
- "archive_page": 564,
- "buffet_index": 13950,
- "airtable_index": 6648,
+ "counter": 329,
+ "archive_page": 566,
+ "buffet_index": 14000,
+ "airtable_index": 6672,
  "last_post_ts": 1789312349.5950525,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1105,7 +1106,8 @@
   "8c3d49de291d0a29",
   "00c1054cc5aa64df",
   "192ea2fb0b92693a",
-  "60d4dd33a0bc274b"
+  "60d4dd33a0bc274b",
+  "b12d3f004ba2832d"
  ],
  "channel_names": [
   "3d penguin",
@@ -1287,6 +1289,7 @@
   "mannequin",
   "marie",
   "marty",
+  "marty the robot",
   "mech samurai",
   "meerkat",
   "megabot",
@@ -1511,6 +1514,7 @@
   "animationbuffet.blogspot.com/2020/03/jerry.html",
   "animationbuffet.blogspot.com/2020/03/leaf-insect.html",
   "animationbuffet.blogspot.com/2020/03/link-breath-of-wild.html",
+  "animationbuffet.blogspot.com/2020/03/marty-robot.html",
   "animationbuffet.blogspot.com/2020/03/pendulum.html",
   "animationbuffet.blogspot.com/2020/03/pig-mechanic.html",
   "animationbuffet.blogspot.com/2020/03/skateboard.html",
