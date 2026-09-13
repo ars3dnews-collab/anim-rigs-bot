@@ -811,16 +811,17 @@
   "9ca1ea243f239b28",
   "63ceef3f89611eeb",
   "a50f17cb8456aed0",
-  "35743f2cf97d80ba"
+  "35743f2cf97d80ba",
+  "3adc5b3a0d4787f2"
  ],
  "sources": [
-  "airtable",
   "animation-buffet",
   "airtable",
   "animation-buffet",
-  "news:CG Channel · rigging"
+  "news:CG Channel · rigging",
+  "airtable"
  ],
- "counter": 326,
+ "counter": 327,
  "archive_page": 564,
  "buffet_index": 13950,
  "airtable_index": 6648,
@@ -1097,7 +1098,8 @@
   "8baa627e6cbd95f0",
   "cffc2b79b3be1032",
   "8c3d49de291d0a29",
-  "00c1054cc5aa64df"
+  "00c1054cc5aa64df",
+  "192ea2fb0b92693a"
  ],
  "channel_names": [
   "3d penguin",
@@ -1403,6 +1405,7 @@
   "wilhelm the giraffe",
   "winter wonder ahri",
   "wolf",
+  "wolf dog balto",
   "world zombination character",
   "wraith",
   "wukong",
@@ -1656,6 +1659,7 @@
   "highend3d.com/maya/downloads/character-rigs/c/tribal-warrior-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/wilhelm-the-giraffe-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/wolf-rig-for-maya",
+  "highend3d.com/maya/downloads/character-rigs/c/wolfdog-for-maya",
   "juandgallegoa.gumroad.com/l/simpleballrig",
   "khaledhussein.gumroad.com/l/cbmnp",
   "lookrig.com/product/201908060705170",
