@@ -821,16 +821,17 @@
   "6217c38b2ea08356",
   "87ce089c8d475a38",
   "13e9f66fe61b551f",
-  "cea80bdb6fc513bb"
+  "cea80bdb6fc513bb",
+  "8fb05e9f75232c3f"
  ],
  "sources": [
   "airtable",
-  "airtable",
+  "animation-buffet",
   "animation-buffet",
   "animation-buffet",
   "animation-buffet"
  ],
- "counter": 331,
+ "counter": 332,
  "archive_page": 570,
  "buffet_index": 14100,
  "airtable_index": 6720,
@@ -1112,7 +1113,8 @@
   "60d4dd33a0bc274b",
   "b12d3f004ba2832d",
   "60c7f7d86e7b6217",
-  "2978a71eb4016c13"
+  "2978a71eb4016c13",
+  "ec1c5160d0ef8987"
  ],
  "channel_names": [
   "3d penguin",
@@ -1332,6 +1334,7 @@
   "psylocke",
   "rain v3",
   "rancor",
+  "raptor",
   "ray",
   "rdbot",
   "reaper dynamics",
@@ -1524,6 +1527,7 @@
   "animationbuffet.blogspot.com/2020/03/marty-robot.html",
   "animationbuffet.blogspot.com/2020/03/pendulum.html",
   "animationbuffet.blogspot.com/2020/03/pig-mechanic.html",
+  "animationbuffet.blogspot.com/2020/03/raptor.html",
   "animationbuffet.blogspot.com/2020/03/skateboard.html",
   "animationbuffet.blogspot.com/2020/03/skeleton.html",
   "animationbuffet.blogspot.com/2020/03/t-rex.html",
