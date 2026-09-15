@@ -829,16 +829,17 @@
   "c93b605ea49e9222",
   "cedb8f41a3d2f174",
   "f70cf68f2e21817e",
-  "ec5e252b02ca05d0"
+  "ec5e252b02ca05d0",
+  "a210ef14850b2c9c"
  ],
  "sources": [
   "animation-buffet",
   "animation-buffet",
   "animation-buffet",
-  "animation-buffet",
+  "airtable",
   "airtable"
  ],
- "counter": 338,
+ "counter": 339,
  "archive_page": 580,
  "buffet_index": 14350,
  "airtable_index": 6840,
@@ -1127,7 +1128,8 @@
   "6ff6f101f791dcf1",
   "79ef4dfbba947ed2",
   "eca1bb42c5e914d1",
-  "cdc05f1593c624a2"
+  "cdc05f1593c624a2",
+  "78b38c0364757668"
  ],
  "channel_names": [
   "3d penguin",
@@ -1406,6 +1408,7 @@
   "superhero",
   "sylvanas windrunner",
   "t rex",
+  "t rex mechanic",
   "talia",
   "tank",
   "tanner saurus",
@@ -1626,6 +1629,7 @@
   "gumroad.com/l/chuie",
   "gumroad.com/l/circuitrig",
   "gumroad.com/l/dimrs",
+  "gumroad.com/l/dnfmx",
   "gumroad.com/l/douglas",
   "gumroad.com/l/eqxez",
   "gumroad.com/l/fadlt",
