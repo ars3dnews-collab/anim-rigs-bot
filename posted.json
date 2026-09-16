@@ -847,16 +847,17 @@
   "3de0778aefd2332b",
   "0fe36163fe876dd5",
   "6b63249989cef5d3",
-  "a3e60b73cc88f0c8"
+  "a3e60b73cc88f0c8",
+  "9979dd8eac53dde0"
  ],
  "sources": [
   "airtable",
+  "animation-buffet",
+  "animation-buffet",
   "airtable",
-  "animation-buffet",
-  "animation-buffet",
   "airtable"
  ],
- "counter": 350,
+ "counter": 351,
  "archive_page": 592,
  "buffet_index": 14650,
  "airtable_index": 6984,
@@ -1157,7 +1158,8 @@
   "269d30400ba0c9b9",
   "c3a0b6cd53332889",
   "aff5ac5ae7ab2862",
-  "f4ebdd98edc80a5a"
+  "f4ebdd98edc80a5a",
+  "2af689778a55c2c7"
  ],
  "channel_names": [
   "3d penguin",
@@ -1453,6 +1455,7 @@
   "teddy",
   "the child s cradle",
   "the dragon prince",
+  "the librarian",
   "the mecha mechs dash flourish",
   "the punisher",
   "thor",
@@ -1756,6 +1759,7 @@
   "highend3d.com/maya/downloads/character-rigs/c/nico-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/rdbot1-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/roboter-for-maya",
+  "highend3d.com/maya/downloads/character-rigs/c/the-librarian-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/tmnt-classic-remake-rig-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/tonga-fox-rig-for-maya-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/tribal-chief-for-maya",
