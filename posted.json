@@ -855,16 +855,17 @@
   "d485d75560384ca9",
   "b96dc2f08d409a39",
   "ae45351044d1d3f4",
-  "363e47ad3fe485b0"
+  "363e47ad3fe485b0",
+  "67848905496eba50"
  ],
  "sources": [
   "airtable",
+  "animation-buffet",
+  "animation-buffet",
   "airtable",
-  "animation-buffet",
-  "animation-buffet",
   "airtable"
  ],
- "counter": 354,
+ "counter": 355,
  "archive_page": 598,
  "buffet_index": 14800,
  "airtable_index": 7056,
@@ -1169,7 +1170,8 @@
   "2af689778a55c2c7",
   "cda9733e99c62c1b",
   "2bd5609e25c3614c",
-  "709f0ae7301f38f6"
+  "709f0ae7301f38f6",
+  "c9b3bfc5711fe8d8"
  ],
  "channel_names": [
   "3d penguin",
@@ -1424,6 +1426,7 @@
   "scifi junk mecha",
   "scorpion",
   "scotty bluebaker",
+  "scout",
   "sea beast",
   "selena",
   "sharky",
@@ -1775,6 +1778,7 @@
   "highend3d.com/maya/downloads/character-rigs/c/nico-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/rdbot1-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/roboter-for-maya",
+  "highend3d.com/maya/downloads/character-rigs/c/team-fortress-2-scout-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/the-librarian-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/tmnt-classic-remake-rig-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/tonga-fox-rig-for-maya-for-maya",
