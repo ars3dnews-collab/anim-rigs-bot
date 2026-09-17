@@ -393,9 +393,40 @@ _BSW_CARD = re.compile(
     r'[\s\S]{0,300}?src="(/blend_previews/[^"]+)"')
 
 
+# BlendSwap стоит за Cloudflare и на голый User-Agent отвечает 403.
+# Помогают обычные заголовки браузера: сайту важно, чтобы запрос выглядел
+# как переход человека, а не как обращение скрипта.
+BSW_HEADERS = {
+    "User-Agent": UA,
+    "Accept": ("text/html,application/xhtml+xml,application/xml;q=0.9,"
+               "image/avif,image/webp,*/*;q=0.8"),
+    "Accept-Language": "en-US,en;q=0.9",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "same-origin",
+    "Upgrade-Insecure-Requests": "1",
+    "Referer": BSW + "/",
+}
+
+
+def bsw_get(url):
+    if out_of_time():
+        return None
+    try:
+        r = requests.get(url, headers=BSW_HEADERS,
+                         timeout=max(config.HTTP_TIMEOUT, 20))
+        if r.status_code != 200:
+            log("  ! blendswap -> HTTP {}".format(r.status_code))
+            return None
+        return r.text
+    except Exception as e:
+        log("  ! blendswap: {}".format(str(e)[:100]))
+        return None
+
+
 def fetch_blendswap(limit, start_page=1):
     """Риггованные персонажи с BlendSwap: страница списка + детали."""
-    listing = get("{}/3d/rigged?sort=newest&page={}".format(BSW, start_page))
+    listing = bsw_get("{}/3d/rigged?sort=newest&page={}".format(BSW, start_page))
     if not listing:
         return []
 
@@ -411,7 +442,7 @@ def fetch_blendswap(limit, start_page=1):
         title = html.unescape(title).strip()
         url = "{}/blend/{}".format(BSW, blend_id)
 
-        page = get(url)
+        page = bsw_get(url)
         if not page:
             continue
         text = strip_html(page)
