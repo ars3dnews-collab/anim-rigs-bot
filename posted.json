@@ -862,16 +862,17 @@
   "ac740d2caab03537",
   "72712303538323b2",
   "4c33590c1dc8b5ff",
-  "a7908b5c36b97f15"
+  "a7908b5c36b97f15",
+  "83f9abd2a16d024f"
  ],
  "sources": [
-  "animation-buffet",
+  "airtable",
   "airtable",
   "airtable",
   "airtable",
   "airtable"
  ],
- "counter": 357,
+ "counter": 358,
  "archive_page": 600,
  "buffet_index": 14850,
  "airtable_index": 7080,
@@ -1179,7 +1180,8 @@
   "709f0ae7301f38f6",
   "c9b3bfc5711fe8d8",
   "03c8dcea7e72fe62",
-  "e82abd9de29b953f"
+  "e82abd9de29b953f",
+  "e2e41c52b9fca15e"
  ],
  "channel_names": [
   "3d penguin",
@@ -1378,6 +1380,7 @@
   "marty",
   "marty the robot",
   "mech samurai",
+  "mechcatrig",
   "meerkat",
   "megabot",
   "mery",
@@ -1682,6 +1685,7 @@
   "friggingawesome.gumroad.com/l/kaylaunlimited",
   "friggingawesome.gumroad.com/l/ricardo",
   "gameanim.com/product/azri-rig",
+  "github.com/yantor3d/mechcatrig",
   "gum.co/andre",
   "gum.co/claykong",
   "gum.co/generalizedanimal",
