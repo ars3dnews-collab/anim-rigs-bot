@@ -1883,11 +1883,21 @@ def _ask_price_ai(text):
     return None
 
 
+# Источники, которые сообщают цену честным полем в своём API, а не
+# намёками в тексте. Их слову верим и страницу не перепроверяем: скрести
+# JS-страницу и получить «непонятно» — значит потерять точный ответ.
+TRUSTED_PRICE = ("blendkit", "blender-studio", "blendswap", "curated",
+                 "animprops", "getrigs")
+
+
 def check_price(rig):
     """Уточнить free/price по странице рига. Меняет rig на месте."""
     url = rig.get("url") or ""
     low = url.lower()
     before = rig.get("free")
+
+    if rig.get("source") in TRUSTED_PRICE and before is not None:
+        return
 
     def settle(free, price="", how=""):
         if free != before or (price and price != rig.get("price")):
