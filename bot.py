@@ -60,6 +60,8 @@ def load_state():
         data.setdefault("sources", [])
         data.setdefault("counter", 0)
         data.setdefault("image_hashes", [])
+        data.setdefault("blenderkit_index", 0)
+        data.setdefault("blendswap_page", 0)
         return data
     except Exception as e:
         log("posted.json не читается ({}), начинаю с чистого списка".format(e))
@@ -127,6 +129,10 @@ _archive_page = [1]
 _buffet_index = [1]
 # с какой записи архива Airtable начинать в этот раз
 _airtable_index = [0]
+# окно библиотеки Blendkit
+_blenderkit_index = [0]
+# страница списка BlendSwap
+_blendswap_page = [1]
 # ручная перепубликация: не ждать паузу и не выбирать по дорожкам
 _redo = [False]
 # ручной запуск «опубликовать сейчас»: не ждать паузу и не смотреть на ночь
@@ -278,6 +284,177 @@ def fetch_blender_studio(limit):
         if len(out) >= limit:
             break
         time.sleep(0.4)
+    return out
+
+
+# ---------------------------------------------------------------------------
+# Blendkit (бывший BlenderKit) — самая большая библиотека ассетов для
+# Blender с открытым API. Ключ не нужен.
+#
+# Почему это главный источник Blender-ригов: у каждой записи есть честный
+# признак rig=true, выставленный самим автором при загрузке, и отдельный
+# флаг бесплатности. То есть не надо угадывать по названию, риг это или
+# просто модель — база отвечает прямо. Риггованных персонажей 2165, из них
+# 405 бесплатных.
+#
+# Ответ содержит сразу всё для поста: название, описание, автора, лицензию,
+# теги и превью в нескольких размерах — ходить на страницу не нужно.
+# ---------------------------------------------------------------------------
+
+BK_API = "https://www.blenderkit.com/api/v1/search/"
+BK_PAGE = "https://www.blenderkit.com/asset-gallery-detail/{}/"
+
+# Мусорные теги: по ним видно, что это не персонаж, даже если база
+# положила запись в раздел персонажей.
+BK_SKIP_TAGS = ("weapon", "gun", "rifle", "pistol", "sword", "car",
+                "vehicle", "truck", "building", "furniture", "chair")
+
+
+def fetch_blenderkit(limit, start_index=0, free_only=False):
+    """Окно риггованных персонажей из Blendkit, свежие сначала."""
+    query = "asset_type:model+rig:true+category_subtree:character+order:-created"
+    if free_only:
+        query = query.replace("+order:", "+is_free:true+order:")
+
+    per = max(1, min(int(limit), 40))
+    page = start_index // per + 1
+    try:
+        r = requests.get(BK_API, params={"query": query, "page_size": per,
+                                         "page": page},
+                         headers={"User-Agent": UA},
+                         timeout=max(config.HTTP_TIMEOUT, 25))
+        if not r.ok:
+            log("  ! blendkit: HTTP {}".format(r.status_code))
+            return []
+        results = (r.json() or {}).get("results") or []
+    except Exception as e:
+        log("  ! blendkit: {}".format(str(e)[:120]))
+        return []
+
+    out = []
+    for a in results:
+        name = (a.get("displayName") or a.get("name") or "").strip()
+        base = a.get("assetBaseId") or ""
+        if not name or not base:
+            continue
+
+        tags = [str(t).lower() for t in (a.get("tags") or [])]
+        if any(t in BK_SKIP_TAGS for t in tags):
+            continue
+
+        free = bool(a.get("isFree"))
+        desc = (a.get("description") or "").strip()
+        if not desc:
+            # Описания может не быть — тогда собираем его из того, что
+            # база знает точно: это лучше, чем пустой пост.
+            desc = "{} — риггованный персонаж для Blender.".format(name)
+        if tags:
+            desc += "\nTags: " + ", ".join(tags[:8])
+
+        thumb = (a.get("thumbnailMiddleUrlNonsquared")
+                 or a.get("thumbnailMiddleUrl")
+                 or a.get("thumbnailLargeUrl") or "")
+
+        author = ((a.get("author") or {}).get("fullName") or "").strip()
+
+        lic = {"cc_zero": "CC0", "royalty_free": "Royalty Free",
+               "cc_by": "CC-BY"}.get(a.get("license") or "", "")
+
+        out.append({
+            "url": BK_PAGE.format(base),
+            "name": name,
+            "author": author,
+            "software": "Blender",
+            "free": free,
+            "price": "",
+            "license": lic,
+            "size_mb": None,
+            "thumb": thumb,
+            "rating": "",
+            "description": desc[:1500],
+            "ready": False,
+            "tags": "#blender " + ("#free" if free else "#paid"),
+            "source": "blendkit",
+            "fresh": False,
+        })
+    return out
+
+
+# ---------------------------------------------------------------------------
+# BlendSwap — 3000 бесплатных риггованных .blend под лицензиями Creative
+# Commons. Тег «rigged» там ставят сами авторы и ставят небрежно (попадаются
+# записи с описанием «un-rigged»), поэтому бот дополнительно проверяет
+# название и описание обычной проверкой на риг — той же, что для новостей.
+# ---------------------------------------------------------------------------
+
+BSW = "https://blendswap.com"
+_BSW_CARD = re.compile(
+    r'href="/blend/(\d+)"[\s\S]{0,400}?<img\s+alt="([^"]{1,120})"'
+    r'[\s\S]{0,300}?src="(/blend_previews/[^"]+)"')
+
+
+def fetch_blendswap(limit, start_page=1):
+    """Риггованные персонажи с BlendSwap: страница списка + детали."""
+    listing = get("{}/3d/rigged?sort=newest&page={}".format(BSW, start_page))
+    if not listing:
+        return []
+
+    cards = _BSW_CARD.findall(listing)
+    if not cards:
+        log("  ! blendswap: разметка списка изменилась")
+        return []
+
+    out = []
+    for blend_id, title, preview in cards:
+        if len(out) >= limit or out_of_time():
+            break
+        title = html.unescape(title).strip()
+        url = "{}/blend/{}".format(BSW, blend_id)
+
+        page = get(url)
+        if not page:
+            continue
+        text = strip_html(page)
+
+        desc = ""
+        m = re.search(r"Description\s+(.{20,1200}?)\s+Comments", text)
+        if m:
+            desc = m.group(1).strip()
+        if not desc:
+            desc = text[:600]
+
+        # Тег «rigged» на сайте ненадёжен: проверяем сами.
+        if not looks_like_rig(title + " " + desc):
+            continue
+
+        lic = ""
+        m = re.search(r"\bCC[-\s]?(BY[-\s]?(?:SA|NC|ND)?|0|Zero)\b", page, re.I)
+        if m:
+            lic = "CC-" + m.group(1).upper().replace(" ", "-")
+
+        author = ""
+        m = re.search(r'href="/profile/\d+"[^>]*>([^<]{2,40})</a>', page)
+        if m:
+            author = html.unescape(m.group(1)).strip()
+
+        out.append({
+            "url": url,
+            "name": title,
+            "author": author,
+            "software": "Blender",
+            "free": True,                 # на BlendSwap всё бесплатно
+            "price": "",
+            "license": lic,
+            "size_mb": None,
+            "thumb": BSW + preview,
+            "rating": "",
+            "description": desc[:1500],
+            "ready": False,
+            "tags": "#blender #free",
+            "source": "blendswap",
+            "fresh": False,
+        })
+        time.sleep(0.3)
     return out
 
 
@@ -868,6 +1045,22 @@ def collect():
         for r in got:
             r["fresh"] = False
         log("  blender-studio: {}".format(len(got)))
+        rigs += got
+
+    # --- Blender: главные поставщики ригов под него ---
+    bk = getattr(config, "BLENDERKIT", {}) or {}
+    if bk.get("enabled"):
+        got = fetch_blenderkit(int(bk.get("limit", 12)),
+                               start_index=_blenderkit_index[0],
+                               free_only=bool(bk.get("free_only")))
+        log("  blendkit (с записи {}): {}".format(_blenderkit_index[0], len(got)))
+        rigs += got
+
+    bsw = getattr(config, "BLENDSWAP", {}) or {}
+    if bsw.get("enabled"):
+        got = fetch_blendswap(int(bsw.get("limit", 6)),
+                              start_page=_blendswap_page[0])
+        log("  blendswap (стр. {}): {}".format(_blendswap_page[0], len(got)))
         rigs += got
 
     if config.HIGHEND3D_FREE.get("enabled"):
@@ -2040,6 +2233,19 @@ def advance_windows(state):
     air_step = int(air.get("limit", 24))
     _airtable_index[0] = int(state.get("airtable_index", 0))
     state["airtable_index"] = _airtable_index[0] + air_step
+
+    # Blendkit: 2165 риггованных персонажей, окно едет по библиотеке.
+    bk = getattr(config, "BLENDERKIT", {}) or {}
+    bk_step = int(bk.get("limit", 12))
+    bk_total = int(bk.get("total", 2100))
+    _blenderkit_index[0] = int(state.get("blenderkit_index", 0)) % max(1, bk_total)
+    state["blenderkit_index"] = int(state.get("blenderkit_index", 0)) + bk_step
+
+    # BlendSwap: 3000 записей по 24 на страницу — это 125 страниц.
+    bsw = getattr(config, "BLENDSWAP", {}) or {}
+    bsw_depth = int(bsw.get("max_page", 40))
+    _blendswap_page[0] = (int(state.get("blendswap_page", 0)) % max(1, bsw_depth)) + 1
+    state["blendswap_page"] = int(state.get("blendswap_page", 0)) + 1
 
 
 def refill_pool(state, tries=None):
