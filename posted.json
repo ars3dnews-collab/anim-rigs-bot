@@ -856,16 +856,17 @@
   "b96dc2f08d409a39",
   "ae45351044d1d3f4",
   "363e47ad3fe485b0",
-  "67848905496eba50"
+  "67848905496eba50",
+  "f192c3eeeec569e9"
  ],
  "sources": [
+  "animation-buffet",
+  "animation-buffet",
   "airtable",
-  "animation-buffet",
-  "animation-buffet",
   "airtable",
   "airtable"
  ],
- "counter": 355,
+ "counter": 356,
  "archive_page": 598,
  "buffet_index": 14800,
  "airtable_index": 7056,
@@ -1171,7 +1172,8 @@
   "cda9733e99c62c1b",
   "2bd5609e25c3614c",
   "709f0ae7301f38f6",
-  "c9b3bfc5711fe8d8"
+  "c9b3bfc5711fe8d8",
+  "03c8dcea7e72fe62"
  ],
  "channel_names": [
   "3d penguin",
@@ -1318,6 +1320,7 @@
   "horse",
   "hotel transylvania zombie",
   "hse lord snappy",
+  "hugo waiter extraordinaire",
   "hulk",
   "hydralisk",
   "hyena",
@@ -1772,6 +1775,7 @@
   "highend3d.com/maya/downloads/character-rigs/c/flyingfox-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/heavy-character-rig-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/homer-simpson-for-maya",
+  "highend3d.com/maya/downloads/character-rigs/c/hugo-waiter-extraordinaire-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/mike-and-tina-character-rig-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/moom-version-3-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/mortimer-rig-for-maya",
