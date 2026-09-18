@@ -877,19 +877,20 @@
   "a93b16d5ef7c15c6",
   "dc429909397711a8",
   "20718bbdbbb22205",
-  "97f2b445b615e7ea"
+  "97f2b445b615e7ea",
+  "8c84689a0d8c1fbb"
  ],
  "sources": [
-  "blendkit",
   "airtable",
   "blender-studio",
   "animation-buffet",
-  "blender-studio"
+  "blender-studio",
+  "animation-buffet"
  ],
- "counter": 368,
- "archive_page": 608,
- "buffet_index": 15050,
- "airtable_index": 7176,
+ "counter": 369,
+ "archive_page": 610,
+ "buffet_index": 15100,
+ "airtable_index": 7200,
  "last_post_ts": 1789743862.323944,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1205,7 +1206,8 @@
   "546310a400148b94",
   "251710bb8a81786b",
   "5050cbf3d461b6d9",
-  "7f39c2fe2f2c3495"
+  "7f39c2fe2f2c3495",
+  "e80f366e9c7d8701"
  ],
  "channel_names": [
   "3d penguin",
@@ -1382,6 +1384,7 @@
   "kiel figgins set 1",
   "kiel figgins set 11",
   "kiel figgins set 12",
+  "kiel figgins set 14",
   "kiel figgins set 15",
   "kiel figgins set 2",
   "kien",
@@ -1588,6 +1591,7 @@
   "animationbuffet.blogspot.com/2008/03/kiel-figgins-rig-set-1.html",
   "animationbuffet.blogspot.com/2008/03/kiel-figgins-rig-set-11.html",
   "animationbuffet.blogspot.com/2008/03/kiel-figgins-rig-set-12.html",
+  "animationbuffet.blogspot.com/2008/03/kiel-figgins-rig-set-14.html",
   "animationbuffet.blogspot.com/2008/03/kiel-figgins-rig-set-15.html",
   "animationbuffet.blogspot.com/2008/03/kiel-figgins-rig-set-2.html",
   "animationbuffet.blogspot.com/2008/04/demonlord-090.html",
@@ -1927,6 +1931,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 36,
- "blendswap_page": 3
+ "blenderkit_index": 48,
+ "blendswap_page": 4
 }
