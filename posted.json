@@ -870,19 +870,20 @@
   "9d2e1ee74658ce45",
   "cf668e09a33fb14a",
   "3576e90743ba40ac",
-  "1d754b0fa07f3e29"
+  "1d754b0fa07f3e29",
+  "6ac09a7bd8259cf8"
  ],
  "sources": [
-  "animation-buffet",
   "airtable",
   "airtable",
   "blender-studio",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 363,
- "archive_page": 604,
- "buffet_index": 14950,
- "airtable_index": 7128,
+ "counter": 364,
+ "archive_page": 606,
+ "buffet_index": 15000,
+ "airtable_index": 7152,
  "last_post_ts": 1789707615.163165,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1193,7 +1194,8 @@
   "af15206c6141dd04",
   "308bd9ce7b0c33c1",
   "aea3ebbfcda56f93",
-  "68979e48ff2666f5"
+  "68979e48ff2666f5",
+  "e33e9e090e2ec66e"
  ],
  "channel_names": [
   "3d penguin",
@@ -1423,6 +1425,7 @@
   "nunchuk",
   "oats studios rivergod",
   "octopus",
+  "omni man superhero character",
   "one studio",
   "optimy classic",
   "orc",
@@ -1675,6 +1678,7 @@
   "animatormrinal.gumroad.com/l/rvumg",
   "animatormrinal.gumroad.com/l/wcnwcd",
   "bbbn19.gumroad.com/l/jbvco",
+  "blenderkit.com/asset-gallery-detail/b9d48bc2-227d-4231-bc30-71ba007dca5f",
   "bongqi.gumroad.com/l/littelboxjeep",
   "builtbycolossus.com/ninja",
   "builtbycolossus.com/steggy",
@@ -1905,6 +1909,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 12,
- "blendswap_page": 1
+ "blenderkit_index": 24,
+ "blendswap_page": 2
 }
