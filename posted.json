@@ -867,19 +867,20 @@
   "8c28a0ddf092ae28",
   "97f5a71d4d01f899",
   "72722cb21c1e65a5",
-  "9d2e1ee74658ce45"
+  "9d2e1ee74658ce45",
+  "cf668e09a33fb14a"
  ],
  "sources": [
   "airtable",
-  "airtable",
   "animation-buffet",
   "airtable",
-  "airtable"
+  "airtable",
+  "blender-studio"
  ],
- "counter": 361,
- "archive_page": 602,
- "buffet_index": 14900,
- "airtable_index": 7104,
+ "counter": 362,
+ "archive_page": 604,
+ "buffet_index": 14950,
+ "airtable_index": 7128,
  "last_post_ts": 1789664860.932396,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1188,7 +1189,8 @@
   "e2e41c52b9fca15e",
   "7f5b5894c413b54d",
   "af15206c6141dd04",
-  "308bd9ce7b0c33c1"
+  "308bd9ce7b0c33c1",
+  "aea3ebbfcda56f93"
  ],
  "channel_names": [
   "3d penguin",
@@ -1396,6 +1398,7 @@
   "mgear man",
   "mia",
   "michiru",
+  "mikassa studio",
   "mike and tina",
   "mike freeman",
   "military girl",
@@ -1873,6 +1876,7 @@
   "studio.blender.org/characters/critter/v1",
   "studio.blender.org/characters/einar/v1",
   "studio.blender.org/characters/ellie/v1",
+  "studio.blender.org/characters/mikassa/v1",
   "studio.blender.org/characters/one/v1",
   "studio.blender.org/characters/snow/v2",
   "studio.blender.org/characters/space-creatures/v1",
@@ -1895,5 +1899,7 @@
   "unrealengine.com/marketplace/en-us/product/asc-teuthisan",
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
- ]
+ ],
+ "blenderkit_index": 12,
+ "blendswap_page": 1
 }
