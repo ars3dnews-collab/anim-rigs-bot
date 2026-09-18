@@ -874,16 +874,17 @@
   "6ac09a7bd8259cf8",
   "5f9c1f1305ff98e6",
   "0aa56e3f46b5255c",
-  "a93b16d5ef7c15c6"
+  "a93b16d5ef7c15c6",
+  "dc429909397711a8"
  ],
  "sources": [
-  "airtable",
   "blender-studio",
   "airtable",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blender-studio"
  ],
- "counter": 365,
+ "counter": 366,
  "archive_page": 606,
  "buffet_index": 15000,
  "airtable_index": 7152,
@@ -1199,7 +1200,8 @@
   "aea3ebbfcda56f93",
   "68979e48ff2666f5",
   "e33e9e090e2ec66e",
-  "546310a400148b94"
+  "546310a400148b94",
+  "251710bb8a81786b"
  ],
  "channel_names": [
   "3d penguin",
@@ -1538,6 +1540,7 @@
   "vittorio",
   "vixen",
   "w 870 shotgun re4 remake",
+  "whale studio",
   "wilhelm the giraffe",
   "winter wonder ahri",
   "wolf",
@@ -1897,6 +1900,7 @@
   "studio.blender.org/characters/space-creatures/v1",
   "studio.blender.org/characters/storm/v1",
   "studio.blender.org/characters/vincent/v1",
+  "studio.blender.org/characters/whale/v1",
   "thestoff.gumroad.com",
   "thestoff.gumroad.com/l/psxrn",
   "trevital.gumroad.com/l/kzseti",
