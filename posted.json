@@ -876,16 +876,17 @@
   "0aa56e3f46b5255c",
   "a93b16d5ef7c15c6",
   "dc429909397711a8",
-  "20718bbdbbb22205"
+  "20718bbdbbb22205",
+  "97f2b445b615e7ea"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "airtable",
   "blender-studio",
-  "animation-buffet"
+  "animation-buffet",
+  "blender-studio"
  ],
- "counter": 367,
+ "counter": 368,
  "archive_page": 608,
  "buffet_index": 15050,
  "airtable_index": 7176,
@@ -1203,7 +1204,8 @@
   "e33e9e090e2ec66e",
   "546310a400148b94",
   "251710bb8a81786b",
-  "5050cbf3d461b6d9"
+  "5050cbf3d461b6d9",
+  "7f39c2fe2f2c3495"
  ],
  "channel_names": [
   "3d penguin",
@@ -1234,6 +1236,7 @@
   "azri",
   "bald eagle",
   "ball",
+  "ballan wrasse studio",
   "battledroid",
   "benny",
   "bit",
@@ -1894,6 +1897,7 @@
   "store.animschool.edu/product/malcolm-2-0-2",
   "store.steampowered.com/app/652150/oats_studios__volume_1_assets",
   "studio.blender.org",
+  "studio.blender.org/characters/ballan-wrasse/v1",
   "studio.blender.org/characters/critter-evolved/v1",
   "studio.blender.org/characters/critter/v1",
   "studio.blender.org/characters/einar/v1",
