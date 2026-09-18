@@ -875,19 +875,20 @@
   "5f9c1f1305ff98e6",
   "0aa56e3f46b5255c",
   "a93b16d5ef7c15c6",
-  "dc429909397711a8"
+  "dc429909397711a8",
+  "20718bbdbbb22205"
  ],
  "sources": [
-  "blender-studio",
   "airtable",
   "blendkit",
   "airtable",
-  "blender-studio"
+  "blender-studio",
+  "animation-buffet"
  ],
- "counter": 366,
- "archive_page": 606,
- "buffet_index": 15000,
- "airtable_index": 7152,
+ "counter": 367,
+ "archive_page": 608,
+ "buffet_index": 15050,
+ "airtable_index": 7176,
  "last_post_ts": 1789729237.1790533,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1201,7 +1202,8 @@
   "68979e48ff2666f5",
   "e33e9e090e2ec66e",
   "546310a400148b94",
-  "251710bb8a81786b"
+  "251710bb8a81786b",
+  "5050cbf3d461b6d9"
  ],
  "channel_names": [
   "3d penguin",
@@ -1457,6 +1459,7 @@
   "ricardo",
   "robot rbt10",
   "roboter",
+  "rudy",
   "russell",
   "ryan",
   "safiro gumshoe",
@@ -1589,6 +1592,7 @@
   "animationbuffet.blogspot.com/2008/04/kia-090.html",
   "animationbuffet.blogspot.com/2008/04/yakumo-090.html",
   "animationbuffet.blogspot.com/2008/07/octopus.html",
+  "animationbuffet.blogspot.com/2008/07/rudy.html",
   "animationbuffet.blogspot.com/2008/12/tonga-fox.html",
   "animationbuffet.blogspot.com/2009/11/eyes-rig.html",
   "animationbuffet.blogspot.com/2010/05/optimy-classic.html",
@@ -1919,6 +1923,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 24,
- "blendswap_page": 2
+ "blenderkit_index": 36,
+ "blendswap_page": 3
 }
