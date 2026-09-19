@@ -883,16 +883,17 @@
   "1801541f514cbc5b",
   "9d25409f4a8e5737",
   "d96ae578b3ac0bf6",
-  "0f7c3ff8d05efac5"
+  "0f7c3ff8d05efac5",
+  "1f66e1185385022e"
  ],
  "sources": [
-  "blender-studio",
   "animation-buffet",
   "blendkit",
   "airtable",
-  "blender-studio"
+  "blender-studio",
+  "airtable"
  ],
- "counter": 372,
+ "counter": 373,
  "archive_page": 614,
  "buffet_index": 15200,
  "airtable_index": 7248,
@@ -1215,7 +1216,8 @@
   "e80f366e9c7d8701",
   "c4f3e6a108be056f",
   "94ecb76e502cd120",
-  "3727e11ad1b89e14"
+  "3727e11ad1b89e14",
+  "302cda5e837d67f5"
  ],
  "channel_names": [
   "3d penguin",
@@ -1263,6 +1265,7 @@
   "bot 9",
   "boxy bird",
   "boxy butterfly",
+  "boxy grasshopper",
   "boxy walker",
   "brachiosaurus",
   "brady",
@@ -1932,6 +1935,7 @@
   "trevital.gumroad.com/l/kzseti",
   "trevital.gumroad.com/l/vuoln",
   "truongcgartist.gumroad.com/l/boxerrig",
+  "truongcgartist.gumroad.com/l/boxygrasshopper",
   "truongcgartist.gumroad.com/l/cartoonpenquin",
   "truongcgartist.gumroad.com/l/chickenrig",
   "truongcgartist.gumroad.com/l/gnomerig",
