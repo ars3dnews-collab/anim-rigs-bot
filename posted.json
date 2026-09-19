@@ -887,16 +887,17 @@
   "1f66e1185385022e",
   "926dc083f0da0424",
   "5680ff001f5abfa5",
-  "e637fc8403a3227b"
+  "e637fc8403a3227b",
+  "b270b8a2f3c8116f"
  ],
  "sources": [
-  "blender-studio",
   "airtable",
   "blender-studio",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 376,
+ "counter": 377,
  "archive_page": 618,
  "buffet_index": 15300,
  "airtable_index": 7296,
@@ -1223,7 +1224,8 @@
   "302cda5e837d67f5",
   "ec31afd8bf6f5771",
   "210da2bfb049b0af",
-  "f207c028beb33e21"
+  "f207c028beb33e21",
+  "7e40db3fe0c301ce"
  ],
  "channel_names": [
   "3d penguin",
@@ -1411,6 +1413,7 @@
   "kien",
   "kila",
   "king kong",
+  "kit",
   "knight",
   "knight spider",
   "kobold",
@@ -1702,6 +1705,7 @@
   "animationbuffet.blogspot.com/2020/03/wukong.html",
   "animationbuffet.blogspot.com/2020/05/tanner-saurus-rex.html",
   "animationbuffet.blogspot.com/2020/06/apollo.html",
+  "animationbuffet.blogspot.com/2020/06/kit.html",
   "animationbuffet.blogspot.com/2020/06/kohaku.html",
   "animationbuffet.blogspot.com/2020/06/rhino.html",
   "animationbuffet.blogspot.com/2020/06/the-punisher.html",
