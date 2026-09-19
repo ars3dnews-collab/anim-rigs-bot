@@ -882,19 +882,20 @@
   "3f62f327ebf201ef",
   "1801541f514cbc5b",
   "9d25409f4a8e5737",
-  "d96ae578b3ac0bf6"
+  "d96ae578b3ac0bf6",
+  "0f7c3ff8d05efac5"
  ],
  "sources": [
-  "animation-buffet",
   "blender-studio",
   "animation-buffet",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blender-studio"
  ],
- "counter": 371,
- "archive_page": 612,
- "buffet_index": 15150,
- "airtable_index": 7224,
+ "counter": 372,
+ "archive_page": 614,
+ "buffet_index": 15200,
+ "airtable_index": 7248,
  "last_post_ts": 1789794050.4413483,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1213,7 +1214,8 @@
   "7f39c2fe2f2c3495",
   "e80f366e9c7d8701",
   "c4f3e6a108be056f",
-  "94ecb76e502cd120"
+  "94ecb76e502cd120",
+  "3727e11ad1b89e14"
  ],
  "channel_names": [
   "3d penguin",
@@ -1278,6 +1280,7 @@
   "carnotaurus",
   "cartoon referee",
   "cartoony car",
+  "cat studio",
   "caveman",
   "chameleon",
   "chameleon realistic",
@@ -1912,6 +1915,7 @@
   "store.steampowered.com/app/652150/oats_studios__volume_1_assets",
   "studio.blender.org",
   "studio.blender.org/characters/ballan-wrasse/v1",
+  "studio.blender.org/characters/cat/v1",
   "studio.blender.org/characters/critter-evolved/v1",
   "studio.blender.org/characters/critter/v1",
   "studio.blender.org/characters/einar/v1",
@@ -1941,6 +1945,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 60,
- "blendswap_page": 5
+ "blenderkit_index": 72,
+ "blendswap_page": 6
 }
