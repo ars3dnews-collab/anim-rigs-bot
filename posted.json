@@ -884,19 +884,20 @@
   "9d25409f4a8e5737",
   "d96ae578b3ac0bf6",
   "0f7c3ff8d05efac5",
-  "1f66e1185385022e"
+  "1f66e1185385022e",
+  "926dc083f0da0424"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "airtable",
   "blender-studio",
-  "airtable"
+  "airtable",
+  "blender-studio"
  ],
- "counter": 373,
- "archive_page": 614,
- "buffet_index": 15200,
- "airtable_index": 7248,
+ "counter": 374,
+ "archive_page": 616,
+ "buffet_index": 15250,
+ "airtable_index": 7272,
  "last_post_ts": 1789808462.924083,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1217,7 +1218,8 @@
   "c4f3e6a108be056f",
   "94ecb76e502cd120",
   "3727e11ad1b89e14",
-  "302cda5e837d67f5"
+  "302cda5e837d67f5",
+  "ec31afd8bf6f5771"
  ],
  "channel_names": [
   "3d penguin",
@@ -1320,6 +1322,7 @@
   "diana",
   "dinorig",
   "doc ock",
+  "dog studio",
   "dolphin",
   "douglas the corgi",
   "dragon",
@@ -1921,6 +1924,7 @@
   "studio.blender.org/characters/cat/v1",
   "studio.blender.org/characters/critter-evolved/v1",
   "studio.blender.org/characters/critter/v1",
+  "studio.blender.org/characters/dog/v1",
   "studio.blender.org/characters/einar/v1",
   "studio.blender.org/characters/ellie/v1",
   "studio.blender.org/characters/mikassa/v1",
@@ -1949,6 +1953,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 72,
- "blendswap_page": 6
+ "blenderkit_index": 84,
+ "blendswap_page": 7
 }
