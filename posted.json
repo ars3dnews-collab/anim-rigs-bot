@@ -899,16 +899,17 @@
   "62c44c50695915a8",
   "b2bd23e20950fed9",
   "426aaab1f75f06cc",
-  "0bac27a605e22f29"
+  "0bac27a605e22f29",
+  "96e23443c106f0b4"
  ],
  "sources": [
-  "blender-studio",
   "airtable",
   "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 382,
+ "counter": 383,
  "archive_page": 624,
  "buffet_index": 15450,
  "airtable_index": 7368,
@@ -1241,7 +1242,8 @@
   "8b28e7f94e0e5ea5",
   "eb2c93bbdc369f01",
   "9a6ca0ab89b8eb92",
-  "e448fa5951b8bb8f"
+  "e448fa5951b8bb8f",
+  "d069f876ac665bdf"
  ],
  "channel_names": [
   "3d penguin",
@@ -1523,6 +1525,7 @@
   "scotty bluebaker",
   "scout",
   "sea beast",
+  "seagull",
   "selena",
   "sharky",
   "sheik x overwatch",
@@ -1698,6 +1701,7 @@
   "animationbuffet.blogspot.com/2019/03/grey-matter-gary.html",
   "animationbuffet.blogspot.com/2019/08/gorgeous-george.html",
   "animationbuffet.blogspot.com/2019/09/spider-verse.html",
+  "animationbuffet.blogspot.com/2019/10/seagull.html",
   "animationbuffet.blogspot.com/2020/03/alien-covenant.html",
   "animationbuffet.blogspot.com/2020/03/battledroid.html",
   "animationbuffet.blogspot.com/2020/03/body-mechanics.html",
