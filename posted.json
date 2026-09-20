@@ -889,16 +889,17 @@
   "5680ff001f5abfa5",
   "e637fc8403a3227b",
   "b270b8a2f3c8116f",
-  "97f698e518f357f9"
+  "97f698e518f357f9",
+  "17b8f12390a8023c"
  ],
  "sources": [
-  "blender-studio",
   "animation-buffet",
   "blendkit",
   "animation-buffet",
-  "blender-studio"
+  "blender-studio",
+  "airtable"
  ],
- "counter": 378,
+ "counter": 379,
  "archive_page": 620,
  "buffet_index": 15350,
  "airtable_index": 7320,
@@ -1227,7 +1228,8 @@
   "210da2bfb049b0af",
   "f207c028beb33e21",
   "7e40db3fe0c301ce",
-  "d77216cb5bbd9551"
+  "d77216cb5bbd9551",
+  "8b28e7f94e0e5ea5"
  ],
  "channel_names": [
   "3d penguin",
@@ -1286,6 +1288,7 @@
   "built by colossus",
   "bulbasaur",
   "bulk",
+  "bumblebee",
   "bunny eater",
   "bwa",
   "camile",
@@ -1728,6 +1731,7 @@
   "animatormrinal.gumroad.com/l/qystbk",
   "animatormrinal.gumroad.com/l/rvumg",
   "animatormrinal.gumroad.com/l/wcnwcd",
+  "badsoup.gumroad.com/l/vdyaa",
   "bbbn19.gumroad.com/l/jbvco",
   "blenderkit.com/asset-gallery-detail/2bdac30f-5d47-46be-8ad3-8bf42e736338",
   "blenderkit.com/asset-gallery-detail/a6d57996-1bc4-4a3c-abd8-ee3e16cef8fe",
