@@ -897,16 +897,17 @@
   "4b249d947f140692",
   "285311d487f93b82",
   "62c44c50695915a8",
-  "b2bd23e20950fed9"
+  "b2bd23e20950fed9",
+  "426aaab1f75f06cc"
  ],
  "sources": [
-  "animation-buffet",
   "blender-studio",
   "airtable",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 381,
+ "counter": 382,
  "archive_page": 622,
  "buffet_index": 15400,
  "airtable_index": 7344,
@@ -1238,7 +1239,8 @@
   "d77216cb5bbd9551",
   "8b28e7f94e0e5ea5",
   "eb2c93bbdc369f01",
-  "9a6ca0ab89b8eb92"
+  "9a6ca0ab89b8eb92",
+  "e448fa5951b8bb8f"
  ],
  "channel_names": [
   "3d penguin",
@@ -1506,6 +1508,7 @@
   "rhino",
   "ricardo",
   "robot rbt10",
+  "robot titanium",
   "roboter",
   "rudy",
   "russell",
@@ -1746,6 +1749,7 @@
   "bbbn19.gumroad.com/l/jbvco",
   "blenderkit.com/asset-gallery-detail/2bdac30f-5d47-46be-8ad3-8bf42e736338",
   "blenderkit.com/asset-gallery-detail/a6d57996-1bc4-4a3c-abd8-ee3e16cef8fe",
+  "blenderkit.com/asset-gallery-detail/ac3359c6-9dae-4a1f-b792-2acf632c852d",
   "blenderkit.com/asset-gallery-detail/b9d48bc2-227d-4231-bc30-71ba007dca5f",
   "blenderkit.com/asset-gallery-detail/d239ed66-91cf-4ea8-91f0-17dc994980e2",
   "bongqi.gumroad.com/l/littelboxjeep",
