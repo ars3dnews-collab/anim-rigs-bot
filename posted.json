@@ -896,16 +896,17 @@
   "6a2cbc52d74f9e18",
   "4b249d947f140692",
   "285311d487f93b82",
-  "62c44c50695915a8"
+  "62c44c50695915a8",
+  "b2bd23e20950fed9"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blender-studio",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 380,
+ "counter": 381,
  "archive_page": 622,
  "buffet_index": 15400,
  "airtable_index": 7344,
@@ -1236,7 +1237,8 @@
   "7e40db3fe0c301ce",
   "d77216cb5bbd9551",
   "8b28e7f94e0e5ea5",
-  "eb2c93bbdc369f01"
+  "eb2c93bbdc369f01",
+  "9a6ca0ab89b8eb92"
  ],
  "channel_names": [
   "3d penguin",
@@ -1285,6 +1287,7 @@
   "boxy bird",
   "boxy butterfly",
   "boxy grasshopper",
+  "boxy t rex",
   "boxy walker",
   "brachiosaurus",
   "brady",
@@ -1935,6 +1938,7 @@
   "ramonarango.gumroad.com/l/modjadjirig",
   "ramonarango.gumroad.com/l/mukururig",
   "rig-it.net/product/robot-rbt10",
+  "rigsnthings.gumroad.com/l/bqbdn",
   "rigsnthings.gumroad.com/l/buutpz",
   "rigsnthings.gumroad.com/l/jlmaq",
   "rigsnthings.gumroad.com/l/ognjb",
