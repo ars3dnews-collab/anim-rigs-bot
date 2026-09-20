@@ -901,19 +901,20 @@
   "426aaab1f75f06cc",
   "0bac27a605e22f29",
   "96e23443c106f0b4",
-  "0d784af375b86919"
+  "0d784af375b86919",
+  "aec1167971cb6bdd"
  ],
  "sources": [
-  "blendkit",
   "airtable",
   "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 384,
- "archive_page": 624,
- "buffet_index": 15450,
- "airtable_index": 7368,
+ "counter": 385,
+ "archive_page": 626,
+ "buffet_index": 15500,
+ "airtable_index": 7392,
  "last_post_ts": 1789916520.768786,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1245,7 +1246,8 @@
   "9a6ca0ab89b8eb92",
   "e448fa5951b8bb8f",
   "d069f876ac665bdf",
-  "8974d244913a6b1a"
+  "8974d244913a6b1a",
+  "4dbfe901e436f6e8"
  ],
  "channel_names": [
   "3d penguin",
@@ -1422,6 +1424,7 @@
   "jody",
   "johnny the box",
   "judy hopps",
+  "juice box",
   "juicebox",
   "kasumi",
   "kayla unlimited",
@@ -1693,6 +1696,7 @@
   "animationbuffet.blogspot.com/2016/03/eleven.html",
   "animationbuffet.blogspot.com/2016/03/fred.html",
   "animationbuffet.blogspot.com/2016/03/tuna.html",
+  "animationbuffet.blogspot.com/2016/10/juice-box.html",
   "animationbuffet.blogspot.com/2017/06/luna.html",
   "animationbuffet.blogspot.com/2017/08/bunny-eater.html",
   "animationbuffet.blogspot.com/2017/08/conan.html",
@@ -1999,6 +2003,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 132,
- "blendswap_page": 11
+ "blenderkit_index": 144,
+ "blendswap_page": 12
 }
