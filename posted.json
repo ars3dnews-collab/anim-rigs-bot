@@ -904,19 +904,20 @@
   "0d784af375b86919",
   "aec1167971cb6bdd",
   "429163592b50e86b",
-  "d427b16dbee0a2c4"
+  "d427b16dbee0a2c4",
+  "88316f3f3ff4ef21"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "airtable",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 387,
- "archive_page": 628,
- "buffet_index": 15550,
- "airtable_index": 7416,
+ "counter": 388,
+ "archive_page": 630,
+ "buffet_index": 15600,
+ "airtable_index": 7440,
  "last_post_ts": 1789966926.243167,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1251,7 +1252,8 @@
   "8974d244913a6b1a",
   "4dbfe901e436f6e8",
   "e9e46270c1bbcabb",
-  "d9fbf18cc393994b"
+  "d9fbf18cc393994b",
+  "af04e6ffac83ad4c"
  ],
  "channel_names": [
   "3d penguin",
@@ -1271,6 +1273,7 @@
   "anatomy helper",
   "andre",
   "animation fundamentals",
+  "anime cat woman rigged animated",
   "animschool malcolm 2 0",
   "animus",
   "apollo",
@@ -1765,6 +1768,7 @@
   "animatormrinal.gumroad.com/l/wcnwcd",
   "badsoup.gumroad.com/l/vdyaa",
   "bbbn19.gumroad.com/l/jbvco",
+  "blenderkit.com/asset-gallery-detail/02dd566b-538d-4ba1-942f-868aa58264d5",
   "blenderkit.com/asset-gallery-detail/17650e9a-fd55-4277-bfab-b5e3ffa2dcc5",
   "blenderkit.com/asset-gallery-detail/2bdac30f-5d47-46be-8ad3-8bf42e736338",
   "blenderkit.com/asset-gallery-detail/a6d57996-1bc4-4a3c-abd8-ee3e16cef8fe",
@@ -2011,6 +2015,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 156,
- "blendswap_page": 13
+ "blenderkit_index": 168,
+ "blendswap_page": 14
 }
