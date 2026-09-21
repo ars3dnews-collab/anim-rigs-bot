@@ -936,6 +936,8 @@ def fetch_animation_buffet(limit, start_index=1):
 
 # нормализованные названия и адреса всего, что уже вышло в канале
 _channel = {"names": set(), "links": set()}
+# разобранные на слова названия из канала — считаются один раз
+_channel_words = {}
 
 
 def channel_username():
@@ -957,6 +959,55 @@ def norm_name(text):
     text = re.sub(r"\b(rig|rigs|maya|blender|free|paid)\b", " ", text)
     text = re.sub(r"[^a-z0-9а-яё]+", " ", text)
     return " ".join(text.split())
+
+
+# Слова, по которым названия НЕ различаются. Сюда входят инициалы и
+# префиксы авторов («jd Juice Box» у одного каталога и «Juice box» у
+# другого — это один и тот же риг), номера версий и общие слова.
+_NOISE_WORDS = {
+    "the", "and", "for", "with", "from", "new", "updated", "update",
+    "version", "ver", "final", "model", "models", "character", "char",
+    "characters", "asset", "pack", "download", "full", "cartoon",
+    "персонаж", "модель", "версия", "новый",
+}
+
+
+def _is_noise(word):
+    """Слово, из-за которого два названия не стоит считать разными."""
+    if word in _NOISE_WORDS:
+        return True
+    if len(word) <= 2:          # инициалы автора, hd, 3d
+        return True
+    return bool(re.fullmatch(r"v?\d+(?:[._]\d+)*", word))
+
+
+def name_words(text):
+    """Значимые слова названия — по ним сравниваем риги между собой."""
+    return {w for w in norm_name(text).split() if not _is_noise(w)}
+
+
+def same_rig(a, b):
+    """Одно и то же ли это название, записанное по-разному.
+
+    Каталоги подписывают один и тот же риг по-своему: «jd Juice Box» у
+    одного и «Juice box» у другого. Точное сравнение такие пары
+    пропускает, поэтому сравниваем наборы значимых слов.
+
+    Вхождение одного набора в другой тоже считается совпадением, но
+    только если меньший набор — не одно слово. Иначе «Rain and Snow»
+    склеился бы с «Rain»: это разные риги, и потерять второй хуже, чем
+    один раз пропустить повтор.
+    """
+    wa, wb = name_words(a), name_words(b)
+    if not wa or not wb:
+        return False
+    if wa == wb:
+        return True
+    if wa < wb:
+        return len(wa) >= 2
+    if wb < wa:
+        return len(wb) >= 2
+    return False
 
 
 def norm_link(url):
@@ -1039,11 +1090,34 @@ def load_channel(state):
 
 
 def already_in_channel(rig):
-    """True — такой риг в канале уже был."""
+    """True — такой риг в канале уже был.
+
+    Проверка идёт по трём признакам, потому что одного мало: один и тот
+    же риг лежит в разных каталогах под разными адресами и подписан
+    по-разному. Ссылка и точное название ловят очевидные повторы,
+    сравнение по словам — те, что раньше проскакивали.
+    """
     if norm_link(rig.get("url")) in _channel["links"]:
         return True
-    key = norm_name(rig.get("name"))
-    return bool(key) and key in _channel["names"]
+
+    name = rig.get("name") or ""
+    key = norm_name(name)
+    if key and key in _channel["names"]:
+        return True
+
+    words = name_words(name)
+    if not words:
+        return False
+    for known in _channel["names"]:
+        kw = _channel_words.get(known)
+        if kw is None:
+            kw = name_words(known)
+            _channel_words[known] = kw
+        if kw and (words == kw
+                   or (words < kw and len(words) >= 2)
+                   or (kw < words and len(kw) >= 2)):
+            return True
+    return False
 
 
 def collect():
@@ -1145,6 +1219,7 @@ def collect():
         log("  highend3d-paid: {}".format(len(got)))
         rigs += got
 
+    # Первая прополка — по адресу: один и тот же URL из двух источников.
     unique, seen = [], set()
     for r in rigs:
         rid = rig_id(r["url"])
@@ -1153,7 +1228,30 @@ def collect():
         seen.add(rid)
         r["id"] = rid
         unique.append(r)
-    return unique
+
+    # Вторая — по названию. Каталоги держат один и тот же риг под разными
+    # адресами, и без этой прополки обе копии доживают до публикации:
+    # сверка с каналом идёт при наборе пула, а внутри пула они друг о
+    # друге не знают.
+    out, taken = [], []
+    for r in unique:
+        words = name_words(r.get("name"))
+        twin = None
+        if words:
+            for kept, kw in taken:
+                if words == kw or (words < kw and len(words) >= 2) \
+                        or (kw < words and len(kw) >= 2):
+                    twin = kept
+                    break
+        if twin is not None:
+            log("    ↺ «{}» — это «{}» из {}, беру один".format(
+                (r.get("name") or "")[:32], (twin.get("name") or "")[:32],
+                twin.get("source")))
+            continue
+        if words:
+            taken.append((r, words))
+        out.append(r)
+    return out
 
 
 # ---------------------------------------------------------------- Gemini
