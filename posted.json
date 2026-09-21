@@ -903,16 +903,17 @@
   "96e23443c106f0b4",
   "0d784af375b86919",
   "aec1167971cb6bdd",
-  "429163592b50e86b"
+  "429163592b50e86b",
+  "d427b16dbee0a2c4"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "animation-buffet",
+  "airtable",
   "airtable"
  ],
- "counter": 386,
+ "counter": 387,
  "archive_page": 628,
  "buffet_index": 15550,
  "airtable_index": 7416,
@@ -1249,7 +1250,8 @@
   "d069f876ac665bdf",
   "8974d244913a6b1a",
   "4dbfe901e436f6e8",
-  "e9e46270c1bbcabb"
+  "e9e46270c1bbcabb",
+  "d9fbf18cc393994b"
  ],
  "channel_names": [
   "3d penguin",
@@ -1321,6 +1323,7 @@
   "caveman",
   "chameleon",
   "chameleon realistic",
+  "charlie",
   "chicken",
   "chicken sets studio",
   "christoph the stoff schoch",
@@ -1954,6 +1957,7 @@
   "prorigs.com/characters/the-basics",
   "prorigs.com/characters/the-couples",
   "prorigs.com/characters/the-family",
+  "prorigs.com/characters/the-kids",
   "ramonarango.gumroad.com/l/apollorig",
   "ramonarango.gumroad.com/l/modjadjirig",
   "ramonarango.gumroad.com/l/mukururig",
