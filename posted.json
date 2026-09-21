@@ -909,16 +909,17 @@
   "53a5edfff9e78677",
   "89476298aea69364",
   "dc7e9feed93c4419",
-  "544346759e8ae570"
+  "544346759e8ae570",
+  "0458835de5cea0c4"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "airtable",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 391,
+ "counter": 392,
  "archive_page": 632,
  "buffet_index": 15650,
  "airtable_index": 7464,
@@ -1260,7 +1261,8 @@
   "af04e6ffac83ad4c",
   "a249a274af2e2a65",
   "01542462a747b81e",
-  "90258cf92f255acc"
+  "90258cf92f255acc",
+  "6aec87227c766dd3"
  ],
  "channel_names": [
   "3d penguin",
@@ -1575,6 +1577,7 @@
   "spider verse",
   "spider verse spider man",
   "spiderbot",
+  "sporemaw rigged",
   "squirtle",
   "star wars finn",
   "starfox krystal",
@@ -1782,6 +1785,7 @@
   "blenderkit.com/asset-gallery-detail/02dd566b-538d-4ba1-942f-868aa58264d5",
   "blenderkit.com/asset-gallery-detail/17650e9a-fd55-4277-bfab-b5e3ffa2dcc5",
   "blenderkit.com/asset-gallery-detail/2bdac30f-5d47-46be-8ad3-8bf42e736338",
+  "blenderkit.com/asset-gallery-detail/2f2362df-77ee-48bd-ac19-01e3e0cd0660",
   "blenderkit.com/asset-gallery-detail/a6d57996-1bc4-4a3c-abd8-ee3e16cef8fe",
   "blenderkit.com/asset-gallery-detail/ac3359c6-9dae-4a1f-b792-2acf632c852d",
   "blenderkit.com/asset-gallery-detail/b9a86ea0-065b-41cc-a977-8411f537cb3a",
