@@ -932,19 +932,20 @@
   "69152dccd15b7bae",
   "78a34c40a0868107",
   "16cfbebd70529adc",
-  "99cfec7074f62d20"
+  "99cfec7074f62d20",
+  "fc54c8af06f952d7"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "blendkit",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 399,
- "archive_page": 638,
- "buffet_index": 15800,
- "airtable_index": 7536,
+ "counter": 400,
+ "archive_page": 640,
+ "buffet_index": 15850,
+ "airtable_index": 7560,
  "last_post_ts": 1790083044.7342174,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1291,7 +1292,8 @@
   "cf0cd73baeacf51b",
   "8cb9ab5f1947d008",
   "5f53ed8945245876",
-  "7eb53f978f4ab760"
+  "7eb53f978f4ab760",
+  "079b1e9c826a5d2f"
  ],
  "channel_names": [
   "3d penguin",
@@ -1621,6 +1623,7 @@
   "stewart и squirrels",
   "stitch",
   "storm studio",
+  "stylized butterfly rigged",
   "stylized knight",
   "superhero",
   "sylvanas windrunner",
@@ -1824,6 +1827,7 @@
   "blenderkit.com/asset-gallery-detail/17650e9a-fd55-4277-bfab-b5e3ffa2dcc5",
   "blenderkit.com/asset-gallery-detail/2bdac30f-5d47-46be-8ad3-8bf42e736338",
   "blenderkit.com/asset-gallery-detail/2f2362df-77ee-48bd-ac19-01e3e0cd0660",
+  "blenderkit.com/asset-gallery-detail/45d165f3-edea-40ed-8a9d-ce70b0ea28c5",
   "blenderkit.com/asset-gallery-detail/4de760b6-4724-459f-9558-28b98a4bf4f6",
   "blenderkit.com/asset-gallery-detail/55af7b4a-c99d-4d0e-88bf-f5598f4fc259",
   "blenderkit.com/asset-gallery-detail/945c2575-24f5-4492-aae7-bdebef40fcf6",
@@ -2075,6 +2079,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 216,
- "blendswap_page": 18
+ "blenderkit_index": 228,
+ "blendswap_page": 19
 }
