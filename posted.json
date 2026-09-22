@@ -917,19 +917,20 @@
   "017d274966a1056e",
   "c9fc98def4387b04",
   "ca88bd9dfb36e6fd",
-  "ee57192537463e12"
+  "ee57192537463e12",
+  "d13681a72f77a2fc"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "airtable",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 395,
- "archive_page": 634,
- "buffet_index": 15700,
- "airtable_index": 7488,
+ "counter": 396,
+ "archive_page": 636,
+ "buffet_index": 15750,
+ "airtable_index": 7512,
  "last_post_ts": 1790053246.7254426,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1272,7 +1273,8 @@
   "6aec87227c766dd3",
   "6a3f171e485fbcc9",
   "7fadd60d2b9762bf",
-  "1ea92a3d59862ad8"
+  "1ea92a3d59862ad8",
+  "cf0cd73baeacf51b"
  ],
  "channel_names": [
   "3d penguin",
@@ -1589,6 +1591,7 @@
   "spider verse",
   "spider verse spider man",
   "spiderbot",
+  "spiderman blue rigged",
   "sporemaw rigged",
   "squirtle",
   "star wars finn",
@@ -1801,6 +1804,7 @@
   "blenderkit.com/asset-gallery-detail/2bdac30f-5d47-46be-8ad3-8bf42e736338",
   "blenderkit.com/asset-gallery-detail/2f2362df-77ee-48bd-ac19-01e3e0cd0660",
   "blenderkit.com/asset-gallery-detail/4de760b6-4724-459f-9558-28b98a4bf4f6",
+  "blenderkit.com/asset-gallery-detail/976230df-9b2f-4475-8dd2-f7db102fdbe9",
   "blenderkit.com/asset-gallery-detail/a6d57996-1bc4-4a3c-abd8-ee3e16cef8fe",
   "blenderkit.com/asset-gallery-detail/ac3359c6-9dae-4a1f-b792-2acf632c852d",
   "blenderkit.com/asset-gallery-detail/b9a86ea0-065b-41cc-a977-8411f537cb3a",
@@ -2048,6 +2052,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 192,
- "blendswap_page": 16
+ "blenderkit_index": 204,
+ "blendswap_page": 17
 }
