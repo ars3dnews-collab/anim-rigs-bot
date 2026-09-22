@@ -913,19 +913,20 @@
   "0458835de5cea0c4",
   "c17db3d491a9fdc2",
   "d9230f11e5e7ecf8",
-  "51b96af1b6ad4794"
+  "51b96af1b6ad4794",
+  "017d274966a1056e"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 393,
- "archive_page": 632,
- "buffet_index": 15650,
- "airtable_index": 7464,
+ "counter": 394,
+ "archive_page": 634,
+ "buffet_index": 15700,
+ "airtable_index": 7488,
  "last_post_ts": 1790010689.9553108,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1266,7 +1267,8 @@
   "01542462a747b81e",
   "90258cf92f255acc",
   "6aec87227c766dd3",
-  "6a3f171e485fbcc9"
+  "6a3f171e485fbcc9",
+  "7fadd60d2b9762bf"
  ],
  "channel_names": [
   "3d penguin",
@@ -1477,6 +1479,7 @@
   "lizard creature",
   "lizardman",
   "lou",
+  "low poly man in shorts and t shirt rigged character",
   "lowman simple and with facial",
   "luna",
   "lunte",
@@ -1792,6 +1795,7 @@
   "blenderkit.com/asset-gallery-detail/17650e9a-fd55-4277-bfab-b5e3ffa2dcc5",
   "blenderkit.com/asset-gallery-detail/2bdac30f-5d47-46be-8ad3-8bf42e736338",
   "blenderkit.com/asset-gallery-detail/2f2362df-77ee-48bd-ac19-01e3e0cd0660",
+  "blenderkit.com/asset-gallery-detail/4de760b6-4724-459f-9558-28b98a4bf4f6",
   "blenderkit.com/asset-gallery-detail/a6d57996-1bc4-4a3c-abd8-ee3e16cef8fe",
   "blenderkit.com/asset-gallery-detail/ac3359c6-9dae-4a1f-b792-2acf632c852d",
   "blenderkit.com/asset-gallery-detail/b9a86ea0-065b-41cc-a977-8411f537cb3a",
@@ -2038,6 +2042,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 180,
- "blendswap_page": 15
+ "blenderkit_index": 192,
+ "blendswap_page": 16
 }
