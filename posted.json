@@ -941,19 +941,20 @@
   "b52d06cf3833b1f5",
   "408424feb4196517",
   "e00d012216351de9",
-  "a47323595baf7e95"
+  "a47323595baf7e95",
+  "a04240009cd0472a"
  ],
  "sources": [
   "blendkit",
-  "blendkit",
   "animation-buffet",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 407,
- "archive_page": 644,
- "buffet_index": 15950,
- "airtable_index": 7608,
+ "counter": 408,
+ "archive_page": 646,
+ "buffet_index": 16000,
+ "airtable_index": 7632,
  "last_post_ts": 1790168740.5796616,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1308,7 +1309,8 @@
   "d05b27d86eae5caa",
   "e97c647fc35e6c11",
   "617991e16049347d",
-  "a0d00a1e82103c61"
+  "a0d00a1e82103c61",
+  "65517dd16bd4c3b4"
  ],
  "channel_names": [
   "3d penguin",
@@ -1689,6 +1691,7 @@
   "vixen",
   "w 870 shotgun re4 remake",
   "whale studio",
+  "wicked witch body face rigged",
   "wilhelm the giraffe",
   "winter wonder ahri",
   "wolf",
@@ -1855,6 +1858,7 @@
   "blenderkit.com/asset-gallery-detail/4de760b6-4724-459f-9558-28b98a4bf4f6",
   "blenderkit.com/asset-gallery-detail/55af7b4a-c99d-4d0e-88bf-f5598f4fc259",
   "blenderkit.com/asset-gallery-detail/6381f63a-455a-42a2-bbba-54b121ef2fec",
+  "blenderkit.com/asset-gallery-detail/68cc2909-db60-4308-bdf0-2f2ef159302b",
   "blenderkit.com/asset-gallery-detail/945c2575-24f5-4492-aae7-bdebef40fcf6",
   "blenderkit.com/asset-gallery-detail/976230df-9b2f-4475-8dd2-f7db102fdbe9",
   "blenderkit.com/asset-gallery-detail/a6d57996-1bc4-4a3c-abd8-ee3e16cef8fe",
@@ -2108,6 +2112,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 252,
- "blendswap_page": 21
+ "blenderkit_index": 264,
+ "blendswap_page": 22
 }
