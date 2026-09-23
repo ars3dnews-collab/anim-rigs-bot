@@ -942,16 +942,17 @@
   "408424feb4196517",
   "e00d012216351de9",
   "a47323595baf7e95",
-  "a04240009cd0472a"
+  "a04240009cd0472a",
+  "97288a79a3fcecf3"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 408,
+ "counter": 409,
  "archive_page": 646,
  "buffet_index": 16000,
  "airtable_index": 7632,
@@ -1310,7 +1311,8 @@
   "e97c647fc35e6c11",
   "617991e16049347d",
   "a0d00a1e82103c61",
-  "65517dd16bd4c3b4"
+  "65517dd16bd4c3b4",
+  "73f2befb765254ae"
  ],
  "channel_names": [
   "3d penguin",
@@ -1579,6 +1581,7 @@
   "pig mechanic",
   "piston",
   "pixie the cat",
+  "pokoyo",
   "prop bundle",
   "psylocke",
   "rain v3",
@@ -1816,6 +1819,7 @@
   "animationbuffet.blogspot.com/2020/03/marty-robot.html",
   "animationbuffet.blogspot.com/2020/03/pendulum.html",
   "animationbuffet.blogspot.com/2020/03/pig-mechanic.html",
+  "animationbuffet.blogspot.com/2020/03/pokoyo.html",
   "animationbuffet.blogspot.com/2020/03/raptor.html",
   "animationbuffet.blogspot.com/2020/03/skateboard.html",
   "animationbuffet.blogspot.com/2020/03/skeleton.html",
