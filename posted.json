@@ -937,19 +937,20 @@
   "d27604414740e22b",
   "3ca0dd0096726611",
   "6efed380750195c0",
-  "8a92b64534f33a03"
+  "8a92b64534f33a03",
+  "b52d06cf3833b1f5"
  ],
  "sources": [
-  "blendkit",
   "airtable",
   "blendkit",
   "blendkit",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 404,
- "archive_page": 642,
- "buffet_index": 15900,
- "airtable_index": 7584,
+ "counter": 405,
+ "archive_page": 644,
+ "buffet_index": 15950,
+ "airtable_index": 7608,
  "last_post_ts": 1790146853.5317912,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1301,7 +1302,8 @@
   "4567fa2893c3c239",
   "fc8193e8bd310228",
   "d3a1ffba5da8364f",
-  "d05b27d86eae5caa"
+  "d05b27d86eae5caa",
+  "e97c647fc35e6c11"
  ],
  "channel_names": [
   "3d penguin",
@@ -1482,6 +1484,7 @@
   "jd juice box",
   "jelly",
   "jerry",
+  "jj",
   "jody",
   "johnny the box",
   "judy hopps",
@@ -1813,6 +1816,7 @@
   "animationbuffet.blogspot.com/2020/03/wukong.html",
   "animationbuffet.blogspot.com/2020/05/tanner-saurus-rex.html",
   "animationbuffet.blogspot.com/2020/06/apollo.html",
+  "animationbuffet.blogspot.com/2020/06/jj.html",
   "animationbuffet.blogspot.com/2020/06/kit.html",
   "animationbuffet.blogspot.com/2020/06/kohaku.html",
   "animationbuffet.blogspot.com/2020/06/rhino.html",
@@ -2095,6 +2099,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 240,
- "blendswap_page": 20
+ "blenderkit_index": 252,
+ "blendswap_page": 21
 }
