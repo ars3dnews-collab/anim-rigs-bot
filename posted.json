@@ -934,19 +934,20 @@
   "16cfbebd70529adc",
   "99cfec7074f62d20",
   "fc54c8af06f952d7",
-  "d27604414740e22b"
+  "d27604414740e22b",
+  "3ca0dd0096726611"
  ],
  "sources": [
   "blendkit",
-  "blendkit",
   "animation-buffet",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 401,
- "archive_page": 640,
- "buffet_index": 15850,
- "airtable_index": 7560,
+ "counter": 402,
+ "archive_page": 642,
+ "buffet_index": 15900,
+ "airtable_index": 7584,
  "last_post_ts": 1790097648.7217734,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1295,7 +1296,8 @@
   "5f53ed8945245876",
   "7eb53f978f4ab760",
   "079b1e9c826a5d2f",
-  "4567fa2893c3c239"
+  "4567fa2893c3c239",
+  "fc8193e8bd310228"
  ],
  "channel_names": [
   "3d penguin",
@@ -1389,6 +1391,7 @@
   "crt dude",
   "csgo terrorist",
   "cube",
+  "cute alien rigged",
   "dain",
   "dana",
   "dark evil dragon",
@@ -1833,6 +1836,7 @@
   "blenderkit.com/asset-gallery-detail/45d165f3-edea-40ed-8a9d-ce70b0ea28c5",
   "blenderkit.com/asset-gallery-detail/4de760b6-4724-459f-9558-28b98a4bf4f6",
   "blenderkit.com/asset-gallery-detail/55af7b4a-c99d-4d0e-88bf-f5598f4fc259",
+  "blenderkit.com/asset-gallery-detail/6381f63a-455a-42a2-bbba-54b121ef2fec",
   "blenderkit.com/asset-gallery-detail/945c2575-24f5-4492-aae7-bdebef40fcf6",
   "blenderkit.com/asset-gallery-detail/976230df-9b2f-4475-8dd2-f7db102fdbe9",
   "blenderkit.com/asset-gallery-detail/a6d57996-1bc4-4a3c-abd8-ee3e16cef8fe",
@@ -2083,6 +2087,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 228,
- "blendswap_page": 19
+ "blenderkit_index": 240,
+ "blendswap_page": 20
 }
