@@ -949,16 +949,17 @@
   "357c06e12ebda769",
   "5cd88b624f196973",
   "980b49de74c7b0e8",
-  "81868db949f11207"
+  "81868db949f11207",
+  "9d3e73c6b3eeac86"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 415,
+ "counter": 416,
  "archive_page": 652,
  "buffet_index": 16150,
  "airtable_index": 7704,
@@ -1324,7 +1325,8 @@
   "e2c555d95ca337a6",
   "6fbd7df2b5fba1ce",
   "1f4e77a3add7b5e0",
-  "5c0fe1e05ec099c4"
+  "5c0fe1e05ec099c4",
+  "433fa956aec5b084"
  ],
  "channel_names": [
   "3d penguin",
@@ -1600,6 +1602,7 @@
   "pokoyo",
   "prop bundle",
   "psylocke",
+  "rabbit critter rigged",
   "rain v3",
   "rancor",
   "raptor",
@@ -1886,6 +1889,7 @@
   "blenderkit.com/asset-gallery-detail/55af7b4a-c99d-4d0e-88bf-f5598f4fc259",
   "blenderkit.com/asset-gallery-detail/6381f63a-455a-42a2-bbba-54b121ef2fec",
   "blenderkit.com/asset-gallery-detail/68cc2909-db60-4308-bdf0-2f2ef159302b",
+  "blenderkit.com/asset-gallery-detail/7f329417-d756-49ab-a346-4b70471d64fd",
   "blenderkit.com/asset-gallery-detail/945c2575-24f5-4492-aae7-bdebef40fcf6",
   "blenderkit.com/asset-gallery-detail/976230df-9b2f-4475-8dd2-f7db102fdbe9",
   "blenderkit.com/asset-gallery-detail/a6d57996-1bc4-4a3c-abd8-ee3e16cef8fe",
