@@ -943,19 +943,20 @@
   "e00d012216351de9",
   "a47323595baf7e95",
   "a04240009cd0472a",
-  "97288a79a3fcecf3"
+  "97288a79a3fcecf3",
+  "ffd35bec1984f02e"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "airtable",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 409,
- "archive_page": 646,
- "buffet_index": 16000,
- "airtable_index": 7632,
+ "counter": 410,
+ "archive_page": 648,
+ "buffet_index": 16050,
+ "airtable_index": 7656,
  "last_post_ts": 1790183482.0407045,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1312,7 +1313,8 @@
   "617991e16049347d",
   "a0d00a1e82103c61",
   "65517dd16bd4c3b4",
-  "73f2befb765254ae"
+  "73f2befb765254ae",
+  "97b07e9de0bc3482"
  ],
  "channel_names": [
   "3d penguin",
@@ -1401,6 +1403,7 @@
   "cody",
   "cogswell dragon",
   "conan",
+  "cozy stylized girl in orange sweater",
   "cricket",
   "critter evolved studio",
   "critter studio",
@@ -1854,6 +1857,7 @@
   "badsoup.gumroad.com/l/vdyaa",
   "bbbn19.gumroad.com/l/jbvco",
   "blenderkit.com/asset-gallery-detail/02dd566b-538d-4ba1-942f-868aa58264d5",
+  "blenderkit.com/asset-gallery-detail/106f0724-130d-4eed-b083-df9f120ea46b",
   "blenderkit.com/asset-gallery-detail/150adf10-2f7e-41cc-9418-2f1773b3b616",
   "blenderkit.com/asset-gallery-detail/17650e9a-fd55-4277-bfab-b5e3ffa2dcc5",
   "blenderkit.com/asset-gallery-detail/2bdac30f-5d47-46be-8ad3-8bf42e736338",
@@ -2116,6 +2120,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 264,
- "blendswap_page": 22
+ "blenderkit_index": 276,
+ "blendswap_page": 23
 }
