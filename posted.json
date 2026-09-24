@@ -945,19 +945,20 @@
   "a04240009cd0472a",
   "97288a79a3fcecf3",
   "ffd35bec1984f02e",
-  "8b08f0183574a2a3"
+  "8b08f0183574a2a3",
+  "357c06e12ebda769"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 411,
- "archive_page": 648,
- "buffet_index": 16050,
- "airtable_index": 7656,
+ "counter": 412,
+ "archive_page": 650,
+ "buffet_index": 16100,
+ "airtable_index": 7680,
  "last_post_ts": 1790226053.1516461,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1316,7 +1317,8 @@
   "65517dd16bd4c3b4",
   "73f2befb765254ae",
   "97b07e9de0bc3482",
-  "07a6ec55df2f87fc"
+  "07a6ec55df2f87fc",
+  "e2c555d95ca337a6"
  ],
  "channel_names": [
   "3d penguin",
@@ -1460,6 +1462,7 @@
   "franck the caterpillar",
   "fred",
   "gabby",
+  "game ready realistic snow leopard jaguar",
   "gamma",
   "generalized animal boxy",
   "ghost armour",
@@ -1875,6 +1878,7 @@
   "blenderkit.com/asset-gallery-detail/976230df-9b2f-4475-8dd2-f7db102fdbe9",
   "blenderkit.com/asset-gallery-detail/a6d57996-1bc4-4a3c-abd8-ee3e16cef8fe",
   "blenderkit.com/asset-gallery-detail/ac3359c6-9dae-4a1f-b792-2acf632c852d",
+  "blenderkit.com/asset-gallery-detail/afd5869c-af4d-4ab1-96f9-9e6289701e5c",
   "blenderkit.com/asset-gallery-detail/b9a86ea0-065b-41cc-a977-8411f537cb3a",
   "blenderkit.com/asset-gallery-detail/b9d48bc2-227d-4231-bc30-71ba007dca5f",
   "blenderkit.com/asset-gallery-detail/ca772681-486e-424c-958c-4ec7b57b2cdf",
@@ -2124,6 +2128,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 276,
- "blendswap_page": 23
+ "blenderkit_index": 288,
+ "blendswap_page": 24
 }
