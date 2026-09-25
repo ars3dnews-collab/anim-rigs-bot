@@ -964,16 +964,17 @@
   "0661b4ad2ee1cfc0",
   "312d0321ed99922b",
   "9b4728c2bdb5c914",
-  "73ad3ccef8b92d1d"
+  "73ad3ccef8b92d1d",
+  "912d9bf9091f18d7"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 422,
+ "counter": 423,
  "archive_page": 660,
  "buffet_index": 16350,
  "airtable_index": 7800,
@@ -1346,7 +1347,8 @@
   "397c8866b2005e8e",
   "015ed6b67da7f635",
   "a497f0b0c62d5b46",
-  "aea5e87929ee0a31"
+  "aea5e87929ee0a31",
+  "944381a1c77d4418"
  ],
  "channel_names": [
   "3d penguin",
@@ -1564,6 +1566,7 @@
   "kobold",
   "kohaku",
   "kong skeleton",
+  "kyle balda masterclass",
   "leaf insect",
   "lego wall e",
   "leopard",
@@ -1796,6 +1799,7 @@
   "animationbuffet.blogspot.com/2008/07/octopus.html",
   "animationbuffet.blogspot.com/2008/07/rudy.html",
   "animationbuffet.blogspot.com/2008/12/tonga-fox.html",
+  "animationbuffet.blogspot.com/2009/08/kyle-balda-masterclass-rigs.html",
   "animationbuffet.blogspot.com/2009/11/eyes-rig.html",
   "animationbuffet.blogspot.com/2010/05/optimy-classic.html",
   "animationbuffet.blogspot.com/2011/03/sinka.html",
