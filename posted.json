@@ -954,16 +954,17 @@
   "d472d792da222b93",
   "c383c01af4bf4bc3",
   "c03c096252d835e8",
-  "d65342f29b98ade4"
+  "d65342f29b98ade4",
+  "4fd696cd0bdebb72"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 418,
+ "counter": 419,
  "archive_page": 656,
  "buffet_index": 16250,
  "airtable_index": 7752,
@@ -1332,7 +1333,8 @@
   "5c0fe1e05ec099c4",
   "433fa956aec5b084",
   "009afc9b64338866",
-  "e47826ec3c21f7db"
+  "e47826ec3c21f7db",
+  "397c8866b2005e8e"
  ],
  "channel_names": [
   "3d penguin",
@@ -1557,6 +1559,7 @@
   "lizardman",
   "lou",
   "low poly man in shorts and t shirt rigged character",
+  "low poly micro",
   "lowman simple and with facial",
   "luna",
   "lunte",
@@ -1792,6 +1795,7 @@
   "animationbuffet.blogspot.com/2013/01/boolieman.html",
   "animationbuffet.blogspot.com/2013/04/kien.html",
   "animationbuffet.blogspot.com/2013/05/rexxy.html",
+  "animationbuffet.blogspot.com/2013/09/low-poly-micro-rigs.html",
   "animationbuffet.blogspot.com/2013/09/sophia.html",
   "animationbuffet.blogspot.com/2013/10/stewart.html",
   "animationbuffet.blogspot.com/2014/01/animus.html",
