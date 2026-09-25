@@ -955,19 +955,20 @@
   "c383c01af4bf4bc3",
   "c03c096252d835e8",
   "d65342f29b98ade4",
-  "4fd696cd0bdebb72"
+  "4fd696cd0bdebb72",
+  "7fc4fd06106bc138"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "airtable",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 419,
- "archive_page": 656,
- "buffet_index": 16250,
- "airtable_index": 7752,
+ "counter": 420,
+ "archive_page": 658,
+ "buffet_index": 16300,
+ "airtable_index": 7776,
  "last_post_ts": 1790312430.9167852,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1334,7 +1335,8 @@
   "433fa956aec5b084",
   "009afc9b64338866",
   "e47826ec3c21f7db",
-  "397c8866b2005e8e"
+  "397c8866b2005e8e",
+  "015ed6b67da7f635"
  ],
  "channel_names": [
   "3d penguin",
@@ -1451,6 +1453,7 @@
   "dinorig",
   "doc ock",
   "doctor with lab coat stethoscope",
+  "dog black labrador animated",
   "dog studio",
   "dolphin",
   "douglas the corgi",
@@ -1898,6 +1901,7 @@
   "blenderkit.com/asset-gallery-detail/45d165f3-edea-40ed-8a9d-ce70b0ea28c5",
   "blenderkit.com/asset-gallery-detail/4a989dd5-c014-4808-bb63-4fa33477ebf1",
   "blenderkit.com/asset-gallery-detail/4de760b6-4724-459f-9558-28b98a4bf4f6",
+  "blenderkit.com/asset-gallery-detail/52fe8cd5-81db-4f30-9348-b885b43e4c96",
   "blenderkit.com/asset-gallery-detail/55af7b4a-c99d-4d0e-88bf-f5598f4fc259",
   "blenderkit.com/asset-gallery-detail/6381f63a-455a-42a2-bbba-54b121ef2fec",
   "blenderkit.com/asset-gallery-detail/68cc2909-db60-4308-bdf0-2f2ef159302b",
@@ -2158,6 +2162,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 324,
- "blendswap_page": 27
+ "blenderkit_index": 336,
+ "blendswap_page": 28
 }
