@@ -965,16 +965,17 @@
   "312d0321ed99922b",
   "9b4728c2bdb5c914",
   "73ad3ccef8b92d1d",
-  "912d9bf9091f18d7"
+  "912d9bf9091f18d7",
+  "b9c3611f90e99d58"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 423,
+ "counter": 424,
  "archive_page": 660,
  "buffet_index": 16350,
  "airtable_index": 7800,
@@ -1348,7 +1349,8 @@
   "015ed6b67da7f635",
   "a497f0b0c62d5b46",
   "aea5e87929ee0a31",
-  "944381a1c77d4418"
+  "944381a1c77d4418",
+  "aa855e0bc2ba6056"
  ],
  "channel_names": [
   "3d penguin",
@@ -1471,6 +1473,7 @@
   "dolphin",
   "douglas the corgi",
   "dragon",
+  "dragon rigged",
   "droid",
   "dron vt 802 rig",
   "dude",
@@ -1934,6 +1937,7 @@
   "blenderkit.com/asset-gallery-detail/b9d48bc2-227d-4231-bc30-71ba007dca5f",
   "blenderkit.com/asset-gallery-detail/ca772681-486e-424c-958c-4ec7b57b2cdf",
   "blenderkit.com/asset-gallery-detail/d239ed66-91cf-4ea8-91f0-17dc994980e2",
+  "blenderkit.com/asset-gallery-detail/d737de5c-a17f-4347-b46f-d40efd202066",
   "blenderkit.com/asset-gallery-detail/f4bda642-d430-428c-8039-fae5cf9d4e69",
   "bongqi.gumroad.com/l/littelboxjeep",
   "builtbycolossus.com/ninja",
