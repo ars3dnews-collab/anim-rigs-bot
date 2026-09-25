@@ -966,16 +966,17 @@
   "9b4728c2bdb5c914",
   "73ad3ccef8b92d1d",
   "912d9bf9091f18d7",
-  "b9c3611f90e99d58"
+  "b9c3611f90e99d58",
+  "c67116ee88983c72"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 424,
+ "counter": 425,
  "archive_page": 660,
  "buffet_index": 16350,
  "airtable_index": 7800,
@@ -1350,7 +1351,8 @@
   "a497f0b0c62d5b46",
   "aea5e87929ee0a31",
   "944381a1c77d4418",
-  "aa855e0bc2ba6056"
+  "aa855e0bc2ba6056",
+  "56c46fd48af0f3a2"
  ],
  "channel_names": [
   "3d penguin",
@@ -1692,6 +1694,7 @@
   "spiderbot",
   "spiderman blue rigged",
   "sporemaw rigged",
+  "squirrely",
   "squirtle",
   "star wars finn",
   "starfox krystal",
@@ -1802,6 +1805,7 @@
   "animationbuffet.blogspot.com/2008/07/octopus.html",
   "animationbuffet.blogspot.com/2008/07/rudy.html",
   "animationbuffet.blogspot.com/2008/12/tonga-fox.html",
+  "animationbuffet.blogspot.com/2009/05/squirrely-rig.html",
   "animationbuffet.blogspot.com/2009/08/kyle-balda-masterclass-rigs.html",
   "animationbuffet.blogspot.com/2009/11/eyes-rig.html",
   "animationbuffet.blogspot.com/2010/05/optimy-classic.html",
