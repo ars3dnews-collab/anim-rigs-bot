@@ -981,16 +981,17 @@
   "6863472da76c79f0",
   "ce502744718ae750",
   "a6ba59126d0d199e",
-  "cfab36d26eaa67a4"
+  "cfab36d26eaa67a4",
+  "951fac4cf582c161"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
+  "blendkit",
   "blendkit",
   "blendkit"
  ],
- "counter": 429,
+ "counter": 430,
  "archive_page": 664,
  "buffet_index": 16450,
  "airtable_index": 7848,
@@ -1370,7 +1371,8 @@
   "539ec28ebaede9dd",
   "fcd75836b3277356",
   "1a92ed375a9807c4",
-  "0e574c606f8661cd"
+  "0e574c606f8661cd",
+  "b5192be443956cff"
  ],
  "channel_names": [
   "3d penguin",
@@ -1547,6 +1549,7 @@
   "harold",
   "healthbot",
   "heavy",
+  "hero character",
   "hogan",
   "homer simpson",
   "horse",
@@ -1960,6 +1963,7 @@
   "blenderkit.com/asset-gallery-detail/945c2575-24f5-4492-aae7-bdebef40fcf6",
   "blenderkit.com/asset-gallery-detail/976230df-9b2f-4475-8dd2-f7db102fdbe9",
   "blenderkit.com/asset-gallery-detail/976b75ba-5f6e-4753-bcd7-8b1dc0e51639",
+  "blenderkit.com/asset-gallery-detail/a349c738-e03b-42cb-8b9e-268d200dcb81",
   "blenderkit.com/asset-gallery-detail/a6d57996-1bc4-4a3c-abd8-ee3e16cef8fe",
   "blenderkit.com/asset-gallery-detail/ac3359c6-9dae-4a1f-b792-2acf632c852d",
   "blenderkit.com/asset-gallery-detail/afd5869c-af4d-4ab1-96f9-9e6289701e5c",
