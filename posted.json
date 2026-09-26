@@ -972,19 +972,20 @@
   "d6762f2a7b65d58f",
   "8a59cd93bb62ba63",
   "bcb7f0d7de83db1b",
-  "f81754e6316f52b8"
+  "f81754e6316f52b8",
+  "6ea0c3e0f3ed601d"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 427,
- "archive_page": 662,
- "buffet_index": 16400,
- "airtable_index": 7824,
+ "counter": 428,
+ "archive_page": 664,
+ "buffet_index": 16450,
+ "airtable_index": 7848,
  "last_post_ts": 1790398901.3276286,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1359,7 +1360,8 @@
   "aa855e0bc2ba6056",
   "56c46fd48af0f3a2",
   "539ec28ebaede9dd",
-  "fcd75836b3277356"
+  "fcd75836b3277356",
+  "1a92ed375a9807c4"
  ],
  "channel_names": [
   "3d penguin",
@@ -1614,6 +1616,7 @@
   "mike freeman",
   "military girl",
   "minnow",
+  "minotaur warrior jade green",
   "modjadji",
   "momo chan",
   "monica",
@@ -1927,6 +1930,7 @@
   "badsoup.gumroad.com/l/vdyaa",
   "bbbn19.gumroad.com/l/jbvco",
   "blenderkit.com/asset-gallery-detail/02dd566b-538d-4ba1-942f-868aa58264d5",
+  "blenderkit.com/asset-gallery-detail/0e211139-1750-4784-a9db-87ffa5bc9dbb",
   "blenderkit.com/asset-gallery-detail/106f0724-130d-4eed-b083-df9f120ea46b",
   "blenderkit.com/asset-gallery-detail/150adf10-2f7e-41cc-9418-2f1773b3b616",
   "blenderkit.com/asset-gallery-detail/17650e9a-fd55-4277-bfab-b5e3ffa2dcc5",
@@ -2199,6 +2203,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 360,
- "blendswap_page": 30
+ "blenderkit_index": 372,
+ "blendswap_page": 31
 }
