@@ -989,16 +989,17 @@
   "64e78ef3575e0358",
   "e8fa5f896a069b2d",
   "fa69d1f9d7d34ebd",
-  "4490a1fd4da06500"
+  "4490a1fd4da06500",
+  "bf2815502a1a3ed5"
  ],
  "sources": [
   "blendkit",
   "blendkit",
   "blendkit",
-  "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 435,
+ "counter": 436,
  "archive_page": 670,
  "buffet_index": 16600,
  "airtable_index": 7920,
@@ -1384,7 +1385,8 @@
   "9e3c4a983b18eed0",
   "bc30b8bf5edaaab5",
   "faa1772cd7ab2ef1",
-  "8041702857e76167"
+  "8041702857e76167",
+  "1a40e9e61604773d"
  ],
  "channel_names": [
   "3d penguin",
@@ -1746,6 +1748,7 @@
   "storm studio",
   "stylized boy with attitude",
   "stylized butterfly rigged",
+  "stylized girl varsity jacket character",
   "stylized knight",
   "superhero",
   "sylvanas windrunner",
@@ -1993,6 +1996,7 @@
   "blenderkit.com/asset-gallery-detail/ca772681-486e-424c-958c-4ec7b57b2cdf",
   "blenderkit.com/asset-gallery-detail/d239ed66-91cf-4ea8-91f0-17dc994980e2",
   "blenderkit.com/asset-gallery-detail/d737de5c-a17f-4347-b46f-d40efd202066",
+  "blenderkit.com/asset-gallery-detail/dba6a136-a466-4bb2-9584-9d10b707f94c",
   "blenderkit.com/asset-gallery-detail/f1c17557-6912-400c-be81-1c1572f29800",
   "blenderkit.com/asset-gallery-detail/f4bda642-d430-428c-8039-fae5cf9d4e69",
   "bongqi.gumroad.com/l/littelboxjeep",
