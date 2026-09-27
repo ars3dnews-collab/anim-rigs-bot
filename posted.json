@@ -997,16 +997,17 @@
   "3f70005ce4d7ee8b",
   "bfbe68cdbc6347f1",
   "c1e931d86ee246a5",
-  "f5776d2dd61eb8ad"
+  "f5776d2dd61eb8ad",
+  "a10e7801f73a7b17"
  ],
  "sources": [
-  "blendkit",
   "airtable",
   "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 440,
+ "counter": 441,
  "archive_page": 674,
  "buffet_index": 16700,
  "airtable_index": 7968,
@@ -1397,7 +1398,8 @@
   "26012ed619531ee8",
   "235faf168210623d",
   "b74337fff7523e7c",
-  "a7acaca5916a3af0"
+  "a7acaca5916a3af0",
+  "01d1bb60d48f8b6d"
  ],
  "channel_names": [
   "3d penguin",
@@ -1587,6 +1589,7 @@
   "hydralisk",
   "hyena",
   "icarus",
+  "irex",
   "iron giant",
   "ivan bot",
   "janine",
@@ -1935,6 +1938,7 @@
   "animationbuffet.blogspot.com/2020/03/fire-wolf.html",
   "animationbuffet.blogspot.com/2020/03/fish.html",
   "animationbuffet.blogspot.com/2020/03/hydralisk.html",
+  "animationbuffet.blogspot.com/2020/03/irex.html",
   "animationbuffet.blogspot.com/2020/03/jerry.html",
   "animationbuffet.blogspot.com/2020/03/juicebox.html",
   "animationbuffet.blogspot.com/2020/03/leaf-insect.html",
