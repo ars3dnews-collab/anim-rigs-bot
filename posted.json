@@ -995,16 +995,17 @@
   "83aa9e2778737e42",
   "9e1ed8ba633eda96",
   "3f70005ce4d7ee8b",
-  "bfbe68cdbc6347f1"
+  "bfbe68cdbc6347f1",
+  "c1e931d86ee246a5"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 438,
+ "counter": 439,
  "archive_page": 672,
  "buffet_index": 16650,
  "airtable_index": 7944,
@@ -1393,7 +1394,8 @@
   "8041702857e76167",
   "1a40e9e61604773d",
   "26012ed619531ee8",
-  "235faf168210623d"
+  "235faf168210623d",
+  "b74337fff7523e7c"
  ],
  "channel_names": [
   "3d penguin",
@@ -1711,6 +1713,7 @@
   "safiro",
   "safiro gumshoe",
   "sally acorn",
+  "sam",
   "samus",
   "sanae",
   "scifi junk mecha",
@@ -1938,6 +1941,7 @@
   "animationbuffet.blogspot.com/2020/03/pig-mechanic.html",
   "animationbuffet.blogspot.com/2020/03/pokoyo.html",
   "animationbuffet.blogspot.com/2020/03/raptor.html",
+  "animationbuffet.blogspot.com/2020/03/sam.html",
   "animationbuffet.blogspot.com/2020/03/skateboard.html",
   "animationbuffet.blogspot.com/2020/03/skeleton.html",
   "animationbuffet.blogspot.com/2020/03/t-rex.html",
