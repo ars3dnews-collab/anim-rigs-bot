@@ -992,16 +992,17 @@
   "4490a1fd4da06500",
   "bf2815502a1a3ed5",
   "b0a8d9281428e0ed",
-  "83aa9e2778737e42"
+  "83aa9e2778737e42",
+  "9e1ed8ba633eda96"
  ],
  "sources": [
   "blendkit",
   "blendkit",
-  "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 436,
+ "counter": 437,
  "archive_page": 672,
  "buffet_index": 16650,
  "airtable_index": 7944,
@@ -1388,7 +1389,8 @@
   "bc30b8bf5edaaab5",
   "faa1772cd7ab2ef1",
   "8041702857e76167",
-  "1a40e9e61604773d"
+  "1a40e9e61604773d",
+  "26012ed619531ee8"
  ],
  "channel_names": [
   "3d penguin",
@@ -1679,6 +1681,7 @@
   "pokoyo",
   "prop bundle",
   "psylocke",
+  "pumpkin spider",
   "rabbit critter rigged",
   "rain v3",
   "rancor",
@@ -2063,6 +2066,7 @@
   "gumroad.com/l/fwrzn",
   "gumroad.com/l/ghidrah",
   "gumroad.com/l/gnvv",
+  "gumroad.com/l/gsctx",
   "gumroad.com/l/hfxjp",
   "gumroad.com/l/hikz",
   "gumroad.com/l/hsecq",
