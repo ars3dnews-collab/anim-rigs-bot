@@ -993,16 +993,17 @@
   "bf2815502a1a3ed5",
   "b0a8d9281428e0ed",
   "83aa9e2778737e42",
-  "9e1ed8ba633eda96"
+  "9e1ed8ba633eda96",
+  "3f70005ce4d7ee8b"
  ],
  "sources": [
   "blendkit",
-  "blendkit",
   "animation-buffet",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 437,
+ "counter": 438,
  "archive_page": 672,
  "buffet_index": 16650,
  "airtable_index": 7944,
@@ -1390,7 +1391,8 @@
   "faa1772cd7ab2ef1",
   "8041702857e76167",
   "1a40e9e61604773d",
-  "26012ed619531ee8"
+  "26012ed619531ee8",
+  "235faf168210623d"
  ],
  "channel_names": [
   "3d penguin",
@@ -1637,6 +1639,7 @@
   "marty the robot",
   "mech samurai",
   "mechcatrig",
+  "medieval archer ranger",
   "meerkat",
   "megabot",
   "mery",
@@ -1984,6 +1987,7 @@
   "blenderkit.com/asset-gallery-detail/4de760b6-4724-459f-9558-28b98a4bf4f6",
   "blenderkit.com/asset-gallery-detail/52fe8cd5-81db-4f30-9348-b885b43e4c96",
   "blenderkit.com/asset-gallery-detail/55af7b4a-c99d-4d0e-88bf-f5598f4fc259",
+  "blenderkit.com/asset-gallery-detail/5c78769b-a2e2-42d5-8ab7-0bdc6ae9c89a",
   "blenderkit.com/asset-gallery-detail/6381f63a-455a-42a2-bbba-54b121ef2fec",
   "blenderkit.com/asset-gallery-detail/68cc2909-db60-4308-bdf0-2f2ef159302b",
   "blenderkit.com/asset-gallery-detail/7f329417-d756-49ab-a346-4b70471d64fd",
