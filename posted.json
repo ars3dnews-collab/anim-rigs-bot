@@ -1002,19 +1002,20 @@
   "5bf05dc51fb19f3d",
   "2033b5f2c06e3bb8",
   "504e5b66716e4afc",
-  "d36218388202e80c"
+  "d36218388202e80c",
+  "5fdda2cbbf008581"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 445,
- "archive_page": 678,
- "buffet_index": 16800,
- "airtable_index": 8016,
+ "counter": 446,
+ "archive_page": 680,
+ "buffet_index": 16850,
+ "airtable_index": 8040,
  "last_post_ts": 1790586095.0119643,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1407,7 +1408,8 @@
   "9d7eea50080b3ddb",
   "60af731d2eb779e2",
   "bb001c0ec8e2b4de",
-  "c75588434802318f"
+  "c75588434802318f",
+  "0d0ff80bf21474ef"
  ],
  "channel_names": [
   "3d penguin",
@@ -1475,6 +1477,7 @@
   "bulk",
   "bumblebee",
   "bumblebee bear rigged",
+  "bunny bodysuit costume playboy",
   "bunny eater",
   "bwa",
   "camile",
@@ -2019,6 +2022,7 @@
   "blenderkit.com/asset-gallery-detail/7f329417-d756-49ab-a346-4b70471d64fd",
   "blenderkit.com/asset-gallery-detail/8de8442d-98f0-4dfa-8f33-2d25f6ba80bc",
   "blenderkit.com/asset-gallery-detail/945c2575-24f5-4492-aae7-bdebef40fcf6",
+  "blenderkit.com/asset-gallery-detail/9704cb94-4d65-4df0-97c4-eaa5ff5fae4d",
   "blenderkit.com/asset-gallery-detail/976230df-9b2f-4475-8dd2-f7db102fdbe9",
   "blenderkit.com/asset-gallery-detail/976b75ba-5f6e-4753-bcd7-8b1dc0e51639",
   "blenderkit.com/asset-gallery-detail/a349c738-e03b-42cb-8b9e-268d200dcb81",
@@ -2283,6 +2287,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 456,
- "blendswap_page": 38
+ "blenderkit_index": 468,
+ "blendswap_page": 39
 }
