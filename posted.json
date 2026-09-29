@@ -1017,16 +1017,17 @@
   "3b25e04961c9a290",
   "802154854bb6c982",
   "9a3e524b486fe23b",
-  "9d858be100a68eb1"
+  "9d858be100a68eb1",
+  "f626c10cff48b8a5"
  ],
  "sources": [
   "blendkit",
-  "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "airtable"
  ],
- "counter": 455,
+ "counter": 456,
  "archive_page": 686,
  "buffet_index": 17000,
  "airtable_index": 8112,
@@ -1432,7 +1433,8 @@
   "aaf94c3ceafaba06",
   "5f93e700d9f25556",
   "54ba630cc004178b",
-  "76d3dcf25b8bce8c"
+  "76d3dcf25b8bce8c",
+  "0e4981ccd30015a2"
  ],
  "channel_names": [
   "3d penguin",
@@ -1592,6 +1594,7 @@
   "foal spirit",
   "fps hands",
   "franck the caterpillar",
+  "franck the sheep",
   "fred",
   "fuzzy",
   "gabby",
@@ -2098,6 +2101,7 @@
   "cloud.blender.org/p/characters",
   "cloud.blender.org/p/characters/5d404a41c8cdeca7aadb351a",
   "cloud.blender.org/p/characters/5d404f0cc8cdeca7aadb352d",
+  "cloud.blender.org/p/characters/5d40511bfe6b50fb62faea7d",
   "cloud.blender.org/p/settlers/5ea98e073e1ac03a6f8cdcb1",
   "cloud.blender.org/p/settlers/5eaab274195e169b5f5eced9",
   "cloud.blender.org/p/settlers/5eb976b7abf8fcd0af056fb2",
