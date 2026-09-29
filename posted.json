@@ -1013,16 +1013,17 @@
   "905e450ca03fe4a8",
   "70ccf98c5ca0fb6c",
   "bb7966d76683f7c4",
-  "114d811d12952604"
+  "114d811d12952604",
+  "3b25e04961c9a290"
  ],
  "sources": [
   "blendkit",
   "blendkit",
   "blendkit",
   "blendkit",
-  "blendkit"
+  "animation-buffet"
  ],
- "counter": 452,
+ "counter": 453,
  "archive_page": 684,
  "buffet_index": 16950,
  "airtable_index": 8088,
@@ -1425,7 +1426,8 @@
   "491b0717f5fd6b47",
   "a9a0dda87fbd37e5",
   "e8418250676889e1",
-  "aaf94c3ceafaba06"
+  "aaf94c3ceafaba06",
+  "5f93e700d9f25556"
  ],
  "channel_names": [
   "3d penguin",
@@ -1569,6 +1571,7 @@
   "evil character",
   "executioner rigged game ready",
   "eyes",
+  "facial",
   "fantasy croc",
   "fantasy crocodile",
   "fat man",
@@ -1913,6 +1916,7 @@
   "animationbuffet.blogspot.com/2011/03/sinka.html",
   "animationbuffet.blogspot.com/2012/05/bit.html",
   "animationbuffet.blogspot.com/2012/05/daxter.html",
+  "animationbuffet.blogspot.com/2012/05/facial-rig.html",
   "animationbuffet.blogspot.com/2012/05/fat-man.html",
   "animationbuffet.blogspot.com/2012/05/finex.html",
   "animationbuffet.blogspot.com/2012/05/johnny-box.html",
