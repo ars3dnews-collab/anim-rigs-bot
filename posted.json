@@ -1016,16 +1016,17 @@
   "114d811d12952604",
   "3b25e04961c9a290",
   "802154854bb6c982",
-  "9a3e524b486fe23b"
+  "9a3e524b486fe23b",
+  "9d858be100a68eb1"
  ],
  "sources": [
   "blendkit",
   "blendkit",
-  "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 454,
+ "counter": 455,
  "archive_page": 686,
  "buffet_index": 17000,
  "airtable_index": 8112,
@@ -1430,7 +1431,8 @@
   "e8418250676889e1",
   "aaf94c3ceafaba06",
   "5f93e700d9f25556",
-  "54ba630cc004178b"
+  "54ba630cc004178b",
+  "76d3dcf25b8bce8c"
  ],
  "channel_names": [
   "3d penguin",
@@ -1591,6 +1593,7 @@
   "fps hands",
   "franck the caterpillar",
   "fred",
+  "fuzzy",
   "gabby",
   "game ready realistic snow leopard jaguar",
   "gamma",
@@ -1916,6 +1919,7 @@
   "animationbuffet.blogspot.com/2009/05/squirrely-rig.html",
   "animationbuffet.blogspot.com/2009/08/kyle-balda-masterclass-rigs.html",
   "animationbuffet.blogspot.com/2009/11/eyes-rig.html",
+  "animationbuffet.blogspot.com/2009/11/fuzzy.html",
   "animationbuffet.blogspot.com/2010/05/optimy-classic.html",
   "animationbuffet.blogspot.com/2011/03/sinka.html",
   "animationbuffet.blogspot.com/2012/05/bit.html",
