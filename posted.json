@@ -1005,7 +1005,8 @@
   "d36218388202e80c",
   "5fdda2cbbf008581",
   "ef2cac3ad378dad6",
-  "c248eac0ead7d522"
+  "c248eac0ead7d522",
+  "3488fad9e3b04533"
  ],
  "sources": [
   "blendkit",
@@ -1015,9 +1016,9 @@
   "blendkit"
  ],
  "counter": 448,
- "archive_page": 680,
- "buffet_index": 16850,
- "airtable_index": 8040,
+ "archive_page": 682,
+ "buffet_index": 16900,
+ "airtable_index": 8064,
  "last_post_ts": 1790607900.2549999,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -2257,6 +2258,7 @@
   "shalabology.wordpress.com/free-stuffs/free-rigs/jasminerose-free-rig-for-maya",
   "sharecg.com",
   "shayleenhulbertart.gumroad.com/l/sukli",
+  "skif3d.blogspot.com/2013/03/blog-post.html",
   "store.animschool.edu/product/malcolm-2-0-2",
   "store.steampowered.com/app/652150/oats_studios__volume_1_assets",
   "studio.blender.org",
@@ -2295,6 +2297,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 468,
- "blendswap_page": 39
+ "blenderkit_index": 480,
+ "blendswap_page": 40
 }
