@@ -1025,19 +1025,20 @@
   "85be203ff16897a1",
   "9f34541402573033",
   "731da6394adc1867",
-  "fbb4fca52a08da7b"
+  "fbb4fca52a08da7b",
+  "a2579a7603237019"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "airtable",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 457,
- "archive_page": 688,
- "buffet_index": 17050,
- "airtable_index": 8136,
+ "counter": 458,
+ "archive_page": 690,
+ "buffet_index": 17100,
+ "airtable_index": 8160,
  "last_post_ts": 1790737273.0734437,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1442,7 +1443,8 @@
   "54ba630cc004178b",
   "76d3dcf25b8bce8c",
   "0e4981ccd30015a2",
-  "74e64e43f67a63da"
+  "74e64e43f67a63da",
+  "f9e916776009f7f9"
  ],
  "channel_names": [
   "3d penguin",
@@ -1589,6 +1591,7 @@
   "facial",
   "fantasy croc",
   "fantasy crocodile",
+  "farmer rigged game ready",
   "fat man",
   "fat marine",
   "ferdinand",
@@ -2072,6 +2075,7 @@
   "blenderkit.com/asset-gallery-detail/7b723b65-ed48-48a5-bd34-b23d7db12859",
   "blenderkit.com/asset-gallery-detail/7cb3959c-989b-4b83-a60a-1af6f036c819",
   "blenderkit.com/asset-gallery-detail/7f329417-d756-49ab-a346-4b70471d64fd",
+  "blenderkit.com/asset-gallery-detail/8a0b8330-8504-40aa-ac59-442b023d2878",
   "blenderkit.com/asset-gallery-detail/8de8442d-98f0-4dfa-8f33-2d25f6ba80bc",
   "blenderkit.com/asset-gallery-detail/945c2575-24f5-4492-aae7-bdebef40fcf6",
   "blenderkit.com/asset-gallery-detail/968f04d1-82d0-46c8-ae9d-c9566a4b7ae9",
@@ -2343,6 +2347,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 516,
- "blendswap_page": 43
+ "blenderkit_index": 528,
+ "blendswap_page": 44
 }
