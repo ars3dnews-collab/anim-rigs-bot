@@ -1027,19 +1027,20 @@
   "731da6394adc1867",
   "fbb4fca52a08da7b",
   "a2579a7603237019",
-  "c4846729b90b60d7"
+  "c4846729b90b60d7",
+  "ec5bee7c8644a31e"
  ],
  "sources": [
-  "animation-buffet",
   "airtable",
   "animation-buffet",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 459,
- "archive_page": 690,
- "buffet_index": 17100,
- "airtable_index": 8160,
+ "counter": 460,
+ "archive_page": 692,
+ "buffet_index": 17150,
+ "airtable_index": 8184,
  "last_post_ts": 1790751695.3963706,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1446,7 +1447,8 @@
   "0e4981ccd30015a2",
   "74e64e43f67a63da",
   "f9e916776009f7f9",
-  "000a6dc3b0086b46"
+  "000a6dc3b0086b46",
+  "73d456cf668dc2ba"
  ],
  "channel_names": [
   "3d penguin",
@@ -1699,6 +1701,7 @@
   "lunte",
   "mae",
   "male firefighter green rescue uniform",
+  "male hiker outdoor camping gear",
   "male vampire character semi realistic rigged auto pro",
   "mannequin",
   "marie",
@@ -2058,6 +2061,7 @@
   "blenderkit.com/asset-gallery-detail/02dd566b-538d-4ba1-942f-868aa58264d5",
   "blenderkit.com/asset-gallery-detail/08985a2c-7b47-49cd-8c07-5c6e32b2c0a0",
   "blenderkit.com/asset-gallery-detail/0e211139-1750-4784-a9db-87ffa5bc9dbb",
+  "blenderkit.com/asset-gallery-detail/0e645f97-6533-4a74-89d0-cdc3a6d58d46",
   "blenderkit.com/asset-gallery-detail/106f0724-130d-4eed-b083-df9f120ea46b",
   "blenderkit.com/asset-gallery-detail/150adf10-2f7e-41cc-9418-2f1773b3b616",
   "blenderkit.com/asset-gallery-detail/17650e9a-fd55-4277-bfab-b5e3ffa2dcc5",
@@ -2351,6 +2355,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 528,
- "blendswap_page": 44
+ "blenderkit_index": 540,
+ "blendswap_page": 45
 }
