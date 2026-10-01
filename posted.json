@@ -1045,16 +1045,17 @@
   "d8b4b3da9d144658",
   "b3565cb809d438bc",
   "0b1b7e7b3851c98f",
-  "e69511871e2bd121"
+  "e69511871e2bd121",
+  "f3d2edd1bfc1b17c"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "animation-buffet",
   "blendkit",
+  "blendkit",
   "blendkit"
  ],
- "counter": 469,
+ "counter": 470,
  "archive_page": 700,
  "buffet_index": 17350,
  "airtable_index": 8280,
@@ -1474,7 +1475,8 @@
   "1af1bf1722f31ea8",
   "1a44c7fc3971d5f6",
   "8ef0409ef0035a42",
-  "67af701f7880eda7"
+  "67af701f7880eda7",
+  "025352f0a1516168"
  ],
  "channel_names": [
   "3d penguin",
@@ -1493,6 +1495,7 @@
   "amy",
   "anatomy helper",
   "andre",
+  "animated robot",
   "animation fundamentals",
   "anime cat woman rigged animated",
   "animschool malcolm 2 0",
@@ -2123,6 +2126,7 @@
   "blenderkit.com/asset-gallery-detail/87b4af0c-b3a2-4ce0-a038-eebed6253a24",
   "blenderkit.com/asset-gallery-detail/8a0b8330-8504-40aa-ac59-442b023d2878",
   "blenderkit.com/asset-gallery-detail/8de8442d-98f0-4dfa-8f33-2d25f6ba80bc",
+  "blenderkit.com/asset-gallery-detail/91e1620f-2a3a-4460-87a0-ca28da81c1a4",
   "blenderkit.com/asset-gallery-detail/945c2575-24f5-4492-aae7-bdebef40fcf6",
   "blenderkit.com/asset-gallery-detail/968f04d1-82d0-46c8-ae9d-c9566a4b7ae9",
   "blenderkit.com/asset-gallery-detail/9704cb94-4d65-4df0-97c4-eaa5ff5fae4d",
