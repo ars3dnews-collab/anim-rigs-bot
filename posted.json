@@ -1042,16 +1042,17 @@
   "0cd94149c371a45d",
   "4523d7daff8b5b22",
   "711cda949a71aa7b",
-  "d8b4b3da9d144658"
+  "d8b4b3da9d144658",
+  "b3565cb809d438bc"
  ],
  "sources": [
   "blendkit",
   "blendkit",
-  "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 466,
+ "counter": 467,
  "archive_page": 698,
  "buffet_index": 17300,
  "airtable_index": 8256,
@@ -1468,7 +1469,8 @@
   "223a93f905c64318",
   "da4bf060a7b9b479",
   "1718b8e3643ae4b1",
-  "1af1bf1722f31ea8"
+  "1af1bf1722f31ea8",
+  "1a44c7fc3971d5f6"
  ],
  "channel_names": [
   "3d penguin",
@@ -1798,6 +1800,7 @@
   "rhino",
   "ricardo",
   "robo girl",
+  "robot bot",
   "robot rbt10",
   "robot titanium",
   "roboter",
@@ -2048,6 +2051,7 @@
   "animationbuffet.blogspot.com/2020/03/pig-mechanic.html",
   "animationbuffet.blogspot.com/2020/03/pokoyo.html",
   "animationbuffet.blogspot.com/2020/03/raptor.html",
+  "animationbuffet.blogspot.com/2020/03/robot-bot.html",
   "animationbuffet.blogspot.com/2020/03/sam.html",
   "animationbuffet.blogspot.com/2020/03/skateboard.html",
   "animationbuffet.blogspot.com/2020/03/skeleton.html",
