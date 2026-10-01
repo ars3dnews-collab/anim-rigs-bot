@@ -1046,16 +1046,17 @@
   "b3565cb809d438bc",
   "0b1b7e7b3851c98f",
   "e69511871e2bd121",
-  "f3d2edd1bfc1b17c"
+  "f3d2edd1bfc1b17c",
+  "7d2a4a4f65f25f3b"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
+  "blendkit",
   "blendkit",
   "blendkit",
   "blendkit"
  ],
- "counter": 470,
+ "counter": 471,
  "archive_page": 700,
  "buffet_index": 17350,
  "airtable_index": 8280,
@@ -1476,7 +1477,8 @@
   "1a44c7fc3971d5f6",
   "8ef0409ef0035a42",
   "67af701f7880eda7",
-  "025352f0a1516168"
+  "025352f0a1516168",
+  "b8ab0e94921609a6"
  ],
  "channel_names": [
   "3d penguin",
@@ -1808,6 +1810,7 @@
   "rexxy",
   "rhino",
   "ricardo",
+  "rigged robot",
   "robo girl",
   "robot bot",
   "robot rbt10",
@@ -2148,6 +2151,7 @@
   "blenderkit.com/asset-gallery-detail/ca772681-486e-424c-958c-4ec7b57b2cdf",
   "blenderkit.com/asset-gallery-detail/cef86ada-0366-4a88-9243-4ec39522bbb4",
   "blenderkit.com/asset-gallery-detail/d239ed66-91cf-4ea8-91f0-17dc994980e2",
+  "blenderkit.com/asset-gallery-detail/d70aa919-0e82-4d4a-b0cc-619afd71749b",
   "blenderkit.com/asset-gallery-detail/d737de5c-a17f-4347-b46f-d40efd202066",
   "blenderkit.com/asset-gallery-detail/dba6a136-a466-4bb2-9584-9d10b707f94c",
   "blenderkit.com/asset-gallery-detail/eaca0880-5aba-4039-afee-02c058814063",
