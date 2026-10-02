@@ -1054,19 +1054,20 @@
   "39e29a63801675eb",
   "d3a1a3ea6a5f2058",
   "974cad0b19f5e2de",
-  "e6fd6a28f7cc158f"
+  "e6fd6a28f7cc158f",
+  "88fd7147e91a9606"
  ],
  "sources": [
   "blendkit",
   "blendkit",
-  "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 474,
- "archive_page": 702,
- "buffet_index": 17400,
- "airtable_index": 8304,
+ "counter": 475,
+ "archive_page": 704,
+ "buffet_index": 17450,
+ "airtable_index": 8328,
  "last_post_ts": 1790924536.4021018,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1488,7 +1489,8 @@
   "b8ab0e94921609a6",
   "bd6113d108c9f9a0",
   "1b85a7fbcd0278f7",
-  "c83c3ddcb6941b7f"
+  "c83c3ddcb6941b7f",
+  "febdc5d1733f6657"
  ],
  "channel_names": [
   "3d penguin",
@@ -1828,6 +1830,7 @@
   "robot rbt10",
   "robot titanium",
   "roboter",
+  "rocket girl",
   "rudy",
   "russell",
   "ryan",
@@ -2051,6 +2054,7 @@
   "animationbuffet.blogspot.com/2019/03/david.html",
   "animationbuffet.blogspot.com/2019/03/fantasy-croc.html",
   "animationbuffet.blogspot.com/2019/03/grey-matter-gary.html",
+  "animationbuffet.blogspot.com/2019/03/rocket-girl.html",
   "animationbuffet.blogspot.com/2019/08/gorgeous-george.html",
   "animationbuffet.blogspot.com/2019/09/spider-verse.html",
   "animationbuffet.blogspot.com/2019/10/seagull.html",
@@ -2423,6 +2427,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 600,
- "blendswap_page": 50
+ "blenderkit_index": 612,
+ "blendswap_page": 51
 }
