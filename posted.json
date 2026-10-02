@@ -1057,19 +1057,20 @@
   "e6fd6a28f7cc158f",
   "88fd7147e91a9606",
   "1ca1bd93dbe047ee",
-  "6e9fb1c27d4b0359"
+  "6e9fb1c27d4b0359",
+  "d8750b8e32221b40"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 477,
- "archive_page": 704,
- "buffet_index": 17450,
- "airtable_index": 8328,
+ "counter": 478,
+ "archive_page": 706,
+ "buffet_index": 17500,
+ "airtable_index": 8352,
  "last_post_ts": 1790946285.9299922,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1494,7 +1495,8 @@
   "c83c3ddcb6941b7f",
   "febdc5d1733f6657",
   "8300732cc6e533b2",
-  "6f4c999b9c4c3559"
+  "6f4c999b9c4c3559",
+  "3a53f8de90988207"
  ],
  "channel_names": [
   "3d penguin",
@@ -1924,6 +1926,7 @@
   "tribal chief",
   "tribal warrior",
   "triceratops",
+  "triceratops rigged",
   "trixxie",
   "troll",
   "tuna",
@@ -2134,6 +2137,7 @@
   "blenderkit.com/asset-gallery-detail/106f0724-130d-4eed-b083-df9f120ea46b",
   "blenderkit.com/asset-gallery-detail/150adf10-2f7e-41cc-9418-2f1773b3b616",
   "blenderkit.com/asset-gallery-detail/17650e9a-fd55-4277-bfab-b5e3ffa2dcc5",
+  "blenderkit.com/asset-gallery-detail/2b8376d6-628d-4311-ae01-5808b93e74a4",
   "blenderkit.com/asset-gallery-detail/2bdac30f-5d47-46be-8ad3-8bf42e736338",
   "blenderkit.com/asset-gallery-detail/2eaea5cf-5809-48c8-82d7-24fba62dec87",
   "blenderkit.com/asset-gallery-detail/2f2362df-77ee-48bd-ac19-01e3e0cd0660",
@@ -2435,6 +2439,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 612,
- "blendswap_page": 51
+ "blenderkit_index": 624,
+ "blendswap_page": 52
 }
