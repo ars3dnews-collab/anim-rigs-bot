@@ -1064,16 +1064,17 @@
   "979b5fc200908843",
   "2b61fcc3e8eac995",
   "5dfb9a5c3dcca96a",
-  "f7d6f816dc9f2c43"
+  "f7d6f816dc9f2c43",
+  "f1ae037f272521a2"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "blendkit",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 482,
+ "counter": 483,
  "archive_page": 710,
  "buffet_index": 17600,
  "airtable_index": 8400,
@@ -1506,13 +1507,15 @@
   "6622f259ab9e8903",
   "f287e3858b5c5f81",
   "61c0f9dbc672580b",
-  "c6fa2457bd9a7959"
+  "c6fa2457bd9a7959",
+  "404f7ee3d02832d2"
  ],
  "channel_names": [
   "3d penguin",
   "aang",
   "abomination",
   "adam",
+  "aero",
   "ahsoka tano",
   "akali",
   "akira kaneda",
@@ -2024,6 +2027,7 @@
   "animationbuffet.blogspot.com/2009/11/fuzzy.html",
   "animationbuffet.blogspot.com/2010/05/optimy-classic.html",
   "animationbuffet.blogspot.com/2011/03/sinka.html",
+  "animationbuffet.blogspot.com/2012/05/aero.html",
   "animationbuffet.blogspot.com/2012/05/bit.html",
   "animationbuffet.blogspot.com/2012/05/daxter.html",
   "animationbuffet.blogspot.com/2012/05/facial-rig.html",
