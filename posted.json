@@ -1065,16 +1065,17 @@
   "2b61fcc3e8eac995",
   "5dfb9a5c3dcca96a",
   "f7d6f816dc9f2c43",
-  "f1ae037f272521a2"
+  "f1ae037f272521a2",
+  "b878d66c1d3d309c"
  ],
  "sources": [
+  "blendkit",
+  "blendkit",
+  "blendkit",
   "animation-buffet",
-  "blendkit",
-  "blendkit",
-  "blendkit",
-  "animation-buffet"
+  "blendkit"
  ],
- "counter": 483,
+ "counter": 484,
  "archive_page": 710,
  "buffet_index": 17600,
  "airtable_index": 8400,
@@ -1508,7 +1509,8 @@
   "f287e3858b5c5f81",
   "61c0f9dbc672580b",
   "c6fa2457bd9a7959",
-  "404f7ee3d02832d2"
+  "404f7ee3d02832d2",
+  "f0c58c3d4ba09935"
  ],
  "channel_names": [
   "3d penguin",
@@ -1721,6 +1723,7 @@
   "iron giant",
   "ivan bot",
   "janine",
+  "japanese samurai warrior",
   "jasmine rose",
   "jd juice box",
   "jelly",
@@ -2210,6 +2213,7 @@
   "blenderkit.com/asset-gallery-detail/eaca0880-5aba-4039-afee-02c058814063",
   "blenderkit.com/asset-gallery-detail/f1c17557-6912-400c-be81-1c1572f29800",
   "blenderkit.com/asset-gallery-detail/f4bda642-d430-428c-8039-fae5cf9d4e69",
+  "blenderkit.com/asset-gallery-detail/f4d4ba28-c542-4be7-b346-5d7e033ef168",
   "blenderkit.com/asset-gallery-detail/f725f37d-93d3-49b8-a8b2-a13da263f0ae",
   "bongqi.gumroad.com/l/littelboxjeep",
   "builtbycolossus.com/ninja",
