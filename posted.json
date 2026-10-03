@@ -1059,19 +1059,20 @@
   "1ca1bd93dbe047ee",
   "6e9fb1c27d4b0359",
   "d8750b8e32221b40",
-  "32051b375276061c"
+  "32051b375276061c",
+  "793f78f4dbf269f3"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 479,
- "archive_page": 706,
- "buffet_index": 17500,
- "airtable_index": 8352,
+ "counter": 480,
+ "archive_page": 708,
+ "buffet_index": 17550,
+ "airtable_index": 8376,
  "last_post_ts": 1790960847.0070624,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1498,7 +1499,8 @@
   "8300732cc6e533b2",
   "6f4c999b9c4c3559",
   "3a53f8de90988207",
-  "6622f259ab9e8903"
+  "6622f259ab9e8903",
+  "f287e3858b5c5f81"
  ],
  "channel_names": [
   "3d penguin",
@@ -1772,6 +1774,7 @@
   "medieval archer ranger",
   "meerkat",
   "megabot",
+  "merman mythical sea creature",
   "mery",
   "mgear man",
   "mia",
@@ -2193,6 +2196,7 @@
   "blenderkit.com/asset-gallery-detail/eaca0880-5aba-4039-afee-02c058814063",
   "blenderkit.com/asset-gallery-detail/f1c17557-6912-400c-be81-1c1572f29800",
   "blenderkit.com/asset-gallery-detail/f4bda642-d430-428c-8039-fae5cf9d4e69",
+  "blenderkit.com/asset-gallery-detail/f725f37d-93d3-49b8-a8b2-a13da263f0ae",
   "bongqi.gumroad.com/l/littelboxjeep",
   "builtbycolossus.com/ninja",
   "builtbycolossus.com/robogirl",
@@ -2443,6 +2447,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 624,
- "blendswap_page": 52
+ "blenderkit_index": 636,
+ "blendswap_page": 53
 }
