@@ -1066,16 +1066,17 @@
   "5dfb9a5c3dcca96a",
   "f7d6f816dc9f2c43",
   "f1ae037f272521a2",
-  "b878d66c1d3d309c"
+  "b878d66c1d3d309c",
+  "38e6c4b0e0b9899a"
  ],
  "sources": [
   "blendkit",
   "blendkit",
-  "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 484,
+ "counter": 485,
  "archive_page": 710,
  "buffet_index": 17600,
  "airtable_index": 8400,
@@ -1510,7 +1511,8 @@
   "61c0f9dbc672580b",
   "c6fa2457bd9a7959",
   "404f7ee3d02832d2",
-  "f0c58c3d4ba09935"
+  "f0c58c3d4ba09935",
+  "2b40fcc34588a140"
  ],
  "channel_names": [
   "3d penguin",
@@ -1553,6 +1555,7 @@
   "battledroid",
   "beautiful woman base mesh body face rigged",
   "benny",
+  "bird",
   "bit",
   "black man",
   "blastoise",
@@ -2031,6 +2034,7 @@
   "animationbuffet.blogspot.com/2010/05/optimy-classic.html",
   "animationbuffet.blogspot.com/2011/03/sinka.html",
   "animationbuffet.blogspot.com/2012/05/aero.html",
+  "animationbuffet.blogspot.com/2012/05/bird.html",
   "animationbuffet.blogspot.com/2012/05/bit.html",
   "animationbuffet.blogspot.com/2012/05/daxter.html",
   "animationbuffet.blogspot.com/2012/05/facial-rig.html",
