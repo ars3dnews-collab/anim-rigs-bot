@@ -1069,16 +1069,17 @@
   "b878d66c1d3d309c",
   "38e6c4b0e0b9899a",
   "400c29be1e2a3caf",
-  "3472e9ef352d5c8b"
+  "3472e9ef352d5c8b",
+  "759f904e6fa7415f"
  ],
  "sources": [
   "blendkit",
-  "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 485,
+ "counter": 486,
  "archive_page": 712,
  "buffet_index": 17650,
  "airtable_index": 8424,
@@ -1514,7 +1515,8 @@
   "c6fa2457bd9a7959",
   "404f7ee3d02832d2",
   "f0c58c3d4ba09935",
-  "2b40fcc34588a140"
+  "2b40fcc34588a140",
+  "4e0bd4fef099029a"
  ],
  "channel_names": [
   "3d penguin",
@@ -1870,6 +1872,7 @@
   "safiro gumshoe",
   "sally acorn",
   "sam",
+  "samurai rigged game ready",
   "samus",
   "sanae",
   "scifi junk mecha",
@@ -2221,6 +2224,7 @@
   "blenderkit.com/asset-gallery-detail/f4bda642-d430-428c-8039-fae5cf9d4e69",
   "blenderkit.com/asset-gallery-detail/f4d4ba28-c542-4be7-b346-5d7e033ef168",
   "blenderkit.com/asset-gallery-detail/f725f37d-93d3-49b8-a8b2-a13da263f0ae",
+  "blenderkit.com/asset-gallery-detail/fdae7fb1-3bf8-4076-8017-91313350dd77",
   "bongqi.gumroad.com/l/littelboxjeep",
   "builtbycolossus.com/ninja",
   "builtbycolossus.com/robogirl",
