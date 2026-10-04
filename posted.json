@@ -1080,16 +1080,17 @@
   "57cbe2bc78abaf1e",
   "f04524f35ffe49e1",
   "e5373b10cd18cfaa",
-  "2a3c0b7264cbb0c4"
+  "2a3c0b7264cbb0c4",
+  "3b3fe4379fa84ee1"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 491,
+ "counter": 492,
  "archive_page": 716,
  "buffet_index": 17750,
  "airtable_index": 8472,
@@ -1531,7 +1532,8 @@
   "efd212b682286802",
   "ab41d4af70f3a237",
   "d9d9ed8f41e36ac8",
-  "8bc81bdc2106de76"
+  "8bc81bdc2106de76",
+  "47aa68cbe76ecac1"
  ],
  "channel_names": [
   "3d penguin",
@@ -2011,6 +2013,7 @@
   "zelda breath of the wild",
   "zhu baijie",
   "zombie",
+  "zombie horse rigged",
   "риги для аниматоров в одном месте"
  ],
  "channel_links": [
@@ -2193,6 +2196,7 @@
   "blenderkit.com/asset-gallery-detail/2bdac30f-5d47-46be-8ad3-8bf42e736338",
   "blenderkit.com/asset-gallery-detail/2eaea5cf-5809-48c8-82d7-24fba62dec87",
   "blenderkit.com/asset-gallery-detail/2f2362df-77ee-48bd-ac19-01e3e0cd0660",
+  "blenderkit.com/asset-gallery-detail/31d53a1f-448c-4446-b9af-1daac484269c",
   "blenderkit.com/asset-gallery-detail/3390ea68-0b41-4f32-9322-e998e14b2709",
   "blenderkit.com/asset-gallery-detail/36da9d9f-b99f-436a-8e76-e2ff09c79990",
   "blenderkit.com/asset-gallery-detail/38bbd42a-44c4-46ed-a04f-879e7a5e4318",
