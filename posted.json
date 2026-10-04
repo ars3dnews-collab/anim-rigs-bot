@@ -1075,19 +1075,20 @@
   "246c57be9c0f00e7",
   "c7dca1160ec58c1b",
   "e638c0b06dd8e136",
-  "01777035154dbb51"
+  "01777035154dbb51",
+  "dbedd737793f84da"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 487,
- "archive_page": 712,
- "buffet_index": 17650,
- "airtable_index": 8424,
+ "counter": 488,
+ "archive_page": 714,
+ "buffet_index": 17700,
+ "airtable_index": 8448,
  "last_post_ts": 1791046939.3940005,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1522,7 +1523,8 @@
   "f0c58c3d4ba09935",
   "2b40fcc34588a140",
   "4e0bd4fef099029a",
-  "f623fe183be7eb05"
+  "f623fe183be7eb05",
+  "efd212b682286802"
  ],
  "channel_names": [
   "3d penguin",
@@ -1882,6 +1884,7 @@
   "samurai rigged game ready",
   "samus",
   "sanae",
+  "sci fi spartan vanguard",
   "scifi junk mecha",
   "scorpion",
   "scotty bluebaker",
@@ -2227,6 +2230,7 @@
   "blenderkit.com/asset-gallery-detail/e5fa9080-4a6d-4722-9e68-fce881fe6c96",
   "blenderkit.com/asset-gallery-detail/e6bd475c-1f15-4fe9-8219-440ec504e17a",
   "blenderkit.com/asset-gallery-detail/eaca0880-5aba-4039-afee-02c058814063",
+  "blenderkit.com/asset-gallery-detail/efbe0963-3aa0-4681-8916-6ce87fc3c81d",
   "blenderkit.com/asset-gallery-detail/f1c17557-6912-400c-be81-1c1572f29800",
   "blenderkit.com/asset-gallery-detail/f4bda642-d430-428c-8039-fae5cf9d4e69",
   "blenderkit.com/asset-gallery-detail/f4d4ba28-c542-4be7-b346-5d7e033ef168",
@@ -2483,6 +2487,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 660,
- "blendswap_page": 55
+ "blenderkit_index": 672,
+ "blendswap_page": 56
 }
