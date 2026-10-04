@@ -1077,16 +1077,17 @@
   "e638c0b06dd8e136",
   "01777035154dbb51",
   "dbedd737793f84da",
-  "57cbe2bc78abaf1e"
+  "57cbe2bc78abaf1e",
+  "f04524f35ffe49e1"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 488,
+ "counter": 489,
  "archive_page": 714,
  "buffet_index": 17700,
  "airtable_index": 8448,
@@ -1525,7 +1526,8 @@
   "2b40fcc34588a140",
   "4e0bd4fef099029a",
   "f623fe183be7eb05",
-  "efd212b682286802"
+  "efd212b682286802",
+  "ab41d4af70f3a237"
  ],
  "channel_names": [
   "3d penguin",
@@ -1848,6 +1850,7 @@
   "piston",
   "pixie the cat",
   "pokoyo",
+  "poseman 1 2 4",
   "prop bundle",
   "psylocke",
   "pumpkin spider",
@@ -2040,6 +2043,7 @@
   "animationbuffet.blogspot.com/2008/04/kia-090.html",
   "animationbuffet.blogspot.com/2008/04/mort-110.html",
   "animationbuffet.blogspot.com/2008/04/yakumo-090.html",
+  "animationbuffet.blogspot.com/2008/06/poseman-124.html",
   "animationbuffet.blogspot.com/2008/07/octopus.html",
   "animationbuffet.blogspot.com/2008/07/rudy.html",
   "animationbuffet.blogspot.com/2008/12/tonga-fox.html",
