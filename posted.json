@@ -1079,19 +1079,20 @@
   "dbedd737793f84da",
   "57cbe2bc78abaf1e",
   "f04524f35ffe49e1",
-  "e5373b10cd18cfaa"
+  "e5373b10cd18cfaa",
+  "2a3c0b7264cbb0c4"
  ],
  "sources": [
-  "blendkit",
   "airtable",
   "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 490,
- "archive_page": 714,
- "buffet_index": 17700,
- "airtable_index": 8448,
+ "counter": 491,
+ "archive_page": 716,
+ "buffet_index": 17750,
+ "airtable_index": 8472,
  "last_post_ts": 1791097273.3618417,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1529,7 +1530,8 @@
   "f623fe183be7eb05",
   "efd212b682286802",
   "ab41d4af70f3a237",
-  "d9d9ed8f41e36ac8"
+  "d9d9ed8f41e36ac8",
+  "8bc81bdc2106de76"
  ],
  "channel_names": [
   "3d penguin",
@@ -1727,6 +1729,7 @@
   "harold",
   "healthbot",
   "heavy",
+  "heavy duty mech aka hulkbuster",
   "hekaton",
   "hero character",
   "hogan",
@@ -2300,6 +2303,7 @@
   "gumroad.com/l/dimrs",
   "gumroad.com/l/dnfmx",
   "gumroad.com/l/douglas",
+  "gumroad.com/l/eanjp",
   "gumroad.com/l/eqxez",
   "gumroad.com/l/erchc",
   "gumroad.com/l/fadlt",
@@ -2496,6 +2500,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 672,
- "blendswap_page": 56
+ "blenderkit_index": 684,
+ "blendswap_page": 57
 }
