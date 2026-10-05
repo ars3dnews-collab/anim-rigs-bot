@@ -1087,19 +1087,20 @@
   "aa20343407ba5735",
   "182b4cf57063ddf9",
   "a03dfb7579ea7c3a",
-  "567ef7baf283484b"
+  "567ef7baf283484b",
+  "5fb3d0c72a47df72"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "airtable",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 495,
- "archive_page": 718,
- "buffet_index": 17800,
- "airtable_index": 8496,
+ "counter": 496,
+ "archive_page": 720,
+ "buffet_index": 17850,
+ "airtable_index": 8520,
  "last_post_ts": 1791133354.6302156,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1542,7 +1543,8 @@
   "47aa68cbe76ecac1",
   "bfa5008d546a5dd9",
   "d77a3f40ddccdc98",
-  "4da86650f7765e07"
+  "4da86650f7765e07",
+  "7b6eeb722514b12b"
  ],
  "channel_names": [
   "3d penguin",
@@ -1946,6 +1948,7 @@
   "squirtle",
   "star wars finn",
   "starfox krystal",
+  "stealth female character",
   "steggy",
   "stewart",
   "stewart и squirrels",
@@ -2205,6 +2208,7 @@
   "blenderkit.com/asset-gallery-detail/106f0724-130d-4eed-b083-df9f120ea46b",
   "blenderkit.com/asset-gallery-detail/150adf10-2f7e-41cc-9418-2f1773b3b616",
   "blenderkit.com/asset-gallery-detail/17650e9a-fd55-4277-bfab-b5e3ffa2dcc5",
+  "blenderkit.com/asset-gallery-detail/25b5f088-49af-4e76-8fca-c8aba93edf45",
   "blenderkit.com/asset-gallery-detail/2b8376d6-628d-4311-ae01-5808b93e74a4",
   "blenderkit.com/asset-gallery-detail/2bdac30f-5d47-46be-8ad3-8bf42e736338",
   "blenderkit.com/asset-gallery-detail/2eaea5cf-5809-48c8-82d7-24fba62dec87",
@@ -2519,6 +2523,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 696,
- "blendswap_page": 58
+ "blenderkit_index": 708,
+ "blendswap_page": 59
 }
