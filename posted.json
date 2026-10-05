@@ -1090,16 +1090,17 @@
   "567ef7baf283484b",
   "5fb3d0c72a47df72",
   "1b226b2ed8987bfa",
-  "3d83d08ff6100ac6"
+  "3d83d08ff6100ac6",
+  "3381d229a3c96f19"
  ],
  "sources": [
-  "blendkit",
   "airtable",
   "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 496,
+ "counter": 497,
  "archive_page": 720,
  "buffet_index": 17850,
  "airtable_index": 8520,
@@ -1546,7 +1547,8 @@
   "bfa5008d546a5dd9",
   "d77a3f40ddccdc98",
   "4da86650f7765e07",
-  "7b6eeb722514b12b"
+  "7b6eeb722514b12b",
+  "c27e4d58394ded4b"
  ],
  "channel_names": [
   "3d penguin",
@@ -1875,6 +1877,7 @@
   "poseman 1 2 4",
   "prop bundle",
   "psylocke",
+  "pteranodon",
   "pumpkin spider",
   "rabbit critter rigged",
   "rain v3",
@@ -2518,6 +2521,7 @@
   "truongcgartist.gumroad.com/l/lizardcreature",
   "truongcgartist.gumroad.com/l/meerkat",
   "truongcgartist.gumroad.com/l/mikefreeman",
+  "truongcgartist.gumroad.com/l/pteranodon",
   "truongcgartist.gumroad.com/l/referee",
   "truongcgartist.gumroad.com/l/sylvanas",
   "twitter.com/catjay2651/status/1529093624616456192",
