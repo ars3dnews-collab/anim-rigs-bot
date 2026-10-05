@@ -1094,19 +1094,20 @@
   "3381d229a3c96f19",
   "8250aebe08513d7a",
   "3e09b5b2f7a19a55",
-  "5f58b175bc4bc3d2"
+  "5f58b175bc4bc3d2",
+  "b68bcc6a5be7c639"
  ],
  "sources": [
+  "airtable",
+  "airtable",
+  "airtable",
   "blendkit",
-  "airtable",
-  "airtable",
-  "airtable",
-  "blendkit"
+  "animation-buffet"
  ],
- "counter": 500,
- "archive_page": 722,
- "buffet_index": 17900,
- "airtable_index": 8544,
+ "counter": 501,
+ "archive_page": 724,
+ "buffet_index": 17950,
+ "airtable_index": 8568,
  "last_post_ts": 1791198162.7587216,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1554,7 +1555,8 @@
   "c27e4d58394ded4b",
   "2e9adbb44baf1f8f",
   "c4913a48e6e84d64",
-  "b2bd9ee47b7cd5e1"
+  "b2bd9ee47b7cd5e1",
+  "597820a1bba41fa8"
  ],
  "channel_names": [
   "3d penguin",
@@ -1806,6 +1808,7 @@
   "kyle balda masterclass",
   "leaf insect",
   "lego wall e",
+  "leo",
   "leopard",
   "lightning claw dinosaur",
   "link breath of the wild",
@@ -2187,6 +2190,7 @@
   "animationbuffet.blogspot.com/2020/03/ultimate-walker.html",
   "animationbuffet.blogspot.com/2020/03/void-walker.html",
   "animationbuffet.blogspot.com/2020/03/wukong.html",
+  "animationbuffet.blogspot.com/2020/04/leo.html",
   "animationbuffet.blogspot.com/2020/05/tanner-saurus-rex.html",
   "animationbuffet.blogspot.com/2020/06/apollo.html",
   "animationbuffet.blogspot.com/2020/06/jj.html",
@@ -2541,6 +2545,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 720,
- "blendswap_page": 60
+ "blenderkit_index": 732,
+ "blendswap_page": 61
 }
