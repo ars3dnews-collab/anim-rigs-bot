@@ -1098,16 +1098,17 @@
   "b68bcc6a5be7c639",
   "22ccdbd9f151e019",
   "2f1bf1e046c9f986",
-  "d840a1c7734fd668"
+  "d840a1c7734fd668",
+  "ac9004f0003af89d"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "airtable",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 504,
+ "counter": 505,
  "archive_page": 726,
  "buffet_index": 18000,
  "airtable_index": 8592,
@@ -1562,7 +1563,8 @@
   "597820a1bba41fa8",
   "bfe3c5c16757f9e3",
   "ea27bc27b3dbc7f4",
-  "7c0dc94c57284651"
+  "7c0dc94c57284651",
+  "d8393c1b1bc1600e"
  ],
  "channel_names": [
   "3d penguin",
@@ -1677,6 +1679,7 @@
   "cube",
   "cute alien rigged",
   "cute stylized cockatiel",
+  "daffy duck",
   "dain",
   "dana",
   "dark evil dragon",
@@ -2060,6 +2063,7 @@
  "channel_links": [
   "agora.community/content/ash-maya",
   "agora.community/content/bulbasaur",
+  "agora.community/content/daffy-duck-blender",
   "agora.community/content/eevee",
   "agora.community/content/gamma-maya",
   "agora.community/content/gmc-van",
