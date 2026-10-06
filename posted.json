@@ -1104,16 +1104,17 @@
   "9788254fef2fbde5",
   "14dc2d9f901176fc",
   "afaa6744e578ba40",
-  "32c44fe81e5f4b5a"
+  "32c44fe81e5f4b5a",
+  "5787d954dedaea32"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 510,
+ "counter": 511,
  "archive_page": 730,
  "buffet_index": 18100,
  "airtable_index": 8640,
@@ -1574,7 +1575,8 @@
   "e31767bdd4ee7cba",
   "c083701fafe994ea",
   "af2cc9d07942e6a7",
-  "9d41475df98bc3d2"
+  "9d41475df98bc3d2",
+  "ef7f862e7efa6629"
  ],
  "channel_names": [
   "3d penguin",
@@ -1947,6 +1949,7 @@
   "samurai rigged game ready",
   "samus",
   "sanae",
+  "savannah lioness",
   "sci fi spartan vanguard",
   "scifi junk mecha",
   "scorpion",
@@ -2332,6 +2335,7 @@
   "builtbycolossus.com/store",
   "cadnav.com/3d-models/model-38750.html",
   "cadnav.com/3d-models/model-44985.html",
+  "cawrigs.gumroad.com/l/pro-version",
   "cgchannel.com/2026/09/new-cg-software-you-may-have-missed-13-september-2026",
   "cgtarian.com/maya-character-rigs/download-free-3d-character-ray.html",
   "characterrigs.com",
