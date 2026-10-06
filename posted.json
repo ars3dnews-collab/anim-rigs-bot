@@ -1097,19 +1097,20 @@
   "5f58b175bc4bc3d2",
   "b68bcc6a5be7c639",
   "22ccdbd9f151e019",
-  "2f1bf1e046c9f986"
+  "2f1bf1e046c9f986",
+  "d840a1c7734fd668"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "animation-buffet",
   "airtable",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 503,
- "archive_page": 724,
- "buffet_index": 17950,
- "airtable_index": 8568,
+ "counter": 504,
+ "archive_page": 726,
+ "buffet_index": 18000,
+ "airtable_index": 8592,
  "last_post_ts": 1791219921.7213504,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1560,7 +1561,8 @@
   "b2bd9ee47b7cd5e1",
   "597820a1bba41fa8",
   "bfe3c5c16757f9e3",
-  "ea27bc27b3dbc7f4"
+  "ea27bc27b3dbc7f4",
+  "7c0dc94c57284651"
  ],
  "channel_names": [
   "3d penguin",
@@ -1982,6 +1984,7 @@
   "stylized butterfly rigged",
   "stylized girl varsity jacket character",
   "stylized knight",
+  "stylized wolf warrior rigged animated",
   "superhero",
   "sylvanas windrunner",
   "t rex",
@@ -2279,6 +2282,7 @@
   "blenderkit.com/asset-gallery-detail/b9a86ea0-065b-41cc-a977-8411f537cb3a",
   "blenderkit.com/asset-gallery-detail/b9d48bc2-227d-4231-bc30-71ba007dca5f",
   "blenderkit.com/asset-gallery-detail/c3c02d19-a070-4fb1-94ed-956ee4787617",
+  "blenderkit.com/asset-gallery-detail/c63283ec-7419-4bff-8f6f-13cf70bd1b14",
   "blenderkit.com/asset-gallery-detail/c70cac7c-581a-4149-8c2e-9b30392ef079",
   "blenderkit.com/asset-gallery-detail/c8295a51-b0d5-40ca-b038-d49d121d26dc",
   "blenderkit.com/asset-gallery-detail/c8da6848-cdbe-4d31-b462-38e118456416",
@@ -2553,6 +2557,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 732,
- "blendswap_page": 61
+ "blenderkit_index": 744,
+ "blendswap_page": 62
 }
