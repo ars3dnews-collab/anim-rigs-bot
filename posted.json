@@ -1106,16 +1106,17 @@
   "afaa6744e578ba40",
   "32c44fe81e5f4b5a",
   "5787d954dedaea32",
-  "685a7bd1f985c794"
+  "685a7bd1f985c794",
+  "9d5a7e9b1d8ad616"
  ],
  "sources": [
-  "blendkit",
   "airtable",
   "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 512,
+ "counter": 513,
  "archive_page": 732,
  "buffet_index": 18150,
  "airtable_index": 8664,
@@ -1578,7 +1579,8 @@
   "af2cc9d07942e6a7",
   "9d41475df98bc3d2",
   "ef7f862e7efa6629",
-  "9b6797c7b90f3711"
+  "9b6797c7b90f3711",
+  "a46c08213c27410b"
  ],
  "channel_names": [
   "3d penguin",
@@ -1684,6 +1686,7 @@
   "cloud",
   "cody",
   "cogswell dragon",
+  "companionx",
   "conan",
   "cozy stylized girl in orange sweater",
   "cricket",
@@ -2172,6 +2175,7 @@
   "animationbuffet.blogspot.com/2015/04/ryan.html",
   "animationbuffet.blogspot.com/2015/07/cogswell-dragon.html",
   "animationbuffet.blogspot.com/2016/03/cody.html",
+  "animationbuffet.blogspot.com/2016/03/companionx.html",
   "animationbuffet.blogspot.com/2016/03/eleven.html",
   "animationbuffet.blogspot.com/2016/03/fred.html",
   "animationbuffet.blogspot.com/2016/03/tuna.html",
