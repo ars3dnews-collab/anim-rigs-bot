@@ -1109,16 +1109,17 @@
   "685a7bd1f985c794",
   "9d5a7e9b1d8ad616",
   "3e1a4bf735aa9c62",
-  "5e7a6f68aa9c00a9"
+  "5e7a6f68aa9c00a9",
+  "adffd586e4ae146d"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 515,
+ "counter": 516,
  "archive_page": 734,
  "buffet_index": 18200,
  "airtable_index": 8688,
@@ -1584,7 +1585,8 @@
   "9b6797c7b90f3711",
   "a46c08213c27410b",
   "88c2cf9f744d028d",
-  "886fd00c2c230888"
+  "886fd00c2c230888",
+  "238beb7848cc7c49"
  ],
  "channel_names": [
   "3d penguin",
@@ -1699,6 +1701,7 @@
   "critter studio",
   "crocodile",
   "crt dude",
+  "crusader knight poleaxe red rigged",
   "csgo terrorist",
   "cube",
   "cute alien rigged",
@@ -2303,6 +2306,7 @@
   "blenderkit.com/asset-gallery-detail/7cb3959c-989b-4b83-a60a-1af6f036c819",
   "blenderkit.com/asset-gallery-detail/7f329417-d756-49ab-a346-4b70471d64fd",
   "blenderkit.com/asset-gallery-detail/87b4af0c-b3a2-4ce0-a038-eebed6253a24",
+  "blenderkit.com/asset-gallery-detail/88daf67a-8e69-4630-a521-3934c0592598",
   "blenderkit.com/asset-gallery-detail/8908e8ca-832c-46ad-8a8b-b5d7b924cacc",
   "blenderkit.com/asset-gallery-detail/8a0b8330-8504-40aa-ac59-442b023d2878",
   "blenderkit.com/asset-gallery-detail/8de8442d-98f0-4dfa-8f33-2d25f6ba80bc",
