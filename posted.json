@@ -1108,19 +1108,20 @@
   "5787d954dedaea32",
   "685a7bd1f985c794",
   "9d5a7e9b1d8ad616",
-  "3e1a4bf735aa9c62"
+  "3e1a4bf735aa9c62",
+  "5e7a6f68aa9c00a9"
  ],
  "sources": [
-  "blendkit",
   "airtable",
   "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 514,
- "archive_page": 732,
- "buffet_index": 18150,
- "airtable_index": 8664,
+ "counter": 515,
+ "archive_page": 734,
+ "buffet_index": 18200,
+ "airtable_index": 8688,
  "last_post_ts": 1791356536.4866905,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1582,7 +1583,8 @@
   "ef7f862e7efa6629",
   "9b6797c7b90f3711",
   "a46c08213c27410b",
-  "88c2cf9f744d028d"
+  "88c2cf9f744d028d",
+  "886fd00c2c230888"
  ],
  "channel_names": [
   "3d penguin",
@@ -1775,6 +1777,7 @@
   "goblin",
   "godzilla",
   "gorgeous george",
+  "gorilla",
   "great dane",
   "green robot",
   "grey matter gary",
@@ -2541,6 +2544,7 @@
   "prorigs.com/characters/the-family",
   "prorigs.com/characters/the-kids",
   "prorigs.com/characters/the-robots",
+  "prorigs.com/characters/the-zoo",
   "ramonarango.gumroad.com/l/apollorig",
   "ramonarango.gumroad.com/l/modjadjirig",
   "ramonarango.gumroad.com/l/mukururig",
@@ -2597,6 +2601,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 780,
- "blendswap_page": 65
+ "blenderkit_index": 792,
+ "blendswap_page": 66
 }
