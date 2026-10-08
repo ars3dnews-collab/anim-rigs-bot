@@ -1116,16 +1116,17 @@
   "be7a7c9bff6aa1fb",
   "e5fdff7d51393033",
   "7773c9df6a4806a7",
-  "b06c813c82e521e6"
+  "b06c813c82e521e6",
+  "f385d5faa577c5ab"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "blendkit",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 521,
+ "counter": 522,
  "archive_page": 740,
  "buffet_index": 18350,
  "airtable_index": 8760,
@@ -1597,7 +1598,8 @@
   "019fda251828e41c",
   "f54eff01bb70ec35",
   "c587fafbd25cf6c0",
-  "ff08ec6624f05b49"
+  "ff08ec6624f05b49",
+  "f53487ec30459757"
  ],
  "channel_names": [
   "3d penguin",
@@ -1875,6 +1877,7 @@
   "luna",
   "lunte",
   "mae",
+  "magical deer rigged",
   "male firefighter green rescue uniform",
   "male hiker outdoor camping gear",
   "male vampire character semi realistic rigged auto pro",
@@ -2339,6 +2342,7 @@
   "blenderkit.com/asset-gallery-detail/976b75ba-5f6e-4753-bcd7-8b1dc0e51639",
   "blenderkit.com/asset-gallery-detail/a349c738-e03b-42cb-8b9e-268d200dcb81",
   "blenderkit.com/asset-gallery-detail/a6d57996-1bc4-4a3c-abd8-ee3e16cef8fe",
+  "blenderkit.com/asset-gallery-detail/a803b139-1353-4a69-8bec-e945279de1b7",
   "blenderkit.com/asset-gallery-detail/ac3359c6-9dae-4a1f-b792-2acf632c852d",
   "blenderkit.com/asset-gallery-detail/ace79133-be5b-4fa5-b135-14b9ac585f0d",
   "blenderkit.com/asset-gallery-detail/ade29c9f-46c6-457d-9039-f66978efbff2",
