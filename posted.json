@@ -1137,19 +1137,20 @@
   "02335bf10b25f75f",
   "e36c94bc3b1126b7",
   "69c7021e6d0fda06",
-  "8f4fbb54ce0d0bad"
+  "8f4fbb54ce0d0bad",
+  "64763092a1ce46e5"
  ],
  "sources": [
   "blendkit",
   "blendkit",
-  "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 530,
- "archive_page": 746,
- "buffet_index": 18500,
- "airtable_index": 8832,
+ "counter": 531,
+ "archive_page": 748,
+ "buffet_index": 18550,
+ "airtable_index": 8856,
  "last_post_ts": 1791544247.2029316,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1627,7 +1628,8 @@
   "45cd8f4f8a76d93d",
   "fee5b29b58408c58",
   "223b3ddd73a38029",
-  "4acabb8e3acada82"
+  "4acabb8e3acada82",
+  "c0945208742c54f4"
  ],
  "channel_names": [
   "3d penguin",
@@ -1802,6 +1804,7 @@
   "fish",
   "floppi",
   "flour sack",
+  "fly",
   "flying fox",
   "foal spirit",
   "fps hands",
@@ -2605,6 +2608,7 @@
   "milio-serrano.gumroad.com/l/vmwxu",
   "milio-serrano.gumroad.com/l/ykobt",
   "mox-motion.com/blog/momo_rig_information",
+  "okawaii.com/product/fly-low-poly-rig-v1-0",
   "okawaii.gumroad.com/l/lcmok",
   "okawaii.gumroad.com/l/llmye",
   "okawaii.gumroad.com/l/pclhs",
@@ -2674,6 +2678,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 864,
- "blendswap_page": 72
+ "blenderkit_index": 876,
+ "blendswap_page": 73
 }
