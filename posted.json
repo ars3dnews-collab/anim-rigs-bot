@@ -1135,16 +1135,17 @@
   "8daa11ecb967b85c",
   "c1f9908f5419c5c2",
   "02335bf10b25f75f",
-  "e36c94bc3b1126b7"
+  "e36c94bc3b1126b7",
+  "69c7021e6d0fda06"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "blendkit",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 528,
+ "counter": 529,
  "archive_page": 746,
  "buffet_index": 18500,
  "airtable_index": 8832,
@@ -1623,7 +1624,8 @@
   "43b1de5d94b0c336",
   "70d7502986ed7669",
   "45cd8f4f8a76d93d",
-  "fee5b29b58408c58"
+  "fee5b29b58408c58",
+  "223b3ddd73a38029"
  ],
  "channel_names": [
   "3d penguin",
@@ -1920,6 +1922,7 @@
   "mechcatrig",
   "medieval archer ranger",
   "meerkat",
+  "mega man",
   "megabot",
   "merman mythical sea creature",
   "mery",
@@ -2435,6 +2438,7 @@
   "cubebrush.co/olenka/products/imgotg/space-demon-rig-free",
   "davidllopis.gumroad.com/l/dragonrig",
   "delriousfive.gumroad.com/l/w870",
+  "diangeel.gumroad.com/l/megaman",
   "dkolpakov.gumroad.com/l/hannah",
   "dkolpakov.gumroad.com/l/tyler",
   "friggingawesome.gumroad.com/l/kaylaunlimited",
