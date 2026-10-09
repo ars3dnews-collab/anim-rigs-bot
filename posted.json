@@ -1134,19 +1134,20 @@
   "4c46b317eabe8cee",
   "8daa11ecb967b85c",
   "c1f9908f5419c5c2",
-  "02335bf10b25f75f"
+  "02335bf10b25f75f",
+  "e36c94bc3b1126b7"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "animation-buffet",
   "blendkit",
+  "blendkit",
   "blendkit"
  ],
- "counter": 527,
- "archive_page": 744,
- "buffet_index": 18450,
- "airtable_index": 8808,
+ "counter": 528,
+ "archive_page": 746,
+ "buffet_index": 18500,
+ "airtable_index": 8832,
  "last_post_ts": 1791522453.0451846,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1621,7 +1622,8 @@
   "3214d5b8bdc38228",
   "43b1de5d94b0c336",
   "70d7502986ed7669",
-  "45cd8f4f8a76d93d"
+  "45cd8f4f8a76d93d",
+  "fee5b29b58408c58"
  ],
  "channel_names": [
   "3d penguin",
@@ -1834,6 +1836,7 @@
   "heavy duty mech aka hulkbuster",
   "hekaton",
   "hero character",
+  "hippo creature rigged",
   "hogan",
   "homer simpson",
   "horse",
@@ -2347,6 +2350,7 @@
   "blenderkit.com/asset-gallery-detail/4c550f2a-b459-4e15-850f-a7f71fbaea47",
   "blenderkit.com/asset-gallery-detail/4d19d7d1-47a3-43a3-b9c6-150c0681c966",
   "blenderkit.com/asset-gallery-detail/4de760b6-4724-459f-9558-28b98a4bf4f6",
+  "blenderkit.com/asset-gallery-detail/4f519910-fa92-4cce-bc64-93c28c681ecb",
   "blenderkit.com/asset-gallery-detail/4f56f596-28ae-4899-a4c8-afadad1324b7",
   "blenderkit.com/asset-gallery-detail/52fe8cd5-81db-4f30-9348-b885b43e4c96",
   "blenderkit.com/asset-gallery-detail/55af7b4a-c99d-4d0e-88bf-f5598f4fc259",
@@ -2662,6 +2666,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 852,
- "blendswap_page": 71
+ "blenderkit_index": 864,
+ "blendswap_page": 72
 }
