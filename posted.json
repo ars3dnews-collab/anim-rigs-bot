@@ -1140,19 +1140,20 @@
   "8f4fbb54ce0d0bad",
   "64763092a1ce46e5",
   "ad1d60a4ecabe5e7",
-  "f53bb78a729bb081"
+  "f53bb78a729bb081",
+  "a8f6b737b91d11fa"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "airtable",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 533,
- "archive_page": 748,
- "buffet_index": 18550,
- "airtable_index": 8856,
+ "counter": 534,
+ "archive_page": 750,
+ "buffet_index": 18600,
+ "airtable_index": 8880,
  "last_post_ts": 1791568030.7559876,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1633,7 +1634,8 @@
   "4acabb8e3acada82",
   "c0945208742c54f4",
   "ecb87ae6bb1b2a8c",
-  "aecd154b4b60ac30"
+  "aecd154b4b60ac30",
+  "64b883ba88f57593"
  ],
  "channel_names": [
   "3d penguin",
@@ -2004,6 +2006,7 @@
   "rexxy",
   "rhino",
   "ricardo",
+  "rick character animated",
   "rigged props",
   "rigged robot",
   "road runner",
@@ -2378,6 +2381,7 @@
   "blenderkit.com/asset-gallery-detail/68cc2909-db60-4308-bdf0-2f2ef159302b",
   "blenderkit.com/asset-gallery-detail/6d70a095-0432-4093-be5d-7eed3a2114b8",
   "blenderkit.com/asset-gallery-detail/72d9eb66-2f0d-44bc-bc30-143755131bb9",
+  "blenderkit.com/asset-gallery-detail/731e6ada-530e-42d8-aed9-b8334cdace0e",
   "blenderkit.com/asset-gallery-detail/78fcce67-c9df-488e-a416-85e3bd220f47",
   "blenderkit.com/asset-gallery-detail/7b723b65-ed48-48a5-bd34-b23d7db12859",
   "blenderkit.com/asset-gallery-detail/7cb3959c-989b-4b83-a60a-1af6f036c819",
@@ -2686,6 +2690,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 876,
- "blendswap_page": 73
+ "blenderkit_index": 888,
+ "blendswap_page": 74
 }
