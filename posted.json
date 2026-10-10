@@ -1147,16 +1147,17 @@
   "e3f9a8fbb5d2b379",
   "503e84b8166f3657",
   "4d77e346d9704374",
-  "debb0ce0af337f68"
+  "debb0ce0af337f68",
+  "63f53467a4eaaa95"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 537,
+ "counter": 538,
  "archive_page": 752,
  "buffet_index": 18650,
  "airtable_index": 8904,
@@ -1644,7 +1645,8 @@
   "64b883ba88f57593",
   "7a264ed646da766e",
   "99676926c3cd0064",
-  "f398f3ca34716980"
+  "f398f3ca34716980",
+  "038bf8443a28ef16"
  ],
  "channel_names": [
   "3d penguin",
@@ -1809,6 +1811,7 @@
   "executioner rigged game ready",
   "eyes",
   "facial",
+  "fantasy creature rigged",
   "fantasy croc",
   "fantasy crocodile",
   "farmer rigged game ready",
@@ -2442,6 +2445,7 @@
   "blenderkit.com/asset-gallery-detail/f1c17557-6912-400c-be81-1c1572f29800",
   "blenderkit.com/asset-gallery-detail/f4bda642-d430-428c-8039-fae5cf9d4e69",
   "blenderkit.com/asset-gallery-detail/f4d4ba28-c542-4be7-b346-5d7e033ef168",
+  "blenderkit.com/asset-gallery-detail/f5878510-999a-4367-97e1-42c3fae47be6",
   "blenderkit.com/asset-gallery-detail/f725f37d-93d3-49b8-a8b2-a13da263f0ae",
   "blenderkit.com/asset-gallery-detail/fdae7fb1-3bf8-4076-8017-91313350dd77",
   "bongqi.gumroad.com/l/littelboxjeep",
