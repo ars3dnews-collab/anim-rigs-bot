@@ -1155,16 +1155,17 @@
   "994549c8fb9f648d",
   "ef0335293b655f46",
   "a694ec249d3a3334",
-  "4d77565d7a449e63"
+  "4d77565d7a449e63",
+  "734c588280661e4e"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 545,
+ "counter": 546,
  "archive_page": 758,
  "buffet_index": 18800,
  "airtable_index": 8976,
@@ -1660,7 +1661,8 @@
   "359f92ef85a7ecb7",
   "11d421a522a478c1",
   "dfacf97e8f9ee9af",
-  "0fa7a043334057d4"
+  "0fa7a043334057d4",
+  "88400e0390a0a328"
  ],
  "channel_names": [
   "3d penguin",
@@ -2005,6 +2007,7 @@
   "omni man superhero character",
   "one studio",
   "optimy classic",
+  "orange fox rigged",
   "orange white cat animated",
   "orc",
   "pendulum",
@@ -2427,6 +2430,7 @@
   "blenderkit.com/asset-gallery-detail/731e6ada-530e-42d8-aed9-b8334cdace0e",
   "blenderkit.com/asset-gallery-detail/78fcce67-c9df-488e-a416-85e3bd220f47",
   "blenderkit.com/asset-gallery-detail/7b723b65-ed48-48a5-bd34-b23d7db12859",
+  "blenderkit.com/asset-gallery-detail/7c2576aa-e876-469a-a46f-e419f84f63c9",
   "blenderkit.com/asset-gallery-detail/7cb3959c-989b-4b83-a60a-1af6f036c819",
   "blenderkit.com/asset-gallery-detail/7f329417-d756-49ab-a346-4b70471d64fd",
   "blenderkit.com/asset-gallery-detail/87b4af0c-b3a2-4ce0-a038-eebed6253a24",
