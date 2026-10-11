@@ -1151,19 +1151,20 @@
   "63f53467a4eaaa95",
   "35f2584b0af182b8",
   "8b7abaf57a9a0736",
-  "a4e99f07b0d7d7fe"
+  "a4e99f07b0d7d7fe",
+  "994549c8fb9f648d"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 541,
- "archive_page": 754,
- "buffet_index": 18700,
- "airtable_index": 8928,
+ "counter": 542,
+ "archive_page": 756,
+ "buffet_index": 18750,
+ "airtable_index": 8952,
  "last_post_ts": 1791652115.70856,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1652,7 +1653,8 @@
   "038bf8443a28ef16",
   "5a7c2a8c2a0e87b2",
   "6fe2d2990c32d868",
-  "47a0c894c5651a66"
+  "47a0c894c5651a66",
+  "359f92ef85a7ecb7"
  ],
  "channel_names": [
   "3d penguin",
@@ -2043,6 +2045,7 @@
   "ryan",
   "safiro",
   "safiro gumshoe",
+  "saladella",
   "sally acorn",
   "sam",
   "samurai rigged game ready",
@@ -2435,6 +2438,7 @@
   "blenderkit.com/asset-gallery-detail/afd5869c-af4d-4ab1-96f9-9e6289701e5c",
   "blenderkit.com/asset-gallery-detail/b9a86ea0-065b-41cc-a977-8411f537cb3a",
   "blenderkit.com/asset-gallery-detail/b9d48bc2-227d-4231-bc30-71ba007dca5f",
+  "blenderkit.com/asset-gallery-detail/be297602-63d3-4c90-acff-b2f77ee142a6",
   "blenderkit.com/asset-gallery-detail/c3c02d19-a070-4fb1-94ed-956ee4787617",
   "blenderkit.com/asset-gallery-detail/c63283ec-7419-4bff-8f6f-13cf70bd1b14",
   "blenderkit.com/asset-gallery-detail/c70cac7c-581a-4149-8c2e-9b30392ef079",
@@ -2721,6 +2725,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 912,
- "blendswap_page": 76
+ "blenderkit_index": 924,
+ "blendswap_page": 77
 }
