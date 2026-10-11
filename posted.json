@@ -1158,16 +1158,17 @@
   "4d77565d7a449e63",
   "734c588280661e4e",
   "2212fd7a50782357",
-  "80932aefa1d904fa"
+  "80932aefa1d904fa",
+  "36af1c0cfc1ce9db"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 547,
+ "counter": 548,
  "archive_page": 760,
  "buffet_index": 18850,
  "airtable_index": 9000,
@@ -1665,7 +1666,8 @@
   "dfacf97e8f9ee9af",
   "0fa7a043334057d4",
   "88400e0390a0a328",
-  "316407e7d5a8abdb"
+  "316407e7d5a8abdb",
+  "9a0011012797b956"
  ],
  "channel_names": [
   "3d penguin",
@@ -2048,6 +2050,7 @@
   "rigged props",
   "rigged robot",
   "road runner",
+  "robert character animated",
   "robo girl",
   "robot bot",
   "robot rbt10",
@@ -2428,6 +2431,7 @@
   "blenderkit.com/asset-gallery-detail/5c78769b-a2e2-42d5-8ab7-0bdc6ae9c89a",
   "blenderkit.com/asset-gallery-detail/61ec8d61-7a4e-428d-b876-577ebe1dac63",
   "blenderkit.com/asset-gallery-detail/6381f63a-455a-42a2-bbba-54b121ef2fec",
+  "blenderkit.com/asset-gallery-detail/63920708-00c8-48a4-ac85-e89adaad0f2a",
   "blenderkit.com/asset-gallery-detail/68cc2909-db60-4308-bdf0-2f2ef159302b",
   "blenderkit.com/asset-gallery-detail/6d70a095-0432-4093-be5d-7eed3a2114b8",
   "blenderkit.com/asset-gallery-detail/72d9eb66-2f0d-44bc-bc30-143755131bb9",
