@@ -1154,16 +1154,17 @@
   "a4e99f07b0d7d7fe",
   "994549c8fb9f648d",
   "ef0335293b655f46",
-  "a694ec249d3a3334"
+  "a694ec249d3a3334",
+  "4d77565d7a449e63"
  ],
  "sources": [
-  "blendkit",
   "airtable",
   "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 544,
+ "counter": 545,
  "archive_page": 758,
  "buffet_index": 18800,
  "airtable_index": 8976,
@@ -1658,7 +1659,8 @@
   "47a0c894c5651a66",
   "359f92ef85a7ecb7",
   "11d421a522a478c1",
-  "dfacf97e8f9ee9af"
+  "dfacf97e8f9ee9af",
+  "0fa7a043334057d4"
  ],
  "channel_names": [
   "3d penguin",
@@ -1879,6 +1881,7 @@
   "hero character",
   "hippo creature rigged",
   "hogan",
+  "homer",
   "homer simpson",
   "horse",
   "hotel transylvania zombie",
@@ -2292,6 +2295,7 @@
   "animationbuffet.blogspot.com/2016/03/eleven.html",
   "animationbuffet.blogspot.com/2016/03/fred.html",
   "animationbuffet.blogspot.com/2016/03/tuna.html",
+  "animationbuffet.blogspot.com/2016/09/homer.html",
   "animationbuffet.blogspot.com/2016/10/juice-box.html",
   "animationbuffet.blogspot.com/2017/06/luna.html",
   "animationbuffet.blogspot.com/2017/08/bunny-eater.html",
