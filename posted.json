@@ -1172,22 +1172,22 @@
   "444f55520f875d74",
   "897b3c6ed1726268",
   "7d1cdbe4c4160410",
-  "d0eda96cb3bf82cf"
+  "d0eda96cb3bf82cf",
+  "6c2006dfc08d4c3a"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 554,
+ "counter": 555,
  "archive_page": 766,
  "buffet_index": 19000,
  "airtable_index": 9072,
  "last_post_ts": 1791810432.976243,
  "image_hashes": [
-  "1e11fc56eb36a51f",
   "144f407263b33a98",
   "6ca5f1cb3939ca2f",
   "370e36f7de3c0ca0",
@@ -1686,7 +1686,8 @@
   "222c55b90c242fdc",
   "4f5661d8a872ff18",
   "6160ca60ca3c628e",
-  "918852c75e233d1b"
+  "918852c75e233d1b",
+  "413575bfc098761e"
  ],
  "channel_names": [
   "3d penguin",
@@ -1990,6 +1991,7 @@
   "marty",
   "marty the robot",
   "mat",
+  "mecanic",
   "mech samurai",
   "mechcatrig",
   "medieval archer ranger",
@@ -2278,6 +2280,7 @@
   "animationbuffet.blogspot.com/2008/06/poseman-124.html",
   "animationbuffet.blogspot.com/2008/07/octopus.html",
   "animationbuffet.blogspot.com/2008/07/rudy.html",
+  "animationbuffet.blogspot.com/2008/12/mecanic.html",
   "animationbuffet.blogspot.com/2008/12/tonga-fox.html",
   "animationbuffet.blogspot.com/2009/05/squirrely-rig.html",
   "animationbuffet.blogspot.com/2009/08/kyle-balda-masterclass-rigs.html",
