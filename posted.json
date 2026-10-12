@@ -1164,16 +1164,17 @@
   "4c62c529235f693a",
   "e04680305d635b94",
   "816c9e122fc6bd2d",
-  "f6912f1d1454321f"
+  "f6912f1d1454321f",
+  "fc3604a1b4a30e9a"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 553,
+ "counter": 554,
  "archive_page": 764,
  "buffet_index": 18950,
  "airtable_index": 9048,
@@ -1677,7 +1678,8 @@
   "e6564a340a18244f",
   "222c55b90c242fdc",
   "4f5661d8a872ff18",
-  "6160ca60ca3c628e"
+  "6160ca60ca3c628e",
+  "918852c75e233d1b"
  ],
  "channel_names": [
   "3d penguin",
@@ -1807,6 +1809,7 @@
   "daffy duck",
   "dain",
   "dana",
+  "daredevil v4 rigged lowpoly",
   "dark evil dragon",
   "david",
   "dawn",
@@ -2452,6 +2455,7 @@
   "blenderkit.com/asset-gallery-detail/6381f63a-455a-42a2-bbba-54b121ef2fec",
   "blenderkit.com/asset-gallery-detail/63920708-00c8-48a4-ac85-e89adaad0f2a",
   "blenderkit.com/asset-gallery-detail/68cc2909-db60-4308-bdf0-2f2ef159302b",
+  "blenderkit.com/asset-gallery-detail/6a6f83b0-372d-408b-97c4-09866a11d1b6",
   "blenderkit.com/asset-gallery-detail/6d70a095-0432-4093-be5d-7eed3a2114b8",
   "blenderkit.com/asset-gallery-detail/72d9eb66-2f0d-44bc-bc30-143755131bb9",
   "blenderkit.com/asset-gallery-detail/731e6ada-530e-42d8-aed9-b8334cdace0e",
