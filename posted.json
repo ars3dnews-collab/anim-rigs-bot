@@ -1162,19 +1162,20 @@
   "36af1c0cfc1ce9db",
   "efedfea3d74d84c0",
   "4c62c529235f693a",
-  "e04680305d635b94"
+  "e04680305d635b94",
+  "816c9e122fc6bd2d"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 551,
- "archive_page": 762,
- "buffet_index": 18900,
- "airtable_index": 9024,
+ "counter": 552,
+ "archive_page": 764,
+ "buffet_index": 18950,
+ "airtable_index": 9048,
  "last_post_ts": 1791788669.5086918,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1673,7 +1674,8 @@
   "9a0011012797b956",
   "69381d0b3393a20f",
   "e6564a340a18244f",
-  "222c55b90c242fdc"
+  "222c55b90c242fdc",
+  "4f5661d8a872ff18"
  ],
  "channel_names": [
   "3d penguin",
@@ -2191,6 +2193,7 @@
   "vixen",
   "void walker",
   "w 870 shotgun re4 remake",
+  "werewolf rigged animated",
   "whale studio",
   "white skin woman",
   "wicked witch body face rigged",
@@ -2454,6 +2457,7 @@
   "blenderkit.com/asset-gallery-detail/7cb3959c-989b-4b83-a60a-1af6f036c819",
   "blenderkit.com/asset-gallery-detail/7f329417-d756-49ab-a346-4b70471d64fd",
   "blenderkit.com/asset-gallery-detail/87b4af0c-b3a2-4ce0-a038-eebed6253a24",
+  "blenderkit.com/asset-gallery-detail/87ca916e-11af-4d8e-aedf-85040e9cdfb5",
   "blenderkit.com/asset-gallery-detail/88daf67a-8e69-4630-a521-3934c0592598",
   "blenderkit.com/asset-gallery-detail/8908e8ca-832c-46ad-8a8b-b5d7b924cacc",
   "blenderkit.com/asset-gallery-detail/8a0b8330-8504-40aa-ac59-442b023d2878",
@@ -2762,6 +2766,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 960,
- "blendswap_page": 80
+ "blenderkit_index": 972,
+ "blendswap_page": 81
 }
