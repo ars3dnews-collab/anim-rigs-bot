@@ -1160,16 +1160,17 @@
   "2212fd7a50782357",
   "80932aefa1d904fa",
   "36af1c0cfc1ce9db",
-  "efedfea3d74d84c0"
+  "efedfea3d74d84c0",
+  "4c62c529235f693a"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "airtable",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 549,
+ "counter": 550,
  "archive_page": 762,
  "buffet_index": 18900,
  "airtable_index": 9024,
@@ -1669,7 +1670,8 @@
   "88400e0390a0a328",
   "316407e7d5a8abdb",
   "9a0011012797b956",
-  "69381d0b3393a20f"
+  "69381d0b3393a20f",
+  "e6564a340a18244f"
  ],
  "channel_names": [
   "3d penguin",
@@ -2207,6 +2209,7 @@
   "zhu baijie",
   "zombie",
   "zombie horse rigged",
+  "zulu warrior",
   "риги для аниматоров в одном месте"
  ],
  "channel_links": [
@@ -2422,6 +2425,7 @@
   "blenderkit.com/asset-gallery-detail/3918f834-7e26-4bd2-b549-eb02e3700c20",
   "blenderkit.com/asset-gallery-detail/39407568-a74a-4cee-a018-173ea064858e",
   "blenderkit.com/asset-gallery-detail/3f23742d-eb5f-4185-b510-046808e65f41",
+  "blenderkit.com/asset-gallery-detail/41fb5df2-e0f6-44e2-bb47-6bdf3a68b179",
   "blenderkit.com/asset-gallery-detail/45d165f3-edea-40ed-8a9d-ce70b0ea28c5",
   "blenderkit.com/asset-gallery-detail/4a989dd5-c014-4808-bb63-4fa33477ebf1",
   "blenderkit.com/asset-gallery-detail/4c550f2a-b459-4e15-850f-a7f71fbaea47",
