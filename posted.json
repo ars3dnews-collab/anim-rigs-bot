@@ -1159,19 +1159,20 @@
   "734c588280661e4e",
   "2212fd7a50782357",
   "80932aefa1d904fa",
-  "36af1c0cfc1ce9db"
+  "36af1c0cfc1ce9db",
+  "efedfea3d74d84c0"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 548,
- "archive_page": 760,
- "buffet_index": 18850,
- "airtable_index": 9000,
+ "counter": 549,
+ "archive_page": 762,
+ "buffet_index": 18900,
+ "airtable_index": 9024,
  "last_post_ts": 1791734434.3753018,
  "image_hashes": [
   "1e11fc56eb36a51f",
@@ -1667,7 +1668,8 @@
   "0fa7a043334057d4",
   "88400e0390a0a328",
   "316407e7d5a8abdb",
-  "9a0011012797b956"
+  "9a0011012797b956",
+  "69381d0b3393a20f"
  ],
  "channel_names": [
   "3d penguin",
@@ -1724,6 +1726,7 @@
   "body mechanics ellie",
   "bodycon mini dress female character",
   "bodymech",
+  "bonnie",
   "booboo",
   "boolieman",
   "bot 9",
@@ -2273,6 +2276,7 @@
   "animationbuffet.blogspot.com/2012/05/spiderbot.html",
   "animationbuffet.blogspot.com/2012/06/horse.html",
   "animationbuffet.blogspot.com/2013/01/boolieman.html",
+  "animationbuffet.blogspot.com/2013/04/bonnie.html",
   "animationbuffet.blogspot.com/2013/04/kien.html",
   "animationbuffet.blogspot.com/2013/05/rexxy.html",
   "animationbuffet.blogspot.com/2013/09/low-poly-micro-rigs.html",
@@ -2750,6 +2754,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 948,
- "blendswap_page": 79
+ "blenderkit_index": 960,
+ "blendswap_page": 80
 }
