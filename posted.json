@@ -1173,22 +1173,22 @@
   "897b3c6ed1726268",
   "7d1cdbe4c4160410",
   "d0eda96cb3bf82cf",
-  "6c2006dfc08d4c3a"
+  "6c2006dfc08d4c3a",
+  "666086865db4fbab"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 555,
- "archive_page": 766,
- "buffet_index": 19000,
- "airtable_index": 9072,
+ "counter": 556,
+ "archive_page": 768,
+ "buffet_index": 19050,
+ "airtable_index": 9096,
  "last_post_ts": 1791826359.6022983,
  "image_hashes": [
-  "144f407263b33a98",
   "6ca5f1cb3939ca2f",
   "370e36f7de3c0ca0",
   "9618567f18c6a9fe",
@@ -1687,7 +1687,8 @@
   "4f5661d8a872ff18",
   "6160ca60ca3c628e",
   "918852c75e233d1b",
-  "413575bfc098761e"
+  "413575bfc098761e",
+  "1a5cfa64ba2e835c"
  ],
  "channel_names": [
   "3d penguin",
@@ -2156,6 +2157,7 @@
   "stylized wolf warrior rigged animated",
   "stylized wolf warroir rigged animated",
   "superhero",
+  "swamp monster rigged animated",
   "sylvanas windrunner",
   "t rex",
   "t rex mechanic",
@@ -2489,6 +2491,7 @@
   "blenderkit.com/asset-gallery-detail/a349c738-e03b-42cb-8b9e-268d200dcb81",
   "blenderkit.com/asset-gallery-detail/a6d57996-1bc4-4a3c-abd8-ee3e16cef8fe",
   "blenderkit.com/asset-gallery-detail/a803b139-1353-4a69-8bec-e945279de1b7",
+  "blenderkit.com/asset-gallery-detail/a99b3d1c-5dee-4562-a8c0-3aaa33dc414f",
   "blenderkit.com/asset-gallery-detail/ac3359c6-9dae-4a1f-b792-2acf632c852d",
   "blenderkit.com/asset-gallery-detail/ace79133-be5b-4fa5-b135-14b9ac585f0d",
   "blenderkit.com/asset-gallery-detail/ade29c9f-46c6-457d-9039-f66978efbff2",
@@ -2784,6 +2787,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 984,
- "blendswap_page": 82
+ "blenderkit_index": 996,
+ "blendswap_page": 83
 }
