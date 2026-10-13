@@ -1177,22 +1177,22 @@
   "666086865db4fbab",
   "b407f7d4ebf288c0",
   "c72d076ceed9d68a",
-  "648d740ef4664994"
+  "648d740ef4664994",
+  "91c38acb846f8e00"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
+  "blendkit",
   "blendkit",
   "blendkit",
   "blendkit"
  ],
- "counter": 558,
+ "counter": 559,
  "archive_page": 770,
  "buffet_index": 19100,
  "airtable_index": 9120,
  "last_post_ts": 1791874919.0996587,
  "image_hashes": [
-  "9618567f18c6a9fe",
   "392c055ba0ba943d",
   "d0de60a6d9de2866",
   "9c091ea1bdea7d07",
@@ -1691,7 +1691,8 @@
   "413575bfc098761e",
   "1a5cfa64ba2e835c",
   "183a6db14ddda3fc",
-  "79afd2a60bf7030a"
+  "79afd2a60bf7030a",
+  "923dc4b69bdd6484"
  ],
  "channel_names": [
   "3d penguin",
@@ -1896,6 +1897,7 @@
   "gnome wow",
   "goat animated",
   "goblin",
+  "goblin warrior rigged animated",
   "godzilla",
   "gorgeous george",
   "gorilla",
@@ -2490,6 +2492,7 @@
   "blenderkit.com/asset-gallery-detail/8de8442d-98f0-4dfa-8f33-2d25f6ba80bc",
   "blenderkit.com/asset-gallery-detail/91e1620f-2a3a-4460-87a0-ca28da81c1a4",
   "blenderkit.com/asset-gallery-detail/945c2575-24f5-4492-aae7-bdebef40fcf6",
+  "blenderkit.com/asset-gallery-detail/950be602-dd66-4c68-a310-9994220f6160",
   "blenderkit.com/asset-gallery-detail/968f04d1-82d0-46c8-ae9d-c9566a4b7ae9",
   "blenderkit.com/asset-gallery-detail/9704cb94-4d65-4df0-97c4-eaa5ff5fae4d",
   "blenderkit.com/asset-gallery-detail/976230df-9b2f-4475-8dd2-f7db102fdbe9",
