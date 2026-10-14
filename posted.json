@@ -1192,22 +1192,22 @@
   "eb7e505cd0a7ea9c",
   "c6504d651694b2e6",
   "560ac4065bf5e6a0",
-  "30622d3b1888735d"
+  "30622d3b1888735d",
+  "2821040904294f03"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "news:CG Channel · rigging"
+  "news:CG Channel · rigging",
+  "blendkit"
  ],
- "counter": 567,
+ "counter": 568,
  "archive_page": 778,
  "buffet_index": 19300,
  "airtable_index": 9216,
  "last_post_ts": 1791990221.5134594,
  "image_hashes": [
-  "49ad7932e6fddf77",
   "3c36b6fb45e95061",
   "ec3b6ba3d29a9e53",
   "e06a18bbbfb6e909",
@@ -1706,7 +1706,8 @@
   "9c444a540ae845a7",
   "d3dbf0221e075a18",
   "6c828a31f30ca7d6",
-  "eb2fe1906a889bea"
+  "eb2fe1906a889bea",
+  "325d7744d4a1e7e5"
  ],
  "channel_names": [
   "3d penguin",
@@ -1997,6 +1998,7 @@
   "little box jeep",
   "little hermit crab",
   "little male fairy character semi realistic rigged auto pro",
+  "little water mage",
   "lizard creature",
   "lizardman",
   "lou",
@@ -2486,6 +2488,7 @@
   "blenderkit.com/asset-gallery-detail/3f23742d-eb5f-4185-b510-046808e65f41",
   "blenderkit.com/asset-gallery-detail/41fb5df2-e0f6-44e2-bb47-6bdf3a68b179",
   "blenderkit.com/asset-gallery-detail/45d165f3-edea-40ed-8a9d-ce70b0ea28c5",
+  "blenderkit.com/asset-gallery-detail/474e48f0-08d7-4f51-8fad-dd873a09bfc4",
   "blenderkit.com/asset-gallery-detail/4a989dd5-c014-4808-bb63-4fa33477ebf1",
   "blenderkit.com/asset-gallery-detail/4c550f2a-b459-4e15-850f-a7f71fbaea47",
   "blenderkit.com/asset-gallery-detail/4d19d7d1-47a3-43a3-b9c6-150c0681c966",
