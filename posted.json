@@ -1187,22 +1187,22 @@
   "a9ec49de59dc47e7",
   "969c51ca428de9b6",
   "696fca571fe7eb90",
-  "3389f7b088c417ef"
+  "3389f7b088c417ef",
+  "08dd70bc6e971c6d"
  ],
  "sources": [
   "blendkit",
   "blendkit",
   "blendkit",
   "blendkit",
-  "blendkit"
+  "animation-buffet"
  ],
- "counter": 562,
- "archive_page": 774,
- "buffet_index": 19200,
- "airtable_index": 9168,
+ "counter": 563,
+ "archive_page": 776,
+ "buffet_index": 19250,
+ "airtable_index": 9192,
  "last_post_ts": 1791954049.0252998,
  "image_hashes": [
-  "5de323a44ab8d676",
   "5d0c8b5100b9680a",
   "e1a8ccf14f027fd4",
   "29a781b0cb82c103",
@@ -1701,7 +1701,8 @@
   "923dc4b69bdd6484",
   "456deea5954d2123",
   "0134979629e735cd",
-  "34304efde4303bb9"
+  "34304efde4303bb9",
+  "713760c16a14827e"
  ],
  "channel_names": [
   "3d penguin",
@@ -2145,6 +2146,7 @@
   "space creatures studio",
   "space demon",
   "spider",
+  "spider bot",
   "spider gwen",
   "spider man atsv miles",
   "spider silk",
@@ -2421,6 +2423,7 @@
   "animationbuffet.blogspot.com/2020/06/kit.html",
   "animationbuffet.blogspot.com/2020/06/kohaku.html",
   "animationbuffet.blogspot.com/2020/06/rhino.html",
+  "animationbuffet.blogspot.com/2020/06/spider-bot.html",
   "animationbuffet.blogspot.com/2020/06/the-punisher.html",
   "animationbuffet.blogspot.com/2020/06/zelda-breath-of-wild.html",
   "animationbuffet.blogspot.com/2020/07/artemis-paid-maya-rig.html",
@@ -2812,6 +2815,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1032,
- "blendswap_page": 86
+ "blenderkit_index": 1044,
+ "blendswap_page": 87
 }
