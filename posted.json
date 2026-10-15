@@ -1195,22 +1195,22 @@
   "30622d3b1888735d",
   "2821040904294f03",
   "eed3c2ecda9d4463",
-  "4c1baab7feb77af5"
+  "4c1baab7feb77af5",
+  "a73d9bdf8dde2366"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "news:CG Channel · rigging",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 569,
+ "counter": 570,
  "archive_page": 780,
  "buffet_index": 19350,
  "airtable_index": 9240,
  "last_post_ts": 1792033338.1262362,
  "image_hashes": [
-  "ec3b6ba3d29a9e53",
   "e06a18bbbfb6e909",
   "1c29838b5fb1bee5",
   "28665f5e5f79ced4",
@@ -1709,7 +1709,8 @@
   "6c828a31f30ca7d6",
   "eb2fe1906a889bea",
   "325d7744d4a1e7e5",
-  "4d56b6bd473eba3b"
+  "4d56b6bd473eba3b",
+  "5fa31eeee0489dfd"
  ],
  "channel_names": [
   "3d penguin",
@@ -2126,6 +2127,7 @@
   "samy",
   "sanae",
   "savannah lioness",
+  "sci fi dragon animated",
   "sci fi spartan vanguard",
   "scifi junk mecha",
   "scorpion",
@@ -2546,6 +2548,7 @@
   "blenderkit.com/asset-gallery-detail/c3c02d19-a070-4fb1-94ed-956ee4787617",
   "blenderkit.com/asset-gallery-detail/c63283ec-7419-4bff-8f6f-13cf70bd1b14",
   "blenderkit.com/asset-gallery-detail/c70cac7c-581a-4149-8c2e-9b30392ef079",
+  "blenderkit.com/asset-gallery-detail/c77b372a-7086-4264-a278-26efe6de0251",
   "blenderkit.com/asset-gallery-detail/c8295a51-b0d5-40ca-b038-d49d121d26dc",
   "blenderkit.com/asset-gallery-detail/c8da6848-cdbe-4d31-b462-38e118456416",
   "blenderkit.com/asset-gallery-detail/c8dcb529-5fe2-4cbf-a1bc-c02673af3675",
