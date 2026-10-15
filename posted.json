@@ -1200,22 +1200,22 @@
   "c6b0aa2a6dd9a43b",
   "df7c7d7fd42a0042",
   "2462a30784b675d8",
-  "2a6c3cbddf183965"
+  "2a6c3cbddf183965",
+  "1cb8ccdb2eb26c20"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 573,
- "archive_page": 782,
- "buffet_index": 19400,
- "airtable_index": 9264,
+ "counter": 574,
+ "archive_page": 784,
+ "buffet_index": 19450,
+ "airtable_index": 9288,
  "last_post_ts": 1792062247.3821225,
  "image_hashes": [
-  "d92be3276c82c41e",
   "192ccf365c59bf1c",
   "b16edad2c24523f1",
   "f7a956ea574e6843",
@@ -1714,7 +1714,8 @@
   "5fa31eeee0489dfd",
   "f842d04aa315f5b1",
   "39fbc3b9ee600ecd",
-  "8746a0fa2fa5a977"
+  "8746a0fa2fa5a977",
+  "da436938e14074c8"
  ],
  "channel_names": [
   "3d penguin",
@@ -1849,6 +1850,7 @@
   "dana",
   "daredevil v4 rigged lowpoly",
   "dark evil dragon",
+  "dark knight rigged animated",
   "david",
   "dawn",
   "daxter",
@@ -2580,6 +2582,7 @@
   "blenderkit.com/asset-gallery-detail/f1c17557-6912-400c-be81-1c1572f29800",
   "blenderkit.com/asset-gallery-detail/f4bda642-d430-428c-8039-fae5cf9d4e69",
   "blenderkit.com/asset-gallery-detail/f4d4ba28-c542-4be7-b346-5d7e033ef168",
+  "blenderkit.com/asset-gallery-detail/f5553e39-ce82-4b2d-90a3-fc200784775d",
   "blenderkit.com/asset-gallery-detail/f5878510-999a-4367-97e1-42c3fae47be6",
   "blenderkit.com/asset-gallery-detail/f725f37d-93d3-49b8-a8b2-a13da263f0ae",
   "blenderkit.com/asset-gallery-detail/fdae7fb1-3bf8-4076-8017-91313350dd77",
@@ -2847,6 +2850,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1080,
- "blendswap_page": 90
+ "blenderkit_index": 1092,
+ "blendswap_page": 91
 }
