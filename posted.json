@@ -1198,22 +1198,22 @@
   "4c1baab7feb77af5",
   "a73d9bdf8dde2366",
   "c6b0aa2a6dd9a43b",
-  "df7c7d7fd42a0042"
+  "df7c7d7fd42a0042",
+  "2462a30784b675d8"
  ],
  "sources": [
-  "news:CG Channel · rigging",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 571,
+ "counter": 572,
  "archive_page": 782,
  "buffet_index": 19400,
  "airtable_index": 9264,
  "last_post_ts": 1792047827.0037923,
  "image_hashes": [
-  "1c29838b5fb1bee5",
   "28665f5e5f79ced4",
   "d92be3276c82c41e",
   "192ccf365c59bf1c",
@@ -1712,7 +1712,8 @@
   "325d7744d4a1e7e5",
   "4d56b6bd473eba3b",
   "5fa31eeee0489dfd",
-  "f842d04aa315f5b1"
+  "f842d04aa315f5b1",
+  "39fbc3b9ee600ecd"
  ],
  "channel_names": [
   "3d penguin",
@@ -1815,6 +1816,7 @@
   "chameleon",
   "chameleon realistic",
   "charlie",
+  "chibi santa",
   "chicken",
   "chicken sets studio",
   "christoph the stoff schoch",
@@ -2523,6 +2525,7 @@
   "blenderkit.com/asset-gallery-detail/7cb3959c-989b-4b83-a60a-1af6f036c819",
   "blenderkit.com/asset-gallery-detail/7f329417-d756-49ab-a346-4b70471d64fd",
   "blenderkit.com/asset-gallery-detail/809d10ab-335a-4ef8-a54e-81a479861691",
+  "blenderkit.com/asset-gallery-detail/84c34f99-9bc9-4c70-9053-cfe6540939cf",
   "blenderkit.com/asset-gallery-detail/87b4af0c-b3a2-4ce0-a038-eebed6253a24",
   "blenderkit.com/asset-gallery-detail/87ca916e-11af-4d8e-aedf-85040e9cdfb5",
   "blenderkit.com/asset-gallery-detail/88daf67a-8e69-4630-a521-3934c0592598",
