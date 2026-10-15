@@ -1194,22 +1194,22 @@
   "560ac4065bf5e6a0",
   "30622d3b1888735d",
   "2821040904294f03",
-  "eed3c2ecda9d4463"
+  "eed3c2ecda9d4463",
+  "4c1baab7feb77af5"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "news:CG Channel · rigging",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 568,
+ "counter": 569,
  "archive_page": 780,
  "buffet_index": 19350,
  "airtable_index": 9240,
  "last_post_ts": 1791997429.423421,
  "image_hashes": [
-  "3c36b6fb45e95061",
   "ec3b6ba3d29a9e53",
   "e06a18bbbfb6e909",
   "1c29838b5fb1bee5",
@@ -1708,7 +1708,8 @@
   "d3dbf0221e075a18",
   "6c828a31f30ca7d6",
   "eb2fe1906a889bea",
-  "325d7744d4a1e7e5"
+  "325d7744d4a1e7e5",
+  "4d56b6bd473eba3b"
  ],
  "channel_names": [
   "3d penguin",
@@ -2217,6 +2218,7 @@
   "tonga",
   "tonga the fox",
   "toyrig",
+  "trex",
   "tribal chief",
   "tribal warrior",
   "triceratops",
@@ -2419,6 +2421,7 @@
   "animationbuffet.blogspot.com/2020/03/skateboard.html",
   "animationbuffet.blogspot.com/2020/03/skeleton.html",
   "animationbuffet.blogspot.com/2020/03/t-rex.html",
+  "animationbuffet.blogspot.com/2020/03/trex.html",
   "animationbuffet.blogspot.com/2020/03/trixxie.html",
   "animationbuffet.blogspot.com/2020/03/two-balls.html",
   "animationbuffet.blogspot.com/2020/03/ultimate-bony.html",
