@@ -1202,22 +1202,22 @@
   "2462a30784b675d8",
   "2a6c3cbddf183965",
   "1cb8ccdb2eb26c20",
-  "54131a9aa9d37e25"
+  "54131a9aa9d37e25",
+  "32c13bfe7eeefce2"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 575,
+ "counter": 576,
  "archive_page": 784,
  "buffet_index": 19450,
  "airtable_index": 9288,
  "last_post_ts": 1792076746.0815835,
  "image_hashes": [
-  "b16edad2c24523f1",
   "f7a956ea574e6843",
   "7d7efb1a1cd9078f",
   "8430c9f275d65f28",
@@ -1716,7 +1716,8 @@
   "39fbc3b9ee600ecd",
   "8746a0fa2fa5a977",
   "da436938e14074c8",
-  "973ba99cca1c5b10"
+  "973ba99cca1c5b10",
+  "0eabe7f202dbc1c8"
  ],
  "channel_names": [
   "3d penguin",
@@ -2199,6 +2200,7 @@
   "stylized game ready character diana",
   "stylized girl varsity jacket character",
   "stylized knight",
+  "stylized snowman rigged",
   "stylized wolf warrior rigged animated",
   "stylized wolf warroir rigged animated",
   "superhero",
@@ -2502,6 +2504,7 @@
   "blenderkit.com/asset-gallery-detail/3390ea68-0b41-4f32-9322-e998e14b2709",
   "blenderkit.com/asset-gallery-detail/33c7d013-db47-4d3c-b67c-b858ab7ffffc",
   "blenderkit.com/asset-gallery-detail/36da9d9f-b99f-436a-8e76-e2ff09c79990",
+  "blenderkit.com/asset-gallery-detail/37f86246-3d3a-4639-ac59-9b0a054ce1af",
   "blenderkit.com/asset-gallery-detail/38bbd42a-44c4-46ed-a04f-879e7a5e4318",
   "blenderkit.com/asset-gallery-detail/3918f834-7e26-4bd2-b549-eb02e3700c20",
   "blenderkit.com/asset-gallery-detail/39407568-a74a-4cee-a018-173ea064858e",
