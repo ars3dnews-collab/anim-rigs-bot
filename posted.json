@@ -1204,22 +1204,22 @@
   "1cb8ccdb2eb26c20",
   "54131a9aa9d37e25",
   "32c13bfe7eeefce2",
-  "99e01f0303d67377"
+  "99e01f0303d67377",
+  "c6605d8c3610cf11"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 577,
+ "counter": 578,
  "archive_page": 786,
  "buffet_index": 19500,
  "airtable_index": 9312,
  "last_post_ts": 1792119629.510813,
  "image_hashes": [
-  "7d7efb1a1cd9078f",
   "8430c9f275d65f28",
   "c35d5b6f9d3ecc16",
   "0481b7f6f5108a40",
@@ -1718,7 +1718,8 @@
   "da436938e14074c8",
   "973ba99cca1c5b10",
   "0eabe7f202dbc1c8",
-  "bd3081b3ae92f29b"
+  "bd3081b3ae92f29b",
+  "3600903e47ec0fab"
  ],
  "channel_names": [
   "3d penguin",
@@ -2171,6 +2172,7 @@
   "sophia",
   "space creatures studio",
   "space demon",
+  "special assassin rigged animated",
   "spider",
   "spider bot",
   "spider gwen",
@@ -2528,6 +2530,7 @@
   "blenderkit.com/asset-gallery-detail/61ec8d61-7a4e-428d-b876-577ebe1dac63",
   "blenderkit.com/asset-gallery-detail/6381f63a-455a-42a2-bbba-54b121ef2fec",
   "blenderkit.com/asset-gallery-detail/63920708-00c8-48a4-ac85-e89adaad0f2a",
+  "blenderkit.com/asset-gallery-detail/64f35571-ea7e-471b-bd2f-dca0ab0928ef",
   "blenderkit.com/asset-gallery-detail/68cc2909-db60-4308-bdf0-2f2ef159302b",
   "blenderkit.com/asset-gallery-detail/6a6f83b0-372d-408b-97c4-09866a11d1b6",
   "blenderkit.com/asset-gallery-detail/6d70a095-0432-4093-be5d-7eed3a2114b8",
