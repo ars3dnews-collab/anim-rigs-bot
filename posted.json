@@ -1203,22 +1203,22 @@
   "2a6c3cbddf183965",
   "1cb8ccdb2eb26c20",
   "54131a9aa9d37e25",
-  "32c13bfe7eeefce2"
+  "32c13bfe7eeefce2",
+  "99e01f0303d67377"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 576,
- "archive_page": 784,
- "buffet_index": 19450,
- "airtable_index": 9288,
+ "counter": 577,
+ "archive_page": 786,
+ "buffet_index": 19500,
+ "airtable_index": 9312,
  "last_post_ts": 1792083969.190185,
  "image_hashes": [
-  "f7a956ea574e6843",
   "7d7efb1a1cd9078f",
   "8430c9f275d65f28",
   "c35d5b6f9d3ecc16",
@@ -1717,7 +1717,8 @@
   "8746a0fa2fa5a977",
   "da436938e14074c8",
   "973ba99cca1c5b10",
-  "0eabe7f202dbc1c8"
+  "0eabe7f202dbc1c8",
+  "bd3081b3ae92f29b"
  ],
  "channel_names": [
   "3d penguin",
@@ -2197,6 +2198,7 @@
   "student henrietta",
   "stylized boy with attitude",
   "stylized butterfly rigged",
+  "stylized female",
   "stylized game ready character diana",
   "stylized girl varsity jacket character",
   "stylized knight",
@@ -2381,6 +2383,7 @@
   "animationbuffet.blogspot.com/2015/04/nude.html",
   "animationbuffet.blogspot.com/2015/04/reptile-eye.html",
   "animationbuffet.blogspot.com/2015/04/ryan.html",
+  "animationbuffet.blogspot.com/2015/04/stylized-female.html",
   "animationbuffet.blogspot.com/2015/07/cogswell-dragon.html",
   "animationbuffet.blogspot.com/2016/03/cody.html",
   "animationbuffet.blogspot.com/2016/03/companionx.html",
@@ -2856,6 +2859,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1092,
- "blendswap_page": 91
+ "blenderkit_index": 1104,
+ "blendswap_page": 92
 }
