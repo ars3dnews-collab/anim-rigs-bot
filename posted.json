@@ -1209,22 +1209,22 @@
   "cf3f957c173133c5",
   "bfcf3ef2f4e37660",
   "f062df9312f08671",
-  "b836467015126120"
+  "b836467015126120",
+  "9fe4e679f4a21c99"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 582,
+ "counter": 583,
  "archive_page": 790,
  "buffet_index": 19600,
  "airtable_index": 9360,
  "last_post_ts": 1792155794.6396637,
  "image_hashes": [
-  "69aa43becb815141",
   "e60ff02ce9eb7331",
   "826a68bf742a15bb",
   "ab882214a89e5cd0",
@@ -1723,7 +1723,8 @@
   "f721bdc68560f2b5",
   "a75c2300fd7bb423",
   "83f638273352338a",
-  "1654c3d2db8f4c81"
+  "1654c3d2db8f4c81",
+  "4fcc65631ee6a4c0"
  ],
  "channel_names": [
   "3d penguin",
@@ -1964,6 +1965,7 @@
   "homer simpson",
   "horse",
   "hotel transylvania zombie",
+  "houdini",
   "hse lord snappy",
   "hugo waiter extraordinaire",
   "hulk",
@@ -2358,6 +2360,7 @@
   "animationbuffet.blogspot.com/2012/05/facial-rig.html",
   "animationbuffet.blogspot.com/2012/05/fat-man.html",
   "animationbuffet.blogspot.com/2012/05/finex.html",
+  "animationbuffet.blogspot.com/2012/05/houdini.html",
   "animationbuffet.blogspot.com/2012/05/johnny-box.html",
   "animationbuffet.blogspot.com/2012/05/kidoo.html",
   "animationbuffet.blogspot.com/2012/05/kila.html",
