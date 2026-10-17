@@ -1213,22 +1213,22 @@
   "9fe4e679f4a21c99",
   "10f6fd88b9b17e66",
   "e1b9e8214945072b",
-  "ef95ac2d1ac648ee"
+  "ef95ac2d1ac648ee",
+  "312f04950a4547c5"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "airtable",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 585,
- "archive_page": 794,
- "buffet_index": 19700,
- "airtable_index": 9408,
+ "counter": 586,
+ "archive_page": 796,
+ "buffet_index": 19750,
+ "airtable_index": 9432,
  "last_post_ts": 1792206054.9952755,
  "image_hashes": [
-  "ab882214a89e5cd0",
   "34d47678057d8e34",
   "85a297192b90f5cd",
   "e981da653d971b41",
@@ -1727,7 +1727,8 @@
   "1654c3d2db8f4c81",
   "4fcc65631ee6a4c0",
   "9d284484ad33d19c",
-  "7b8ca9f238573395"
+  "7b8ca9f238573395",
+  "9153ca613dbe3c44"
  ],
  "channel_names": [
   "3d penguin",
@@ -2214,6 +2215,7 @@
   "student henrietta",
   "stylized boy with attitude",
   "stylized butterfly rigged",
+  "stylized christmas reindeer rigged",
   "stylized female",
   "stylized game ready character diana",
   "stylized girl varsity jacket character",
@@ -2555,6 +2557,7 @@
   "blenderkit.com/asset-gallery-detail/68cc2909-db60-4308-bdf0-2f2ef159302b",
   "blenderkit.com/asset-gallery-detail/6a6f83b0-372d-408b-97c4-09866a11d1b6",
   "blenderkit.com/asset-gallery-detail/6d70a095-0432-4093-be5d-7eed3a2114b8",
+  "blenderkit.com/asset-gallery-detail/704a39ff-0bf2-487d-8ad9-c4ed323b8a2b",
   "blenderkit.com/asset-gallery-detail/72d9eb66-2f0d-44bc-bc30-143755131bb9",
   "blenderkit.com/asset-gallery-detail/731e6ada-530e-42d8-aed9-b8334cdace0e",
   "blenderkit.com/asset-gallery-detail/78fcce67-c9df-488e-a416-85e3bd220f47",
@@ -2884,6 +2887,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1152,
- "blendswap_page": 96
+ "blenderkit_index": 1164,
+ "blendswap_page": 97
 }
