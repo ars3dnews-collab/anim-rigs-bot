@@ -1215,22 +1215,22 @@
   "e1b9e8214945072b",
   "ef95ac2d1ac648ee",
   "312f04950a4547c5",
-  "f71f1a8318ba28fc"
+  "f71f1a8318ba28fc",
+  "e0832ac031e5259c"
  ],
  "sources": [
-  "animation-buffet",
   "airtable",
   "animation-buffet",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 587,
- "archive_page": 796,
- "buffet_index": 19750,
- "airtable_index": 9432,
+ "counter": 588,
+ "archive_page": 798,
+ "buffet_index": 19800,
+ "airtable_index": 9456,
  "last_post_ts": 1792220476.8690894,
  "image_hashes": [
-  "85a297192b90f5cd",
   "e981da653d971b41",
   "2b2921e855c334f8",
   "2b7a9610249abee7",
@@ -1729,7 +1729,8 @@
   "9d284484ad33d19c",
   "7b8ca9f238573395",
   "9153ca613dbe3c44",
-  "a383391a4b1be07e"
+  "a383391a4b1be07e",
+  "7659486d6ff08353"
  ],
  "channel_names": [
   "3d penguin",
@@ -1872,6 +1873,7 @@
   "david",
   "dawn",
   "daxter",
+  "deer animated",
   "defiler",
   "demi",
   "demon",
@@ -2618,6 +2620,7 @@
   "blenderkit.com/asset-gallery-detail/ef4e8216-838e-48d6-91e2-f6f62dee5b81",
   "blenderkit.com/asset-gallery-detail/efbe0963-3aa0-4681-8916-6ce87fc3c81d",
   "blenderkit.com/asset-gallery-detail/f1c17557-6912-400c-be81-1c1572f29800",
+  "blenderkit.com/asset-gallery-detail/f269f83a-c275-48c6-8df6-5d1f92a2e37a",
   "blenderkit.com/asset-gallery-detail/f4bda642-d430-428c-8039-fae5cf9d4e69",
   "blenderkit.com/asset-gallery-detail/f4d4ba28-c542-4be7-b346-5d7e033ef168",
   "blenderkit.com/asset-gallery-detail/f5553e39-ce82-4b2d-90a3-fc200784775d",
@@ -2890,6 +2893,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1164,
- "blendswap_page": 97
+ "blenderkit_index": 1176,
+ "blendswap_page": 98
 }
