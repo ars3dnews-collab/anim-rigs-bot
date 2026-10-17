@@ -1218,22 +1218,22 @@
   "f71f1a8318ba28fc",
   "e0832ac031e5259c",
   "ad6f01dcd4f80e05",
-  "1490f911faaddc72"
+  "1490f911faaddc72",
+  "7e7e159d471ac204"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "airtable",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 589,
- "archive_page": 798,
- "buffet_index": 19800,
- "airtable_index": 9456,
+ "counter": 590,
+ "archive_page": 800,
+ "buffet_index": 19850,
+ "airtable_index": 9480,
  "last_post_ts": 1792234925.0878408,
  "image_hashes": [
-  "2b2921e855c334f8",
   "2b7a9610249abee7",
   "e1a7344ab6aad0f2",
   "f7f3bc7a05884147",
@@ -1732,7 +1732,8 @@
   "9153ca613dbe3c44",
   "a383391a4b1be07e",
   "7659486d6ff08353",
-  "552b89f7bf041adc"
+  "552b89f7bf041adc",
+  "b2f51cd7cf7934f4"
  ],
  "channel_names": [
   "3d penguin",
@@ -2235,6 +2236,7 @@
   "sylvanas windrunner",
   "t rex",
   "t rex mechanic",
+  "tactical soldier in black",
   "talia",
   "tank",
   "tanner saurus",
@@ -2599,6 +2601,7 @@
   "blenderkit.com/asset-gallery-detail/afd5869c-af4d-4ab1-96f9-9e6289701e5c",
   "blenderkit.com/asset-gallery-detail/b9a86ea0-065b-41cc-a977-8411f537cb3a",
   "blenderkit.com/asset-gallery-detail/b9d48bc2-227d-4231-bc30-71ba007dca5f",
+  "blenderkit.com/asset-gallery-detail/bd507a4f-7321-4888-bd10-a5cd494849d5",
   "blenderkit.com/asset-gallery-detail/be297602-63d3-4c90-acff-b2f77ee142a6",
   "blenderkit.com/asset-gallery-detail/c3c02d19-a070-4fb1-94ed-956ee4787617",
   "blenderkit.com/asset-gallery-detail/c63283ec-7419-4bff-8f6f-13cf70bd1b14",
@@ -2897,6 +2900,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1176,
- "blendswap_page": 98
+ "blenderkit_index": 1188,
+ "blendswap_page": 99
 }
