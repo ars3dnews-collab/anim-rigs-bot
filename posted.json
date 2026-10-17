@@ -1217,22 +1217,22 @@
   "312f04950a4547c5",
   "f71f1a8318ba28fc",
   "e0832ac031e5259c",
-  "ad6f01dcd4f80e05"
+  "ad6f01dcd4f80e05",
+  "1490f911faaddc72"
  ],
  "sources": [
-  "airtable",
   "animation-buffet",
   "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 588,
+ "counter": 589,
  "archive_page": 798,
  "buffet_index": 19800,
  "airtable_index": 9456,
  "last_post_ts": 1792227682.5546799,
  "image_hashes": [
-  "e981da653d971b41",
   "2b2921e855c334f8",
   "2b7a9610249abee7",
   "e1a7344ab6aad0f2",
@@ -1731,7 +1731,8 @@
   "7b8ca9f238573395",
   "9153ca613dbe3c44",
   "a383391a4b1be07e",
-  "7659486d6ff08353"
+  "7659486d6ff08353",
+  "552b89f7bf041adc"
  ],
  "channel_names": [
   "3d penguin",
@@ -1828,6 +1829,7 @@
   "carl",
   "carlo realistic male character",
   "carnotaurus",
+  "cartoon guy",
   "cartoon referee",
   "cartoony car",
   "casual male",
@@ -2878,6 +2880,7 @@
   "trevital.gumroad.com/l/vuoln",
   "truongcgartist.gumroad.com/l/boxerrig",
   "truongcgartist.gumroad.com/l/boxygrasshopper",
+  "truongcgartist.gumroad.com/l/cartoonguy",
   "truongcgartist.gumroad.com/l/cartoonpenquin",
   "truongcgartist.gumroad.com/l/chickenrig",
   "truongcgartist.gumroad.com/l/gnomerig",
