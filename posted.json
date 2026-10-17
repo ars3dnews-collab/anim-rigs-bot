@@ -1220,22 +1220,22 @@
   "ad6f01dcd4f80e05",
   "1490f911faaddc72",
   "7e7e159d471ac204",
-  "a37421da49cb2597"
+  "a37421da49cb2597",
+  "8336f67d4b903419"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "airtable",
+  "blendkit",
   "blendkit",
   "blendkit"
  ],
- "counter": 591,
- "archive_page": 800,
- "buffet_index": 19850,
- "airtable_index": 9480,
+ "counter": 592,
+ "archive_page": 802,
+ "buffet_index": 19900,
+ "airtable_index": 9504,
  "last_post_ts": 1792249390.6910417,
  "image_hashes": [
-  "e1a7344ab6aad0f2",
   "f7f3bc7a05884147",
   "8b1ea6dd4b160965",
   "4d2f366857ca1431",
@@ -1734,7 +1734,8 @@
   "7659486d6ff08353",
   "552b89f7bf041adc",
   "b2f51cd7cf7934f4",
-  "65760254ceecfd7b"
+  "65760254ceecfd7b",
+  "b938234fca40b39c"
  ],
  "channel_names": [
   "3d penguin",
@@ -2027,6 +2028,7 @@
   "kohaku",
   "kong skeleton",
   "kyle balda masterclass",
+  "labubu",
   "leaf insect",
   "lego wall e",
   "leo",
@@ -2560,6 +2562,7 @@
   "blenderkit.com/asset-gallery-detail/4f56f596-28ae-4899-a4c8-afadad1324b7",
   "blenderkit.com/asset-gallery-detail/52fe8cd5-81db-4f30-9348-b885b43e4c96",
   "blenderkit.com/asset-gallery-detail/55af7b4a-c99d-4d0e-88bf-f5598f4fc259",
+  "blenderkit.com/asset-gallery-detail/5a85e494-c792-48f8-b6a5-7921730b926f",
   "blenderkit.com/asset-gallery-detail/5c41688f-618c-49a4-9afd-2593cbeb4eea",
   "blenderkit.com/asset-gallery-detail/5c78769b-a2e2-42d5-8ab7-0bdc6ae9c89a",
   "blenderkit.com/asset-gallery-detail/61ec8d61-7a4e-428d-b876-577ebe1dac63",
@@ -2903,6 +2906,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1188,
- "blendswap_page": 99
+ "blenderkit_index": 1200,
+ "blendswap_page": 100
 }
