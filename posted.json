@@ -1227,22 +1227,22 @@
   "ce4994195316c7f6",
   "27abf31a7e059134",
   "a2d8db6a22923222",
-  "5b3e9b32c2d2f5ed"
+  "5b3e9b32c2d2f5ed",
+  "2b26eb681ff5bc42"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 598,
- "archive_page": 808,
- "buffet_index": 20050,
- "airtable_index": 9576,
+ "counter": 599,
+ "archive_page": 810,
+ "buffet_index": 20100,
+ "airtable_index": 9600,
  "last_post_ts": 1792328641.7958508,
  "image_hashes": [
-  "eb9de2f91edcf2a0",
   "a04ecdce8f5ba01d",
   "a7386816d02d62af",
   "2ad763b2acca31ee",
@@ -1741,7 +1741,8 @@
   "4950c16f82bded63",
   "373259a1fbc3cd5b",
   "5bac38ee216a7900",
-  "4a32f5d52642def7"
+  "4a32f5d52642def7",
+  "7c5e1293d4721dbf"
  ],
  "channel_names": [
   "3d penguin",
@@ -1894,6 +1895,7 @@
   "demon big updated",
   "demonlord 0 9 0",
   "destrozar",
+  "diabo dinosaur",
   "diana",
   "dino beast",
   "dinorig",
@@ -2444,6 +2446,7 @@
   "animationbuffet.blogspot.com/2017/08/bunny-eater.html",
   "animationbuffet.blogspot.com/2017/08/conan.html",
   "animationbuffet.blogspot.com/2017/08/crocodile_2.html",
+  "animationbuffet.blogspot.com/2017/08/diabo-dinosaur.html",
   "animationbuffet.blogspot.com/2017/08/dino-beast.html",
   "animationbuffet.blogspot.com/2017/08/elephant.html",
   "animationbuffet.blogspot.com/2017/08/more-info-here.html",
@@ -2924,6 +2927,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1236,
- "blendswap_page": 103
+ "blenderkit_index": 1248,
+ "blendswap_page": 104
 }
