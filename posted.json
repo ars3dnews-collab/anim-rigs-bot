@@ -1222,22 +1222,22 @@
   "7e7e159d471ac204",
   "a37421da49cb2597",
   "8336f67d4b903419",
-  "ea7dc4907468379e"
+  "ea7dc4907468379e",
+  "caee16cfabaf6f09"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "blendkit",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 593,
- "archive_page": 804,
- "buffet_index": 19950,
- "airtable_index": 9528,
+ "counter": 594,
+ "archive_page": 806,
+ "buffet_index": 20000,
+ "airtable_index": 9552,
  "last_post_ts": 1792292495.8387215,
  "image_hashes": [
-  "8b1ea6dd4b160965",
   "4d2f366857ca1431",
   "2a946978f1544599",
   "d6a6fc9a69d192aa",
@@ -1736,7 +1736,8 @@
   "b2f51cd7cf7934f4",
   "65760254ceecfd7b",
   "b938234fca40b39c",
-  "60ce333546e58441"
+  "60ce333546e58441",
+  "e56eeef7941f522d"
  ],
  "channel_names": [
   "3d penguin",
@@ -2056,6 +2057,7 @@
   "male hiker outdoor camping gear",
   "male vampire character semi realistic rigged auto pro",
   "mannequin",
+  "mara character animated",
   "marie",
   "mario bros",
   "marty",
@@ -2564,6 +2566,7 @@
   "blenderkit.com/asset-gallery-detail/4f519910-fa92-4cce-bc64-93c28c681ecb",
   "blenderkit.com/asset-gallery-detail/4f56f596-28ae-4899-a4c8-afadad1324b7",
   "blenderkit.com/asset-gallery-detail/52fe8cd5-81db-4f30-9348-b885b43e4c96",
+  "blenderkit.com/asset-gallery-detail/5337e2a4-1f83-4965-82a9-a90674d1ddc5",
   "blenderkit.com/asset-gallery-detail/55af7b4a-c99d-4d0e-88bf-f5598f4fc259",
   "blenderkit.com/asset-gallery-detail/5a85e494-c792-48f8-b6a5-7921730b926f",
   "blenderkit.com/asset-gallery-detail/5c41688f-618c-49a4-9afd-2593cbeb4eea",
@@ -2909,6 +2912,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1212,
- "blendswap_page": 101
+ "blenderkit_index": 1224,
+ "blendswap_page": 102
 }
