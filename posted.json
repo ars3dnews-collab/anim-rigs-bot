@@ -1234,22 +1234,22 @@
   "37b138262cc6578d",
   "bf46d3f4d6c272e6",
   "4e72c0070aa7bfa3",
-  "706d6372f3eaca06"
+  "706d6372f3eaca06",
+  "f1f64a34fcbc8ac6"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 605,
- "archive_page": 816,
- "buffet_index": 20250,
- "airtable_index": 9672,
+ "counter": 606,
+ "archive_page": 818,
+ "buffet_index": 20300,
+ "airtable_index": 9696,
  "last_post_ts": 1792407686.0366976,
  "image_hashes": [
-  "ee7bae0f0a66fcc1",
   "10c0b8417e4fa193",
   "d579ac142e353128",
   "0f0765d198422a25",
@@ -1748,7 +1748,8 @@
   "2ac57c224023826b",
   "68dc2399b843e184",
   "55f78d5ca5a6341c",
-  "b7033b93a47a4df9"
+  "b7033b93a47a4df9",
+  "d1c02f8f18f8341a"
  ],
  "channel_names": [
   "3d penguin",
@@ -2252,6 +2253,7 @@
   "stylized butterfly rigged",
   "stylized christmas reindeer rigged",
   "stylized female",
+  "stylized game ready character carlos",
   "stylized game ready character diana",
   "stylized girl varsity jacket character",
   "stylized knight",
@@ -2660,6 +2662,7 @@
   "blenderkit.com/asset-gallery-detail/d70aa919-0e82-4d4a-b0cc-619afd71749b",
   "blenderkit.com/asset-gallery-detail/d737de5c-a17f-4347-b46f-d40efd202066",
   "blenderkit.com/asset-gallery-detail/dba6a136-a466-4bb2-9584-9d10b707f94c",
+  "blenderkit.com/asset-gallery-detail/dfc15535-1028-4b34-bf87-0edbdfe067e8",
   "blenderkit.com/asset-gallery-detail/e447d37f-6603-48d4-9125-f839f1b4044c",
   "blenderkit.com/asset-gallery-detail/e5fa9080-4a6d-4722-9e68-fce881fe6c96",
   "blenderkit.com/asset-gallery-detail/e6bd475c-1f15-4fe9-8219-440ec504e17a",
@@ -2945,6 +2948,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1284,
- "blendswap_page": 107
+ "blenderkit_index": 1296,
+ "blendswap_page": 108
 }
