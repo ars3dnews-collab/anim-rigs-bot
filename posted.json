@@ -1231,22 +1231,22 @@
   "2b26eb681ff5bc42",
   "1447a4cd8a49f018",
   "748e3fe7ca81cb48",
-  "37b138262cc6578d"
+  "37b138262cc6578d",
+  "bf46d3f4d6c272e6"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 602,
- "archive_page": 814,
- "buffet_index": 20200,
- "airtable_index": 9648,
+ "counter": 603,
+ "archive_page": 816,
+ "buffet_index": 20250,
+ "airtable_index": 9672,
  "last_post_ts": 1792386016.7606888,
  "image_hashes": [
-  "92840a3f22a46280",
   "53cd4505699e3b42",
   "30202b876eb484ad",
   "ee7bae0f0a66fcc1",
@@ -1745,7 +1745,8 @@
   "7c5e1293d4721dbf",
   "473bca7f138ba296",
   "cce67281bb327613",
-  "2ac57c224023826b"
+  "2ac57c224023826b",
+  "68dc2399b843e184"
  ],
  "channel_names": [
   "3d penguin",
@@ -1948,6 +1949,7 @@
   "fly",
   "flying fox",
   "foal spirit",
+  "fox",
   "fps hands",
   "franck the caterpillar",
   "franck the sheep",
@@ -2401,6 +2403,7 @@
   "animationbuffet.blogspot.com/2012/05/facial-rig.html",
   "animationbuffet.blogspot.com/2012/05/fat-man.html",
   "animationbuffet.blogspot.com/2012/05/finex.html",
+  "animationbuffet.blogspot.com/2012/05/fox_08.html",
   "animationbuffet.blogspot.com/2012/05/houdini.html",
   "animationbuffet.blogspot.com/2012/05/johnny-box.html",
   "animationbuffet.blogspot.com/2012/05/kidoo.html",
@@ -2936,6 +2939,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1272,
- "blendswap_page": 106
+ "blenderkit_index": 1284,
+ "blendswap_page": 107
 }
