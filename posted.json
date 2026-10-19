@@ -1235,22 +1235,22 @@
   "bf46d3f4d6c272e6",
   "4e72c0070aa7bfa3",
   "706d6372f3eaca06",
-  "f1f64a34fcbc8ac6"
+  "f1f64a34fcbc8ac6",
+  "dcb5c677c6c4cc0b"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 606,
+ "counter": 607,
  "archive_page": 818,
  "buffet_index": 20300,
  "airtable_index": 9696,
  "last_post_ts": 1792415585.188191,
  "image_hashes": [
-  "10c0b8417e4fa193",
   "d579ac142e353128",
   "0f0765d198422a25",
   "6564161f618436ac",
@@ -1749,7 +1749,8 @@
   "68dc2399b843e184",
   "55f78d5ca5a6341c",
   "b7033b93a47a4df9",
-  "d1c02f8f18f8341a"
+  "d1c02f8f18f8341a",
+  "f959564a2b155a0a"
  ],
  "channel_names": [
   "3d penguin",
@@ -1892,6 +1893,7 @@
   "daredevil v4 rigged lowpoly",
   "dark evil dragon",
   "dark knight rigged animated",
+  "dark waters jinx",
   "david",
   "dawn",
   "daxter",
@@ -2771,6 +2773,7 @@
   "gumroad.com/l/lgzfh",
   "gumroad.com/l/lhrqc",
   "gumroad.com/l/lkpyc",
+  "gumroad.com/l/lpjbg",
   "gumroad.com/l/lxrow",
   "gumroad.com/l/mecha-mechs-dash-flourish",
   "gumroad.com/l/misyb",
