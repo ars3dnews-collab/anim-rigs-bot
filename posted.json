@@ -1229,22 +1229,22 @@
   "a2d8db6a22923222",
   "5b3e9b32c2d2f5ed",
   "2b26eb681ff5bc42",
-  "1447a4cd8a49f018"
+  "1447a4cd8a49f018",
+  "748e3fe7ca81cb48"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 600,
- "archive_page": 812,
- "buffet_index": 20150,
- "airtable_index": 9624,
+ "counter": 601,
+ "archive_page": 814,
+ "buffet_index": 20200,
+ "airtable_index": 9648,
  "last_post_ts": 1792343078.963227,
  "image_hashes": [
-  "a7386816d02d62af",
   "2ad763b2acca31ee",
   "92840a3f22a46280",
   "53cd4505699e3b42",
@@ -1743,7 +1743,8 @@
   "5bac38ee216a7900",
   "4a32f5d52642def7",
   "7c5e1293d4721dbf",
-  "473bca7f138ba296"
+  "473bca7f138ba296",
+  "cce67281bb327613"
  ],
  "channel_names": [
   "3d penguin",
@@ -1973,6 +1974,7 @@
   "grey matter gary",
   "guardian",
   "gunslinger crab mech",
+  "guybrush",
   "halloween witch",
   "hannah",
   "happy spinny cube",
@@ -2849,6 +2851,7 @@
   "megabubu.gumroad.com/l/sanaerig",
   "meryproject.com",
   "milio-serrano.gumroad.com/l/ayncp",
+  "milio-serrano.gumroad.com/l/bpbdv",
   "milio-serrano.gumroad.com/l/hnliz",
   "milio-serrano.gumroad.com/l/hppov",
   "milio-serrano.gumroad.com/l/hypza",
@@ -2930,6 +2933,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1260,
- "blendswap_page": 105
+ "blenderkit_index": 1272,
+ "blendswap_page": 106
 }
