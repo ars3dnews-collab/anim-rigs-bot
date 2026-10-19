@@ -1232,22 +1232,22 @@
   "1447a4cd8a49f018",
   "748e3fe7ca81cb48",
   "37b138262cc6578d",
-  "bf46d3f4d6c272e6"
+  "bf46d3f4d6c272e6",
+  "4e72c0070aa7bfa3"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "airtable",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 603,
+ "counter": 604,
  "archive_page": 816,
  "buffet_index": 20250,
  "airtable_index": 9672,
  "last_post_ts": 1792393272.2370973,
  "image_hashes": [
-  "53cd4505699e3b42",
   "30202b876eb484ad",
   "ee7bae0f0a66fcc1",
   "10c0b8417e4fa193",
@@ -1746,7 +1746,8 @@
   "473bca7f138ba296",
   "cce67281bb327613",
   "2ac57c224023826b",
-  "68dc2399b843e184"
+  "68dc2399b843e184",
+  "55f78d5ca5a6341c"
  ],
  "channel_names": [
   "3d penguin",
@@ -2255,6 +2256,7 @@
   "stylized snowman rigged",
   "stylized wolf warrior rigged animated",
   "stylized wolf warroir rigged animated",
+  "stylized young man",
   "superhero",
   "swamp monster rigged animated",
   "sylvanas windrunner",
@@ -2561,6 +2563,7 @@
   "blenderkit.com/asset-gallery-detail/17baf7eb-5c04-43ce-b0d4-facf26371f7d",
   "blenderkit.com/asset-gallery-detail/25b5f088-49af-4e76-8fca-c8aba93edf45",
   "blenderkit.com/asset-gallery-detail/28ba5cde-86a0-4029-a26d-60b8007eb4ed",
+  "blenderkit.com/asset-gallery-detail/2906a39e-c7b1-4b89-9d05-9340c1c2ebac",
   "blenderkit.com/asset-gallery-detail/2b8376d6-628d-4311-ae01-5808b93e74a4",
   "blenderkit.com/asset-gallery-detail/2bdac30f-5d47-46be-8ad3-8bf42e736338",
   "blenderkit.com/asset-gallery-detail/2d6811bf-8e00-4af1-b0d0-7bc0e17fb581",
