@@ -1244,22 +1244,22 @@
   "795a52dd1100fa9e",
   "03b33cc2f83727cc",
   "649a5b30a93bbb5a",
-  "1c7f31239cbc0326"
+  "1c7f31239cbc0326",
+  "ac553b9cb9beedda"
  ],
  "sources": [
   "blendkit",
   "blendkit",
   "blendkit",
-  "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 615,
- "archive_page": 824,
- "buffet_index": 20450,
- "airtable_index": 9768,
+ "counter": 616,
+ "archive_page": 826,
+ "buffet_index": 20500,
+ "airtable_index": 9792,
  "last_post_ts": 1792508711.7589097,
  "image_hashes": [
-  "7af5e1621cbff550",
   "230401760d44b267",
   "77a819744e0c4025",
   "e5c928f6a38c2d56",
@@ -1758,7 +1758,8 @@
   "5cb97739ce7ab276",
   "fb995523e6136b49",
   "cfa7db9da6cfd6d3",
-  "ded1217d71b496c5"
+  "ded1217d71b496c5",
+  "332e5394557a6199"
  ],
  "channel_names": [
   "3d penguin",
@@ -2071,6 +2072,7 @@
   "little box jeep",
   "little hermit crab",
   "little male fairy character semi realistic rigged auto pro",
+  "little monster v3 rigged lowpoly",
   "little water mage",
   "lizard creature",
   "lizardman",
@@ -2651,6 +2653,7 @@
   "blenderkit.com/asset-gallery-detail/88daf67a-8e69-4630-a521-3934c0592598",
   "blenderkit.com/asset-gallery-detail/8908e8ca-832c-46ad-8a8b-b5d7b924cacc",
   "blenderkit.com/asset-gallery-detail/8a0b8330-8504-40aa-ac59-442b023d2878",
+  "blenderkit.com/asset-gallery-detail/8afe9044-6fdb-4a88-8e66-a10a6cb43141",
   "blenderkit.com/asset-gallery-detail/8de8442d-98f0-4dfa-8f33-2d25f6ba80bc",
   "blenderkit.com/asset-gallery-detail/90647421-f297-43d7-8afa-1b617885ca8f",
   "blenderkit.com/asset-gallery-detail/91e1620f-2a3a-4460-87a0-ca28da81c1a4",
@@ -2975,6 +2978,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1332,
- "blendswap_page": 111
+ "blenderkit_index": 1344,
+ "blendswap_page": 112
 }
