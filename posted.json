@@ -1252,22 +1252,22 @@
   "273939a9778b6a8c",
   "ce0fb830f58a85b8",
   "377e69f722696aa6",
-  "35127d880e191317"
+  "35127d880e191317",
+  "d1ef8e2fa17e6023"
  ],
  "sources": [
-  "animation-buffet",
   "airtable",
   "airtable",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 623,
+ "counter": 624,
  "archive_page": 832,
  "buffet_index": 20650,
  "airtable_index": 9864,
  "last_post_ts": 1792595062.2553978,
  "image_hashes": [
-  "3bcbcd9d098e996f",
   "0b8d53a72bc76023",
   "967b705a0c761b9b",
   "3e4b2cae32dda82d",
@@ -1766,7 +1766,8 @@
   "8bca27c6200435fc",
   "51cb25b9846dd97c",
   "acd7263208a089e0",
-  "410837cafef0033c"
+  "410837cafef0033c",
+  "b7a2a29904796b75"
  ],
  "channel_names": [
   "3d penguin",
@@ -2175,6 +2176,7 @@
   "rancor",
   "raptor",
   "ray",
+  "rayfish animated",
   "rdbot",
   "realistic great white shark",
   "realistic monster hunter",
@@ -2649,6 +2651,7 @@
   "blenderkit.com/asset-gallery-detail/5c41688f-618c-49a4-9afd-2593cbeb4eea",
   "blenderkit.com/asset-gallery-detail/5c78769b-a2e2-42d5-8ab7-0bdc6ae9c89a",
   "blenderkit.com/asset-gallery-detail/61ec8d61-7a4e-428d-b876-577ebe1dac63",
+  "blenderkit.com/asset-gallery-detail/62476543-3e20-4c62-84bb-7efdbfb924d0",
   "blenderkit.com/asset-gallery-detail/6381f63a-455a-42a2-bbba-54b121ef2fec",
   "blenderkit.com/asset-gallery-detail/63920708-00c8-48a4-ac85-e89adaad0f2a",
   "blenderkit.com/asset-gallery-detail/64f35571-ea7e-471b-bd2f-dca0ab0928ef",
