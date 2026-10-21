@@ -1247,22 +1247,22 @@
   "1c7f31239cbc0326",
   "ac553b9cb9beedda",
   "8c90d261731b9d5c",
-  "332cfb1ab8287816"
+  "332cfb1ab8287816",
+  "97d76797e5150b59"
  ],
  "sources": [
-  "blendkit",
   "airtable",
   "blendkit",
   "blendkit",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 618,
- "archive_page": 828,
- "buffet_index": 20550,
- "airtable_index": 9816,
+ "counter": 619,
+ "archive_page": 830,
+ "buffet_index": 20600,
+ "airtable_index": 9840,
  "last_post_ts": 1792558854.956893,
  "image_hashes": [
-  "e5c928f6a38c2d56",
   "021e7ed6c94dc888",
   "352e9b74537ae714",
   "65345eebe9d5bbfd",
@@ -1761,7 +1761,8 @@
   "ded1217d71b496c5",
   "332e5394557a6199",
   "3472c92e9c280c83",
-  "2e17547fae5958cc"
+  "2e17547fae5958cc",
+  "6004dec9934cce1e"
  ],
  "channel_names": [
   "3d penguin",
@@ -1841,6 +1842,7 @@
   "break bones",
   "brooke",
   "brown camel",
+  "bruise",
   "buckid",
   "built by colossus",
   "bulbasaur",
@@ -2509,6 +2511,7 @@
   "animationbuffet.blogspot.com/2020/03/battledroid.html",
   "animationbuffet.blogspot.com/2020/03/body-mechanics.html",
   "animationbuffet.blogspot.com/2020/03/boxx.html",
+  "animationbuffet.blogspot.com/2020/03/bruise.html",
   "animationbuffet.blogspot.com/2020/03/carnotaurus.html",
   "animationbuffet.blogspot.com/2020/03/cricket.html",
   "animationbuffet.blogspot.com/2020/03/cube.html",
@@ -2984,6 +2987,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1356,
- "blendswap_page": 113
+ "blenderkit_index": 1368,
+ "blendswap_page": 114
 }
