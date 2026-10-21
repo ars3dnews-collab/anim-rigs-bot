@@ -1245,22 +1245,22 @@
   "03b33cc2f83727cc",
   "649a5b30a93bbb5a",
   "1c7f31239cbc0326",
-  "ac553b9cb9beedda"
+  "ac553b9cb9beedda",
+  "8c90d261731b9d5c"
  ],
  "sources": [
   "blendkit",
   "blendkit",
-  "blendkit",
   "airtable",
+  "blendkit",
   "blendkit"
  ],
- "counter": 616,
- "archive_page": 826,
- "buffet_index": 20500,
- "airtable_index": 9792,
+ "counter": 617,
+ "archive_page": 828,
+ "buffet_index": 20550,
+ "airtable_index": 9816,
  "last_post_ts": 1792515998.8444133,
  "image_hashes": [
-  "230401760d44b267",
   "77a819744e0c4025",
   "e5c928f6a38c2d56",
   "021e7ed6c94dc888",
@@ -1759,7 +1759,8 @@
   "fb995523e6136b49",
   "cfa7db9da6cfd6d3",
   "ded1217d71b496c5",
-  "332e5394557a6199"
+  "332e5394557a6199",
+  "3472c92e9c280c83"
  ],
  "channel_names": [
   "3d penguin",
@@ -2268,6 +2269,7 @@
   "stylized boy with attitude",
   "stylized butterfly rigged",
   "stylized cartoon adult woman rigged base mesh rigify",
+  "stylized cartoon child boy character rigged rigify",
   "stylized cartoon middle aged woman rigged base mesh rigify",
   "stylized cartoon teenage girl rigged base mesh rigify",
   "stylized christmas reindeer rigged",
@@ -2647,6 +2649,7 @@
   "blenderkit.com/asset-gallery-detail/7cb3959c-989b-4b83-a60a-1af6f036c819",
   "blenderkit.com/asset-gallery-detail/7f329417-d756-49ab-a346-4b70471d64fd",
   "blenderkit.com/asset-gallery-detail/809d10ab-335a-4ef8-a54e-81a479861691",
+  "blenderkit.com/asset-gallery-detail/80d42087-78d3-46df-9c22-5bbe0658592f",
   "blenderkit.com/asset-gallery-detail/84c34f99-9bc9-4c70-9053-cfe6540939cf",
   "blenderkit.com/asset-gallery-detail/87b4af0c-b3a2-4ce0-a038-eebed6253a24",
   "blenderkit.com/asset-gallery-detail/87ca916e-11af-4d8e-aedf-85040e9cdfb5",
@@ -2978,6 +2981,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1344,
- "blendswap_page": 112
+ "blenderkit_index": 1356,
+ "blendswap_page": 113
 }
