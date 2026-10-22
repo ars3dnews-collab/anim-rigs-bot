@@ -1257,22 +1257,22 @@
   "5a03a6f402fc244d",
   "ff874e5893846391",
   "10c265a0a7b15519",
-  "2e1abf4be8a976e5"
+  "2e1abf4be8a976e5",
+  "016d2fe5f3e88a25"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 627,
- "archive_page": 834,
- "buffet_index": 20700,
- "airtable_index": 9888,
+ "counter": 628,
+ "archive_page": 836,
+ "buffet_index": 20750,
+ "airtable_index": 9912,
  "last_post_ts": 1792652595.473158,
  "image_hashes": [
-  "d5e047a91332d7c1",
   "54e270a4327ff70d",
   "16696cd734251ffb",
   "0fbaae86d8496d61",
@@ -1771,7 +1771,8 @@
   "b7a2a29904796b75",
   "a695b303da2c5ab4",
   "fa62524060fd66b7",
-  "a0c7e9655716ef74"
+  "a0c7e9655716ef74",
+  "9627fd156bd1ec4d"
  ],
  "channel_names": [
   "3d penguin",
@@ -1836,6 +1837,7 @@
   "body mechanics ellie",
   "bodycon mini dress female character",
   "bodymech",
+  "boneface rigged lowpoly",
   "bonnie",
   "booboo",
   "boolieman",
@@ -2695,6 +2697,7 @@
   "blenderkit.com/asset-gallery-detail/976230df-9b2f-4475-8dd2-f7db102fdbe9",
   "blenderkit.com/asset-gallery-detail/976b75ba-5f6e-4753-bcd7-8b1dc0e51639",
   "blenderkit.com/asset-gallery-detail/98b13bd9-6309-493c-9ee6-75a916ac5360",
+  "blenderkit.com/asset-gallery-detail/9d4276cc-3907-4def-8057-ee157c2afb7d",
   "blenderkit.com/asset-gallery-detail/a349c738-e03b-42cb-8b9e-268d200dcb81",
   "blenderkit.com/asset-gallery-detail/a6d57996-1bc4-4a3c-abd8-ee3e16cef8fe",
   "blenderkit.com/asset-gallery-detail/a803b139-1353-4a69-8bec-e945279de1b7",
@@ -3012,6 +3015,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1392,
- "blendswap_page": 116
+ "blenderkit_index": 1404,
+ "blendswap_page": 117
 }
