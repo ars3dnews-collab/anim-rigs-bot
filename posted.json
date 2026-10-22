@@ -1262,22 +1262,22 @@
   "3a2618c8df3e1ac4",
   "ebd6198af3a6e656",
   "060f63ea3c348209",
-  "fa55c6cc91449c4e"
+  "fa55c6cc91449c4e",
+  "010f6de00c8af309"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "airtable",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "airtable"
  ],
- "counter": 631,
+ "counter": 632,
  "archive_page": 838,
  "buffet_index": 20800,
  "airtable_index": 9936,
  "last_post_ts": 1792682117.7226226,
  "image_hashes": [
-  "b3959dce7eadb12a",
   "62b3bcdb2d4fc50c",
   "8b044a149b98d036",
   "fd9852e458e2978b",
@@ -1776,7 +1776,8 @@
   "9627fd156bd1ec4d",
   "f255e0417832ccde",
   "e06c941292f44296",
-  "beaeb500801f7105"
+  "beaeb500801f7105",
+  "e5d7d7f83b55afe4"
  ],
  "channel_names": [
   "3d penguin",
@@ -2259,6 +2260,7 @@
   "skeleton",
   "skeleton undead",
   "skull bearer morvath rigged animated",
+  "sky",
   "snow",
   "snow v4",
   "sonic sonic mania",
@@ -2759,6 +2761,7 @@
   "builtbycolossus.com/store",
   "cadnav.com/3d-models/model-38750.html",
   "cadnav.com/3d-models/model-44985.html",
+  "caehlyn.gumroad.com/l/nkfel",
   "cawrigs.gumroad.com/l/pro-version",
   "cgchannel.com/2026/09/new-cg-software-you-may-have-missed-13-september-2026",
   "cgchannel.com/2026/10/get-free-maya-character-rigging-toolset-mgear-5-4",
