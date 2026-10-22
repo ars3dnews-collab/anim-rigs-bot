@@ -1254,22 +1254,22 @@
   "377e69f722696aa6",
   "35127d880e191317",
   "d1ef8e2fa17e6023",
-  "5a03a6f402fc244d"
+  "5a03a6f402fc244d",
+  "ff874e5893846391"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "airtable",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 625,
+ "counter": 626,
  "archive_page": 834,
  "buffet_index": 20700,
  "airtable_index": 9888,
  "last_post_ts": 1792638110.6277757,
  "image_hashes": [
-  "967b705a0c761b9b",
   "3e4b2cae32dda82d",
   "d5e047a91332d7c1",
   "54e270a4327ff70d",
@@ -1768,7 +1768,8 @@
   "acd7263208a089e0",
   "410837cafef0033c",
   "b7a2a29904796b75",
-  "a695b303da2c5ab4"
+  "a695b303da2c5ab4",
+  "fa62524060fd66b7"
  ],
  "channel_names": [
   "3d penguin",
@@ -1883,6 +1884,7 @@
   "charlie",
   "chibi santa",
   "chicken",
+  "chicken animated",
   "chicken sets studio",
   "christoph the stoff schoch",
   "chubby",
@@ -2665,6 +2667,7 @@
   "blenderkit.com/asset-gallery-detail/704a39ff-0bf2-487d-8ad9-c4ed323b8a2b",
   "blenderkit.com/asset-gallery-detail/72d9eb66-2f0d-44bc-bc30-143755131bb9",
   "blenderkit.com/asset-gallery-detail/731e6ada-530e-42d8-aed9-b8334cdace0e",
+  "blenderkit.com/asset-gallery-detail/782f2a81-db44-49f8-8d8a-3f0b978968c5",
   "blenderkit.com/asset-gallery-detail/78fcce67-c9df-488e-a416-85e3bd220f47",
   "blenderkit.com/asset-gallery-detail/7b723b65-ed48-48a5-bd34-b23d7db12859",
   "blenderkit.com/asset-gallery-detail/7c2576aa-e876-469a-a46f-e419f84f63c9",
