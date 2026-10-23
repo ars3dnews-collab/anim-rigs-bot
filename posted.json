@@ -1274,22 +1274,22 @@
   "97a48bd16142af91",
   "1c7cac6dd1304f54",
   "4fe554a0f831e022",
-  "9177d124b3a9caa4"
+  "9177d124b3a9caa4",
+  "9450cc41fa7c63fa"
  ],
  "sources": [
   "blendkit",
-  "blendkit",
   "airtable",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 637,
+ "counter": 638,
  "archive_page": 844,
  "buffet_index": 20950,
  "airtable_index": 10008,
  "last_post_ts": 1792753363.657383,
  "image_hashes": [
-  "7be3f5b2b37e9712",
   "cce9c7ca9031d4a3",
   "0005feb4e8a222b4",
   "b85089ac61fbce7b",
@@ -1788,7 +1788,8 @@
   "94ebe44218236ba6",
   "47e4bb06886b3505",
   "6dcc36cda51b5d82",
-  "95f14436c293209a"
+  "95f14436c293209a",
+  "8503609944dc964f"
  ],
  "channel_names": [
   "3d penguin",
@@ -2412,6 +2413,7 @@
   "zelda breath of the wild",
   "zhu baijie",
   "zombie",
+  "zombie animated rigged",
   "zombie horse rigged",
   "zulu warrior",
   "риги для аниматоров в одном месте"
@@ -2773,6 +2775,7 @@
   "blenderkit.com/asset-gallery-detail/f5553e39-ce82-4b2d-90a3-fc200784775d",
   "blenderkit.com/asset-gallery-detail/f5878510-999a-4367-97e1-42c3fae47be6",
   "blenderkit.com/asset-gallery-detail/f725f37d-93d3-49b8-a8b2-a13da263f0ae",
+  "blenderkit.com/asset-gallery-detail/f9a3824f-b228-47fb-9032-0255ef278f6b",
   "blenderkit.com/asset-gallery-detail/fdae7fb1-3bf8-4076-8017-91313350dd77",
   "bongqi.gumroad.com/l/littelboxjeep",
   "builtbycolossus.com/ninja",
