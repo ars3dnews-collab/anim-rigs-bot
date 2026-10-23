@@ -1275,22 +1275,22 @@
   "1c7cac6dd1304f54",
   "4fe554a0f831e022",
   "9177d124b3a9caa4",
-  "9450cc41fa7c63fa"
+  "9450cc41fa7c63fa",
+  "0879f95efaaf7bf5"
  ],
  "sources": [
-  "blendkit",
   "airtable",
   "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 638,
- "archive_page": 844,
- "buffet_index": 20950,
- "airtable_index": 10008,
+ "counter": 639,
+ "archive_page": 846,
+ "buffet_index": 21000,
+ "airtable_index": 10032,
  "last_post_ts": 1792760574.3561096,
  "image_hashes": [
-  "cce9c7ca9031d4a3",
   "0005feb4e8a222b4",
   "b85089ac61fbce7b",
   "23c323c2b2cea1e6",
@@ -1789,7 +1789,8 @@
   "47e4bb06886b3505",
   "6dcc36cda51b5d82",
   "95f14436c293209a",
-  "8503609944dc964f"
+  "8503609944dc964f",
+  "c8933f472e449d31"
  ],
  "channel_names": [
   "3d penguin",
@@ -2062,6 +2063,7 @@
   "iron giant",
   "ivan bot",
   "jacee",
+  "jack",
   "janine",
   "japanese samurai warrior",
   "jasmine rose",
@@ -2444,6 +2446,7 @@
   "alargewoodenbadger.gumroad.com/l/wbcju",
   "alorema.gumroad.com/l/brskw",
   "alorema.gumroad.com/l/fgxnq",
+  "alorema.gumroad.com/l/hbeoz",
   "alorema.gumroad.com/l/milo-xversion",
   "alorema.gumroad.com/l/nhghs",
   "alorema.gumroad.com/l/yktpt",
@@ -3052,6 +3055,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1452,
- "blendswap_page": 121
+ "blenderkit_index": 1464,
+ "blendswap_page": 122
 }
