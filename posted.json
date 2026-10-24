@@ -1278,22 +1278,22 @@
   "9450cc41fa7c63fa",
   "0879f95efaaf7bf5",
   "49a5fc12e67673ef",
-  "e59e146937153476"
+  "e59e146937153476",
+  "3b357729eb4ef9ae"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "airtable",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 641,
- "archive_page": 848,
- "buffet_index": 21050,
- "airtable_index": 10056,
+ "counter": 642,
+ "archive_page": 850,
+ "buffet_index": 21100,
+ "airtable_index": 10080,
  "last_post_ts": 1792810826.5557437,
  "image_hashes": [
-  "23c323c2b2cea1e6",
   "3bd894966a8f3762",
   "4a9fb82d92c72a6f",
   "6cbdfdf5946f1242",
@@ -1792,7 +1792,8 @@
   "8503609944dc964f",
   "c8933f472e449d31",
   "eaca9f3ff5065ba0",
-  "c50e69db06a6a136"
+  "c50e69db06a6a136",
+  "62644bb7b6f36ead"
  ],
  "channel_names": [
   "3d penguin",
@@ -2032,6 +2033,7 @@
   "gorilla",
   "great dane",
   "green robot",
+  "greeny anime elf stylized character",
   "grey matter gary",
   "guardian",
   "gunslinger crab mech",
@@ -2748,6 +2750,7 @@
   "blenderkit.com/asset-gallery-detail/ade29c9f-46c6-457d-9039-f66978efbff2",
   "blenderkit.com/asset-gallery-detail/af9873bd-fd78-4141-997a-b3a8c3029417",
   "blenderkit.com/asset-gallery-detail/afd5869c-af4d-4ab1-96f9-9e6289701e5c",
+  "blenderkit.com/asset-gallery-detail/b55daa48-0341-4a54-85ef-7b6a0cee6041",
   "blenderkit.com/asset-gallery-detail/b9a86ea0-065b-41cc-a977-8411f537cb3a",
   "blenderkit.com/asset-gallery-detail/b9d48bc2-227d-4231-bc30-71ba007dca5f",
   "blenderkit.com/asset-gallery-detail/bd507a4f-7321-4888-bd10-a5cd494849d5",
@@ -3061,6 +3064,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1476,
- "blendswap_page": 123
+ "blenderkit_index": 1488,
+ "blendswap_page": 124
 }
