@@ -1289,22 +1289,22 @@
   "d5977d5275dfcf27",
   "88fd9e81aa27d7f2",
   "76d2d58cbb168967",
-  "16e84200d5db1dec"
+  "16e84200d5db1dec",
+  "090406f7b897a769"
  ],
  "sources": [
-  "blendkit",
   "airtable",
   "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 648,
- "archive_page": 856,
- "buffet_index": 21250,
- "airtable_index": 10152,
+ "counter": 649,
+ "archive_page": 858,
+ "buffet_index": 21300,
+ "airtable_index": 10176,
  "last_post_ts": 1792861359.8820782,
  "image_hashes": [
-  "5de19b577530c701",
   "d00b9edd2bb8ba92",
   "387f3e8ad466268e",
   "820c0eb42b58e784",
@@ -1803,7 +1803,8 @@
   "55a138533c841e18",
   "a526adcb206e8b78",
   "b33298c9e373ad7f",
-  "5015d788d4ac6724"
+  "5015d788d4ac6724",
+  "eca39a85753a1fb3"
  ],
  "channel_names": [
   "3d penguin",
@@ -2256,6 +2257,7 @@
   "robot titanium",
   "roboter",
   "rocket girl",
+  "ronan",
   "rudy",
   "russell",
   "russell backpack",
@@ -2611,6 +2613,7 @@
   "animationbuffet.blogspot.com/2020/03/pokoyo.html",
   "animationbuffet.blogspot.com/2020/03/raptor.html",
   "animationbuffet.blogspot.com/2020/03/robot-bot.html",
+  "animationbuffet.blogspot.com/2020/03/ronan.html",
   "animationbuffet.blogspot.com/2020/03/sam.html",
   "animationbuffet.blogspot.com/2020/03/skateboard.html",
   "animationbuffet.blogspot.com/2020/03/skeleton.html",
@@ -3086,6 +3089,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1524,
- "blendswap_page": 127
+ "blenderkit_index": 1536,
+ "blendswap_page": 128
 }
