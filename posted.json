@@ -1294,22 +1294,22 @@
   "b341589589750e32",
   "4b0cfb2fa8b45bf1",
   "58101e347bf85da4",
-  "756cea07a4b50c8a"
+  "756cea07a4b50c8a",
+  "a87bef3596ba6c2b"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 653,
- "archive_page": 860,
- "buffet_index": 21350,
- "airtable_index": 10200,
+ "counter": 654,
+ "archive_page": 862,
+ "buffet_index": 21400,
+ "airtable_index": 10224,
  "last_post_ts": 1792926357.6804793,
  "image_hashes": [
-  "8f3e84e2449dce29",
   "be4960599d21df8d",
   "09775d7a9acfe097",
   "11afaa43822246e8",
@@ -1808,7 +1808,8 @@
   "b9f197241e9335c7",
   "6f41faab14621d8c",
   "0567c36517b2cb72",
-  "25ab56afbc0c6869"
+  "25ab56afbc0c6869",
+  "04b6a173ba40ab36"
  ],
  "channel_names": [
   "3d penguin",
@@ -1955,6 +1956,7 @@
   "csgo terrorist",
   "cube",
   "cute alien rigged",
+  "cute slime rigged",
   "cute stylized cockatiel",
   "daffy duck",
   "dain",
@@ -2762,6 +2764,7 @@
   "blenderkit.com/asset-gallery-detail/88daf67a-8e69-4630-a521-3934c0592598",
   "blenderkit.com/asset-gallery-detail/8908e8ca-832c-46ad-8a8b-b5d7b924cacc",
   "blenderkit.com/asset-gallery-detail/8a0b8330-8504-40aa-ac59-442b023d2878",
+  "blenderkit.com/asset-gallery-detail/8aa84b8c-f76b-45f3-8b96-c55be68e0747",
   "blenderkit.com/asset-gallery-detail/8afe9044-6fdb-4a88-8e66-a10a6cb43141",
   "blenderkit.com/asset-gallery-detail/8de8442d-98f0-4dfa-8f33-2d25f6ba80bc",
   "blenderkit.com/asset-gallery-detail/90647421-f297-43d7-8afa-1b617885ca8f",
@@ -3101,6 +3104,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1548,
- "blendswap_page": 129
+ "blenderkit_index": 1560,
+ "blendswap_page": 130
 }
