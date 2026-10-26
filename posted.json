@@ -1303,22 +1303,22 @@
   "18ac3ca65ba50bbb",
   "11fc7999716d2bec",
   "e81767392735afac",
-  "4cf9553504ed8587"
+  "4cf9553504ed8587",
+  "c286351c573e59f3"
  ],
  "sources": [
-  "blendkit",
   "airtable",
   "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 660,
+ "counter": 661,
  "archive_page": 868,
  "buffet_index": 21550,
  "airtable_index": 10296,
  "last_post_ts": 1793005366.7061036,
  "image_hashes": [
-  "b162bb646b67316c",
   "9b8e76dc41fae6f6",
   "1e30dbf9201fc13f",
   "aa03e3fc59cdcdb4",
@@ -1817,7 +1817,8 @@
   "bfca345fae06e065",
   "635fd27b04c4bdba",
   "45d9c4df931e135b",
-  "97f681b582b674ea"
+  "97f681b582b674ea",
+  "ba74d3b0978a5e2c"
  ],
  "channel_names": [
   "3d penguin",
@@ -1980,6 +1981,7 @@
   "dawn",
   "daxter",
   "deep sea creature",
+  "deer",
   "deer animated",
   "defiler",
   "deinonychus dinosaur animated",
@@ -2535,6 +2537,7 @@
   "animationbuffet.blogspot.com/2012/05/bird.html",
   "animationbuffet.blogspot.com/2012/05/bit.html",
   "animationbuffet.blogspot.com/2012/05/daxter.html",
+  "animationbuffet.blogspot.com/2012/05/deer.html",
   "animationbuffet.blogspot.com/2012/05/facial-rig.html",
   "animationbuffet.blogspot.com/2012/05/fat-man.html",
   "animationbuffet.blogspot.com/2012/05/finex.html",
