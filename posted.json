@@ -1305,22 +1305,22 @@
   "e81767392735afac",
   "4cf9553504ed8587",
   "c286351c573e59f3",
-  "394d21613f8b2502"
+  "394d21613f8b2502",
+  "561127711849d26f"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "animation-buffet",
+  "blendkit",
   "blendkit"
  ],
- "counter": 662,
+ "counter": 663,
  "archive_page": 870,
  "buffet_index": 21600,
  "airtable_index": 10320,
  "last_post_ts": 1793021636.41395,
  "image_hashes": [
-  "1e30dbf9201fc13f",
   "aa03e3fc59cdcdb4",
   "cb8eaaa22802fc1f",
   "63f21d533e553165",
@@ -1819,7 +1819,8 @@
   "45d9c4df931e135b",
   "97f681b582b674ea",
   "ba74d3b0978a5e2c",
-  "9f0c472450b689e8"
+  "9f0c472450b689e8",
+  "ee84f1817ec65a69"
  ],
  "channel_names": [
   "3d penguin",
@@ -2179,6 +2180,7 @@
   "marty",
   "marty the robot",
   "mat",
+  "mateo character rigged",
   "mecanic",
   "mech samurai",
   "mechcatrig",
@@ -2844,6 +2846,7 @@
   "blenderkit.com/asset-gallery-detail/f1c17557-6912-400c-be81-1c1572f29800",
   "blenderkit.com/asset-gallery-detail/f269f83a-c275-48c6-8df6-5d1f92a2e37a",
   "blenderkit.com/asset-gallery-detail/f2bffe0b-709c-4fe5-a994-3dae0472e3f6",
+  "blenderkit.com/asset-gallery-detail/f2d16bb8-182c-40ab-8916-e3ec3af990bf",
   "blenderkit.com/asset-gallery-detail/f4bda642-d430-428c-8039-fae5cf9d4e69",
   "blenderkit.com/asset-gallery-detail/f4d4ba28-c542-4be7-b346-5d7e033ef168",
   "blenderkit.com/asset-gallery-detail/f5553e39-ce82-4b2d-90a3-fc200784775d",
