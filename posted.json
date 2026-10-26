@@ -1297,22 +1297,22 @@
   "756cea07a4b50c8a",
   "a87bef3596ba6c2b",
   "fa8f41ef76c02379",
-  "c873c82540b923ae"
+  "c873c82540b923ae",
+  "8182919d9274bf7c"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 656,
- "archive_page": 864,
- "buffet_index": 21450,
- "airtable_index": 10248,
+ "counter": 657,
+ "archive_page": 866,
+ "buffet_index": 21500,
+ "airtable_index": 10272,
  "last_post_ts": 1792948135.951968,
  "image_hashes": [
-  "11afaa43822246e8",
   "1f4314669e984ec7",
   "93b11de9c448962f",
   "55c4301c4d569e72",
@@ -1811,7 +1811,8 @@
   "25ab56afbc0c6869",
   "04b6a173ba40ab36",
   "f5d02ee33d1c7eca",
-  "1398e207dbedc2ac"
+  "1398e207dbedc2ac",
+  "bfca345fae06e065"
  ],
  "channel_names": [
   "3d penguin",
@@ -2207,6 +2208,7 @@
   "new cg software you may have missed 13 september 2026",
   "nico",
   "ninja",
+  "norman",
   "nude",
   "nun female character 3d",
   "nun of silence rigged animated",
@@ -3031,6 +3033,7 @@
   "milio-serrano.gumroad.com/l/vmwxu",
   "milio-serrano.gumroad.com/l/ykobt",
   "mox-motion.com/blog/momo_rig_information",
+  "nelsonhurst.com/norman-rig-3",
   "oddpanda.gumroad.com/l/haafnn",
   "okawaii.com/product/fly-low-poly-rig-v1-0",
   "okawaii.gumroad.com/l/bigpr",
@@ -3110,6 +3113,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1572,
- "blendswap_page": 131
+ "blenderkit_index": 1584,
+ "blendswap_page": 132
 }
