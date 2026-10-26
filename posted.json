@@ -1300,22 +1300,22 @@
   "c873c82540b923ae",
   "8182919d9274bf7c",
   "df7414346aabe587",
-  "18ac3ca65ba50bbb"
+  "18ac3ca65ba50bbb",
+  "11fc7999716d2bec"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "airtable",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 659,
+ "counter": 660,
  "archive_page": 868,
  "buffet_index": 21550,
  "airtable_index": 10296,
  "last_post_ts": 1792998142.9683344,
  "image_hashes": [
-  "55c4301c4d569e72",
   "b162bb646b67316c",
   "9b8e76dc41fae6f6",
   "1e30dbf9201fc13f",
@@ -1814,7 +1814,8 @@
   "1398e207dbedc2ac",
   "bfca345fae06e065",
   "635fd27b04c4bdba",
-  "45d9c4df931e135b"
+  "45d9c4df931e135b",
+  "97f681b582b674ea"
  ],
  "channel_names": [
   "3d penguin",
@@ -1887,6 +1888,7 @@
   "bonnie",
   "booboo",
   "boolieman",
+  "borsche the bright mind",
   "bot 9",
   "boxx",
   "boxy bird",
@@ -2815,6 +2817,7 @@
   "blenderkit.com/asset-gallery-detail/ca772681-486e-424c-958c-4ec7b57b2cdf",
   "blenderkit.com/asset-gallery-detail/cef86ada-0366-4a88-9243-4ec39522bbb4",
   "blenderkit.com/asset-gallery-detail/d239ed66-91cf-4ea8-91f0-17dc994980e2",
+  "blenderkit.com/asset-gallery-detail/d6e100cf-768d-4a61-a438-bf2cc96a182b",
   "blenderkit.com/asset-gallery-detail/d70aa919-0e82-4d4a-b0cc-619afd71749b",
   "blenderkit.com/asset-gallery-detail/d737de5c-a17f-4347-b46f-d40efd202066",
   "blenderkit.com/asset-gallery-detail/dba6a136-a466-4bb2-9584-9d10b707f94c",
