@@ -1299,22 +1299,22 @@
   "fa8f41ef76c02379",
   "c873c82540b923ae",
   "8182919d9274bf7c",
-  "df7414346aabe587"
+  "df7414346aabe587",
+  "18ac3ca65ba50bbb"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 658,
- "archive_page": 866,
- "buffet_index": 21500,
- "airtable_index": 10272,
+ "counter": 659,
+ "archive_page": 868,
+ "buffet_index": 21550,
+ "airtable_index": 10296,
  "last_post_ts": 1792990840.0485277,
  "image_hashes": [
-  "93b11de9c448962f",
   "55c4301c4d569e72",
   "b162bb646b67316c",
   "9b8e76dc41fae6f6",
@@ -1813,7 +1813,8 @@
   "f5d02ee33d1c7eca",
   "1398e207dbedc2ac",
   "bfca345fae06e065",
-  "635fd27b04c4bdba"
+  "635fd27b04c4bdba",
+  "45d9c4df931e135b"
  ],
  "channel_names": [
   "3d penguin",
@@ -2444,6 +2445,7 @@
   "winter wonder ahri",
   "wolf",
   "wolf dog balto",
+  "wolfdog",
   "world zombination character",
   "wraith",
   "wukong",
@@ -2539,6 +2541,7 @@
   "animationbuffet.blogspot.com/2012/05/kila.html",
   "animationbuffet.blogspot.com/2012/05/rhett-clydesdale-horse.html",
   "animationbuffet.blogspot.com/2012/05/spiderbot.html",
+  "animationbuffet.blogspot.com/2012/05/wolfdog.html",
   "animationbuffet.blogspot.com/2012/06/horse.html",
   "animationbuffet.blogspot.com/2013/01/boolieman.html",
   "animationbuffet.blogspot.com/2013/04/alex.html",
@@ -3116,6 +3119,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1584,
- "blendswap_page": 132
+ "blenderkit_index": 1596,
+ "blendswap_page": 133
 }
