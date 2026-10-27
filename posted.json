@@ -1314,7 +1314,8 @@
   "e34ec3a55b7d1c13",
   "b6c740e9d1ac20fe",
   "d1a7dabc99fbb3e1",
-  "5ff865c0ab00b804"
+  "5ff865c0ab00b804",
+  "09ffa8f01a389a97"
  ],
  "sources": [
   "blendkit",
@@ -1323,13 +1324,12 @@
   "blendkit",
   "blendkit"
  ],
- "counter": 671,
+ "counter": 672,
  "archive_page": 876,
  "buffet_index": 21750,
  "airtable_index": 10392,
  "last_post_ts": 1793113350.181487,
  "image_hashes": [
-  "9b00767de3214c4d",
   "206ec961bf98a241",
   "03e43831b265db0f",
   "3aa1b70b2477e197",
@@ -1828,7 +1828,8 @@
   "ecda9d1d836c7038",
   "235418816f35b3fc",
   "06666570b1bd160f",
-  "1d958b363d66eeaa"
+  "1d958b363d66eeaa",
+  "8cd1c8de02a3f291"
  ],
  "channel_names": [
   "3d penguin",
@@ -1855,6 +1856,7 @@
   "animated robot",
   "animation fundamentals",
   "anime cat woman rigged animated",
+  "anime male kid base",
   "anime old man character base mesh rigged rigify",
   "anime witch girl",
   "animschool malcolm 2 0",
@@ -2756,6 +2758,7 @@
   "blenderkit.com/asset-gallery-detail/3fa4bd93-4dc9-4fdc-98ec-f1fcbaa5adbe",
   "blenderkit.com/asset-gallery-detail/41fb5df2-e0f6-44e2-bb47-6bdf3a68b179",
   "blenderkit.com/asset-gallery-detail/45d165f3-edea-40ed-8a9d-ce70b0ea28c5",
+  "blenderkit.com/asset-gallery-detail/45e396b6-2b7d-4822-8cf9-cc77a162ed13",
   "blenderkit.com/asset-gallery-detail/474e48f0-08d7-4f51-8fad-dd873a09bfc4",
   "blenderkit.com/asset-gallery-detail/4a2f2593-efc9-46dc-99d2-b1fe5c5004c0",
   "blenderkit.com/asset-gallery-detail/4a989dd5-c014-4808-bb63-4fa33477ebf1",
