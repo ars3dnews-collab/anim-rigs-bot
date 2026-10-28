@@ -1331,22 +1331,22 @@
   "8e8d4dadcdbbcc18",
   "04450629fa9a94fd",
   "a047dd9ce48f4369",
-  "83c01b5c60efb12b"
+  "83c01b5c60efb12b",
+  "0add9cb37d3576cc"
  ],
  "sources": [
   "blendkit",
   "blendkit",
   "blendkit",
-  "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 679,
+ "counter": 680,
  "archive_page": 882,
  "buffet_index": 21900,
  "airtable_index": 10464,
  "last_post_ts": 1793200703.331863,
  "image_hashes": [
-  "6bef4658e67d47e0",
   "c1b4b132d5f14d70",
   "b8befe493f671fba",
   "937c39bd843e5f75",
@@ -1845,7 +1845,8 @@
   "283af761f2f4f51e",
   "51c9912d36adb0a9",
   "e3147497cd3fc485",
-  "2330988ca111d187"
+  "2330988ca111d187",
+  "7b9e0899d6043839"
  ],
  "channel_names": [
   "3d penguin",
@@ -1871,6 +1872,7 @@
   "andre",
   "animated robot",
   "animation fundamentals",
+  "anime boy in home fit kain",
   "anime cat woman rigged animated",
   "anime male adult base",
   "anime male kid base",
@@ -2865,6 +2867,7 @@
   "blenderkit.com/asset-gallery-detail/b55daa48-0341-4a54-85ef-7b6a0cee6041",
   "blenderkit.com/asset-gallery-detail/b8b4c331-5b37-4992-af5a-b9b737d06ba4",
   "blenderkit.com/asset-gallery-detail/b9a86ea0-065b-41cc-a977-8411f537cb3a",
+  "blenderkit.com/asset-gallery-detail/b9b43280-1bba-45a8-9927-d391e826fd11",
   "blenderkit.com/asset-gallery-detail/b9d48bc2-227d-4231-bc30-71ba007dca5f",
   "blenderkit.com/asset-gallery-detail/bad68e31-f015-432a-946b-510ec6940f24",
   "blenderkit.com/asset-gallery-detail/bca64e56-dad3-4694-8162-1631b965746a",
