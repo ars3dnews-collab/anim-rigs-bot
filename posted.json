@@ -1330,22 +1330,22 @@
   "aeae1f67212cfc36",
   "8e8d4dadcdbbcc18",
   "04450629fa9a94fd",
-  "a047dd9ce48f4369"
+  "a047dd9ce48f4369",
+  "83c01b5c60efb12b"
  ],
  "sources": [
   "blendkit",
   "blendkit",
   "blendkit",
   "blendkit",
-  "blendkit"
+  "animation-buffet"
  ],
- "counter": 678,
- "archive_page": 880,
- "buffet_index": 21850,
- "airtable_index": 10440,
+ "counter": 679,
+ "archive_page": 882,
+ "buffet_index": 21900,
+ "airtable_index": 10464,
  "last_post_ts": 1793193461.357974,
  "image_hashes": [
-  "1e8892dee70d2faf",
   "6bef4658e67d47e0",
   "c1b4b132d5f14d70",
   "b8befe493f671fba",
@@ -1844,7 +1844,8 @@
   "55420e23ffae1141",
   "283af761f2f4f51e",
   "51c9912d36adb0a9",
-  "e3147497cd3fc485"
+  "e3147497cd3fc485",
+  "2330988ca111d187"
  ],
  "channel_names": [
   "3d penguin",
@@ -1915,6 +1916,7 @@
   "blurgha",
   "body mechanics",
   "body mechanics ellie",
+  "body pickers",
   "bodycon mini dress female character",
   "bodymech",
   "boneface rigged lowpoly",
@@ -2705,6 +2707,7 @@
   "animationbuffet.blogspot.com/2020/04/leo.html",
   "animationbuffet.blogspot.com/2020/05/tanner-saurus-rex.html",
   "animationbuffet.blogspot.com/2020/06/apollo.html",
+  "animationbuffet.blogspot.com/2020/06/body-pickers.html",
   "animationbuffet.blogspot.com/2020/06/dock-ock.html",
   "animationbuffet.blogspot.com/2020/06/henry.html",
   "animationbuffet.blogspot.com/2020/06/jj.html",
@@ -3187,6 +3190,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1668,
- "blendswap_page": 139
+ "blenderkit_index": 1680,
+ "blendswap_page": 140
 }
