@@ -1327,7 +1327,8 @@
   "320a403ab4a9eeca",
   "bfd732dc883f95ea",
   "40a147dc9666fa76",
-  "aeae1f67212cfc36"
+  "aeae1f67212cfc36",
+  "8e8d4dadcdbbcc18"
  ],
  "sources": [
   "blendkit",
@@ -1336,13 +1337,12 @@
   "blendkit",
   "blendkit"
  ],
- "counter": 675,
- "archive_page": 878,
- "buffet_index": 21800,
- "airtable_index": 10416,
+ "counter": 676,
+ "archive_page": 880,
+ "buffet_index": 21850,
+ "airtable_index": 10440,
  "last_post_ts": 1793171807.4781575,
  "image_hashes": [
-  "99a689c9a5eddad7",
   "99aff580963d55e0",
   "397fe811493838ed",
   "1e8892dee70d2faf",
@@ -1841,7 +1841,8 @@
   "8cd1c8de02a3f291",
   "18244bee4049a8bd",
   "09aff7a1960809ea",
-  "55420e23ffae1141"
+  "55420e23ffae1141",
+  "283af761f2f4f51e"
  ],
  "channel_names": [
   "3d penguin",
@@ -2190,6 +2191,7 @@
   "low poly micro",
   "lowman simple and with facial",
   "lowpoly bot",
+  "luke character rigged",
   "luna",
   "lunte",
   "mae",
@@ -2827,6 +2829,7 @@
   "blenderkit.com/asset-gallery-detail/88daf67a-8e69-4630-a521-3934c0592598",
   "blenderkit.com/asset-gallery-detail/8908e8ca-832c-46ad-8a8b-b5d7b924cacc",
   "blenderkit.com/asset-gallery-detail/8a0b8330-8504-40aa-ac59-442b023d2878",
+  "blenderkit.com/asset-gallery-detail/8a0f98e4-e068-4e2b-9755-e04cdbe7995e",
   "blenderkit.com/asset-gallery-detail/8aa84b8c-f76b-45f3-8b96-c55be68e0747",
   "blenderkit.com/asset-gallery-detail/8afe9044-6fdb-4a88-8e66-a10a6cb43141",
   "blenderkit.com/asset-gallery-detail/8de8442d-98f0-4dfa-8f33-2d25f6ba80bc",
@@ -3178,6 +3181,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1656,
- "blendswap_page": 138
+ "blenderkit_index": 1668,
+ "blendswap_page": 139
 }
