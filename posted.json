@@ -1338,22 +1338,22 @@
   "f6f20a13c5d59908",
   "67ff96b4a8753ebc",
   "0d7adf6114b638c2",
-  "b4697718485db617"
+  "b4697718485db617",
+  "fbf39a6041c26447"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 685,
+ "counter": 686,
  "archive_page": 886,
  "buffet_index": 22000,
  "airtable_index": 10512,
  "last_post_ts": 1793272146.4159567,
  "image_hashes": [
-  "aaa583b6f09f7af2",
   "450e5e4d7d468802",
   "7cf20516e78da32a",
   "c694eadf83c03aab",
@@ -1852,7 +1852,8 @@
   "3f514d99ca5bccd5",
   "b5be36fb49f8b671",
   "add407fa0d64659b",
-  "162babec691f868c"
+  "162babec691f868c",
+  "fcfbb44fabd39c75"
  ],
  "channel_names": [
   "3d penguin",
@@ -2291,6 +2292,7 @@
   "piston",
   "pixie the cat",
   "pokoyo",
+  "polar bear animated",
   "poseman 1 2 4",
   "princess azula rigged",
   "prop bundle",
@@ -2907,6 +2909,7 @@
   "blenderkit.com/asset-gallery-detail/dfc15535-1028-4b34-bf87-0edbdfe067e8",
   "blenderkit.com/asset-gallery-detail/dfe3cd2b-5a9c-4026-93dc-c4c2314dc105",
   "blenderkit.com/asset-gallery-detail/e28873a9-8444-415d-a755-681d27dc3b46",
+  "blenderkit.com/asset-gallery-detail/e4369caa-06ac-4318-9dca-4a63cd72e814",
   "blenderkit.com/asset-gallery-detail/e447d37f-6603-48d4-9125-f839f1b4044c",
   "blenderkit.com/asset-gallery-detail/e5297723-6004-4676-9d89-c54d5cd29b82",
   "blenderkit.com/asset-gallery-detail/e5e976b3-6134-4f11-b819-1ba68c65e81a",
