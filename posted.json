@@ -1336,22 +1336,22 @@
   "8b5d92139df33ae1",
   "ebf1de3ac816acd5",
   "f6f20a13c5d59908",
-  "67ff96b4a8753ebc"
+  "67ff96b4a8753ebc",
+  "0d7adf6114b638c2"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 683,
- "archive_page": 884,
- "buffet_index": 21950,
- "airtable_index": 10488,
+ "counter": 684,
+ "archive_page": 886,
+ "buffet_index": 22000,
+ "airtable_index": 10512,
  "last_post_ts": 1793257512.13974,
  "image_hashes": [
-  "91b86f526907477c",
   "8aa09f3dfa14bdfc",
   "aaa583b6f09f7af2",
   "450e5e4d7d468802",
@@ -1850,7 +1850,8 @@
   "7b9e0899d6043839",
   "5f1277b8d4dd14cb",
   "3f514d99ca5bccd5",
-  "b5be36fb49f8b671"
+  "b5be36fb49f8b671",
+  "add407fa0d64659b"
  ],
  "channel_names": [
   "3d penguin",
@@ -2190,6 +2191,7 @@
   "lego wall e",
   "leo",
   "leopard",
+  "liam character rigged",
   "lightning claw dinosaur",
   "link breath of the wild",
   "little box jeep",
@@ -2769,6 +2771,7 @@
   "blenderkit.com/asset-gallery-detail/25b5f088-49af-4e76-8fca-c8aba93edf45",
   "blenderkit.com/asset-gallery-detail/28ba5cde-86a0-4029-a26d-60b8007eb4ed",
   "blenderkit.com/asset-gallery-detail/2906a39e-c7b1-4b89-9d05-9340c1c2ebac",
+  "blenderkit.com/asset-gallery-detail/2a3e474d-c23f-46a7-955f-2abed7fd31de",
   "blenderkit.com/asset-gallery-detail/2b8376d6-628d-4311-ae01-5808b93e74a4",
   "blenderkit.com/asset-gallery-detail/2bdac30f-5d47-46be-8ad3-8bf42e736338",
   "blenderkit.com/asset-gallery-detail/2d6811bf-8e00-4af1-b0d0-7bc0e17fb581",
@@ -3203,6 +3206,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1692,
- "blendswap_page": 141
+ "blenderkit_index": 1704,
+ "blendswap_page": 142
 }
