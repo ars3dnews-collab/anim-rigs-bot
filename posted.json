@@ -1342,22 +1342,22 @@
   "fbf39a6041c26447",
   "3e8baf9047fd0e3f",
   "7c48d1c06012733a",
-  "4bd96616166dd491"
+  "4bd96616166dd491",
+  "157a2e26292405b1"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 689,
- "archive_page": 890,
- "buffet_index": 22100,
- "airtable_index": 10560,
+ "counter": 690,
+ "archive_page": 892,
+ "buffet_index": 22150,
+ "airtable_index": 10584,
  "last_post_ts": 1793336529.8544583,
  "image_hashes": [
-  "2bccbc9c541e446f",
   "01c5d96108f0d576",
   "905968bc40b802e9",
   "1a339e9d87897c7f",
@@ -1856,7 +1856,8 @@
   "fcfbb44fabd39c75",
   "f1658766f254fba1",
   "332342513314aaf0",
-  "9d19644026227350"
+  "9d19644026227350",
+  "489edd76d8c898b0"
  ],
  "channel_names": [
   "3d penguin",
@@ -2097,6 +2098,7 @@
   "fred",
   "frog spear stylized rigged lowpoly",
   "fully rigged marci from dota 2",
+  "furry cute pet rigged",
   "fuzzy",
   "gabby",
   "game ready realistic snow leopard jaguar",
@@ -2910,6 +2912,7 @@
   "blenderkit.com/asset-gallery-detail/ca772681-486e-424c-958c-4ec7b57b2cdf",
   "blenderkit.com/asset-gallery-detail/cef86ada-0366-4a88-9243-4ec39522bbb4",
   "blenderkit.com/asset-gallery-detail/d239ed66-91cf-4ea8-91f0-17dc994980e2",
+  "blenderkit.com/asset-gallery-detail/d389c6bf-bca9-44e3-badb-1c8620a56359",
   "blenderkit.com/asset-gallery-detail/d6e100cf-768d-4a61-a438-bf2cc96a182b",
   "blenderkit.com/asset-gallery-detail/d70aa919-0e82-4d4a-b0cc-619afd71749b",
   "blenderkit.com/asset-gallery-detail/d737de5c-a17f-4347-b46f-d40efd202066",
@@ -3221,6 +3224,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1728,
- "blendswap_page": 144
+ "blenderkit_index": 1740,
+ "blendswap_page": 145
 }
