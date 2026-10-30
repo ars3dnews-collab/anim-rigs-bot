@@ -1340,22 +1340,22 @@
   "0d7adf6114b638c2",
   "b4697718485db617",
   "fbf39a6041c26447",
-  "3e8baf9047fd0e3f"
+  "3e8baf9047fd0e3f",
+  "7c48d1c06012733a"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 687,
- "archive_page": 888,
- "buffet_index": 22050,
- "airtable_index": 10536,
+ "counter": 688,
+ "archive_page": 890,
+ "buffet_index": 22100,
+ "airtable_index": 10560,
  "last_post_ts": 1793290174.5924032,
  "image_hashes": [
-  "7cf20516e78da32a",
   "c694eadf83c03aab",
   "2bccbc9c541e446f",
   "01c5d96108f0d576",
@@ -1854,7 +1854,8 @@
   "add407fa0d64659b",
   "162babec691f868c",
   "fcfbb44fabd39c75",
-  "f1658766f254fba1"
+  "f1658766f254fba1",
+  "332342513314aaf0"
  ],
  "channel_names": [
   "3d penguin",
@@ -1920,6 +1921,7 @@
   "billy barker",
   "bird",
   "bit",
+  "black bear rigged",
   "black man",
   "blastoise",
   "bloody young samurai",
@@ -2864,6 +2866,7 @@
   "blenderkit.com/asset-gallery-detail/8aa84b8c-f76b-45f3-8b96-c55be68e0747",
   "blenderkit.com/asset-gallery-detail/8afe9044-6fdb-4a88-8e66-a10a6cb43141",
   "blenderkit.com/asset-gallery-detail/8de8442d-98f0-4dfa-8f33-2d25f6ba80bc",
+  "blenderkit.com/asset-gallery-detail/8f473ca5-ac96-457b-80bd-730ad9afb42f",
   "blenderkit.com/asset-gallery-detail/90647421-f297-43d7-8afa-1b617885ca8f",
   "blenderkit.com/asset-gallery-detail/91e1620f-2a3a-4460-87a0-ca28da81c1a4",
   "blenderkit.com/asset-gallery-detail/945c2575-24f5-4492-aae7-bdebef40fcf6",
@@ -3215,6 +3218,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1716,
- "blendswap_page": 143
+ "blenderkit_index": 1728,
+ "blendswap_page": 144
 }
