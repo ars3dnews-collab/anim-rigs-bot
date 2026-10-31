@@ -1349,22 +1349,22 @@
   "278c0219daf214ad",
   "b3c45e9d572f6946",
   "f33f7efa2f568f43",
-  "c7cceb4d1f876770"
+  "c7cceb4d1f876770",
+  "978741de72b90017"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 695,
- "archive_page": 894,
- "buffet_index": 22200,
- "airtable_index": 10608,
+ "counter": 696,
+ "archive_page": 896,
+ "buffet_index": 22250,
+ "airtable_index": 10632,
  "last_post_ts": 1793382097.9437387,
  "image_hashes": [
-  "7e32cc8ab7effcfd",
   "65c9fd15b07504ce",
   "f69652c88502ba15",
   "b6ba4980e9628deb",
@@ -1863,7 +1863,8 @@
   "3788c64e0648b50e",
   "87a0c221ddee0ff1",
   "65acf73e677b76c5",
-  "0eec8bb1f30ef4a1"
+  "0eec8bb1f30ef4a1",
+  "5747e016d3327cb2"
  ],
  "channel_names": [
   "3d penguin",
@@ -2344,6 +2345,7 @@
   "road",
   "road runner",
   "robert character animated",
+  "robert character rigged",
   "robo girl",
   "robot bot",
   "robot rbt10",
@@ -2918,6 +2920,7 @@
   "blenderkit.com/asset-gallery-detail/bd507a4f-7321-4888-bd10-a5cd494849d5",
   "blenderkit.com/asset-gallery-detail/be297602-63d3-4c90-acff-b2f77ee142a6",
   "blenderkit.com/asset-gallery-detail/c3c02d19-a070-4fb1-94ed-956ee4787617",
+  "blenderkit.com/asset-gallery-detail/c4c04d4f-1f46-4692-8e1e-d2c2240a8ebc",
   "blenderkit.com/asset-gallery-detail/c63283ec-7419-4bff-8f6f-13cf70bd1b14",
   "blenderkit.com/asset-gallery-detail/c70cac7c-581a-4149-8c2e-9b30392ef079",
   "blenderkit.com/asset-gallery-detail/c77b372a-7086-4264-a278-26efe6de0251",
@@ -3240,6 +3243,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1752,
- "blendswap_page": 146
+ "blenderkit_index": 1764,
+ "blendswap_page": 147
 }
