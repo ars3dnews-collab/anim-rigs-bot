@@ -1361,22 +1361,22 @@
   "a1b3a74c9c03b6ec",
   "cbfeba9a627f3339",
   "63f9695585fb6111",
-  "4a02238c84926ff8"
+  "4a02238c84926ff8",
+  "48d8f606d50775d2"
  ],
  "sources": [
   "airtable",
   "airtable",
-  "airtable",
+  "blendkit",
   "blendkit",
   "blendkit"
  ],
- "counter": 703,
- "archive_page": 900,
- "buffet_index": 22350,
- "airtable_index": 10680,
+ "counter": 704,
+ "archive_page": 902,
+ "buffet_index": 22400,
+ "airtable_index": 10704,
  "last_post_ts": 1793466500.1345508,
  "image_hashes": [
-  "c0a8ffaca5db8578",
   "9f71befcf0c5e885",
   "a39773170cde4983",
   "e730a92d67c14c62",
@@ -1875,7 +1875,8 @@
   "7ed11e51c12dd8c1",
   "aa5b7b66a3499fda",
   "9f6903029acf0500",
-  "e9cc4db27c73fd22"
+  "e9cc4db27c73fd22",
+  "6e300c6819a2226a"
  ],
  "channel_names": [
   "3d penguin",
@@ -2424,6 +2425,7 @@
   "space demon",
   "special assassin rigged animated",
   "spider",
+  "spider animated",
   "spider bot",
   "spider gwen",
   "spider man atsv miles",
@@ -2901,6 +2903,7 @@
   "blenderkit.com/asset-gallery-detail/87b4af0c-b3a2-4ce0-a038-eebed6253a24",
   "blenderkit.com/asset-gallery-detail/87ca916e-11af-4d8e-aedf-85040e9cdfb5",
   "blenderkit.com/asset-gallery-detail/88004388-a6b1-4818-9663-799bcd1193b7",
+  "blenderkit.com/asset-gallery-detail/88d82421-e4e3-496f-b44d-57b39768487c",
   "blenderkit.com/asset-gallery-detail/88daf67a-8e69-4630-a521-3934c0592598",
   "blenderkit.com/asset-gallery-detail/8908e8ca-832c-46ad-8a8b-b5d7b924cacc",
   "blenderkit.com/asset-gallery-detail/8a0b8330-8504-40aa-ac59-442b023d2878",
@@ -3268,6 +3271,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1788,
- "blendswap_page": 149
+ "blenderkit_index": 1800,
+ "blendswap_page": 150
 }
