@@ -1366,22 +1366,22 @@
   "86bbf12593fd6eb4",
   "4adb7005927f6599",
   "5de168c7e24cc61d",
-  "461cf3a5f4fd4fad"
+  "461cf3a5f4fd4fad",
+  "e4e4eb172a1d0674"
  ],
  "sources": [
-  "blendkit",
   "airtable",
+  "blendkit",
   "blendkit",
   "blendkit",
   "blendkit"
  ],
- "counter": 708,
- "archive_page": 904,
- "buffet_index": 22450,
- "airtable_index": 10728,
+ "counter": 709,
+ "archive_page": 906,
+ "buffet_index": 22500,
+ "airtable_index": 10752,
  "last_post_ts": 1793530892.3611426,
  "image_hashes": [
-  "98a462b23c750ae9",
   "d50d762d3a4d12c4",
   "4558b619afe588a7",
   "7dc8aa3883056537",
@@ -1880,7 +1880,8 @@
   "e53582a17e0c4c28",
   "7e51d45848dea89c",
   "8c975b2f8a2c7358",
-  "5acad13c79771cd3"
+  "5acad13c79771cd3",
+  "ffb566c351dfe7f4"
  ],
  "channel_names": [
   "3d penguin",
@@ -2184,6 +2185,7 @@
   "ivan bot",
   "jacee",
   "jack",
+  "jack pumpkinhead",
   "janine",
   "japanese samurai warrior",
   "japanese yokai character hitotsume kozo",
@@ -2855,6 +2857,7 @@
   "blenderkit.com/asset-gallery-detail/3f23742d-eb5f-4185-b510-046808e65f41",
   "blenderkit.com/asset-gallery-detail/3f9ea83c-3f7c-4c76-8564-1f7393d06330",
   "blenderkit.com/asset-gallery-detail/3fa4bd93-4dc9-4fdc-98ec-f1fcbaa5adbe",
+  "blenderkit.com/asset-gallery-detail/40198ae2-279a-40ce-b1bd-d994c9224998",
   "blenderkit.com/asset-gallery-detail/41fb5df2-e0f6-44e2-bb47-6bdf3a68b179",
   "blenderkit.com/asset-gallery-detail/4226b961-5487-43e4-8b06-c5c31166557c",
   "blenderkit.com/asset-gallery-detail/45d165f3-edea-40ed-8a9d-ce70b0ea28c5",
@@ -3283,6 +3286,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1812,
- "blendswap_page": 151
+ "blenderkit_index": 1824,
+ "blendswap_page": 152
 }
