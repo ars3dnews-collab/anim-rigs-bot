@@ -1375,22 +1375,22 @@
   "b9ba2325495c4003",
   "cc40684fce66eaf7",
   "ed24df0822f52dc2",
-  "7f124fe974ad06b1"
+  "7f124fe974ad06b1",
+  "a88150402abe329f"
  ],
  "sources": [
   "blendkit",
   "blendkit",
-  "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 714,
+ "counter": 715,
  "archive_page": 910,
  "buffet_index": 22600,
  "airtable_index": 10800,
  "last_post_ts": 1793602897.2618468,
  "image_hashes": [
-  "295477770da72a06",
   "91192412087a19bd",
   "ac400cbe5ded950c",
   "336e04b7959d814a",
@@ -1889,7 +1889,8 @@
   "d92376118db989f5",
   "a7d1ea69823ef539",
   "35abed552c875d17",
-  "31527782a6f7c6d9"
+  "31527782a6f7c6d9",
+  "d24ec4a12468af8f"
  ],
  "channel_names": [
   "3d penguin",
@@ -1945,6 +1946,7 @@
   "ball",
   "ball bot",
   "ballan wrasse studio",
+  "bandido",
   "batman beyond",
   "battledroid",
   "bdx droid",
@@ -3170,6 +3172,7 @@
   "gumroad.com/truongcgartist",
   "hatchery1.gumroad.com/l/zbqol",
   "hatrigs.gumroad.com/l/vittoriorig",
+  "highend3d.com/maya/downloads/character-rigs/c/bandido-maya-rig-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/buckid-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/caveman-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/chubby-for-maya",
