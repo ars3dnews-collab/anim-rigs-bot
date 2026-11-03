@@ -1383,22 +1383,22 @@
   "27437349961f9c3c",
   "f9b8edd638db1da5",
   "1a8b02829b82adca",
-  "2c6aae142f580610"
+  "2c6aae142f580610",
+  "ce259d5db9562827"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "airtable",
   "airtable",
-  "airtable"
+  "airtable",
+  "animation-buffet"
  ],
- "counter": 722,
- "archive_page": 914,
- "buffet_index": 22700,
- "airtable_index": 10848,
+ "counter": 723,
+ "archive_page": 916,
+ "buffet_index": 22750,
+ "airtable_index": 10872,
  "last_post_ts": 1793708021.828956,
  "image_hashes": [
-  "6a3f9adc90b791fa",
   "2a14a503a6166ab3",
   "f4a42c2c9f3fc87e",
   "39a9e5484bb50e52",
@@ -1897,7 +1897,8 @@
   "ae6df927dac9efc3",
   "5f1658e42f990026",
   "3f892c1007958ac7",
-  "861bea9bcb533c43"
+  "861bea9bcb533c43",
+  "31bb898f9e842425"
  ],
  "channel_names": [
   "3d penguin",
@@ -1993,6 +1994,7 @@
   "brawler",
   "brazilian character",
   "break bones",
+  "brontosaurus",
   "brooke",
   "brown camel",
   "bruise",
@@ -2737,6 +2739,7 @@
   "animationbuffet.blogspot.com/2016/09/tiger.html",
   "animationbuffet.blogspot.com/2016/10/juice-box.html",
   "animationbuffet.blogspot.com/2017/06/luna.html",
+  "animationbuffet.blogspot.com/2017/08/brontosaurus.html",
   "animationbuffet.blogspot.com/2017/08/bunny-eater.html",
   "animationbuffet.blogspot.com/2017/08/conan.html",
   "animationbuffet.blogspot.com/2017/08/crocodile_2.html",
@@ -3328,6 +3331,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1872,
- "blendswap_page": 156
+ "blenderkit_index": 1884,
+ "blendswap_page": 157
 }
