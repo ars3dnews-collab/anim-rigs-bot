@@ -1378,22 +1378,22 @@
   "7f124fe974ad06b1",
   "a88150402abe329f",
   "859a15e499c09fc5",
-  "5c6febf77966e5f7"
+  "5c6febf77966e5f7",
+  "142c582b12892296"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "airtable",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 717,
- "archive_page": 910,
- "buffet_index": 22600,
- "airtable_index": 10800,
+ "counter": 718,
+ "archive_page": 912,
+ "buffet_index": 22650,
+ "airtable_index": 10824,
  "last_post_ts": 1793624585.0585897,
  "image_hashes": [
-  "336e04b7959d814a",
   "fe0c558e84721341",
   "7ea883a33f0d6200",
   "ed971d9b435a437f",
@@ -1892,7 +1892,8 @@
   "31527782a6f7c6d9",
   "d24ec4a12468af8f",
   "464b6c3e606d869a",
-  "b00b9692892b5e8c"
+  "b00b9692892b5e8c",
+  "5df1572d421f87de"
  ],
  "channel_names": [
   "3d penguin",
@@ -2191,6 +2192,7 @@
   "hugo waiter extraordinaire",
   "hulk",
   "humanoid french buldog",
+  "humanoid turtle",
   "hydralisk",
   "hyena",
   "icarus",
@@ -3010,6 +3012,7 @@
   "blenderkit.com/asset-gallery-detail/e5e976b3-6134-4f11-b819-1ba68c65e81a",
   "blenderkit.com/asset-gallery-detail/e5fa9080-4a6d-4722-9e68-fce881fe6c96",
   "blenderkit.com/asset-gallery-detail/e6bd475c-1f15-4fe9-8219-440ec504e17a",
+  "blenderkit.com/asset-gallery-detail/e7c81fed-3cc0-4d0f-aaa1-e8abbbf2f5e4",
   "blenderkit.com/asset-gallery-detail/e8317518-cfcd-469c-8832-15f7e60c0225",
   "blenderkit.com/asset-gallery-detail/e95de4d7-23ca-4766-9cdd-1c0738ff20dc",
   "blenderkit.com/asset-gallery-detail/eaca0880-5aba-4039-afee-02c058814063",
@@ -3313,6 +3316,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1848,
- "blendswap_page": 154
+ "blenderkit_index": 1860,
+ "blendswap_page": 155
 }
