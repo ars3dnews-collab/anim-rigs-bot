@@ -1384,22 +1384,22 @@
   "f9b8edd638db1da5",
   "1a8b02829b82adca",
   "2c6aae142f580610",
-  "ce259d5db9562827"
+  "ce259d5db9562827",
+  "62302bb3a8d1b898"
  ],
  "sources": [
+  "airtable",
+  "airtable",
+  "airtable",
   "animation-buffet",
-  "airtable",
-  "airtable",
-  "airtable",
-  "animation-buffet"
+  "blendkit"
  ],
- "counter": 723,
- "archive_page": 916,
- "buffet_index": 22750,
- "airtable_index": 10872,
+ "counter": 724,
+ "archive_page": 918,
+ "buffet_index": 22800,
+ "airtable_index": 10896,
  "last_post_ts": 1793722465.2889073,
  "image_hashes": [
-  "2a14a503a6166ab3",
   "f4a42c2c9f3fc87e",
   "39a9e5484bb50e52",
   "f62a2a1c1c095a92",
@@ -1898,7 +1898,8 @@
   "5f1658e42f990026",
   "3f892c1007958ac7",
   "861bea9bcb533c43",
-  "31bb898f9e842425"
+  "31bb898f9e842425",
+  "f6145375477a9b45"
  ],
  "channel_names": [
   "3d penguin",
@@ -2426,6 +2427,7 @@
   "sanae",
   "savannah lioness",
   "sci fi dragon animated",
+  "sci fi soldier animated rigged",
   "sci fi spartan vanguard",
   "scifi junk mecha",
   "scorpion",
@@ -2961,6 +2963,7 @@
   "blenderkit.com/asset-gallery-detail/8afe9044-6fdb-4a88-8e66-a10a6cb43141",
   "blenderkit.com/asset-gallery-detail/8de30c1b-d330-436a-a127-9792584b72ec",
   "blenderkit.com/asset-gallery-detail/8de8442d-98f0-4dfa-8f33-2d25f6ba80bc",
+  "blenderkit.com/asset-gallery-detail/8f2aba1c-2e85-48b0-9cd7-e4a865dee88d",
   "blenderkit.com/asset-gallery-detail/8f473ca5-ac96-457b-80bd-730ad9afb42f",
   "blenderkit.com/asset-gallery-detail/90647421-f297-43d7-8afa-1b617885ca8f",
   "blenderkit.com/asset-gallery-detail/91e1620f-2a3a-4460-87a0-ca28da81c1a4",
@@ -3331,6 +3334,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1884,
- "blendswap_page": 157
+ "blenderkit_index": 1896,
+ "blendswap_page": 158
 }
