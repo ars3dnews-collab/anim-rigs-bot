@@ -1397,7 +1397,8 @@
   "2401659bd8d11396",
   "18b2dcb362132bb8",
   "8c71a7624676b208",
-  "ea12038d4d29973b"
+  "ea12038d4d29973b",
+  "95de03ceb04799a7"
  ],
  "sources": [
   "animation-buffet",
@@ -1407,9 +1408,9 @@
   "airtable"
  ],
  "counter": 733,
- "archive_page": 924,
- "buffet_index": 22950,
- "airtable_index": 10968,
+ "archive_page": 926,
+ "buffet_index": 23000,
+ "airtable_index": 10992,
  "last_post_ts": 1793862044.777552,
  "image_hashes": [
   "3f86494d78ee4b68",
@@ -3364,6 +3365,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 1932,
- "blendswap_page": 161
+ "blenderkit_index": 1944,
+ "blendswap_page": 162
 }
