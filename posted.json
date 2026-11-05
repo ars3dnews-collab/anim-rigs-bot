@@ -1409,22 +1409,22 @@
   "b4b9a0d2792c3135",
   "16c9d90a5765f01a",
   "c8b89090f44528f1",
-  "9025dcb3f3d8fadd"
+  "9025dcb3f3d8fadd",
+  "b3dee898f52d48e4"
  ],
  "sources": [
-  "blendkit",
   "airtable",
   "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 734,
+ "counter": 735,
  "archive_page": 926,
  "buffet_index": 23000,
  "airtable_index": 10992,
  "last_post_ts": 1793871843.2556336,
  "image_hashes": [
-  "30d064634eb690dd",
   "3b736494f95087e3",
   "495b2406df36c521",
   "3783e069e46593eb",
@@ -1923,7 +1923,8 @@
   "e3f3569b37383a24",
   "2a8840a26c99024e",
   "77b5e0dce4f2f4fc",
-  "8e6b72dd7b7bc5aa"
+  "8e6b72dd7b7bc5aa",
+  "7806cd928c928cc7"
  ],
  "channel_names": [
   "3d penguin",
@@ -2362,6 +2363,7 @@
   "moom",
   "mort 1 1 0",
   "mortimer",
+  "moxrig",
   "mr brightside 1 0 0",
   "ms fortune",
   "mukuru",
@@ -3295,6 +3297,7 @@
   "milio-serrano.gumroad.com/l/vmwxu",
   "milio-serrano.gumroad.com/l/ykobt",
   "mox-motion.com/blog/momo_rig_information",
+  "mox-motion.com/freerig",
   "nelsonhurst.com/norman-rig-3",
   "oddpanda.gumroad.com/l/haafnn",
   "okawaii.com/product/fly-low-poly-rig-v1-0",
