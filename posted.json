@@ -1419,22 +1419,22 @@
   "0f4614777d78884e",
   "a800cda76c49b9b7",
   "1e187c02d0e5ae8e",
-  "927772079881a90d"
+  "927772079881a90d",
+  "a5402272e3a77b86"
  ],
  "sources": [
-  "blendkit",
   "airtable",
   "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 742,
+ "counter": 743,
  "archive_page": 932,
  "buffet_index": 23150,
  "airtable_index": 11064,
  "last_post_ts": 1793968019.5183578,
  "image_hashes": [
-  "9eb5e3f2622429e9",
   "9c0d5cf281ac80c5",
   "0fe1c942ed9ce754",
   "2f43196950430d53",
@@ -1933,7 +1933,8 @@
   "1107c3eaebd35118",
   "cabc09967506cc23",
   "aa5ddb026f9a301f",
-  "19930ed2b29062fe"
+  "19930ed2b29062fe",
+  "cbb26daf2e3d4090"
  ],
  "channel_names": [
   "3d penguin",
@@ -1943,6 +1944,7 @@
   "adam",
   "aero",
   "ahsoka tano",
+  "aisha",
   "aizen old",
   "akali",
   "akira kaneda",
@@ -3121,6 +3123,7 @@
   "cgchannel.com/2026/10/get-free-maya-character-rigging-toolset-mgear-5-4",
   "cgtarian.com/maya-character-rigs/download-free-3d-character-ray.html",
   "characterrigs.com",
+  "characterrigs.gumroad.com/l/aisharig",
   "charrig.gumroad.com/l/bozzo",
   "charrig.gumroad.com/l/cjicff",
   "cloud.blender.org/p/animation-fundamentals/5d69ab4dea6789db11ee65d1",
