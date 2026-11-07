@@ -1425,22 +1425,22 @@
   "f00a5f5ca0289de2",
   "492c6ac7365d8f84",
   "c9ccdb87f19a300e",
-  "a69b2d47d3f75b1f"
+  "a69b2d47d3f75b1f",
+  "8f21b755158042f1"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 747,
+ "counter": 748,
  "archive_page": 938,
  "buffet_index": 23300,
  "airtable_index": 11136,
  "last_post_ts": 1794035077.5103474,
  "image_hashes": [
-  "194b41b37adf642f",
   "eaa1f89abfcd3317",
   "25fd781b9f6a440f",
   "cdc41522a08a6f43",
@@ -1939,7 +1939,8 @@
   "2e98d80a6a79da0c",
   "12d9233e6bed0c01",
   "b7d5027e67cf1d12",
-  "e86daffdd9ca0281"
+  "e86daffdd9ca0281",
+  "ba98d4ed0ea67a32"
  ],
  "channel_names": [
   "3d penguin",
@@ -1962,6 +1963,7 @@
   "aloy",
   "among us astronaut",
   "amy",
+  "anais character rigged",
   "anatomy helper",
   "andre",
   "animated robot",
@@ -2920,6 +2922,7 @@
   "blenderkit.com/asset-gallery-detail/072e669d-b133-4b73-af93-f707bcc9cc07",
   "blenderkit.com/asset-gallery-detail/08985a2c-7b47-49cd-8c07-5c6e32b2c0a0",
   "blenderkit.com/asset-gallery-detail/094c6359-7bea-45cd-aee3-d7d7effe6a90",
+  "blenderkit.com/asset-gallery-detail/0b2904ce-b5f9-44c8-b702-60a42f545f38",
   "blenderkit.com/asset-gallery-detail/0b5a9923-1ea0-42da-8d43-f9e71f4ef3bc",
   "blenderkit.com/asset-gallery-detail/0e211139-1750-4784-a9db-87ffa5bc9dbb",
   "blenderkit.com/asset-gallery-detail/0e645f97-6533-4a74-89d0-cdc3a6d58d46",
