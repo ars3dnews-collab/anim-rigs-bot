@@ -1430,22 +1430,22 @@
   "367d54735be476b7",
   "a8749b9db5d6f56e",
   "10aff791237660e2",
-  "78663571b8d060ac"
+  "78663571b8d060ac",
+  "abf5160812571e8f"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 750,
- "archive_page": 938,
- "buffet_index": 23300,
- "airtable_index": 11136,
+ "counter": 751,
+ "archive_page": 940,
+ "buffet_index": 23350,
+ "airtable_index": 11160,
  "last_post_ts": 1794057661.353095,
  "image_hashes": [
-  "cdc41522a08a6f43",
   "bff6523cf8ce0cd6",
   "75c903234e7e6a7f",
   "cf7a58e9f48491a8",
@@ -1944,7 +1944,8 @@
   "e86daffdd9ca0281",
   "ba98d4ed0ea67a32",
   "b5ba2027de392d5b",
-  "0edd704612c7c087"
+  "0edd704612c7c087",
+  "b2bf83e45f240132"
  ],
  "channel_names": [
   "3d penguin",
@@ -1982,6 +1983,7 @@
   "animschool malcolm 2 0",
   "animus",
   "ant",
+  "ant odontomachus davidsoni hoenle",
   "anthro tiger",
   "apollo",
   "apple pen",
@@ -2068,6 +2070,8 @@
   "business lady office girls",
   "business office male character",
   "butterfly 01",
+  "butterfly 03",
+  "butterfly 04",
   "bwa",
   "calf animations",
   "camile",
@@ -2378,6 +2382,7 @@
   "mikassa studio",
   "mike and tina",
   "mike freeman",
+  "mike robot",
   "military agent",
   "military girl",
   "milo x",
@@ -2933,6 +2938,7 @@
   "blenderkit.com/asset-gallery-detail/0b5a9923-1ea0-42da-8d43-f9e71f4ef3bc",
   "blenderkit.com/asset-gallery-detail/0e211139-1750-4784-a9db-87ffa5bc9dbb",
   "blenderkit.com/asset-gallery-detail/0e645f97-6533-4a74-89d0-cdc3a6d58d46",
+  "blenderkit.com/asset-gallery-detail/0f7b7a51-a1b8-4731-a452-f02929c7affc",
   "blenderkit.com/asset-gallery-detail/0fdb2ac9-e739-4df6-9291-aca2161f4193",
   "blenderkit.com/asset-gallery-detail/106f0724-130d-4eed-b083-df9f120ea46b",
   "blenderkit.com/asset-gallery-detail/1377f6a8-7689-4ebc-b7d0-3848c431524b",
@@ -3102,6 +3108,7 @@
   "blenderkit.com/asset-gallery-detail/d70aa919-0e82-4d4a-b0cc-619afd71749b",
   "blenderkit.com/asset-gallery-detail/d737de5c-a17f-4347-b46f-d40efd202066",
   "blenderkit.com/asset-gallery-detail/da1a9a44-2c67-4b14-bdb2-18eacfd0dfca",
+  "blenderkit.com/asset-gallery-detail/daecf7ba-1ca8-435f-83f1-2f0febbaca98",
   "blenderkit.com/asset-gallery-detail/dba6a136-a466-4bb2-9584-9d10b707f94c",
   "blenderkit.com/asset-gallery-detail/de5df27f-0d1f-4d03-9cb1-8211a96c81f0",
   "blenderkit.com/asset-gallery-detail/dfc15535-1028-4b34-bf87-0edbdfe067e8",
@@ -3134,6 +3141,7 @@
   "blenderkit.com/asset-gallery-detail/f9a3824f-b228-47fb-9032-0255ef278f6b",
   "blenderkit.com/asset-gallery-detail/f9aabe49-0750-4ed7-b5d1-1a92951fba2a",
   "blenderkit.com/asset-gallery-detail/fdae7fb1-3bf8-4076-8017-91313350dd77",
+  "blenderkit.com/asset-gallery-detail/fe6f06b6-7625-4118-9f64-2c046e43e5d6",
   "bongqi.gumroad.com/l/littelboxjeep",
   "builtbycolossus.com/ninja",
   "builtbycolossus.com/robogirl",
@@ -3316,6 +3324,7 @@
   "highend3d.com/maya/downloads/character-rigs/c/wilhelm-the-giraffe-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/wolf-rig-for-maya",
   "highend3d.com/maya/downloads/character-rigs/c/wolfdog-for-maya",
+  "joshmucca.gumroad.com/l/mikerig",
   "juandgallegoa.gumroad.com/l/simpleballrig",
   "khaledhussein.gumroad.com/l/cbmnp",
   "lookrig.com/product/201908060705170",
@@ -3431,6 +3440,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2016,
- "blendswap_page": 168
+ "blenderkit_index": 2028,
+ "blendswap_page": 169
 }
