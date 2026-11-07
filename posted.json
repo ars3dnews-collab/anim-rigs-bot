@@ -1426,22 +1426,22 @@
   "492c6ac7365d8f84",
   "c9ccdb87f19a300e",
   "a69b2d47d3f75b1f",
-  "8f21b755158042f1"
+  "8f21b755158042f1",
+  "367d54735be476b7"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 748,
+ "counter": 749,
  "archive_page": 938,
  "buffet_index": 23300,
  "airtable_index": 11136,
  "last_post_ts": 1794042525.2342956,
  "image_hashes": [
-  "eaa1f89abfcd3317",
   "25fd781b9f6a440f",
   "cdc41522a08a6f43",
   "bff6523cf8ce0cd6",
@@ -1940,7 +1940,8 @@
   "12d9233e6bed0c01",
   "b7d5027e67cf1d12",
   "e86daffdd9ca0281",
-  "ba98d4ed0ea67a32"
+  "ba98d4ed0ea67a32",
+  "b5ba2027de392d5b"
  ],
  "channel_names": [
   "3d penguin",
@@ -1983,6 +1984,7 @@
   "apple pen",
   "argonian",
   "armored green skeleton warrior",
+  "arowana",
   "arrogant bossy girl anime style",
   "artemis",
   "asc teuthisan",
@@ -2832,6 +2834,7 @@
   "animationbuffet.blogspot.com/2019/10/samy.html",
   "animationbuffet.blogspot.com/2019/10/seagull.html",
   "animationbuffet.blogspot.com/2020/03/alien-covenant.html",
+  "animationbuffet.blogspot.com/2020/03/arowana.html",
   "animationbuffet.blogspot.com/2020/03/ball-bot.html",
   "animationbuffet.blogspot.com/2020/03/battledroid.html",
   "animationbuffet.blogspot.com/2020/03/bi-plane.html",
