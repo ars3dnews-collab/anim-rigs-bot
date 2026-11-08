@@ -1432,22 +1432,22 @@
   "10aff791237660e2",
   "78663571b8d060ac",
   "abf5160812571e8f",
-  "5edb971d56b1722d"
+  "5edb971d56b1722d",
+  "0adbf4c7a13d3060"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 752,
- "archive_page": 940,
- "buffet_index": 23350,
- "airtable_index": 11160,
+ "counter": 753,
+ "archive_page": 942,
+ "buffet_index": 23400,
+ "airtable_index": 11184,
  "last_post_ts": 1794072083.5845644,
  "image_hashes": [
-  "75c903234e7e6a7f",
   "cf7a58e9f48491a8",
   "9bd5552d0c8b31c9",
   "81c7d83d25aee94a",
@@ -1946,7 +1946,8 @@
   "b5ba2027de392d5b",
   "0edd704612c7c087",
   "b2bf83e45f240132",
-  "63d9a4a321d2ff1e"
+  "63d9a4a321d2ff1e",
+  "570d753b1c63ceec"
  ],
  "channel_names": [
   "3d penguin",
@@ -2392,6 +2393,7 @@
   "minotaur warrior dark fantasy",
   "minotaur warrior jade green",
   "miosha",
+  "mira",
   "modern fashion female character",
   "modjadji",
   "momo chan",
@@ -3392,6 +3394,7 @@
   "robbiereidrigs.gumroad.com/l/guardianrig",
   "sahilanims.gumroad.com/l/mccgv",
   "sahilanims.gumroad.com/l/ocetz",
+  "saurabh2209.gumroad.com/l/amwqc",
   "saurabh2209.gumroad.com/l/bhumd",
   "saurabh2209.gumroad.com/l/cdvxe",
   "shalabology.wordpress.com/free-stuffs/free-rigs/jasminerose-free-rig-for-maya",
@@ -3443,6 +3446,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2028,
- "blendswap_page": 169
+ "blenderkit_index": 2040,
+ "blendswap_page": 170
 }
