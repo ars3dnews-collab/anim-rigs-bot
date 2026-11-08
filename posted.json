@@ -1439,22 +1439,22 @@
   "589982d79a0c8450",
   "49e22ea1116a0e3b",
   "b651722664752293",
-  "01582b318c9aba48"
+  "01582b318c9aba48",
+  "3d5e3cbd740a3315"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "airtable",
   "blendkit",
+  "blendkit",
   "blendkit"
  ],
- "counter": 759,
+ "counter": 760,
  "archive_page": 946,
  "buffet_index": 23500,
  "airtable_index": 11232,
  "last_post_ts": 1794151868.0886753,
  "image_hashes": [
-  "46af466e9f36d58b",
   "656e581cec94e548",
   "8d2be5063391ba2d",
   "3079682c58aed8d7",
@@ -1953,7 +1953,8 @@
   "05270e5e4e3e55e6",
   "842bf5ff472900fb",
   "956305a1d036d476",
-  "e2016cd3b40e604c"
+  "e2016cd3b40e604c",
+  "1da14b950da0407d"
  ],
  "channel_names": [
   "3d penguin",
@@ -2362,6 +2363,7 @@
   "malcolm",
   "male firefighter green rescue uniform",
   "male hiker outdoor camping gear",
+  "male rigged pbr character",
   "male vampire character semi realistic rigged auto pro",
   "mannequin",
   "mara character animated",
@@ -3128,6 +3130,7 @@
   "blenderkit.com/asset-gallery-detail/d6e100cf-768d-4a61-a438-bf2cc96a182b",
   "blenderkit.com/asset-gallery-detail/d70aa919-0e82-4d4a-b0cc-619afd71749b",
   "blenderkit.com/asset-gallery-detail/d737de5c-a17f-4347-b46f-d40efd202066",
+  "blenderkit.com/asset-gallery-detail/d8b13cc8-2406-48f7-95f5-8ec3e098da7d",
   "blenderkit.com/asset-gallery-detail/da1a9a44-2c67-4b14-bdb2-18eacfd0dfca",
   "blenderkit.com/asset-gallery-detail/daecf7ba-1ca8-435f-83f1-2f0febbaca98",
   "blenderkit.com/asset-gallery-detail/dba6a136-a466-4bb2-9584-9d10b707f94c",
