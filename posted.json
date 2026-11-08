@@ -1438,22 +1438,22 @@
   "2545505451eb2c25",
   "589982d79a0c8450",
   "49e22ea1116a0e3b",
-  "b651722664752293"
+  "b651722664752293",
+  "01582b318c9aba48"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "airtable",
+  "blendkit",
   "blendkit"
  ],
- "counter": 758,
- "archive_page": 944,
- "buffet_index": 23450,
- "airtable_index": 11208,
+ "counter": 759,
+ "archive_page": 946,
+ "buffet_index": 23500,
+ "airtable_index": 11232,
  "last_post_ts": 1794142971.252475,
  "image_hashes": [
-  "7657dfcd2a9491e5",
   "46af466e9f36d58b",
   "656e581cec94e548",
   "8d2be5063391ba2d",
@@ -1952,7 +1952,8 @@
   "8cdb417985c9b979",
   "05270e5e4e3e55e6",
   "842bf5ff472900fb",
-  "956305a1d036d476"
+  "956305a1d036d476",
+  "e2016cd3b40e604c"
  ],
  "channel_names": [
   "3d penguin",
@@ -2199,6 +2200,7 @@
   "farmer rigged game ready",
   "fat man",
   "fat marine",
+  "female rigged pbr character",
   "ferdinand",
   "finex",
   "fire dragon",
@@ -3159,6 +3161,7 @@
   "blenderkit.com/asset-gallery-detail/f725f37d-93d3-49b8-a8b2-a13da263f0ae",
   "blenderkit.com/asset-gallery-detail/f9a3824f-b228-47fb-9032-0255ef278f6b",
   "blenderkit.com/asset-gallery-detail/f9aabe49-0750-4ed7-b5d1-1a92951fba2a",
+  "blenderkit.com/asset-gallery-detail/fc421cc5-0633-4579-8fa1-3c7f67b9fbdc",
   "blenderkit.com/asset-gallery-detail/fdae7fb1-3bf8-4076-8017-91313350dd77",
   "blenderkit.com/asset-gallery-detail/fe6f06b6-7625-4118-9f64-2c046e43e5d6",
   "bongqi.gumroad.com/l/littelboxjeep",
@@ -3461,6 +3464,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2052,
- "blendswap_page": 171
+ "blenderkit_index": 2064,
+ "blendswap_page": 172
 }
