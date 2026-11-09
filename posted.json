@@ -1440,22 +1440,22 @@
   "49e22ea1116a0e3b",
   "b651722664752293",
   "01582b318c9aba48",
-  "3d5e3cbd740a3315"
+  "3d5e3cbd740a3315",
+  "633848190c4a5277"
  ],
  "sources": [
-  "blendkit",
   "airtable",
+  "blendkit",
   "blendkit",
   "blendkit",
   "blendkit"
  ],
- "counter": 760,
- "archive_page": 946,
- "buffet_index": 23500,
- "airtable_index": 11232,
+ "counter": 761,
+ "archive_page": 948,
+ "buffet_index": 23550,
+ "airtable_index": 11256,
  "last_post_ts": 1794159107.160125,
  "image_hashes": [
-  "656e581cec94e548",
   "8d2be5063391ba2d",
   "3079682c58aed8d7",
   "cd4e6b74e64386c6",
@@ -1954,7 +1954,8 @@
   "842bf5ff472900fb",
   "956305a1d036d476",
   "e2016cd3b40e604c",
-  "1da14b950da0407d"
+  "1da14b950da0407d",
+  "661b60956f17dd62"
  ],
  "channel_names": [
   "3d penguin",
@@ -1993,6 +1994,7 @@
   "animus",
   "ant",
   "ant odontomachus davidsoni hoenle",
+  "ant rigged",
   "anthro tiger",
   "apollo",
   "apple pen",
@@ -3123,6 +3125,7 @@
   "blenderkit.com/asset-gallery-detail/c8dcb529-5fe2-4cbf-a1bc-c02673af3675",
   "blenderkit.com/asset-gallery-detail/c992afff-6e06-4ef7-95bc-98f42789006b",
   "blenderkit.com/asset-gallery-detail/ca772681-486e-424c-958c-4ec7b57b2cdf",
+  "blenderkit.com/asset-gallery-detail/cbb1efed-6f2d-4aa2-ae3e-871e005b17a1",
   "blenderkit.com/asset-gallery-detail/cd940137-f8d9-4cc6-ae1c-9ba166d5aa58",
   "blenderkit.com/asset-gallery-detail/cef86ada-0366-4a88-9243-4ec39522bbb4",
   "blenderkit.com/asset-gallery-detail/d239ed66-91cf-4ea8-91f0-17dc994980e2",
@@ -3467,6 +3470,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2064,
- "blendswap_page": 172
+ "blenderkit_index": 2076,
+ "blendswap_page": 173
 }
