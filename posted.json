@@ -1442,7 +1442,8 @@
   "01582b318c9aba48",
   "3d5e3cbd740a3315",
   "633848190c4a5277",
-  "6b9cbb9f981f4640"
+  "6b9cbb9f981f4640",
+  "4c805ca312df5863"
  ],
  "sources": [
   "blendkit",
@@ -1451,13 +1452,12 @@
   "blendkit",
   "blendkit"
  ],
- "counter": 762,
+ "counter": 763,
  "archive_page": 948,
  "buffet_index": 23550,
  "airtable_index": 11256,
  "last_post_ts": 1794200419.390489,
  "image_hashes": [
-  "3079682c58aed8d7",
   "cd4e6b74e64386c6",
   "84413560af0e122c",
   "734fec8136c44ec6",
@@ -1956,7 +1956,8 @@
   "e2016cd3b40e604c",
   "1da14b950da0407d",
   "661b60956f17dd62",
-  "9255a80fc95557ba"
+  "9255a80fc95557ba",
+  "20bcf2a65fb05fc7"
  ],
  "channel_names": [
   "3d penguin",
@@ -2084,6 +2085,7 @@
   "butterfly 01",
   "butterfly 03",
   "butterfly 04",
+  "butterfly animated",
   "bwa",
   "calf animations",
   "camile",
@@ -2982,6 +2984,7 @@
   "blenderkit.com/asset-gallery-detail/2b8376d6-628d-4311-ae01-5808b93e74a4",
   "blenderkit.com/asset-gallery-detail/2bdac30f-5d47-46be-8ad3-8bf42e736338",
   "blenderkit.com/asset-gallery-detail/2d6811bf-8e00-4af1-b0d0-7bc0e17fb581",
+  "blenderkit.com/asset-gallery-detail/2dae06aa-9f0b-4c3b-8f69-02c674f4e286",
   "blenderkit.com/asset-gallery-detail/2dcdc5b2-3602-4b06-ade0-30422ca229cc",
   "blenderkit.com/asset-gallery-detail/2eaea5cf-5809-48c8-82d7-24fba62dec87",
   "blenderkit.com/asset-gallery-detail/2f2362df-77ee-48bd-ac19-01e3e0cd0660",
