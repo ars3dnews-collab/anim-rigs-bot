@@ -1449,22 +1449,22 @@
   "12647b6a62aff424",
   "04a28016d4cd2e78",
   "869cee2d58209424",
-  "d72f61aa35eb9a29"
+  "d72f61aa35eb9a29",
+  "4b5036209e181aca"
  ],
  "sources": [
   "blendkit",
-  "blendkit",
   "airtable",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 767,
+ "counter": 768,
  "archive_page": 952,
  "buffet_index": 23650,
  "airtable_index": 11304,
  "last_post_ts": 1794281521.764982,
  "image_hashes": [
-  "5bf9b9df753cae8e",
   "0dde54af683a037c",
   "52629bfe3c0b4594",
   "c6daf2f53accbc49",
@@ -1963,7 +1963,8 @@
   "5790549b54bbdfcd",
   "83b09f003b09baa8",
   "1133efcac0ceb1a0",
-  "fc1f6c7dd5f0daf8"
+  "fc1f6c7dd5f0daf8",
+  "3e0650649b000914"
  ],
  "channel_names": [
   "3d penguin",
@@ -2566,6 +2567,7 @@
   "space creatures studio",
   "space demon",
   "special assassin rigged animated",
+  "spectacular spider man rigged",
   "spider",
   "spider animated",
   "spider bot",
@@ -3183,6 +3185,7 @@
   "blenderkit.com/asset-gallery-detail/f5553e39-ce82-4b2d-90a3-fc200784775d",
   "blenderkit.com/asset-gallery-detail/f5878510-999a-4367-97e1-42c3fae47be6",
   "blenderkit.com/asset-gallery-detail/f725f37d-93d3-49b8-a8b2-a13da263f0ae",
+  "blenderkit.com/asset-gallery-detail/f7636c24-2330-4d12-bca4-dcd9550d910f",
   "blenderkit.com/asset-gallery-detail/f9a3824f-b228-47fb-9032-0255ef278f6b",
   "blenderkit.com/asset-gallery-detail/f9aabe49-0750-4ed7-b5d1-1a92951fba2a",
   "blenderkit.com/asset-gallery-detail/fa62e894-31c9-4940-b12a-cf93cda9bbb4",
