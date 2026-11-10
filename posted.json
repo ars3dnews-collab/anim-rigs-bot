@@ -1454,22 +1454,22 @@
   "8d4dd043abd24619",
   "c6840ee772d4e285",
   "bbe77a9e55ff6e81",
-  "675d37393cabd16d"
+  "675d37393cabd16d",
+  "1fc6f02f83256d06"
  ],
  "sources": [
+  "blendkit",
+  "blendkit",
+  "blendkit",
   "airtable",
-  "blendkit",
-  "blendkit",
-  "blendkit",
-  "airtable"
+  "blendkit"
  ],
- "counter": 771,
+ "counter": 772,
  "archive_page": 954,
  "buffet_index": 23700,
  "airtable_index": 11328,
  "last_post_ts": 1794318411.3951318,
  "image_hashes": [
-  "fcd17df29dcbc8e9",
   "e2798680c3c42ff9",
   "e13de60aa83af29a",
   "e8478ba8aa390def",
@@ -1968,7 +1968,8 @@
   "3e0650649b000914",
   "bda25e9e4954e37f",
   "1cd87b2fe9911155",
-  "6213c8da9fbb4d45"
+  "6213c8da9fbb4d45",
+  "901053a63a43cf9e"
  ],
  "channel_names": [
   "3d penguin",
@@ -2614,6 +2615,7 @@
   "stylized cartoon teenage girl rigged base mesh rigify",
   "stylized cartoon toddler boy character rigged rigify",
   "stylized christmas reindeer rigged",
+  "stylized donkey with facial",
   "stylized female",
   "stylized fox",
   "stylized game ready character carlos",
@@ -3156,6 +3158,7 @@
   "blenderkit.com/asset-gallery-detail/cbb1efed-6f2d-4aa2-ae3e-871e005b17a1",
   "blenderkit.com/asset-gallery-detail/cc291a16-ae6d-4e4a-a53c-0bbec81ab665",
   "blenderkit.com/asset-gallery-detail/cd940137-f8d9-4cc6-ae1c-9ba166d5aa58",
+  "blenderkit.com/asset-gallery-detail/ceb68666-527c-4cac-ae03-1eaf71188bd8",
   "blenderkit.com/asset-gallery-detail/cef86ada-0366-4a88-9243-4ec39522bbb4",
   "blenderkit.com/asset-gallery-detail/d239ed66-91cf-4ea8-91f0-17dc994980e2",
   "blenderkit.com/asset-gallery-detail/d389c6bf-bca9-44e3-badb-1c8620a56359",
