@@ -1453,22 +1453,22 @@
   "4b5036209e181aca",
   "8d4dd043abd24619",
   "c6840ee772d4e285",
-  "bbe77a9e55ff6e81"
+  "bbe77a9e55ff6e81",
+  "675d37393cabd16d"
  ],
  "sources": [
-  "blendkit",
   "airtable",
   "blendkit",
   "blendkit",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 770,
+ "counter": 771,
  "archive_page": 954,
  "buffet_index": 23700,
  "airtable_index": 11328,
  "last_post_ts": 1794311183.254529,
  "image_hashes": [
-  "c6daf2f53accbc49",
   "fcd17df29dcbc8e9",
   "e2798680c3c42ff9",
   "e13de60aa83af29a",
@@ -1967,7 +1967,8 @@
   "fc1f6c7dd5f0daf8",
   "3e0650649b000914",
   "bda25e9e4954e37f",
-  "1cd87b2fe9911155"
+  "1cd87b2fe9911155",
+  "6213c8da9fbb4d45"
  ],
  "channel_names": [
   "3d penguin",
@@ -2396,6 +2397,7 @@
   "mat",
   "mateo character rigged",
   "max",
+  "mazu",
   "mecanic",
   "mech samurai",
   "mechcatrig",
@@ -3436,6 +3438,7 @@
   "prorigs.com/characters/the-robots",
   "prorigs.com/characters/the-zoo",
   "ramonarango.gumroad.com/l/apollorig",
+  "ramonarango.gumroad.com/l/mazurig",
   "ramonarango.gumroad.com/l/modjadjirig",
   "ramonarango.gumroad.com/l/mukururig",
   "rig-it.net/product/robot-rbt10",
