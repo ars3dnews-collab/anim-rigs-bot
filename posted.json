@@ -1463,22 +1463,22 @@
   "2fe3f94be3e602cb",
   "63cdefc90fde98f8",
   "3353e2204edc88c1",
-  "859116dbd4e3c8b5"
+  "859116dbd4e3c8b5",
+  "d2245d1b8eebcb7b"
  ],
  "sources": [
   "blendkit",
   "blendkit",
-  "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 776,
- "archive_page": 958,
- "buffet_index": 23800,
- "airtable_index": 11376,
+ "counter": 777,
+ "archive_page": 960,
+ "buffet_index": 23850,
+ "airtable_index": 11400,
  "last_post_ts": 1794387688.266393,
  "image_hashes": [
-  "320acca165d0a311",
   "a90b15770793ff92",
   "fda3655a690a4948",
   "8f71d882f36e614c",
@@ -1977,7 +1977,8 @@
   "f0cc77feed5d3a08",
   "181f5c25102b3bb2",
   "ffa1f5d5fa94ccc4",
-  "c9c3cae212da8f77"
+  "c9c3cae212da8f77",
+  "8b25416a82aabb6f"
  ],
  "channel_names": [
   "3d penguin",
@@ -2295,6 +2296,7 @@
   "hogan",
   "homer",
   "homer simpson",
+  "hornet",
   "horse",
   "hotel transylvania zombie",
   "houdini",
@@ -3439,6 +3441,7 @@
   "oddpanda.gumroad.com/l/haafnn",
   "okawaii.com/product/fly-low-poly-rig-v1-0",
   "okawaii.gumroad.com/l/bigpr",
+  "okawaii.gumroad.com/l/duxxhl",
   "okawaii.gumroad.com/l/lcmok",
   "okawaii.gumroad.com/l/llmye",
   "okawaii.gumroad.com/l/pclhs",
@@ -3522,6 +3525,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2136,
- "blendswap_page": 178
+ "blenderkit_index": 2148,
+ "blendswap_page": 179
 }
