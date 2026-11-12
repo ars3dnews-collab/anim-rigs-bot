@@ -1469,22 +1469,22 @@
   "9323e412bfa2af88",
   "a56d04346d968d47",
   "3eeeda5452f977a6",
-  "5ca01e43b6f8df52"
+  "5ca01e43b6f8df52",
+  "262fbe79e5b1fcd3"
  ],
  "sources": [
-  "blendkit",
   "airtable",
   "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "airtable"
  ],
- "counter": 782,
- "archive_page": 962,
- "buffet_index": 23900,
- "airtable_index": 11424,
+ "counter": 783,
+ "archive_page": 964,
+ "buffet_index": 23950,
+ "airtable_index": 11448,
  "last_post_ts": 1794466842.5696082,
  "image_hashes": [
-  "3e8f69eaca87ea9b",
   "c6b8588f3b14bb93",
   "d7adc2aa00e182ba",
   "0dc19b830a676de3",
@@ -1983,7 +1983,8 @@
   "fb792ed71e56aa28",
   "2fc42e7655919458",
   "377cbf83c77cf58a",
-  "de9d1eb7d58cfaf2"
+  "de9d1eb7d58cfaf2",
+  "f628829aa5dcb943"
  ],
  "channel_names": [
   "3d penguin",
@@ -2325,6 +2326,7 @@
   "jacee",
   "jack",
   "jack pumpkinhead",
+  "jacko",
   "janine",
   "japanese samurai warrior",
   "japanese yokai character hitotsume kozo",
@@ -3439,6 +3441,7 @@
   "megabubu.gumroad.com/l/sanaerig",
   "megabubu.gumroad.com/l/wyrmrig",
   "meryproject.com",
+  "micahb.gumroad.com/l/ggxao",
   "milio-serrano.gumroad.com/l/ayncp",
   "milio-serrano.gumroad.com/l/bpbdv",
   "milio-serrano.gumroad.com/l/hnliz",
@@ -3540,6 +3543,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2160,
- "blendswap_page": 180
+ "blenderkit_index": 2172,
+ "blendswap_page": 181
 }
