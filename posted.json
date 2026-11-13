@@ -1477,22 +1477,22 @@
   "a8eccfd720fcaf23",
   "1313455a40cb6202",
   "30281908da80f2e8",
-  "e6d7281b991042fc"
+  "e6d7281b991042fc",
+  "5c97eb39389edd67"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "animation-buffet",
   "blender-studio",
-  "animation-buffet"
+  "animation-buffet",
+  "blender-studio"
  ],
- "counter": 789,
- "archive_page": 970,
- "buffet_index": 24100,
- "airtable_index": 11520,
+ "counter": 790,
+ "archive_page": 972,
+ "buffet_index": 24150,
+ "airtable_index": 11544,
  "last_post_ts": 1794553457.5798979,
  "image_hashes": [
-  "000b94c1993ae471",
   "fd0ac508b54071a9",
   "34afb35dac5a9c6b",
   "66963b113987e22c",
@@ -1991,7 +1991,8 @@
   "b12d659e242d3c3f",
   "8fa91d9a3b7e925a",
   "1f06ed52028a4287",
-  "801b0ab7edec4f15"
+  "801b0ab7edec4f15",
+  "8d79da4eba9337ad"
  ],
  "channel_names": [
   "3d penguin",
@@ -2318,6 +2319,7 @@
   "hotel transylvania zombie",
   "houdini",
   "hse lord snappy",
+  "huginn studio",
   "hugo waiter extraordinaire",
   "hulk",
   "humanoid french buldog",
@@ -3525,6 +3527,7 @@
   "studio.blender.org/characters/dog/v1",
   "studio.blender.org/characters/einar/v1",
   "studio.blender.org/characters/ellie/v1",
+  "studio.blender.org/characters/huginn/v2",
   "studio.blender.org/characters/mikassa/v1",
   "studio.blender.org/characters/one/v1",
   "studio.blender.org/characters/security-bot/v1",
@@ -3562,6 +3565,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2208,
- "blendswap_page": 184
+ "blenderkit_index": 2220,
+ "blendswap_page": 185
 }
