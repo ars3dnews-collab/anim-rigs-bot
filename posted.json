@@ -1475,22 +1475,22 @@
   "31962733f9e1189b",
   "52a49566ce0fbf3e",
   "a8eccfd720fcaf23",
-  "1313455a40cb6202"
+  "1313455a40cb6202",
+  "30281908da80f2e8"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "airtable",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blender-studio"
  ],
- "counter": 787,
- "archive_page": 968,
- "buffet_index": 24050,
- "airtable_index": 11496,
+ "counter": 788,
+ "archive_page": 970,
+ "buffet_index": 24100,
+ "airtable_index": 11520,
  "last_post_ts": 1794538947.5292892,
  "image_hashes": [
-  "13591e3181885a23",
   "ef78126b28f7f093",
   "000b94c1993ae471",
   "fd0ac508b54071a9",
@@ -1989,7 +1989,8 @@
   "6a4204feb371bfbe",
   "242fd53b2a2ab447",
   "b12d659e242d3c3f",
-  "8fa91d9a3b7e925a"
+  "8fa91d9a3b7e925a",
+  "1f06ed52028a4287"
  ],
  "channel_names": [
   "3d penguin",
@@ -2575,6 +2576,7 @@
   "sea beast",
   "sea monster bloop",
   "seagull",
+  "security bot studio",
   "seer witch",
   "selena",
   "shamy",
@@ -3522,6 +3524,7 @@
   "studio.blender.org/characters/ellie/v1",
   "studio.blender.org/characters/mikassa/v1",
   "studio.blender.org/characters/one/v1",
+  "studio.blender.org/characters/security-bot/v1",
   "studio.blender.org/characters/snow/v2",
   "studio.blender.org/characters/space-creatures/v1",
   "studio.blender.org/characters/storm/v1",
@@ -3556,6 +3559,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2196,
- "blendswap_page": 183
+ "blenderkit_index": 2208,
+ "blendswap_page": 184
 }
