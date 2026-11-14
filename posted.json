@@ -1480,22 +1480,22 @@
   "e6d7281b991042fc",
   "5c97eb39389edd67",
   "fe3a4fdfda93b318",
-  "b51be81d71f6d24a"
+  "b51be81d71f6d24a",
+  "636993e2976ff913"
  ],
  "sources": [
-  "blender-studio",
   "animation-buffet",
   "blender-studio",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 792,
- "archive_page": 972,
- "buffet_index": 24150,
- "airtable_index": 11544,
+ "counter": 793,
+ "archive_page": 974,
+ "buffet_index": 24200,
+ "airtable_index": 11568,
  "last_post_ts": 1794581629.5640337,
  "image_hashes": [
-  "66963b113987e22c",
   "b88b770254f9192a",
   "89bfcf591e890f6f",
   "c419a06335f45739",
@@ -1994,7 +1994,8 @@
   "801b0ab7edec4f15",
   "8d79da4eba9337ad",
   "4c6da665571fe85f",
-  "3f4a6d524170333b"
+  "3f4a6d524170333b",
+  "7a3d04e18f8fffb2"
  ],
  "channel_names": [
   "3d penguin",
@@ -2295,6 +2296,7 @@
   "green robot",
   "greeny anime elf stylized character",
   "grey matter gary",
+  "groggy",
   "guardian",
   "gundam rx 78 2",
   "gunslinger crab mech",
@@ -2855,6 +2857,7 @@
   "animationbuffet.blogspot.com/2012/05/fat-man.html",
   "animationbuffet.blogspot.com/2012/05/finex.html",
   "animationbuffet.blogspot.com/2012/05/fox_08.html",
+  "animationbuffet.blogspot.com/2012/05/groggy.html",
   "animationbuffet.blogspot.com/2012/05/houdini.html",
   "animationbuffet.blogspot.com/2012/05/johnny-box.html",
   "animationbuffet.blogspot.com/2012/05/kidoo.html",
@@ -3571,6 +3574,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2220,
- "blendswap_page": 185
+ "blenderkit_index": 2232,
+ "blendswap_page": 186
 }
