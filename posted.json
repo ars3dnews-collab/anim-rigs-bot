@@ -1481,22 +1481,22 @@
   "5c97eb39389edd67",
   "fe3a4fdfda93b318",
   "b51be81d71f6d24a",
-  "636993e2976ff913"
+  "636993e2976ff913",
+  "b7fa22a890430cc6"
  ],
  "sources": [
-  "animation-buffet",
   "blender-studio",
   "airtable",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 793,
- "archive_page": 974,
- "buffet_index": 24200,
- "airtable_index": 11568,
+ "counter": 794,
+ "archive_page": 976,
+ "buffet_index": 24250,
+ "airtable_index": 11592,
  "last_post_ts": 1794625332.3323743,
  "image_hashes": [
-  "b88b770254f9192a",
   "89bfcf591e890f6f",
   "c419a06335f45739",
   "576e532af569a20d",
@@ -1995,7 +1995,8 @@
   "8d79da4eba9337ad",
   "4c6da665571fe85f",
   "3f4a6d524170333b",
-  "7a3d04e18f8fffb2"
+  "7a3d04e18f8fffb2",
+  "8a5a666ec5842b80"
  ],
  "channel_names": [
   "3d penguin",
@@ -2479,6 +2480,7 @@
   "ms fortune",
   "mukuru",
   "munkei",
+  "murgoth bloody humanoid monster game ready",
   "mutalisk",
   "nausica of the valley of the wind",
   "neka",
@@ -3050,6 +3052,7 @@
   "blenderkit.com/asset-gallery-detail/23921bf9-9341-4a1f-908a-4c917390adf6",
   "blenderkit.com/asset-gallery-detail/25b5f088-49af-4e76-8fca-c8aba93edf45",
   "blenderkit.com/asset-gallery-detail/26342e01-492f-48f5-a70e-312836ee53f5",
+  "blenderkit.com/asset-gallery-detail/276c99f8-123f-466a-bff0-f6073468fb8a",
   "blenderkit.com/asset-gallery-detail/2890747d-47f5-43fd-b633-403bcdfaad91",
   "blenderkit.com/asset-gallery-detail/28ba5cde-86a0-4029-a26d-60b8007eb4ed",
   "blenderkit.com/asset-gallery-detail/2906a39e-c7b1-4b89-9d05-9340c1c2ebac",
@@ -3574,6 +3577,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2232,
- "blendswap_page": 186
+ "blenderkit_index": 2244,
+ "blendswap_page": 187
 }
