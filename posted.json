@@ -1499,7 +1499,8 @@
   "bb150cd8ef6429fc",
   "59a616f13b458e5b",
   "73e30520e9989671",
-  "76389c36f4adee77"
+  "76389c36f4adee77",
+  "37ff4b844e77cf76"
  ],
  "sources": [
   "blendkit",
@@ -1508,13 +1509,12 @@
   "blendkit",
   "blendkit"
  ],
- "counter": 805,
- "archive_page": 984,
- "buffet_index": 24450,
- "airtable_index": 11688,
+ "counter": 806,
+ "archive_page": 986,
+ "buffet_index": 24500,
+ "airtable_index": 11712,
  "last_post_ts": 1794742836.9186225,
  "image_hashes": [
-  "0a167998ff7625f4",
   "e913fa62b2085da0",
   "a7b03bae2bbff4f6",
   "806a6034f022822b",
@@ -2013,7 +2013,8 @@
   "73af0cef5c696cc2",
   "40ab01ac47c1e724",
   "1f15c9ebccf1f805",
-  "110a6b642c2e9fdb"
+  "110a6b642c2e9fdb",
+  "53fe25708b939bb7"
  ],
  "channel_names": [
   "3d penguin",
@@ -2506,6 +2507,7 @@
   "murgoth bloody humanoid monster game ready",
   "murgoth humanoid monster rigged game ready",
   "mutalisk",
+  "mutant insectoid monster rigged",
   "nausica of the valley of the wind",
   "neka",
   "new cg software you may have missed 13 september 2026",
@@ -3293,6 +3295,7 @@
   "blenderkit.com/asset-gallery-detail/f269f83a-c275-48c6-8df6-5d1f92a2e37a",
   "blenderkit.com/asset-gallery-detail/f2bffe0b-709c-4fe5-a994-3dae0472e3f6",
   "blenderkit.com/asset-gallery-detail/f2d16bb8-182c-40ab-8916-e3ec3af990bf",
+  "blenderkit.com/asset-gallery-detail/f3480af8-fd8a-4939-a488-96b203c7a89d",
   "blenderkit.com/asset-gallery-detail/f4bda642-d430-428c-8039-fae5cf9d4e69",
   "blenderkit.com/asset-gallery-detail/f4d4ba28-c542-4be7-b346-5d7e033ef168",
   "blenderkit.com/asset-gallery-detail/f5553e39-ce82-4b2d-90a3-fc200784775d",
@@ -3616,6 +3619,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2292,
- "blendswap_page": 191
+ "blenderkit_index": 2304,
+ "blendswap_page": 192
 }
