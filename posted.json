@@ -1504,22 +1504,22 @@
   "f63505a5c77a4cff",
   "4a57e4c456db1899",
   "443418b4dbf35e5d",
-  "2c24a96de4ece468"
+  "2c24a96de4ece468",
+  "36aec8931f1fdef0"
  ],
  "sources": [
   "blendkit",
   "blendkit",
-  "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 810,
+ "counter": 811,
  "archive_page": 990,
  "buffet_index": 24600,
  "airtable_index": 11760,
  "last_post_ts": 1794812491.3869164,
  "image_hashes": [
-  "974651828028590d",
   "21327fa4e7cba41f",
   "034b0ba57171d254",
   "dbd8b40d22e69b5b",
@@ -2018,7 +2018,8 @@
   "4f905458bad223f5",
   "a071321808e57005",
   "0485be0746865786",
-  "18e968e807fdb05a"
+  "18e968e807fdb05a",
+  "156619451c9fdbf9"
  ],
  "channel_names": [
   "3d penguin",
@@ -2110,6 +2111,7 @@
   "bodymech",
   "boneface rigged lowpoly",
   "bonnie",
+  "bonnie 2",
   "booboo",
   "boolieman",
   "borsche the bright mind",
@@ -2988,6 +2990,7 @@
   "animationbuffet.blogspot.com/2020/03/battledroid.html",
   "animationbuffet.blogspot.com/2020/03/bi-plane.html",
   "animationbuffet.blogspot.com/2020/03/body-mechanics.html",
+  "animationbuffet.blogspot.com/2020/03/bonnie-2.html",
   "animationbuffet.blogspot.com/2020/03/boxx.html",
   "animationbuffet.blogspot.com/2020/03/bruise.html",
   "animationbuffet.blogspot.com/2020/03/bull.html",
