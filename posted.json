@@ -1503,22 +1503,22 @@
   "37ff4b844e77cf76",
   "f63505a5c77a4cff",
   "4a57e4c456db1899",
-  "443418b4dbf35e5d"
+  "443418b4dbf35e5d",
+  "2c24a96de4ece468"
  ],
  "sources": [
   "blendkit",
   "blendkit",
   "blendkit",
-  "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 809,
+ "counter": 810,
  "archive_page": 990,
  "buffet_index": 24600,
  "airtable_index": 11760,
  "last_post_ts": 1794805284.8118746,
  "image_hashes": [
-  "adbc298932ca11c4",
   "974651828028590d",
   "21327fa4e7cba41f",
   "034b0ba57171d254",
@@ -2017,7 +2017,8 @@
   "53fe25708b939bb7",
   "4f905458bad223f5",
   "a071321808e57005",
-  "0485be0746865786"
+  "0485be0746865786",
+  "18e968e807fdb05a"
  ],
  "channel_names": [
   "3d penguin",
@@ -2216,6 +2217,7 @@
   "david",
   "dawn",
   "daxter",
+  "dear rigged",
   "deep sea creature",
   "deer",
   "deer animated",
@@ -3309,6 +3311,7 @@
   "blenderkit.com/asset-gallery-detail/f4d4ba28-c542-4be7-b346-5d7e033ef168",
   "blenderkit.com/asset-gallery-detail/f5553e39-ce82-4b2d-90a3-fc200784775d",
   "blenderkit.com/asset-gallery-detail/f5878510-999a-4367-97e1-42c3fae47be6",
+  "blenderkit.com/asset-gallery-detail/f6d4047d-c5b5-4071-b04c-18dacd9f6b2b",
   "blenderkit.com/asset-gallery-detail/f725f37d-93d3-49b8-a8b2-a13da263f0ae",
   "blenderkit.com/asset-gallery-detail/f7636c24-2330-4d12-bca4-dcd9550d910f",
   "blenderkit.com/asset-gallery-detail/f9a3824f-b228-47fb-9032-0255ef278f6b",
