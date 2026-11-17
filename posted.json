@@ -1509,22 +1509,22 @@
   "ad6d1ce77e055d7d",
   "38dd7bf7293f7244",
   "c3e98a7a10e26c93",
-  "01f38b56454aa9e8"
+  "01f38b56454aa9e8",
+  "83031780f85f3a83"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
+  "blendkit",
   "blendkit",
   "blendkit",
   "blendkit"
  ],
- "counter": 814,
- "archive_page": 992,
- "buffet_index": 24650,
- "airtable_index": 11784,
+ "counter": 815,
+ "archive_page": 994,
+ "buffet_index": 24700,
+ "airtable_index": 11808,
  "last_post_ts": 1794849028.9852297,
  "image_hashes": [
-  "036f90b0f1aa2345",
   "feda14d47763f119",
   "4347177549567fac",
   "5ec67d021c14cfcd",
@@ -2023,7 +2023,8 @@
   "156619451c9fdbf9",
   "893dbb7b59c11a66",
   "49a0323a4caf463d",
-  "07a66d1e06efdd03"
+  "07a66d1e06efdd03",
+  "40a7369e8f2f57d9"
  ],
  "channel_names": [
   "3d penguin",
@@ -2715,6 +2716,7 @@
   "stylized snowman rigged",
   "stylized wolf warrior rigged animated",
   "stylized wolf warroir rigged animated",
+  "stylized young boy rigged",
   "stylized young man",
   "supergirl",
   "superhero",
@@ -3226,6 +3228,7 @@
   "blenderkit.com/asset-gallery-detail/8a5c351d-f38b-4697-afe4-7c32b071f2d1",
   "blenderkit.com/asset-gallery-detail/8aa84b8c-f76b-45f3-8b96-c55be68e0747",
   "blenderkit.com/asset-gallery-detail/8afe9044-6fdb-4a88-8e66-a10a6cb43141",
+  "blenderkit.com/asset-gallery-detail/8b5d2f92-e983-4ce1-891c-83028b15b387",
   "blenderkit.com/asset-gallery-detail/8de30c1b-d330-436a-a127-9792584b72ec",
   "blenderkit.com/asset-gallery-detail/8de8442d-98f0-4dfa-8f33-2d25f6ba80bc",
   "blenderkit.com/asset-gallery-detail/8f2aba1c-2e85-48b0-9cd7-e4a865dee88d",
@@ -3644,6 +3647,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2340,
- "blendswap_page": 195
+ "blenderkit_index": 2352,
+ "blendswap_page": 196
 }
