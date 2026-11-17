@@ -1510,22 +1510,22 @@
   "38dd7bf7293f7244",
   "c3e98a7a10e26c93",
   "01f38b56454aa9e8",
-  "83031780f85f3a83"
+  "83031780f85f3a83",
+  "96698dbf3f187b66"
  ],
  "sources": [
-  "animation-buffet",
+  "blendkit",
   "blendkit",
   "blendkit",
   "blendkit",
   "blendkit"
  ],
- "counter": 815,
- "archive_page": 994,
- "buffet_index": 24700,
- "airtable_index": 11808,
+ "counter": 816,
+ "archive_page": 996,
+ "buffet_index": 24750,
+ "airtable_index": 11832,
  "last_post_ts": 1794884446.3522012,
  "image_hashes": [
-  "feda14d47763f119",
   "4347177549567fac",
   "5ec67d021c14cfcd",
   "ae1f5c71350c5a7b",
@@ -2024,7 +2024,8 @@
   "893dbb7b59c11a66",
   "49a0323a4caf463d",
   "07a66d1e06efdd03",
-  "40a7369e8f2f57d9"
+  "40a7369e8f2f57d9",
+  "da92ed63d1e2ec7c"
  ],
  "channel_names": [
   "3d penguin",
@@ -2288,6 +2289,7 @@
   "farmer rigged game ready",
   "fat man",
   "fat marine",
+  "fat zombie character v2",
   "female chef character",
   "female military soldier rigged",
   "female rigged pbr character",
@@ -3127,6 +3129,7 @@
   "blenderkit.com/asset-gallery-detail/3011000b-35d8-43fc-b107-48a4a7fd14a0",
   "blenderkit.com/asset-gallery-detail/307eec75-58ee-4973-b027-8eaba08ae93c",
   "blenderkit.com/asset-gallery-detail/308ca8ad-c5d0-41a8-87dc-2c6a68240d28",
+  "blenderkit.com/asset-gallery-detail/31088d62-290a-4d81-94cc-adebc871eac6",
   "blenderkit.com/asset-gallery-detail/31d53a1f-448c-4446-b9af-1daac484269c",
   "blenderkit.com/asset-gallery-detail/3390ea68-0b41-4f32-9322-e998e14b2709",
   "blenderkit.com/asset-gallery-detail/33c7d013-db47-4d3c-b67c-b858ab7ffffc",
@@ -3647,6 +3650,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2352,
- "blendswap_page": 196
+ "blenderkit_index": 2364,
+ "blendswap_page": 197
 }
