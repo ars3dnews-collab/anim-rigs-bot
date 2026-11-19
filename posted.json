@@ -1525,22 +1525,22 @@
   "f9a0e5068f96a154",
   "ce23021b78ec671c",
   "cf20898f93ce332b",
-  "79e96f19dba47fe0"
+  "79e96f19dba47fe0",
+  "71a96598f3771d00"
  ],
  "sources": [
   "blendkit",
-  "blendkit",
   "airtable",
   "airtable",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 827,
- "archive_page": 1004,
- "buffet_index": 24950,
- "airtable_index": 11928,
+ "counter": 828,
+ "archive_page": 1006,
+ "buffet_index": 25000,
+ "airtable_index": 11952,
  "last_post_ts": 1795018679.0096536,
  "image_hashes": [
-  "60d4dd33a0bc274b",
   "b12d3f004ba2832d",
   "60c7f7d86e7b6217",
   "2978a71eb4016c13",
@@ -2039,7 +2039,8 @@
   "3f6471a5b78638e7",
   "28ffd9139d8473bb",
   "e9e73c738b799121",
-  "ccb9827a81fe87ee"
+  "ccb9827a81fe87ee",
+  "05b072ec954979eb"
  ],
  "channel_names": [
   "3d penguin",
@@ -2838,6 +2839,7 @@
   "wilhelm the giraffe",
   "willy",
   "winter wonder ahri",
+  "witch frog rigged",
   "wolf",
   "wolf dog balto",
   "wolfdog",
@@ -3325,6 +3327,7 @@
   "blenderkit.com/asset-gallery-detail/ceb68666-527c-4cac-ae03-1eaf71188bd8",
   "blenderkit.com/asset-gallery-detail/cef86ada-0366-4a88-9243-4ec39522bbb4",
   "blenderkit.com/asset-gallery-detail/d239ed66-91cf-4ea8-91f0-17dc994980e2",
+  "blenderkit.com/asset-gallery-detail/d2a8adb9-dc29-4f81-b38b-b207a7898f90",
   "blenderkit.com/asset-gallery-detail/d389c6bf-bca9-44e3-badb-1c8620a56359",
   "blenderkit.com/asset-gallery-detail/d6e100cf-768d-4a61-a438-bf2cc96a182b",
   "blenderkit.com/asset-gallery-detail/d70aa919-0e82-4d4a-b0cc-619afd71749b",
@@ -3686,6 +3689,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2412,
- "blendswap_page": 201
+ "blenderkit_index": 2424,
+ "blendswap_page": 202
 }
