@@ -1536,22 +1536,22 @@
   "f124969ef8831596",
   "c9a366790b0556ce",
   "e716e914ad2a6676",
-  "260f866d416a9df3"
+  "260f866d416a9df3",
+  "74b32672098a3b0b"
  ],
  "sources": [
   "blendkit",
   "blendkit",
   "blendkit",
   "blendkit",
-  "blendkit"
+  "blender-studio"
  ],
- "counter": 838,
- "archive_page": 1012,
- "buffet_index": 25150,
- "airtable_index": 12024,
+ "counter": 839,
+ "archive_page": 1014,
+ "buffet_index": 25200,
+ "airtable_index": 12048,
  "last_post_ts": 1795177845.44114,
  "image_hashes": [
-  "78b38c0364757668",
   "739e0e17a327acf5",
   "a14800e09e804516",
   "d51f97e5b5c3069f",
@@ -2050,7 +2050,8 @@
   "74d7b620b21bfa4b",
   "5105a9af718b56f0",
   "b3507366e2b58619",
-  "9993f6449b917cd1"
+  "9993f6449b917cd1",
+  "0ed088693352ce05"
  ],
  "channel_names": [
   "3d penguin",
@@ -2601,6 +2602,7 @@
   "pumpkin spider",
   "pyrothrax the molten colossus rigged",
   "rabbit critter rigged",
+  "rain studio",
   "rain v3",
   "rancor",
   "raptor",
@@ -3683,6 +3685,7 @@
   "studio.blender.org/characters/huginn/v2",
   "studio.blender.org/characters/mikassa/v1",
   "studio.blender.org/characters/one/v1",
+  "studio.blender.org/characters/rain/v4",
   "studio.blender.org/characters/security-bot/v1",
   "studio.blender.org/characters/snow/v2",
   "studio.blender.org/characters/space-creatures/v1",
@@ -3719,6 +3722,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2460,
- "blendswap_page": 205
+ "blenderkit_index": 2472,
+ "blendswap_page": 206
 }
