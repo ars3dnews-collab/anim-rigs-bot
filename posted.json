@@ -1540,22 +1540,22 @@
   "74b32672098a3b0b",
   "c4ade1e86b606a0f",
   "e270eb45d81b1b0e",
-  "31599f3a623594cd"
+  "31599f3a623594cd",
+  "4d3808ba038c8739"
  ],
  "sources": [
-  "blendkit",
   "blender-studio",
   "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 842,
+ "counter": 843,
  "archive_page": 1018,
  "buffet_index": 25300,
  "airtable_index": 12096,
  "last_post_ts": 1795244517.9412034,
  "image_hashes": [
-  "8bc22df549fa149a",
   "d23126004f064682",
   "2f92c482d5455807",
   "d9fe36526ce0cb05",
@@ -2054,7 +2054,8 @@
   "0ed088693352ce05",
   "4fad5e8d1e964fe4",
   "50b777fd22df8cfa",
-  "35c927baf4b736ba"
+  "35c927baf4b736ba",
+  "e7d13805ca90e148"
  ],
  "channel_names": [
   "3d penguin",
@@ -2471,6 +2472,7 @@
   "leaf insect",
   "lego wall e",
   "leo",
+  "leo demon",
   "leopard",
   "leopard rigged",
   "lewis hamilton young stylized character",
@@ -3078,6 +3080,7 @@
   "animationbuffet.blogspot.com/2020/03/jerry.html",
   "animationbuffet.blogspot.com/2020/03/juicebox.html",
   "animationbuffet.blogspot.com/2020/03/leaf-insect.html",
+  "animationbuffet.blogspot.com/2020/03/leo-demon.html",
   "animationbuffet.blogspot.com/2020/03/link-breath-of-wild.html",
   "animationbuffet.blogspot.com/2020/03/marine.html",
   "animationbuffet.blogspot.com/2020/03/marty-robot.html",
