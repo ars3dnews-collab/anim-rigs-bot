@@ -1537,22 +1537,22 @@
   "c9a366790b0556ce",
   "e716e914ad2a6676",
   "260f866d416a9df3",
-  "74b32672098a3b0b"
+  "74b32672098a3b0b",
+  "c4ade1e86b606a0f"
  ],
  "sources": [
   "blendkit",
   "blendkit",
   "blendkit",
-  "blendkit",
-  "blender-studio"
+  "blender-studio",
+  "blendkit"
  ],
- "counter": 839,
- "archive_page": 1014,
- "buffet_index": 25200,
- "airtable_index": 12048,
+ "counter": 840,
+ "archive_page": 1016,
+ "buffet_index": 25250,
+ "airtable_index": 12072,
  "last_post_ts": 1795194604.740421,
  "image_hashes": [
-  "739e0e17a327acf5",
   "a14800e09e804516",
   "d51f97e5b5c3069f",
   "8bc22df549fa149a",
@@ -2051,7 +2051,8 @@
   "5105a9af718b56f0",
   "b3507366e2b58619",
   "9993f6449b917cd1",
-  "0ed088693352ce05"
+  "0ed088693352ce05",
+  "4fad5e8d1e964fe4"
  ],
  "channel_names": [
   "3d penguin",
@@ -2117,6 +2118,7 @@
   "ballan wrasse studio",
   "bandido",
   "base mesh middle eastern female",
+  "bat knight rigged gameready",
   "batman",
   "batman beyond",
   "battledroid",
@@ -3229,6 +3231,7 @@
   "blenderkit.com/asset-gallery-detail/55629207-305b-4d2d-98fb-f1873711674f",
   "blenderkit.com/asset-gallery-detail/5589add0-46a9-427a-862d-5da1709ad26d",
   "blenderkit.com/asset-gallery-detail/55af7b4a-c99d-4d0e-88bf-f5598f4fc259",
+  "blenderkit.com/asset-gallery-detail/5723d469-f2ff-425f-9740-4b9ee1475f20",
   "blenderkit.com/asset-gallery-detail/5a7edef0-1753-4a85-85b7-60e1de1a7ae2",
   "blenderkit.com/asset-gallery-detail/5a85e494-c792-48f8-b6a5-7921730b926f",
   "blenderkit.com/asset-gallery-detail/5c41688f-618c-49a4-9afd-2593cbeb4eea",
@@ -3722,6 +3725,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2472,
- "blendswap_page": 206
+ "blenderkit_index": 2484,
+ "blendswap_page": 207
 }
