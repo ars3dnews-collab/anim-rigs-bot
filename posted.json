@@ -1543,22 +1543,22 @@
   "31599f3a623594cd",
   "4d3808ba038c8739",
   "75260b2211f236e6",
-  "9ff987e7252ce795"
+  "9ff987e7252ce795",
+  "419366596b9b14a0"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
+  "blendkit",
   "blendkit",
   "blendkit"
  ],
- "counter": 845,
+ "counter": 846,
  "archive_page": 1020,
  "buffet_index": 25350,
  "airtable_index": 12120,
  "last_post_ts": 1795269603.878606,
  "image_hashes": [
-  "d9fe36526ce0cb05",
   "269d30400ba0c9b9",
   "c3a0b6cd53332889",
   "aff5ac5ae7ab2862",
@@ -2057,7 +2057,8 @@
   "35c927baf4b736ba",
   "e7d13805ca90e148",
   "59a2a734fc4497fc",
-  "4e0d2094507745a3"
+  "4e0d2094507745a3",
+  "6857fe7a06a35fd4"
  ],
  "channel_names": [
   "3d penguin",
@@ -2703,6 +2704,7 @@
   "skateboard",
   "skele",
   "skeleton",
+  "skeleton mage rigged game ready",
   "skeleton undead",
   "skull bearer morvath rigged animated",
   "sky",
@@ -3175,6 +3177,7 @@
   "blenderkit.com/asset-gallery-detail/188b66af-50fa-47d7-8341-fc6446a088eb",
   "blenderkit.com/asset-gallery-detail/1a31ec22-5acc-4395-92c6-d62dcc1921d0",
   "blenderkit.com/asset-gallery-detail/1fa4cc66-cbd0-4861-92d7-1b7a82052223",
+  "blenderkit.com/asset-gallery-detail/2139b495-623c-43ec-b49f-8d9ae4b7e090",
   "blenderkit.com/asset-gallery-detail/23921bf9-9341-4a1f-908a-4c917390adf6",
   "blenderkit.com/asset-gallery-detail/246d1e61-eac8-420c-ad83-579b9be16ccd",
   "blenderkit.com/asset-gallery-detail/25b5f088-49af-4e76-8fca-c8aba93edf45",
