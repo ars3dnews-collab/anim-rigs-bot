@@ -1542,22 +1542,22 @@
   "e270eb45d81b1b0e",
   "31599f3a623594cd",
   "4d3808ba038c8739",
-  "75260b2211f236e6"
+  "75260b2211f236e6",
+  "9ff987e7252ce795"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "animation-buffet",
+  "blendkit",
   "blendkit"
  ],
- "counter": 844,
+ "counter": 845,
  "archive_page": 1020,
  "buffet_index": 25350,
  "airtable_index": 12120,
  "last_post_ts": 1795262398.619666,
  "image_hashes": [
-  "2f92c482d5455807",
   "d9fe36526ce0cb05",
   "269d30400ba0c9b9",
   "c3a0b6cd53332889",
@@ -2056,7 +2056,8 @@
   "50b777fd22df8cfa",
   "35c927baf4b736ba",
   "e7d13805ca90e148",
-  "59a2a734fc4497fc"
+  "59a2a734fc4497fc",
+  "4e0d2094507745a3"
  ],
  "channel_names": [
   "3d penguin",
@@ -2621,6 +2622,7 @@
   "rdbot",
   "realistic great white shark",
   "realistic monster hunter",
+  "realistic skeleton rigged game ready",
   "realistic white fox",
   "reaper dynamics",
   "rebellious mohawk teen boy character",
@@ -3287,6 +3289,7 @@
   "blenderkit.com/asset-gallery-detail/7f329417-d756-49ab-a346-4b70471d64fd",
   "blenderkit.com/asset-gallery-detail/809d10ab-335a-4ef8-a54e-81a479861691",
   "blenderkit.com/asset-gallery-detail/80d42087-78d3-46df-9c22-5bbe0658592f",
+  "blenderkit.com/asset-gallery-detail/8195591c-ca68-4bd6-ba8c-b00f856bf144",
   "blenderkit.com/asset-gallery-detail/828a9549-6492-4ef2-852e-48891cae248a",
   "blenderkit.com/asset-gallery-detail/82e2f5c2-de57-45b8-b3aa-99deab49a20d",
   "blenderkit.com/asset-gallery-detail/84c34f99-9bc9-4c70-9053-cfe6540939cf",
