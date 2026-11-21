@@ -1541,22 +1541,22 @@
   "c4ade1e86b606a0f",
   "e270eb45d81b1b0e",
   "31599f3a623594cd",
-  "4d3808ba038c8739"
+  "4d3808ba038c8739",
+  "75260b2211f236e6"
  ],
  "sources": [
-  "blender-studio",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 843,
- "archive_page": 1018,
- "buffet_index": 25300,
- "airtable_index": 12096,
+ "counter": 844,
+ "archive_page": 1020,
+ "buffet_index": 25350,
+ "airtable_index": 12120,
  "last_post_ts": 1795251893.3797843,
  "image_hashes": [
-  "d23126004f064682",
   "2f92c482d5455807",
   "d9fe36526ce0cb05",
   "269d30400ba0c9b9",
@@ -2055,7 +2055,8 @@
   "4fad5e8d1e964fe4",
   "50b777fd22df8cfa",
   "35c927baf4b736ba",
-  "e7d13805ca90e148"
+  "e7d13805ca90e148",
+  "59a2a734fc4497fc"
  ],
  "channel_names": [
   "3d penguin",
@@ -2397,6 +2398,7 @@
   "hogan",
   "homer",
   "homer simpson",
+  "horned demon beast rigged",
   "hornet",
   "horse",
   "hotel transylvania zombie",
@@ -3348,6 +3350,7 @@
   "blenderkit.com/asset-gallery-detail/bca64e56-dad3-4694-8162-1631b965746a",
   "blenderkit.com/asset-gallery-detail/bd507a4f-7321-4888-bd10-a5cd494849d5",
   "blenderkit.com/asset-gallery-detail/be297602-63d3-4c90-acff-b2f77ee142a6",
+  "blenderkit.com/asset-gallery-detail/c307a2b1-0b5b-4336-a261-ae820110ee5f",
   "blenderkit.com/asset-gallery-detail/c3c02d19-a070-4fb1-94ed-956ee4787617",
   "blenderkit.com/asset-gallery-detail/c4c04d4f-1f46-4692-8e1e-d2c2240a8ebc",
   "blenderkit.com/asset-gallery-detail/c63283ec-7419-4bff-8f6f-13cf70bd1b14",
@@ -3734,6 +3737,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2496,
- "blendswap_page": 208
+ "blenderkit_index": 2508,
+ "blendswap_page": 209
 }
