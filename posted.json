@@ -1544,22 +1544,22 @@
   "4d3808ba038c8739",
   "75260b2211f236e6",
   "9ff987e7252ce795",
-  "419366596b9b14a0"
+  "419366596b9b14a0",
+  "538cb238d5659067"
  ],
  "sources": [
-  "blendkit",
   "animation-buffet",
   "blendkit",
   "blendkit",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 846,
- "archive_page": 1020,
- "buffet_index": 25350,
- "airtable_index": 12120,
+ "counter": 847,
+ "archive_page": 1022,
+ "buffet_index": 25400,
+ "airtable_index": 12144,
  "last_post_ts": 1795276844.3103304,
  "image_hashes": [
-  "269d30400ba0c9b9",
   "c3a0b6cd53332889",
   "aff5ac5ae7ab2862",
   "f4ebdd98edc80a5a",
@@ -2058,7 +2058,8 @@
   "e7d13805ca90e148",
   "59a2a734fc4497fc",
   "4e0d2094507745a3",
-  "6857fe7a06a35fd4"
+  "6857fe7a06a35fd4",
+  "f7f90f64ff136414"
  ],
  "channel_names": [
   "3d penguin",
@@ -2348,6 +2349,7 @@
   "fps hands",
   "franck the caterpillar",
   "franck the sheep",
+  "franklin",
   "fred",
   "frog spear stylized rigged lowpoly",
   "fully rigged marci from dota 2",
@@ -3030,6 +3032,7 @@
   "animationbuffet.blogspot.com/2016/03/eleven.html",
   "animationbuffet.blogspot.com/2016/03/fred.html",
   "animationbuffet.blogspot.com/2016/03/tuna.html",
+  "animationbuffet.blogspot.com/2016/06/franklin.html",
   "animationbuffet.blogspot.com/2016/09/homer.html",
   "animationbuffet.blogspot.com/2016/09/tiger.html",
   "animationbuffet.blogspot.com/2016/10/juice-box.html",
@@ -3743,6 +3746,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2508,
- "blendswap_page": 209
+ "blenderkit_index": 2520,
+ "blendswap_page": 210
 }
