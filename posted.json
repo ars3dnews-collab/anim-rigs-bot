@@ -1545,22 +1545,22 @@
   "75260b2211f236e6",
   "9ff987e7252ce795",
   "419366596b9b14a0",
-  "538cb238d5659067"
+  "538cb238d5659067",
+  "a12913468b6a1d43"
  ],
  "sources": [
+  "blendkit",
+  "blendkit",
+  "blendkit",
   "animation-buffet",
-  "blendkit",
-  "blendkit",
-  "blendkit",
-  "animation-buffet"
+  "blendkit"
  ],
- "counter": 847,
- "archive_page": 1022,
- "buffet_index": 25400,
- "airtable_index": 12144,
+ "counter": 848,
+ "archive_page": 1024,
+ "buffet_index": 25450,
+ "airtable_index": 12168,
  "last_post_ts": 1795316535.3206637,
  "image_hashes": [
-  "c3a0b6cd53332889",
   "aff5ac5ae7ab2862",
   "f4ebdd98edc80a5a",
   "2af689778a55c2c7",
@@ -2059,7 +2059,8 @@
   "59a2a734fc4497fc",
   "4e0d2094507745a3",
   "6857fe7a06a35fd4",
-  "f7f90f64ff136414"
+  "f7f90f64ff136414",
+  "56a9319707aacde7"
  ],
  "channel_names": [
   "3d penguin",
@@ -2326,6 +2327,7 @@
   "fantasy creature rigged",
   "fantasy croc",
   "fantasy crocodile",
+  "fantasy troll brute game ready",
   "farmer rigged game ready",
   "fat man",
   "fat marine",
@@ -3214,6 +3216,7 @@
   "blenderkit.com/asset-gallery-detail/38bbd42a-44c4-46ed-a04f-879e7a5e4318",
   "blenderkit.com/asset-gallery-detail/3918f834-7e26-4bd2-b549-eb02e3700c20",
   "blenderkit.com/asset-gallery-detail/39407568-a74a-4cee-a018-173ea064858e",
+  "blenderkit.com/asset-gallery-detail/3a57517c-76e6-456e-9ad9-ad3a99bf817d",
   "blenderkit.com/asset-gallery-detail/3a9b53eb-f1e9-49da-be54-fe747a3424f7",
   "blenderkit.com/asset-gallery-detail/3adda4b0-3aff-49bd-8f75-38d2e0a87c1d",
   "blenderkit.com/asset-gallery-detail/3e34cdcf-1fe4-4c8a-8ae7-85fa8a755f5a",
@@ -3746,6 +3749,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2520,
- "blendswap_page": 210
+ "blenderkit_index": 2532,
+ "blendswap_page": 211
 }
