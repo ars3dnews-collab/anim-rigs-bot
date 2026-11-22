@@ -1547,22 +1547,22 @@
   "419366596b9b14a0",
   "538cb238d5659067",
   "a12913468b6a1d43",
-  "9341033193ffaa65"
+  "9341033193ffaa65",
+  "41ed96503cf7f334"
  ],
  "sources": [
   "blendkit",
-  "blendkit",
   "animation-buffet",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 849,
- "archive_page": 1024,
- "buffet_index": 25450,
- "airtable_index": 12168,
+ "counter": 850,
+ "archive_page": 1026,
+ "buffet_index": 25500,
+ "airtable_index": 12192,
  "last_post_ts": 1795330958.969367,
  "image_hashes": [
-  "f4ebdd98edc80a5a",
   "2af689778a55c2c7",
   "cda9733e99c62c1b",
   "2bd5609e25c3614c",
@@ -2061,7 +2061,8 @@
   "6857fe7a06a35fd4",
   "f7f90f64ff136414",
   "56a9319707aacde7",
-  "1cd2cc038d06d055"
+  "1cd2cc038d06d055",
+  "8fbd5efefc0a877c"
  ],
  "channel_names": [
   "3d penguin",
@@ -2221,6 +2222,7 @@
   "character model yor forger",
   "charizard",
   "charlie",
+  "charming stylized girl in blue sweater",
   "chibi santa",
   "chicken",
   "chicken animated",
@@ -3298,6 +3300,7 @@
   "blenderkit.com/asset-gallery-detail/7cb3959c-989b-4b83-a60a-1af6f036c819",
   "blenderkit.com/asset-gallery-detail/7f2bc469-1ca0-4347-968f-e837be3d3a96",
   "blenderkit.com/asset-gallery-detail/7f329417-d756-49ab-a346-4b70471d64fd",
+  "blenderkit.com/asset-gallery-detail/8051e75d-985d-45c3-bece-0206149aa25e",
   "blenderkit.com/asset-gallery-detail/809d10ab-335a-4ef8-a54e-81a479861691",
   "blenderkit.com/asset-gallery-detail/80d42087-78d3-46df-9c22-5bbe0658592f",
   "blenderkit.com/asset-gallery-detail/8195591c-ca68-4bd6-ba8c-b00f856bf144",
@@ -3752,6 +3755,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2532,
- "blendswap_page": 211
+ "blenderkit_index": 2544,
+ "blendswap_page": 212
 }
