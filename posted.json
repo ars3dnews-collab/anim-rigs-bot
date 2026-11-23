@@ -1550,22 +1550,22 @@
   "9341033193ffaa65",
   "41ed96503cf7f334",
   "076fbcce24b30332",
-  "8f14046c220d377b"
+  "8f14046c220d377b",
+  "287d8308d03a7e8f"
  ],
  "sources": [
-  "blendkit",
   "airtable",
   "blendkit",
   "airtable",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 852,
- "archive_page": 1026,
- "buffet_index": 25500,
- "airtable_index": 12192,
+ "counter": 853,
+ "archive_page": 1028,
+ "buffet_index": 25550,
+ "airtable_index": 12216,
  "last_post_ts": 1795362574.8865666,
  "image_hashes": [
-  "2bd5609e25c3614c",
   "709f0ae7301f38f6",
   "c9b3bfc5711fe8d8",
   "03c8dcea7e72fe62",
@@ -2064,7 +2064,8 @@
   "1cd2cc038d06d055",
   "8fbd5efefc0a877c",
   "6ede7521261264ef",
-  "629f81984861ea9e"
+  "629f81984861ea9e",
+  "330c667c79a97792"
  ],
  "channel_names": [
   "3d penguin",
@@ -2392,6 +2393,7 @@
   "gundam rx 78 2",
   "gunslinger crab mech",
   "guybrush",
+  "h b",
   "halloween witch",
   "hannah",
   "happy spinny cube",
@@ -2976,6 +2978,7 @@
   "animationbuffet.blogspot.com/2010/05/optimy-classic.html",
   "animationbuffet.blogspot.com/2010/05/tresher.html",
   "animationbuffet.blogspot.com/2011/03/sinka.html",
+  "animationbuffet.blogspot.com/2011/09/hobo.html",
   "animationbuffet.blogspot.com/2011/09/malcolm.html",
   "animationbuffet.blogspot.com/2012/05/aero.html",
   "animationbuffet.blogspot.com/2012/05/billy-barker.html",
@@ -3761,6 +3764,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2544,
- "blendswap_page": 212
+ "blenderkit_index": 2556,
+ "blendswap_page": 213
 }
