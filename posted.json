@@ -1555,22 +1555,22 @@
   "aaec11f755624565",
   "254119470af6b7b4",
   "926cde4b6c480ff2",
-  "f70e2ebf22d24a45"
+  "f70e2ebf22d24a45",
+  "5ae560bcba3befec"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "airtable",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 857,
- "archive_page": 1032,
- "buffet_index": 25650,
- "airtable_index": 12264,
+ "counter": 858,
+ "archive_page": 1034,
+ "buffet_index": 25700,
+ "airtable_index": 12288,
  "last_post_ts": 1795450640.797507,
  "image_hashes": [
-  "e2e41c52b9fca15e",
   "7f5b5894c413b54d",
   "af15206c6141dd04",
   "308bd9ce7b0c33c1",
@@ -2069,7 +2069,8 @@
   "523d14884d709882",
   "2bee9e4aca3d0f5a",
   "3f35fa94b6a9fc2d",
-  "2f9d61b486a091e7"
+  "2f9d61b486a091e7",
+  "e1e3f06b965989e3"
  ],
  "channel_names": [
   "3d penguin",
@@ -2533,6 +2534,7 @@
   "male paramedic in green uniform",
   "male rigged pbr character",
   "male vampire character semi realistic rigged auto pro",
+  "maneater pig rigged",
   "mannequin",
   "mara character animated",
   "marcus",
@@ -3177,6 +3179,7 @@
   "blenderkit.com/asset-gallery-detail/01f13039-6a8b-4b7e-8085-ce3ce97d893c",
   "blenderkit.com/asset-gallery-detail/02dd566b-538d-4ba1-942f-868aa58264d5",
   "blenderkit.com/asset-gallery-detail/03de02ac-2b70-4de1-aad1-050e34bd62ae",
+  "blenderkit.com/asset-gallery-detail/042bdefa-f631-40d9-b4c7-71391b9d66dc",
   "blenderkit.com/asset-gallery-detail/072e669d-b133-4b73-af93-f707bcc9cc07",
   "blenderkit.com/asset-gallery-detail/08985a2c-7b47-49cd-8c07-5c6e32b2c0a0",
   "blenderkit.com/asset-gallery-detail/094c6359-7bea-45cd-aee3-d7d7effe6a90",
@@ -3776,6 +3779,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2580,
- "blendswap_page": 215
+ "blenderkit_index": 2592,
+ "blendswap_page": 216
 }
