@@ -1567,22 +1567,22 @@
   "02c476d7edf9ca03",
   "840ae87f7a7b8c28",
   "820eb064760a49eb",
-  "0d21de729740fbb3"
+  "0d21de729740fbb3",
+  "533e9a3a04e0acba"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "airtable",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 865,
+ "counter": 866,
  "archive_page": 1040,
  "buffet_index": 25850,
  "airtable_index": 12360,
  "last_post_ts": 1795584746.2979686,
  "image_hashes": [
-  "251710bb8a81786b",
   "5050cbf3d461b6d9",
   "7f39c2fe2f2c3495",
   "e80f366e9c7d8701",
@@ -2081,7 +2081,8 @@
   "d37f037fa1e5e5f6",
   "c3e380b56aea4902",
   "e2288f3d59d4f574",
-  "6cbecd0db002ab7d"
+  "6cbecd0db002ab7d",
+  "985fd9c2f0505f93"
  ],
  "channel_names": [
   "3d penguin",
@@ -2810,6 +2811,7 @@
   "stylized girl varsity jacket character",
   "stylized knight",
   "stylized middle aged man rigged",
+  "stylized muscular barbarian base mesh",
   "stylized muscular male character",
   "stylized robot transform",
   "stylized snowman rigged",
@@ -3429,6 +3431,7 @@
   "blenderkit.com/asset-gallery-detail/cd8d2751-cdfc-4401-be87-ec1f29bf3f7c",
   "blenderkit.com/asset-gallery-detail/cd940137-f8d9-4cc6-ae1c-9ba166d5aa58",
   "blenderkit.com/asset-gallery-detail/ceb68666-527c-4cac-ae03-1eaf71188bd8",
+  "blenderkit.com/asset-gallery-detail/cef26c59-d7b1-4974-ae79-41dc7e8b9a59",
   "blenderkit.com/asset-gallery-detail/cef86ada-0366-4a88-9243-4ec39522bbb4",
   "blenderkit.com/asset-gallery-detail/d239ed66-91cf-4ea8-91f0-17dc994980e2",
   "blenderkit.com/asset-gallery-detail/d2a8adb9-dc29-4f81-b38b-b207a7898f90",
