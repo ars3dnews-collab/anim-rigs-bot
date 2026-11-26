@@ -1574,22 +1574,22 @@
   "08bc166f61c50352",
   "670a9c088b67ff05",
   "6a11310b8f61d487",
-  "81e547f05047fc56"
+  "81e547f05047fc56",
+  "4b1cd1910114d6ec"
  ],
  "sources": [
-  "airtable",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "airtable"
+  "airtable",
+  "blendkit"
  ],
- "counter": 871,
- "archive_page": 1044,
- "buffet_index": 25950,
- "airtable_index": 12408,
+ "counter": 872,
+ "archive_page": 1046,
+ "buffet_index": 26000,
+ "airtable_index": 12432,
  "last_post_ts": 1795669227.3167088,
  "image_hashes": [
-  "3727e11ad1b89e14",
   "302cda5e837d67f5",
   "ec31afd8bf6f5771",
   "210da2bfb049b0af",
@@ -2088,9 +2088,11 @@
   "5b0f51ebb6a235c9",
   "b88e709c9182da02",
   "239d755f8247563e",
-  "63feba6bd33a4d50"
+  "63feba6bd33a4d50",
+  "ee85896e37e7476a"
  ],
  "channel_names": [
+  "3d chubby squirrel",
   "3d penguin",
   "aang",
   "abby",
@@ -3387,6 +3389,7 @@
   "blenderkit.com/asset-gallery-detail/8f473ca5-ac96-457b-80bd-730ad9afb42f",
   "blenderkit.com/asset-gallery-detail/90647421-f297-43d7-8afa-1b617885ca8f",
   "blenderkit.com/asset-gallery-detail/91e1620f-2a3a-4460-87a0-ca28da81c1a4",
+  "blenderkit.com/asset-gallery-detail/93077106-5e79-4466-a0d3-91aa816bd8a2",
   "blenderkit.com/asset-gallery-detail/942c3be4-c564-4202-abbc-105e00e5c37a",
   "blenderkit.com/asset-gallery-detail/945c2575-24f5-4492-aae7-bdebef40fcf6",
   "blenderkit.com/asset-gallery-detail/950be602-dd66-4c68-a310-9994220f6160",
@@ -3823,6 +3826,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2652,
- "blendswap_page": 221
+ "blenderkit_index": 2664,
+ "blendswap_page": 222
 }
