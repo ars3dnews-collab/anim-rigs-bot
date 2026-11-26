@@ -1577,22 +1577,22 @@
   "81e547f05047fc56",
   "4b1cd1910114d6ec",
   "3578f06bd51178ca",
-  "b1e63d34aa803126"
+  "b1e63d34aa803126",
+  "d6644b34f1625f34"
  ],
  "sources": [
-  "blendkit",
   "airtable",
   "blendkit",
   "blendkit",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 874,
- "archive_page": 1046,
- "buffet_index": 26000,
- "airtable_index": 12432,
+ "counter": 875,
+ "archive_page": 1048,
+ "buffet_index": 26050,
+ "airtable_index": 12456,
  "last_post_ts": 1795690860.5307438,
  "image_hashes": [
-  "210da2bfb049b0af",
   "f207c028beb33e21",
   "7e40db3fe0c301ce",
   "d77216cb5bbd9551",
@@ -2091,7 +2091,8 @@
   "63feba6bd33a4d50",
   "ee85896e37e7476a",
   "f9f7492166ccdc7f",
-  "6fbf2e6e1d94dd8c"
+  "6fbf2e6e1d94dd8c",
+  "21a8e8f6236ffbe6"
  ],
  "channel_names": [
   "3d chubby squirrel",
@@ -2165,6 +2166,7 @@
   "batman beyond",
   "battledroid",
   "bdx droid",
+  "bear",
   "beautiful woman base mesh body face rigged",
   "beetle juice lester green low poly",
   "beetle like creature rigged",
@@ -3101,6 +3103,7 @@
   "animationbuffet.blogspot.com/2016/09/tiger.html",
   "animationbuffet.blogspot.com/2016/10/juice-box.html",
   "animationbuffet.blogspot.com/2017/06/luna.html",
+  "animationbuffet.blogspot.com/2017/08/bear.html",
   "animationbuffet.blogspot.com/2017/08/brontosaurus.html",
   "animationbuffet.blogspot.com/2017/08/bunny-eater.html",
   "animationbuffet.blogspot.com/2017/08/conan.html",
@@ -3832,6 +3835,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2664,
- "blendswap_page": 222
+ "blenderkit_index": 2676,
+ "blendswap_page": 223
 }
