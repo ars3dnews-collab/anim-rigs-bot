@@ -1579,22 +1579,22 @@
   "3578f06bd51178ca",
   "b1e63d34aa803126",
   "d6644b34f1625f34",
-  "f2a74e6165263b15"
+  "f2a74e6165263b15",
+  "6080691fdaa4d0fd"
  ],
  "sources": [
   "blendkit",
   "blendkit",
-  "blendkit",
   "animation-buffet",
-  "blendkit"
+  "blendkit",
+  "animation-buffet"
  ],
- "counter": 876,
- "archive_page": 1048,
- "buffet_index": 26050,
- "airtable_index": 12456,
+ "counter": 877,
+ "archive_page": 1050,
+ "buffet_index": 26100,
+ "airtable_index": 12480,
  "last_post_ts": 1795705873.5684624,
  "image_hashes": [
-  "7e40db3fe0c301ce",
   "d77216cb5bbd9551",
   "8b28e7f94e0e5ea5",
   "eb2c93bbdc369f01",
@@ -2093,7 +2093,8 @@
   "f9f7492166ccdc7f",
   "6fbf2e6e1d94dd8c",
   "21a8e8f6236ffbe6",
-  "2d2dbf44e1555560"
+  "2d2dbf44e1555560",
+  "81187308f34d1809"
  ],
  "channel_names": [
   "3d chubby squirrel",
@@ -2781,6 +2782,7 @@
   "spider",
   "spider animated",
   "spider bot",
+  "spider cyborg",
   "spider gwen",
   "spider man atsv miles",
   "spider man insomniac",
@@ -3092,6 +3094,7 @@
   "animationbuffet.blogspot.com/2015/04/nude.html",
   "animationbuffet.blogspot.com/2015/04/reptile-eye.html",
   "animationbuffet.blogspot.com/2015/04/ryan.html",
+  "animationbuffet.blogspot.com/2015/04/spider-cyborg.html",
   "animationbuffet.blogspot.com/2015/04/stylized-female.html",
   "animationbuffet.blogspot.com/2015/07/cogswell-dragon.html",
   "animationbuffet.blogspot.com/2016/03/agentz.html",
@@ -3838,6 +3841,6 @@
   "vimeo.com/172966210",
   "xiaoy96.gumroad.com/l/nfnug"
  ],
- "blenderkit_index": 2676,
- "blendswap_page": 223
+ "blenderkit_index": 2688,
+ "blendswap_page": 224
 }
