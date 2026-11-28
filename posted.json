@@ -1587,22 +1587,22 @@
   "646008175bc5ee1f",
   "625753a1149df73c",
   "34978d59de2fee10",
-  "cde4ba646a57b7dd"
+  "cde4ba646a57b7dd",
+  "cbf8b5b54a70478e"
  ],
  "sources": [
-  "animation-buffet",
   "blendkit",
   "animation-buffet",
   "blendkit",
-  "animation-buffet"
+  "animation-buffet",
+  "blendkit"
  ],
- "counter": 881,
+ "counter": 882,
  "archive_page": 1052,
  "buffet_index": 26150,
  "airtable_index": 12504,
  "last_post_ts": 1795859312.293987,
  "image_hashes": [
-  "e448fa5951b8bb8f",
   "d069f876ac665bdf",
   "8974d244913a6b1a",
   "4dbfe901e436f6e8",
@@ -2101,7 +2101,8 @@
   "bb9dc0bd68b9cba9",
   "b441e6aedd268d3f",
   "161e3b387004b8d7",
-  "0048f9cec95ad7f9"
+  "0048f9cec95ad7f9",
+  "9fd6eb0175f20dcd"
  ],
  "channel_names": [
   "3d chubby squirrel",
@@ -2461,6 +2462,7 @@
   "horned demon beast rigged",
   "hornet",
   "horse",
+  "horse creature rigged",
   "hotel transylvania zombie",
   "houdini",
   "hse lord snappy",
@@ -3392,6 +3394,7 @@
   "blenderkit.com/asset-gallery-detail/809d10ab-335a-4ef8-a54e-81a479861691",
   "blenderkit.com/asset-gallery-detail/80d42087-78d3-46df-9c22-5bbe0658592f",
   "blenderkit.com/asset-gallery-detail/8195591c-ca68-4bd6-ba8c-b00f856bf144",
+  "blenderkit.com/asset-gallery-detail/8218fa69-1e4f-4317-bd31-3806e135b4df",
   "blenderkit.com/asset-gallery-detail/828a9549-6492-4ef2-852e-48891cae248a",
   "blenderkit.com/asset-gallery-detail/82e2f5c2-de57-45b8-b3aa-99deab49a20d",
   "blenderkit.com/asset-gallery-detail/84c34f99-9bc9-4c70-9053-cfe6540939cf",
